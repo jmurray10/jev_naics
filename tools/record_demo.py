@@ -1,4 +1,4 @@
-"""Record the demo video and GIF (docs/media/demo.gif) against a running stack in replay mode (JEV-59).
+"""Record the demo video and the README clips (docs/media/) against a running stack in replay mode (JEV-59).
 
 Every answer on screen is a recorded real Jev answer: run the stack without TYPESAFE_API_KEY (or with
 JEV_DECIDER=replay) so the page replays backend/transcripts/ and nothing is generated for the video.
@@ -6,10 +6,10 @@ JEV_DECIDER=replay) so the page replays backend/transcripts/ and nothing is gene
     pip install playwright==1.56.0 && playwright install chromium     # not a project dependency
     docker compose up -d --build                                       # .env: NAICS_API_KEYS only
     python tools/record_demo.py [--base http://127.0.0.1:8097] [--out tools/out/demo]
-    python tools/record_demo.py --videos clip-1-classify,clip-2-live-assist,clip-3-lexicon --size 1080x1080
+    python tools/record_demo.py --videos all --size 1080x1080      # the clips and their README GIFs (square)
 
-Writes <out>/<video>.mp4 for each video asked for (the full demo also writes <out>/demo.gif, 800 wide, for the
-README); the clips are one scene each, with their own short title card, for social posts;
+Writes <out>/<video>.mp4 for each video asked for, and for each clip a README GIF named after its scene
+(<out>/live-assist.gif, classify.gif, lexicon.gif; 600 wide); the full demo is docs/media/demo.mp4; the clips are one scene each, with their own short title card, for social posts;
 needs ffmpeg on PATH. tools/out/ is git-ignored. Run it against `docker compose up` (the page reaches the
 API through its own nginx, which adds the service key) with no TYPESAFE_API_KEY in .env, so answers replay.
 """
@@ -144,9 +144,10 @@ with sync_playwright() as p:
         webm = max(raw.glob("*.webm"), key=lambda f: f.stat().st_mtime)
         subprocess.run([ffmpeg, "-v", "error", "-y", "-i", str(webm), "-c:v", "libx264", "-preset", "slow", "-crf", "20",
                         "-pix_fmt", "yuv420p", "-r", "30", "-movflags", "+faststart", str(out / f"{name}.mp4")], check=True)
-        if name == "jev_naics_demo":
+        if name.startswith("clip-"):  # the README GIF for this scene: clip-2-live-assist -> live-assist.gif
+            gif = out / (name.split("-", 2)[2] + ".gif")
             subprocess.run([ffmpeg, "-v", "error", "-y", "-i", str(webm), "-vf",
-                            "fps=7,scale=800:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];"
-                            "[s1][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle", str(out / "demo.gif")], check=True)
+                            "fps=7,scale=600:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=80:stats_mode=diff[p];"
+                            "[s1][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle", str(gif)], check=True)
         print(out / f"{name}.mp4")
     b.close()

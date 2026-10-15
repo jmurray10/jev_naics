@@ -4,7 +4,7 @@
 
 - **Open-source prep** (JEV-59): MIT licence (the Census files stay US Government works); a README
   written for outside readers, with what runs without a key and how the eval sets were made; a replay-mode
-  demo (`docs/media/demo.gif`, `tools/record_demo.py`); CONTRIBUTING.md; a private vulnerability-reporting
+  demo (`docs/media/`: the live-assist, classify and lexicon GIFs and the full `demo.mp4`; `tools/record_demo.py`); CONTRIBUTING.md; a private vulnerability-reporting
   section in SECURITY.md; issue and pull-request templates. The public repository starts from one history-free commit
   (`tools/export_public.sh`); the private history is not published. The test suite now runs on Python 3.10 as `pyproject.toml`
   promises (`tomli` fallback in the dev extra). `tests/test_public.py` keeps these true. Nothing about

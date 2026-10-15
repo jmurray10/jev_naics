@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](backend/pyproject.toml)
 [![NAICS 2022](https://img.shields.io/badge/NAICS%202022-1%2C012%20industries-8a2be2.svg)](DATA.md)
-[![wrong codes](https://img.shields.io/badge/wrong%20codes%20on%20the%20eval%20sets-0-brightgreen.svg)](#measured)
+[![wrong codes](https://img.shields.io/badge/hybrid%20wrong%20codes%20on%20its%20eval%20sets-0-brightgreen.svg)](#measured)
 [![no key needed](https://img.shields.io/badge/replay-no%20key%20needed-brightgreen.svg)](#what-runs-without-a-key)
 
 Classify a business's **description of operations** into one of the 1,012 **NAICS 2022** industries,
@@ -21,14 +21,23 @@ that answers typed questions (pick one of these options; is this statement true)
 and never writes text. It cannot invent a code, because it is never offered one. It cannot choose
 "none of the above", because that is not an option either: a hold is an actuator that code owns.
 
-[![The page: Classify searches the Census text with no model and Jev picks among the results; Live assist checks the description as it is typed](docs/media/demo.gif)](docs/media/demo.mp4)
+[![Live assist: a vague description gets one fixed tip, a specific one gets a NAICS code, and a cybersecurity firm gets a pick-list between two codes people often confuse](docs/media/live-assist.gif)](docs/media/demo.mp4)
 
-**[Watch the full demo video (69 s, MP4)](docs/media/demo.mp4)**: Classify, Live assist, a pick-list
-between codes people confuse, and short modern wording read through the lexicon.
+**Live assist:** the description is checked as a broker types. Too general gets one fixed tip on what
+to add, specific enough gets a code from the tree walk, and two codes people often confuse get a
+pick-list instead of a guess. The model only answers yes/no checks and closed choices; code owns
+the status and every word of the tip.
+
+| Classify | Short, modern wording |
+|---|---|
+| [![Classify: Postgres search over the Census text with no model call, then Jev picks 541940 for a veterinary clinic among the 10 results](docs/media/classify.gif)](docs/media/demo.mp4) | [![The lexicon: B2B SaaS, HVAC, CPA, food truck, rideshare and coworking each coded from a word or two](docs/media/lexicon.gif)](docs/media/demo.mp4) |
+| Search narrows 1,012 industries to 10 with no model call; Jev picks one; code decides whether to act. | "SaaS" is read as Census wording before the model sees it; the lexicon maps words, never codes. |
+
+**[Watch the full demo video (69 s, MP4)](docs/media/demo.mp4)**: all three, end to end.
 
 *Recorded in replay mode: every answer shown is a real Jev answer recorded on jev-1.13.0, replayed
-from `backend/transcripts/`. Re-record it with `tools/record_demo.py`, which writes the GIF and the video
-(copy them to `docs/media/demo.gif` and `docs/media/demo.mp4`).*
+from `backend/transcripts/`. Re-record any of them with `tools/record_demo.py` (`--videos all` writes the
+clips, their GIFs, and the full video; copy them into `docs/media/`).*
 
 ## How it classifies
 
@@ -258,6 +267,16 @@ agent architectures survive the arrival of LLMs, with one component swapped.
 - [AGENTS.md](AGENTS.md) / [CLAUDE.md](CLAUDE.md): rules for coding agents working in this repo
 - [docs/CUSTOM_CLASS_CODES.md](docs/CUSTOM_CLASS_CODES.md): extending to class codes
 - [docs/specs/2026-09-30-repo-design.md](docs/specs/2026-09-30-repo-design.md): the design for this repo
+
+## Contact
+
+Built by Jeff Murray ([@jmurray10](https://github.com/jmurray10)).
+
+- Email: [jeff.murray@alumni.upenn.edu](mailto:jeff.murray@alumni.upenn.edu)
+- LinkedIn: [linkedin.com/in/jeff-murray-ai](https://www.linkedin.com/in/jeff-murray-ai)
+- GitHub: [@jmurray10](https://github.com/jmurray10)
+
+For a security problem, use private vulnerability reporting instead (SECURITY.md).
 
 ## Licence
 

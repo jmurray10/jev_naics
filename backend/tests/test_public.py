@@ -75,10 +75,16 @@ def test_the_readme_says_what_runs_without_a_key() -> None:
     assert "no LLM" in readme
 
 
-def test_the_readme_demo_exists_and_says_it_is_a_replay() -> None:
+def test_the_readme_leads_with_live_assist_and_says_it_is_a_replay() -> None:
+    """The first picture is the live assist (the shortest clip and the one feature people have not seen);
+    the classify and lexicon clips follow, every picture the README names exists, and the caption says replay."""
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    assert "docs/media/demo.gif" in readme and (ROOT / "docs" / "media" / "demo.gif").is_file()
-    assert "tools/record_demo.py" in readme and "replay" in readme.split("docs/media/demo.gif")[1][:400]
+    images = re.findall(r"\(?(docs/media/[\w.-]+\.(?:gif|png))", readme)
+    assert images[:1] == ["docs/media/live-assist.gif"]
+    assert {"docs/media/classify.gif", "docs/media/lexicon.gif"} <= set(images)
+    assert [i for i in images if not (ROOT / i).is_file()] == []
+    block = readme.split("docs/media/live-assist.gif", 1)[1].split("\n## ", 1)[0]  # the demo block, to the next heading
+    assert "tools/record_demo.py" in block and "replay mode" in block
 
 
 PUBLIC_SETS = re.compile(r"-(dev|refine_[a-z_0-9]+|exio-(small|medium|large))(-|$)")
@@ -96,3 +102,11 @@ def test_the_data_scripts_take_your_own_file() -> None:
     assert hits == []
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     assert "## Bring your own data" in readme and "DESCRIPTION_OF_OPERATIONS" in readme
+
+
+def test_the_readme_says_who_to_contact() -> None:
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    contact = readme.split("## Contact", 1)[1].split("\n## ", 1)[0]
+    for link in ("mailto:jeff.murray@alumni.upenn.edu", "linkedin.com/in/jeff-murray-ai", "github.com/jmurray10"):
+        assert link in contact
+    assert readme.index("## Contact") < readme.index("## Licence")
