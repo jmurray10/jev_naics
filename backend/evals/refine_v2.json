@@ -1,0 +1,1073 @@
+[
+ {
+  "id": "a-plain-01",
+  "expect_code": "112120",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 112120 Dairy Cattle and Milk Production settles it as primary activity",
+  "ops_description": "We run a dairy farm with about 300 Holstein cows milked twice a day. The milk is picked up by a co-op truck every other day."
+ },
+ {
+  "id": "a-plain-02",
+  "expect_code": "212321",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 212321 Construction Sand and Gravel Mining settles it as primary activity",
+  "ops_description": "Our company operates a sand and gravel pit and sells the aggregate to local concrete plants and contractors."
+ },
+ {
+  "id": "a-plain-03",
+  "expect_code": "221114",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 221114 Solar Electric Power Generation settles it as primary activity",
+  "ops_description": "Utility-scale solar farm, 40 MW, we sell all the electricity to the regional grid under a long-term contract."
+ },
+ {
+  "id": "a-plain-04",
+  "expect_code": "237310",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 237310 Highway, Street, and Bridge Construction settles it as primary activity",
+  "ops_description": "We pave and repair roads, resurface highways and rebuild bridge decks, mostly under state DOT contracts."
+ },
+ {
+  "id": "a-plain-05",
+  "expect_code": "311811",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 311811 Retail Bakeries settles it as primary activity",
+  "ops_description": "Neighborhood bakery. We bake bread, cakes and pastries on the premises every morning and sell them over the counter to walk-in customers."
+ },
+ {
+  "id": "a-plain-06",
+  "expect_code": "423830",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 423830 Industrial Machinery and Equipment Merchant Wholesalers settles it as primary activity",
+  "ops_description": "Wholesale distributor of forklifts, conveyor systems and other industrial machinery, selling to factories and warehouses."
+ },
+ {
+  "id": "a-plain-07",
+  "expect_code": "445110",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 445110 Supermarkets and Other Grocery Retailers settles it as primary activity",
+  "ops_description": "Independent grocery store with produce, a meat counter, dairy and packaged goods. Three checkout lanes, 12 employees."
+ },
+ {
+  "id": "a-plain-08",
+  "expect_code": "484121",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 484121 General Freight Trucking, Long-Distance, Truckload settles it as primary activity",
+  "ops_description": "We have 14 tractor-trailers hauling full truckloads of freight between states, mostly dry van."
+ },
+ {
+  "id": "a-plain-09",
+  "expect_code": "517111",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 517111 Wired Telecommunications Carriers (cable/internet over own wired infrastructure) settles it as primary activity",
+  "ops_description": "Regional cable and fiber company providing broadband internet and TV service to homes over our own wired network."
+ },
+ {
+  "id": "a-plain-10",
+  "expect_code": "522110",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 522110 Commercial Banking settles it as primary activity",
+  "ops_description": "Community bank. We take deposits and make commercial, real estate and consumer loans through four branches."
+ },
+ {
+  "id": "a-plain-11",
+  "expect_code": "531110",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 531110 Lessors of Residential Buildings and Dwellings settles it as primary activity",
+  "ops_description": "We own several apartment buildings and rent the units to tenants. We do not build or sell them."
+ },
+ {
+  "id": "a-plain-12",
+  "expect_code": "541211",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 541211 Offices of Certified Public Accountants settles it as primary activity",
+  "ops_description": "CPA firm doing audits, tax returns and bookkeeping for small businesses and individuals."
+ },
+ {
+  "id": "a-plain-13",
+  "expect_code": "562212",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 562212 Solid Waste Landfill settles it as primary activity",
+  "ops_description": "The company operates a permitted municipal solid waste landfill and charges tipping fees to haulers."
+ },
+ {
+  "id": "a-plain-14",
+  "expect_code": "611110",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 611110 Elementary and Secondary Schools settles it as primary activity",
+  "ops_description": "Private school serving kindergarten through eighth grade, about 220 students, 25 teachers and staff."
+ },
+ {
+  "id": "a-plain-15",
+  "expect_code": "624210",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 624210 Community Food Services settles it as primary activity",
+  "ops_description": "We are a nonprofit food bank. We collect donated groceries and distribute them to pantries and families in need."
+ },
+ {
+  "id": "a-plain-16",
+  "expect_code": "712110",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 712110 Museums settles it as primary activity",
+  "ops_description": "Art museum with rotating exhibits and a permanent collection. Admission fees, memberships and a small gift shop."
+ },
+ {
+  "id": "a-plain-17",
+  "expect_code": "713940",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 713940 Fitness and Recreational Sports Centers settles it as primary activity",
+  "ops_description": "A 24-hour gym with weights, cardio equipment and group fitness classes, membership based."
+ },
+ {
+  "id": "a-plain-18",
+  "expect_code": "811111",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 811111 General Automotive Repair settles it as primary activity",
+  "ops_description": "Auto repair shop doing brakes, oil changes, engine and transmission work, tune-ups and diagnostics on all makes."
+ },
+ {
+  "id": "a-plain-19",
+  "expect_code": "922160",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 922160 Fire Protection settles it as primary activity",
+  "ops_description": "Volunteer and career fire department protecting a town of 12,000, we respond to fires and rescue calls."
+ },
+ {
+  "id": "a-plain-20",
+  "expect_code": "722410",
+  "expect_hold": false,
+  "kind": "plain",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 722410 Drinking Places (Alcoholic Beverages) settles it as primary activity",
+  "ops_description": "Neighborhood bar. We serve beer, wine and liquor, with live music on weekends. No kitchen, just chips and pretzels."
+ },
+ {
+  "id": "a-messy-01",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 621210 Offices of Dentists; misspellings/format noise only",
+  "ops_description": "DENTIST OFFICE 2 DENTISTS 4 HYGEINISTS CLEANINGS FILLINGS CROWNS"
+ },
+ {
+  "id": "a-messy-02",
+  "expect_code": "238160",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 238160 Roofing Contractors; misspellings/format noise only",
+  "ops_description": "we do roofing resi and comm tear offs reroofs flat roofs tpo some repairs"
+ },
+ {
+  "id": "a-messy-03",
+  "expect_code": "561730",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 561730 Landscaping Services; misspellings/format noise only",
+  "ops_description": "landscaping lawn maint mowing trimming mulch for hoas and offices no snow plowing"
+ },
+ {
+  "id": "a-messy-04",
+  "expect_code": "812113",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 812113 Nail Salons; misspellings/format noise only",
+  "ops_description": "nail salon manicures pedicures acrylics gel 5 techs walk ins welcome"
+ },
+ {
+  "id": "a-messy-05",
+  "expect_code": "541511",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 541511 Custom Computer Programming Services; misspellings/format noise only",
+  "ops_description": "We do custom softwear programing and mobile app developmnt for clients, small team of 6 devs"
+ },
+ {
+  "id": "a-messy-06",
+  "expect_code": "722330",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 722330 Mobile Food Services; misspellings/format noise only",
+  "ops_description": "FOOD TRUCK SELLS TACOS AND BURRITOS AT EVENTS AND OFFICE PARKS"
+ },
+ {
+  "id": "a-messy-07",
+  "expect_code": "624410",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 624410 Child Care Services; misspellings/format noise only",
+  "ops_description": "daycare for kids 6 wks to 5 yrs infant toddler and preschool rooms open 6am-6pm"
+ },
+ {
+  "id": "a-messy-08",
+  "expect_code": "811121",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 811121 Automotive Body, Paint, and Interior Repair; misspellings/format noise only",
+  "ops_description": "auto body shop collison repair paint dents bumpers insurance claims"
+ },
+ {
+  "id": "a-messy-09",
+  "expect_code": "531130",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 531130 Lessors of Miniwarehouses and Self-Storage Units; misspellings/format noise only",
+  "ops_description": "mini storage self storege 200 units some climate controled we rent monthly"
+ },
+ {
+  "id": "a-messy-10",
+  "expect_code": "561710",
+  "expect_hold": false,
+  "kind": "messy",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 561710 Exterminating and Pest Control Services; misspellings/format noise only",
+  "ops_description": "PEST CONTROL TERMITES RODENTS ANTS RESIDENTIAL AND COMMERCIAL SPRAYING"
+ },
+ {
+  "id": "a-short-01",
+  "expect_code": "812199",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 812199 Other Personal Care Services; index Tattoo parlors",
+  "ops_description": "tattoo shop"
+ },
+ {
+  "id": "a-short-02",
+  "expect_code": "541213",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 541213 Tax Preparation Services",
+  "ops_description": "tax prep"
+ },
+ {
+  "id": "a-short-03",
+  "expect_code": "621493",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 621493 Freestanding Ambulatory Surgical and Emergency Centers; index/description names urgent care centers",
+  "ops_description": "urgent care"
+ },
+ {
+  "id": "a-short-04",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 485310 Taxi and Ridesharing Services; ride hailing in index",
+  "ops_description": "rideshare driver"
+ },
+ {
+  "id": "a-short-05",
+  "expect_code": "456110",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 456110 Pharmacies and Drug Retailers",
+  "ops_description": "pharmacy"
+ },
+ {
+  "id": "a-short-06",
+  "expect_code": "332710",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 332710 Machine Shops",
+  "ops_description": "CNC machine shop"
+ },
+ {
+  "id": "a-short-07",
+  "expect_code": "621910",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 621910 Ambulance Services",
+  "ops_description": "EMS ambulance"
+ },
+ {
+  "id": "a-short-08",
+  "expect_code": "713940",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 713940 Fitness and Recreational Sports Centers",
+  "ops_description": "CrossFit gym"
+ },
+ {
+  "id": "a-modern-01",
+  "expect_code": "238210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 238210 Electrical Contractors and Other Wiring Installation Contractors; index entry Solar panel installation",
+  "ops_description": "Residential rooftop solar panel installation for homeowners"
+ },
+ {
+  "id": "a-modern-02",
+  "expect_code": "115112",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 115112 Soil Preparation, Planting, and Cultivating; index entry Aerial crop dusting or spraying",
+  "ops_description": "drone crop spraying for local farms"
+ },
+ {
+  "id": "a-modern-03",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 812910 Pet Care (except Veterinary) Services; index Pet grooming services",
+  "ops_description": "mobile pet grooming van that comes to your house"
+ },
+ {
+  "id": "a-modern-04",
+  "expect_code": "561790",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 561790 Other Services to Buildings and Dwellings; index Pressure washing",
+  "ops_description": "pressure washing driveways, decks and siding for homeowners"
+ },
+ {
+  "id": "a-modern-05",
+  "expect_code": "512191",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 512191 Teleproduction and Other Postproduction Services; index Motion picture or video editing services",
+  "ops_description": "freelance video editing for YouTubers and brands"
+ },
+ {
+  "id": "a-modern-06",
+  "expect_code": "459991",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Census 2022 459991 Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers",
+  "ops_description": "vape shop selling e-cigs and vape juice to adults"
+ },
+ {
+  "id": "a-confusable-01-vs-722513",
+  "expect_code": "533110",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Franchisor selling franchise agreements and collecting royalties: index Franchise agreements, leasing, selling (533110), not the restaurant industry",
+  "ops_description": "We franchise our fast casual burger brand to independent owners and collect royalties and franchise fees. We do not operate any restaurants ourselves."
+ },
+ {
+  "id": "a-confusable-02-vs-337122",
+  "expect_code": "423210",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Buys and resells to retailers without manufacturing: Furniture Merchant Wholesalers, not Nonupholstered/Upholstered Furniture Manufacturing",
+  "ops_description": "We buy finished sofas, tables and chairs from overseas factories and resell them in bulk to furniture stores. We do not make anything."
+ },
+ {
+  "id": "a-confusable-03-vs-236115",
+  "expect_code": "236117",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "New Housing For-Sale Builders vs the (except For-Sale Builders) contractor industry",
+  "ops_description": "We build new single family homes on lots we own and sell them to buyers when finished."
+ },
+ {
+  "id": "a-confusable-04-vs-423130",
+  "expect_code": "441340",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Tire Dealers retail new/used tires with service; wholesale tire merchants are 423130",
+  "ops_description": "We sell new and used tires to the public at our retail store, and we mount and balance them."
+ },
+ {
+  "id": "a-confusable-05-vs-722511",
+  "expect_code": "722320",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Caterers: food service at events, not full-service restaurants",
+  "ops_description": "We cook and deliver food for weddings, parties and corporate events. We have no restaurant and no dining room."
+ },
+ {
+  "id": "a-confusable-06-vs-311811",
+  "expect_code": "311812",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Commercial Bakeries vs Retail Bakeries (baked and sold on premises)",
+  "ops_description": "Commercial bakery producing bread and buns in a plant, sold to supermarkets and restaurants. No retail storefront."
+ },
+ {
+  "id": "a-confusable-07-vs-541940",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Pet Care (except Veterinary) Services includes boarding; veterinary services excluded",
+  "ops_description": "Dog and cat boarding kennel with daycare and grooming. No vet on staff, no medical care."
+ },
+ {
+  "id": "a-confusable-08-vs-423810",
+  "expect_code": "532412",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Construction, Mining, and Forestry Machinery Rental and Leasing, not merchant wholesalers",
+  "ops_description": "We rent excavators, skid steers and scissor lifts to contractors by the day or week, with no operators."
+ },
+ {
+  "id": "a-hold-01",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Revenue and headcount only; no activity stated",
+  "ops_description": "Annual revenue was $4.2 million last year with 18 employees."
+ },
+ {
+  "id": "a-hold-02",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Funding only; no activity stated",
+  "ops_description": "We raised a $2M seed round led by angel investors and are growing the team."
+ },
+ {
+  "id": "a-hold-03",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Too vague to place",
+  "ops_description": "services company"
+ },
+ {
+  "id": "a-hold-04",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Too vague: no identifiable activity",
+  "ops_description": "we help businesses grow"
+ },
+ {
+  "id": "a-hold-05",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Two unrelated businesses, no primary activity (811192 vs 621210)",
+  "ops_description": "The owner has two businesses under one policy: a car wash and a dental practice."
+ },
+ {
+  "id": "a-hold-06",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Two unrelated businesses, no stated primary (236220 vs 722511)",
+  "ops_description": "We do general contracting and also run a restaurant, about half and half."
+ },
+ {
+  "id": "a-hold-08",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part A, synthetic, written 2026-10-07 before any run on it",
+  "why": "Too vague to place",
+  "ops_description": "Our company provides solutions and support to clients in various industries across the region."
+ },
+ {
+  "id": "b-sw_vs_service-bookkeeping-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 541219)",
+  "ops_description": "We build and sell a cloud bookkeeping platform for small businesses. The AI sorts transactions, customers pay a monthly subscription, and we push updates every two weeks."
+ },
+ {
+  "id": "b-sw_vs_service-bookkeeping-service",
+  "expect_code": "541219",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Bookkeeping services are indexed to 541219 Other Accounting Services; the app is only the channel",
+  "ops_description": "We do the bookkeeping for small businesses through our app. Clients link their bank, our AI sorts the transactions, and our bookkeepers reconcile the books for a monthly fee."
+ },
+ {
+  "id": "b-sw_vs_service-payroll-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 541214)",
+  "ops_description": "Payroll platform that we code and host, licensed to accounting firms on an annual subscription. Customers run their own payroll in it; we handle releases and support."
+ },
+ {
+  "id": "b-sw_vs_service-payroll-service",
+  "expect_code": "541214",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Payroll processing services are indexed to 541214 Payroll Services; the app is only the channel",
+  "ops_description": "We run payroll for restaurants and shops. Clients send hours through our app, the AI flags errors, and we issue the paychecks and file the payroll taxes for a monthly fee."
+ },
+ {
+  "id": "b-sw_vs_service-rides-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 485310)",
+  "ops_description": "We develop dispatch software, a platform that taxi and limo companies license for a monthly fee per vehicle. AI matches rides to cars. We do not own vehicles or employ drivers."
+ },
+ {
+  "id": "b-sw_vs_service-rides-service",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Ridesharing and ride hailing arrangement services are in 485310 Taxi and Ridesharing Services; the app is only the channel",
+  "ops_description": "Our ride platform matches riders with local drivers in our app. AI sets the price, riders pay per trip, and drivers pay us a monthly subscription to be on the platform."
+ },
+ {
+  "id": "b-sw_vs_service-property-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 531311)",
+  "ops_description": "Property management software platform with AI rent pricing, sold to landlords and management companies on a monthly subscription. We write the code, we do not manage any property."
+ },
+ {
+  "id": "b-sw_vs_service-property-service",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Managing residential real estate for others is 531311 Residential Property Managers; the app is only the channel",
+  "ops_description": "We manage rental homes for out-of-town owners. Owners and tenants use our app, AI screens applicants, and we charge owners a monthly fee of 8 percent of the rent."
+ },
+ {
+  "id": "b-sw_vs_service-therapy-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 621330)",
+  "ops_description": "We publish an electronic health record platform for clinics with AI note-taking. Practices pay a monthly subscription per provider. Our staff are developers and support."
+ },
+ {
+  "id": "b-sw_vs_service-therapy-service",
+  "expect_code": "621330",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Independent psychologists and clinical social workers treating clients are 621330 Offices of Mental Health Practitioners (except Physicians); the app is only the channel",
+  "ops_description": "Licensed therapists, psychologists and LCSWs see clients by video through our app. A monthly subscription covers weekly sessions and AI helps with their notes."
+ },
+ {
+  "id": "b-sw_vs_service-tutoring-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 611691)",
+  "ops_description": "AI math practice platform we develop and license to school districts on a yearly subscription. Teachers log in, we host and update the product."
+ },
+ {
+  "id": "b-sw_vs_service-tutoring-service",
+  "expect_code": "611691",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Academic tutoring including online is 611691 Exam Preparation and Tutoring; the app is only the channel",
+  "ops_description": "Online tutoring: our certified teachers tutor kids in math by video on our platform. Parents pay a monthly subscription for four sessions and the AI picks practice problems."
+ },
+ {
+  "id": "b-sw_vs_service-insurance-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 524210)",
+  "ops_description": "Insurance agency management platform with AI quoting tools, sold to agencies for a monthly fee per user. We build and support the software and sell no insurance."
+ },
+ {
+  "id": "b-sw_vs_service-insurance-service",
+  "expect_code": "524210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Selling insurance policies as an agent or broker is 524210 Insurance Agencies and Brokerages; the app is only the channel",
+  "ops_description": "Online insurance agency. Customers get quotes in our app with an AI assistant, we place their auto and home policies with carriers and earn commissions, plus an optional monthly policy review plan."
+ },
+ {
+  "id": "b-sw_vs_service-tax-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 541213)",
+  "ops_description": "Tax preparation platform, AI-driven, that individuals and preparers subscribe to monthly. We develop and release the product each season; we do not prepare returns ourselves."
+ },
+ {
+  "id": "b-sw_vs_service-tax-service",
+  "expect_code": "541213",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Tax return preparation is 541213 Tax Preparation Services; the app is only the channel",
+  "ops_description": "Our CPAs and enrolled agents prepare and file your tax return. You upload documents in our app, AI pre-fills the forms, and you pay a flat monthly fee for the year."
+ },
+ {
+  "id": "b-modern-01",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Ridesharing services are in 485310; a driver working through apps is the ride service",
+  "ops_description": "I drive for Uber and Lyft full time in my own car as an independent contractor. Rides come from the apps and I get paid weekly."
+ },
+ {
+  "id": "b-modern-02",
+  "expect_code": "492210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Restaurant meals order and delivery (independent) is indexed to 492210 Local Messengers and Local Delivery",
+  "ops_description": "We deliver restaurant meals for dozens of local restaurants. Customers order on our app and our couriers on bikes and cars bring the food in about 30 minutes; we take a cut from the restaurants."
+ },
+ {
+  "id": "b-modern-03",
+  "expect_code": "532284",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Bicycle sharing services and moped rental are in 532284 Recreational Goods Rental; electric scooters fit the same recreational-goods rental text",
+  "ops_description": "We put 300 electric scooters around campus and downtown. Riders unlock them in an app and pay per minute, and our crew swaps batteries at night."
+ },
+ {
+  "id": "b-modern-04",
+  "expect_code": "516210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Blog sites, Internet are indexed to 516210 Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content",
+  "ops_description": "Travel blog and newsletter that I write myself. Income is display ads and affiliate links from readers who click through."
+ },
+ {
+  "id": "b-modern-05",
+  "expect_code": "311920",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Roasting coffee is manufacturing, 311920 Coffee and Tea Manufacturing; shipping to subscribers does not change that",
+  "ops_description": "Monthly coffee subscription. We roast the beans ourselves in our warehouse, bag them and mail them to about 2,000 subscribers."
+ },
+ {
+  "id": "b-modern-06",
+  "expect_code": "459110",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Retailing new sporting goods and exercise equipment is 459110 Sporting Goods Retailers; retail is classed by product line, not by selling channel",
+  "ops_description": "Online store selling yoga mats, resistance bands and home gym equipment. We never keep stock; when someone orders we buy from the supplier, who ships it directly to the customer."
+ },
+ {
+  "id": "b-modern-07",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Managing residential real estate for others, including vacation property managers, is 531311 Residential Property Managers",
+  "ops_description": "We manage vacation homes for owners. We list them on Airbnb and VRBO, handle guests, cleaning and repairs, and keep 20 percent of the bookings."
+ },
+ {
+  "id": "b-modern-08",
+  "expect_code": "722513",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Limited-service restaurants where patrons order and food is taken out or delivered is 722513",
+  "ops_description": "Delivery-only kitchen. We cook burgers and bowls in a commercial kitchen with no dining room, and all orders come through delivery apps."
+ },
+ {
+  "id": "b-modern-09",
+  "expect_code": "531120",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Coworking space rental or leasing is indexed to 531120 Lessors of Nonresidential Buildings (except Miniwarehouses)",
+  "ops_description": "Coworking space. We lease two floors downtown and rent out desks and private offices on monthly memberships, with a conference room people book in our app."
+ },
+ {
+  "id": "b-modern-10",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Pet sitting and pet walking services are 812910 Pet Care (except Veterinary) Services",
+  "ops_description": "Dog walking and pet sitting. Owners book through our app, and our own employees do the walks and drop-in visits."
+ },
+ {
+  "id": "b-modern-11",
+  "expect_code": "323113",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Printing on purchased stock such as apparel by screen process is 323113 Commercial Screen Printing; the retail T-shirt shop code is for stores selling shirts",
+  "ops_description": "Print-on-demand shop. Customers upload artwork on our website and we screen print their design onto t-shirts and hoodies in our shop, then ship them."
+ },
+ {
+  "id": "b-modern-12",
+  "expect_code": "532111",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Renting passenger cars without drivers for short periods is 532111 Passenger Car Rental",
+  "ops_description": "Car sharing. We own 25 cars parked around the city that members unlock with an app and rent by the hour, with no driver."
+ },
+ {
+  "id": "b-short-01",
+  "expect_code": "561330",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "PEO is indexed to 561330 Professional Employer Organizations",
+  "ops_description": "co-employment PEO"
+ },
+ {
+  "id": "b-short-02",
+  "expect_code": "524291",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Claims adjusting is 524291 Claims Adjusting",
+  "ops_description": "claims adjuster"
+ },
+ {
+  "id": "b-short-03",
+  "expect_code": "812990",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Bail bonding services are indexed to 812990 All Other Personal Services",
+  "ops_description": "bail bondsman"
+ },
+ {
+  "id": "b-short-04",
+  "expect_code": "541199",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Process serving services are indexed to 541199 All Other Legal Services",
+  "ops_description": "process serving"
+ },
+ {
+  "id": "b-short-05",
+  "expect_code": "115210",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Farriers are indexed to 115210 Support Activities for Animal Production",
+  "ops_description": "farrier"
+ },
+ {
+  "id": "b-short-06",
+  "expect_code": "621512",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "MRI is indexed to 621512 Diagnostic Imaging Centers (patient imaging, not equipment)",
+  "ops_description": "MRI center"
+ },
+ {
+  "id": "b-short-07",
+  "expect_code": "541191",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Title abstract companies are 541191 Title Abstract and Settlement Offices",
+  "ops_description": "title company"
+ },
+ {
+  "id": "b-short-08",
+  "expect_code": "522299",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Pawnshops are indexed to 522299",
+  "ops_description": "pawn shop"
+ },
+ {
+  "id": "b-short-09",
+  "expect_code": "621492",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Dialysis centers and clinics are 621492 Kidney Dialysis Centers",
+  "ops_description": "dialysis clinic"
+ },
+ {
+  "id": "b-short-10",
+  "expect_code": "332710",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Machine shops are 332710 Machine Shops",
+  "ops_description": "machine shop, CNC milling and turning"
+ },
+ {
+  "id": "b-hold-01",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Revenue only; no activity stated",
+  "ops_description": "We did about $2.4 million in revenue last year with 11 employees."
+ },
+ {
+  "id": "b-hold-02",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Funding only; no activity stated",
+  "ops_description": "Seed-stage company, we raised $3 million from angel investors and are hiring."
+ },
+ {
+  "id": "b-hold-03",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "'AI company' names no industry; software, services or equipment all fit",
+  "ops_description": "We are an AI company."
+ },
+ {
+  "id": "b-hold-04",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "'Platform' names no industry",
+  "ops_description": "We are a platform."
+ },
+ {
+  "id": "b-hold-05",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "'Consulting' names no field; many NAICS consulting industries fit",
+  "ops_description": "Consulting services for businesses."
+ },
+ {
+  "id": "b-hold-06",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Two unrelated businesses with no stated primary: landscaping 561730 vs tax preparation 541213",
+  "ops_description": "We run a landscaping crew in the summer and a tax preparation office in the winter. Each is about half of our revenue."
+ },
+ {
+  "id": "b-hold-07",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Genuine two-way split with no primary: temporary help 561320 vs software publishers 513210",
+  "ops_description": "Half of what we do is placing IT contractors with clients and half is selling our own timesheet software. Revenue is roughly equal between the two."
+ },
+ {
+  "id": "b-hold-08",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Describes no activity a Census industry text names ('community', 'tokens')",
+  "ops_description": "Web3 and blockchain company building a community around our token."
+ },
+ {
+  "id": "b-health_prof-01",
+  "expect_code": "621112",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Practice of psychiatry by M.D.s is 621112 Offices of Physicians, Mental Health Specialists; telehealth is only the channel",
+  "ops_description": "Board-certified psychiatrists doing medication management by video visit. Patients book on our app and we prescribe and follow up remotely."
+ },
+ {
+  "id": "b-health_prof-02",
+  "expect_code": "621340",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Physical therapy practice is 621340 Offices of Physical, Occupational and Speech Therapists, and Audiologists",
+  "ops_description": "Virtual physical therapy. Our licensed PTs run live video sessions and guide patients through exercises on a phone app after surgery or injury."
+ },
+ {
+  "id": "b-health_prof-03",
+  "expect_code": "621111",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Independent practice of general medicine by M.D.s is 621111",
+  "ops_description": "Concierge primary care. Patients pay a monthly membership and see our MD in person or on video, same-day, with no insurance billing."
+ },
+ {
+  "id": "b-health_prof-04",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Independent practice of dentistry is 621210 Offices of Dentists; mobile delivery does not change it",
+  "ops_description": "Mobile dentistry. Our dentist and hygienist drive a fully equipped van to nursing homes and schools and do exams, cleanings and fillings on site."
+ },
+ {
+  "id": "b-health_prof-05",
+  "expect_code": "541940",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Licensed veterinary practice is 541940 Veterinary Services",
+  "ops_description": "Telehealth for pets. Our licensed veterinarians video chat with owners, diagnose, and prescribe medication, with referrals for in-person care."
+ },
+ {
+  "id": "b-health_prof-06",
+  "expect_code": "541620",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Advice to organizations on environmental issues is 541620 Environmental Consulting Services",
+  "ops_description": "We advise companies on their carbon footprint and ESG reporting, measure their emissions, and help them meet environmental regulations."
+ },
+ {
+  "id": "b-health_prof-07",
+  "expect_code": "541922",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Photographers specializing in aerial photography are indexed to 541922 Commercial Photography",
+  "ops_description": "Drone photography and video for real estate agents, builders and contractors. FAA-licensed pilots shoot roofs, lots and construction progress."
+ },
+ {
+  "id": "b-health_prof-08",
+  "expect_code": "541511",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Writing and testing software to meet a particular customer's needs is 541511 Custom Computer Programming Services",
+  "ops_description": "App development studio. Clients hire us to design and build their iOS and Android apps under contract, and we hand over the code at the end."
+ },
+ {
+  "id": "b-industrial-01",
+  "expect_code": "111419",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Growing food crops under protective cover is 111419 Other Food Crops Grown Under Cover",
+  "ops_description": "We grow lettuce and herbs in stacked trays indoors under LED lights, no soil, and sell to grocery stores and restaurants."
+ },
+ {
+  "id": "b-industrial-02",
+  "expect_code": "212321",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Operating commercial sand and gravel pits is 212321 Construction Sand and Gravel Mining",
+  "ops_description": "We dig a gravel pit, wash and screen the rock and sell sand and crushed stone to contractors by the truckload."
+ },
+ {
+  "id": "b-industrial-03",
+  "expect_code": "221114",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Operating solar electric power generation facilities is 221114",
+  "ops_description": "We own a field of solar panels on leased farmland and sell the electricity to the local utility under a long-term contract."
+ },
+ {
+  "id": "b-industrial-04",
+  "expect_code": "321920",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Manufacturing wood pallets is 321920 Wood Container and Pallet Manufacturing",
+  "ops_description": "We build wooden pallets and crates from lumber in our shop and deliver them to warehouses and factories."
+ },
+ {
+  "id": "b-industrial-05",
+  "expect_code": "112120",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Milking dairy cattle is 112120 Dairy Cattle and Milk Production",
+  "ops_description": "Dairy. We milk about 300 cows twice a day and a co-op truck picks up our milk."
+ },
+ {
+  "id": "b-industrial-06",
+  "expect_code": "327320",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Manufacturing concrete delivered unhardened to a purchaser is 327320 Ready-Mix Concrete Manufacturing",
+  "ops_description": "We mix concrete at our plant and deliver it in our mixer trucks to builders and driveway contractors."
+ }
+]

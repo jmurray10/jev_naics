@@ -1,0 +1,58 @@
+[
+  {
+    "id": "commercial-bakery",
+    "expect_code": "311812",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitor: 311811 Retail Bakeries",
+    "ops_description": "We bake bread and rolls in a plant and sell them wholesale to grocery stores and restaurants. We have no storefront."
+  },
+  {
+    "id": "retail-bakery",
+    "expect_code": "311811",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitor: 311812 Commercial Bakeries",
+    "ops_description": "Neighborhood bakery that bakes cakes, pastries, and bread on the premises and sells them over the counter to walk-in customers."
+  },
+  {
+    "id": "tax-preparer",
+    "expect_code": "541213",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitors: 541211 Offices of CPAs, 541219 Other Accounting Services",
+    "ops_description": "Seasonal storefront that prepares individual income tax returns. Our preparers are not CPAs and we do no bookkeeping or audits."
+  },
+  {
+    "id": "pharmacy",
+    "expect_code": "456110",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitor: 424210 Drugs and Druggists' Sundries Merchant Wholesalers",
+    "ops_description": "Independent community pharmacy filling prescriptions for local patients and selling over-the-counter medicines and health products."
+  },
+  {
+    "id": "food-truck",
+    "expect_code": "722330",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitors: 722513 Limited-Service Restaurants, 722320 Caterers",
+    "ops_description": "We run two taco trucks that park at office parks, breweries, and street fairs and sell food made to order from the truck."
+  },
+  {
+    "id": "self-storage",
+    "expect_code": "531130",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitor: 493110 General Warehousing and Storage",
+    "ops_description": "Self-storage facility renting drive-up storage units to households and small businesses on month-to-month leases."
+  },
+  {
+    "id": "ice-cream-maker",
+    "expect_code": "311520",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitor: 722515 Snack and Nonalcoholic Beverage Bars",
+    "ops_description": "We manufacture ice cream, sorbet, and frozen novelties in our plant and ship them to supermarket chains."
+  },
+  {
+    "id": "private-school",
+    "expect_code": "611110",
+    "expect_hold": false,
+    "source": "written 2026-09-29 for JEV-50 after the gate audit, before any search-mode run on it; close competitor: 624410 Child Care Services",
+    "ops_description": "Private kindergarten through eighth grade school teaching academic courses to about 300 students."
+  }
+]

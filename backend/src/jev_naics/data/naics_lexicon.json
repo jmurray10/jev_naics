@@ -1,0 +1,458 @@
+{
+ "note": "E15 lexicon v1: how people describe a business, mapped to Census wording (never a code). The first 27 entries are the JEV-52 terms; the other 33 are an E15 draft from the vocabulary analysis, written before the blind short/modern set was opened, and NOT yet reviewed by a person. Frozen for the E15 measurement; any change after seeing results is logged.",
+ "terms": [
+  {
+   "term": "saas",
+   "census": "software publishers software subscriptions",
+   "why": "513210 Software Publishers: application software sold by subscription",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "software as a service",
+   "census": "software publishers software subscriptions",
+   "why": "513210",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "paas",
+   "census": "computing infrastructure providers data processing hosting",
+   "why": "518210",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "iaas",
+   "census": "computing infrastructure providers data processing hosting",
+   "why": "518210",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "cloud hosting",
+   "census": "computing infrastructure providers web hosting",
+   "why": "518210",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "mobile app",
+   "census": "software publishers application software",
+   "why": "513210, when the app is the product sold",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "app",
+   "census": "software publishers application software",
+   "why": "513210, when the app is the product sold",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "e-commerce",
+   "census": "retailers retail",
+   "why": "2022 NAICS classifies online sellers by product line under retail",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "ecommerce",
+   "census": "retailers retail",
+   "why": "as e-commerce",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "online store",
+   "census": "retailers retail",
+   "why": "as e-commerce",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "dtc",
+   "census": "retailers retail",
+   "why": "direct-to-consumer brands selling their own goods at retail",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "direct-to-consumer",
+   "census": "retailers retail",
+   "why": "as dtc",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "telehealth",
+   "census": "offices of physicians health practitioners",
+   "why": "621111 and other practitioner offices; care delivered remotely",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "telemedicine",
+   "census": "offices of physicians health practitioners",
+   "why": "as telehealth",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "ghost kitchen",
+   "census": "limited-service restaurants food preparation delivery",
+   "why": "722513: food ordered and paid for before eating, delivered",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "cloud kitchen",
+   "census": "limited-service restaurants food preparation delivery",
+   "why": "as ghost kitchen",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "fintech",
+   "census": "financial transactions processing credit intermediation",
+   "why": "the 522 family; the description names which",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "crypto",
+   "census": "virtual currency",
+   "why": "the Census index term for cryptocurrency (523160, 523999, 518210)",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "cryptocurrency",
+   "census": "virtual currency",
+   "why": "as crypto",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "bitcoin",
+   "census": "virtual currency",
+   "why": "as crypto",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "rideshare",
+   "census": "taxi limousine passenger transportation",
+   "why": "485310 Taxi and Ridesharing Services",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "ride-hailing",
+   "census": "taxi limousine passenger transportation",
+   "why": "485310",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "podcast",
+   "census": "media streaming distribution content providers",
+   "why": "516210",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "streaming",
+   "census": "media streaming distribution content providers",
+   "why": "516210",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "freelancer",
+   "census": "independent",
+   "why": "the Census says independent for self-employed workers",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "gig",
+   "census": "independent contractors",
+   "why": "as freelancer",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "b2b",
+   "census": "",
+   "why": "business-to-business says nothing about the industry: no expansion",
+   "reviewed_by": "",
+   "reviewed_on": ""
+  },
+  {
+   "term": "hvac",
+   "census": "heating air-conditioning contractors",
+   "why": "238220 Plumbing, Heating, and Air-Conditioning Contractors",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "cpa",
+   "census": "certified public accountants accounting",
+   "why": "541211 Offices of Certified Public Accountants",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "bnpl",
+   "census": "consumer lending sales financing",
+   "why": "522291/522220: installment financing at purchase",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "robo-advisor",
+   "census": "portfolio management investment advice",
+   "why": "523940 Portfolio Management and Investment Advice",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "robo advisor",
+   "census": "portfolio management investment advice",
+   "why": "523940",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "mga",
+   "census": "insurance agencies brokerages",
+   "why": "524210: managing general agents place insurance as agents",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "neobank",
+   "census": "commercial banking consumer loans deposits",
+   "why": "522110/522180: accepts deposits and makes loans",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "dropshipping",
+   "census": "electronic shopping retailers",
+   "why": "retail by product line; online seller without stock",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "drop shipping",
+   "census": "electronic shopping retailers",
+   "why": "retail by product line",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "print on demand",
+   "census": "printing",
+   "why": "323111 Commercial Printing: printing to order",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "e-bike",
+   "census": "bicycle rental",
+   "why": "rental of bicycles and scooters",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "micromobility",
+   "census": "bicycle scooter rental",
+   "why": "scooter and e-bike sharing is rental",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "food truck",
+   "census": "mobile food services",
+   "why": "722330 Mobile Food Services",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "boba",
+   "census": "snack nonalcoholic beverage bars",
+   "why": "722515 Snack and Nonalcoholic Beverage Bars",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "last mile delivery",
+   "census": "couriers local delivery",
+   "why": "492110/492210 Couriers and Local Delivery",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "freight broker",
+   "census": "freight transportation arrangement",
+   "why": "488510 Freight Transportation Arrangement",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "3pl",
+   "census": "warehousing storage freight transportation arrangement",
+   "why": "third-party logistics: warehousing and freight arrangement",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "urgent care",
+   "census": "outpatient care centers emergency",
+   "why": "621493 Freestanding Ambulatory Surgical and Emergency Centers",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "crossfit",
+   "census": "fitness recreational sports centers",
+   "why": "713940 Fitness and Recreational Sports Centers",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "yoga studio",
+   "census": "fitness recreational sports centers",
+   "why": "713940",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "influencer",
+   "census": "independent artists writers performers",
+   "why": "711510 Independent Artists, Writers, and Performers",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "content creator",
+   "census": "independent artists writers performers",
+   "why": "711510",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "youtuber",
+   "census": "independent artists writers performers",
+   "why": "711510",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "coworking",
+   "census": "lessors nonresidential buildings",
+   "why": "531120: coworking space rental or leasing",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "reit",
+   "census": "real estate investment trusts lessors",
+   "why": "real estate investment trusts by property type",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "cybersecurity",
+   "census": "computer systems design services security",
+   "why": "541512 Computer Systems Design Services; network security",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "devops",
+   "census": "computer systems design services",
+   "why": "541512/541511: software development and operations work",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "insurtech",
+   "census": "",
+   "why": "recognised only: an insurance company, an agency, or software for either; the Census text decides",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "proptech",
+   "census": "",
+   "why": "recognised only: software for property, or the property service itself",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "edtech",
+   "census": "",
+   "why": "recognised only: software for education, or the education service itself",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "healthtech",
+   "census": "",
+   "why": "recognised only: software for health care, or the health service itself",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "regtech",
+   "census": "",
+   "why": "recognised only: software for compliance, or the compliance service itself",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  },
+  {
+   "term": "esports",
+   "census": "",
+   "why": "recognised only: 711211 teams, 713990 gaming venues, or 513210 games, depending on the activity",
+   "reviewed_by": "",
+   "reviewed_on": "",
+   "added_from": "E15 draft (2026-10-06), unreviewed by a person"
+  }
+ ]
+}

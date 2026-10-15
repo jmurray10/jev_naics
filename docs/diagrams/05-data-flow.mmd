@@ -1,0 +1,22 @@
+flowchart TD
+    subgraph BUILD["Built once, offline (public Census text only)"]
+        direction LR
+        C["Census files<br/>data/census-2022"] -->|"build_tree.py"| TJ["naics_2022_tree.json<br/>2,126 nodes"]
+        C -->|"build_search.py"| SJ["naics_2022_search.json"]
+        SJ -->|"db_cli build"| PG[("Postgres, 16 MB<br/>1,012 industries<br/>GIN full-text index")]
+    end
+    subgraph RUN["Every request (see 06-one-description-end-to-end)"]
+        direction LR
+        IN["Description"] --> SEARCH["Search<br/>reads Postgres"]
+        SEARCH --> JEV["Jev picks"]
+        JEV --> GATES{{"Code gates"}}
+        GATES -->|"pass"| OUT["auto_act(code)"]
+        GATES -->|"fail"| HOLD["hold(reason)"]
+        HOLD -.->|"hybrid only, if the right<br/>industry may be missing"| TREE["Tree walk<br/>reads the tree JSON<br/>Jev answers at every level<br/>(the tree method starts here)"]
+        TREE -.-> JEV2["Jev picks again<br/>over up to 13"]
+        JEV2 -.-> GATES
+    end
+    PG --> SEARCH
+    TJ --> TREE
+    classDef model stroke-dasharray: 5 5
+    class JEV,JEV2,TREE model

@@ -1,0 +1,1540 @@
+{
+ "run_id": "E15-cascade-refine_techenabled-lexfull-min1-20261006",
+ "variant": "cascade",
+ "summary": {
+  "cases": 48,
+  "coded": 47,
+  "coded_right": 45,
+  "coded_wrong": 2,
+  "wrong_ids": [
+   "refine_techenabled:health-1-service",
+   "refine_techenabled:education-2-software"
+  ],
+  "gold_cases": 48,
+  "gold_coded_right": 45,
+  "ambiguous_with_gold_offered": 1,
+  "recall_at_k": [
+   48,
+   48
+  ],
+  "errors": 0,
+  "statuses": {
+   "AMBIGUOUS": 1,
+   "CODED": 47
+  },
+  "calls_mean": 2.04,
+  "input_tokens_mean": 45351,
+  "seconds_median": 1.81
+ },
+ "rows": [
+  {
+   "id": "refine_techenabled:finance-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "518210"
+   ],
+   "calls": 2,
+   "seconds": 0.42,
+   "usage": {
+    "input_tokens": 45073,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.80.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:finance-1-service",
+   "gold": "523940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "523940",
+   "partial": "523940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "523940",
+    "523150",
+    "513210",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 2.05,
+   "usage": {
+    "input_tokens": 45275,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 523940 at p 1.00; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:finance-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541519",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 1.85,
+   "usage": {
+    "input_tokens": 45100,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:finance-2-service",
+   "gold": "523940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "523940",
+   "partial": "523940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "523940",
+    "541990",
+    "541211",
+    "541611"
+   ],
+   "calls": 2,
+   "seconds": 1.87,
+   "usage": {
+    "input_tokens": 45556,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 523940 at p 0.95; fit 0.84.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:finance-3-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541519",
+    "541512"
+   ],
+   "calls": 2,
+   "seconds": 2.06,
+   "usage": {
+    "input_tokens": 45118,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:finance-3-service",
+   "gold": "523150",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "523150",
+   "partial": "523150",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "523150",
+    "523210",
+    "523999",
+    "513210"
+   ],
+   "calls": 2,
+   "seconds": 1.8,
+   "usage": {
+    "input_tokens": 45052,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 523150 at p 0.95; fit 0.80.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:insurance-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "518210",
+    "524298"
+   ],
+   "calls": 2,
+   "seconds": 0.27,
+   "usage": {
+    "input_tokens": 45137,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.87; fit 0.65.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:insurance-1-service",
+   "gold": "524210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "524210",
+   "partial": "524210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "524210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 1.87,
+   "usage": {
+    "input_tokens": 44782,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 524210 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:insurance-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "524298",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 44926,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.84.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:insurance-2-service",
+   "gold": "524291",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "524291",
+   "partial": "524291",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "524291",
+    "541990",
+    "561440",
+    "561611"
+   ],
+   "calls": 2,
+   "seconds": 1.98,
+   "usage": {
+    "input_tokens": 44722,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 524291 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:lending-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "533110",
+    "522390"
+   ],
+   "calls": 2,
+   "seconds": 0.23,
+   "usage": {
+    "input_tokens": 44792,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.93; fit 0.70.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:lending-1-service",
+   "gold": "522291",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522291",
+   "partial": "522291",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522291",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 1.87,
+   "usage": {
+    "input_tokens": 45009,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 522291 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "mobile app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:lending-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "522320",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 44989,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.87.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:lending-2-service",
+   "gold": "522320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522320",
+   "partial": "522320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522320",
+    "513210",
+    "522390",
+    "522210"
+   ],
+   "calls": 2,
+   "seconds": 1.81,
+   "usage": {
+    "input_tokens": 44858,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 522320 at p 1.00; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:health-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "518210",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 45084,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:health-1-service",
+   "gold": "621111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621491",
+   "partial": "621491",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621111",
+    "621491",
+    "621498",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 1.92,
+   "usage": {
+    "input_tokens": 45591,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 621491 at p 0.78; fit 0.53.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:health-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541519",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 1.75,
+   "usage": {
+    "input_tokens": 45074,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.90.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:health-2-service",
+   "gold": "621330",
+   "expect_hold": false,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "62",
+   "tooltip": null,
+   "picklist": "candidates",
+   "picklist_codes": [
+    "621420",
+    "621330"
+   ],
+   "gold_in_wide": true,
+   "wide_top": [
+    "339999",
+    "456199",
+    "551114",
+    "551111",
+    "541990",
+    "541511",
+    "621330",
+    "621420",
+    "611710",
+    "611430"
+   ],
+   "calls": 3,
+   "seconds": 2.69,
+   "usage": {
+    "input_tokens": 52972,
+    "output_tokens": 13339
+   },
+   "reason": "The candidates only partly fit: 621420, 621330.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:health-3-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541519",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 1.81,
+   "usage": {
+    "input_tokens": 45100,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:health-3-service",
+   "gold": "621399",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621399",
+   "partial": "621399",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621399",
+    "621498",
+    "621111",
+    "621999"
+   ],
+   "calls": 2,
+   "seconds": 2.02,
+   "usage": {
+    "input_tokens": 45828,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 621399 at p 0.99; fit 0.60.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:realestate-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.23,
+   "usage": {
+    "input_tokens": 44858,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.82.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:realestate-1-service",
+   "gold": "531210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531210",
+   "partial": "531210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 1.96,
+   "usage": {
+    "input_tokens": 44827,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 531210 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:realestate-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "531311",
+    "541511",
+    "518210"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 45108,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.98; fit 0.74.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:realestate-2-service",
+   "gold": "531311",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531311",
+   "partial": "531311",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531311",
+    "531110",
+    "561110",
+    "561210"
+   ],
+   "calls": 2,
+   "seconds": 1.88,
+   "usage": {
+    "input_tokens": 44995,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 531311 at p 0.99; fit 0.90.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:education-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "518210",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.3,
+   "usage": {
+    "input_tokens": 45088,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.86.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:education-1-service",
+   "gold": "611691",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611691",
+   "partial": "611691",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "611691",
+    "513210",
+    "541511",
+    "516210"
+   ],
+   "calls": 2,
+   "seconds": 1.95,
+   "usage": {
+    "input_tokens": 45087,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 611691 at p 0.88; fit 0.82.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:education-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611420",
+   "partial": "611420",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "611420",
+    "611430",
+    "541511"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 44905,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 611420 at p 0.77; fit 0.61.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:education-2-service",
+   "gold": "611420",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611420",
+   "partial": "611420",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "611420",
+    "611430",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 44922,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 611420 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:education-3-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512110",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.28,
+   "usage": {
+    "input_tokens": 44787,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.89.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:education-3-service",
+   "gold": "611430",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611430",
+   "partial": "611430",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "611430",
+    "513210",
+    "516210",
+    "541511"
+   ],
+   "calls": 2,
+   "seconds": 2.45,
+   "usage": {
+    "input_tokens": 45087,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 611430 at p 0.98; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:logistics-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "518210"
+   ],
+   "calls": 2,
+   "seconds": 0.27,
+   "usage": {
+    "input_tokens": 45039,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.99; fit 0.84.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:logistics-1-service",
+   "gold": "492210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "492210",
+   "partial": "492210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "492210",
+    "513210",
+    "492110",
+    "485310"
+   ],
+   "calls": 2,
+   "seconds": 1.96,
+   "usage": {
+    "input_tokens": 44975,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 492210 at p 0.99; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:logistics-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "488510",
+    "518210"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 44927,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.80.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:logistics-2-service",
+   "gold": "488510",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "488510",
+   "partial": "488510",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "488510",
+    "513210",
+    "425120",
+    "512110"
+   ],
+   "calls": 2,
+   "seconds": 2.01,
+   "usage": {
+    "input_tokens": 44651,
+    "output_tokens": 12833
+   },
+   "reason": "Verified 488510 at p 0.99; fit 0.89.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "freight broker",
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:legal-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512110",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.32,
+   "usage": {
+    "input_tokens": 44777,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.87.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:legal-1-service",
+   "gold": "541110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541110",
+   "partial": "541110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541110",
+    "813920",
+    "812990",
+    "813910"
+   ],
+   "calls": 2,
+   "seconds": 0.29,
+   "usage": {
+    "input_tokens": 44805,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 541110 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:legal-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "518210",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 45055,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.99; fit 0.89.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:legal-2-service",
+   "gold": "541219",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541219",
+   "partial": "541219",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541219",
+    "561110",
+    "541511"
+   ],
+   "calls": 2,
+   "seconds": 2.04,
+   "usage": {
+    "input_tokens": 44984,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 541219 at p 0.86; fit 0.72.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:legal-3-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541213",
+    "459999"
+   ],
+   "calls": 2,
+   "seconds": 0.26,
+   "usage": {
+    "input_tokens": 45131,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.94.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:legal-3-service",
+   "gold": "541213",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541213",
+   "partial": "541213",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541213",
+    "513210",
+    "523940",
+    "812990"
+   ],
+   "calls": 2,
+   "seconds": 1.81,
+   "usage": {
+    "input_tokens": 45129,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541213 at p 0.97; fit 0.90.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:staffing-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541214",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 44965,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.99; fit 0.75.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:staffing-1-service",
+   "gold": "541214",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541214",
+   "partial": "541214",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561330",
+    "513210",
+    "541214",
+    "522320"
+   ],
+   "calls": 2,
+   "seconds": 2.04,
+   "usage": {
+    "input_tokens": 45061,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 541214 at p 1.00; fit 0.94.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:staffing-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.33,
+   "usage": {
+    "input_tokens": 44840,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:staffing-2-service",
+   "gold": "561320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561320",
+   "partial": "561320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561320",
+    "561330",
+    "513210",
+    "561311"
+   ],
+   "calls": 2,
+   "seconds": 1.92,
+   "usage": {
+    "input_tokens": 45055,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 561320 at p 0.97; fit 0.87.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:other-1-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "541519",
+    "541512"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 45054,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.85.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:other-1-service",
+   "gold": "561510",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561510",
+   "partial": "561510",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "519290",
+    "455110",
+    "561510"
+   ],
+   "calls": 2,
+   "seconds": 1.95,
+   "usage": {
+    "input_tokens": 44724,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 561510 at p 0.99; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_techenabled:other-2-software",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 44840,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_techenabled:other-2-service",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541940",
+   "partial": "541940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459910",
+    "339999",
+    "551114",
+    "325412",
+    "541940",
+    "541511",
+    "621111",
+    "621498",
+    "611519",
+    "611430"
+   ],
+   "calls": 3,
+   "seconds": 3.74,
+   "usage": {
+    "input_tokens": 53133,
+    "output_tokens": 13339
+   },
+   "reason": "541940 is the only candidate judged the primary activity, and both option orders picked it.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "telehealth",
+    "app"
+   ]
+  }
+ ]
+}

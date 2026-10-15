@@ -1,0 +1,86 @@
+# Release (JEV-56): on a pushed tag v<version>, run the offline tests, then build and push the two
+# images to GitHub Container Registry with the workflow's own GITHUB_TOKEN (no other secret):
+#   ghcr.io/jmurray10/jev-naics-api:<version>  and  :latest   (backend/Dockerfile)
+#   ghcr.io/jmurray10/jev-naics-web:<version>  and  :latest   (frontend/Dockerfile)
+# The tag must match the package version (backend/pyproject.toml), and its commit must be an
+# ancestor of origin/main (a tag pushed from a branch, or rewritten after the fact, publishes
+# nothing), or nothing is published. The "tests" job calls tests.yml once via workflow_call; that
+# workflow's own "push" trigger excludes tag pushes (tags-ignore), so a tag push runs the suite
+# here only, not twice.
+name: release
+on:
+  push:
+    tags: ["v*"]
+permissions: {contents: read}
+jobs:
+  tests:
+    uses: ./.github/workflows/tests.yml
+
+  images:
+    needs: tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    env:
+      REGISTRY: ghcr.io
+      OWNER: jmurray10   # image names must be lowercase
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # full history: the next step's merge-base check needs it
+
+      - name: The tagged commit is on main
+        run: |
+          git fetch origin main
+          if ! git merge-base --is-ancestor "$GITHUB_SHA" origin/main; then
+            echo "refusing to publish: $GITHUB_SHA ($GITHUB_REF_NAME) is not on origin/main" >&2
+            exit 1
+          fi
+
+      - name: The tag matches the package version
+        id: version
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          package="$(sed -n 's/^version = "\(.*\)"$/\1/p' backend/pyproject.toml)"
+          if [ "$version" != "$package" ]; then
+            echo "tag $GITHUB_REF_NAME does not match backend/pyproject.toml version $package" >&2
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - uses: docker/setup-buildx-action@v3
+
+      - uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push the API image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: backend/Dockerfile
+          push: true
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.OWNER }}/jev-naics-api:${{ steps.version.outputs.version }}
+            ${{ env.REGISTRY }}/${{ env.OWNER }}/jev-naics-api:latest
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.version=${{ steps.version.outputs.version }}
+            org.opencontainers.image.revision=${{ github.sha }}
+
+      - name: Build and push the web image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: frontend/Dockerfile
+          push: true
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.OWNER }}/jev-naics-web:${{ steps.version.outputs.version }}
+            ${{ env.REGISTRY }}/${{ env.OWNER }}/jev-naics-web:latest
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.version=${{ steps.version.outputs.version }}
+            org.opencontainers.image.revision=${{ github.sha }}

@@ -1,0 +1,27 @@
+name: tests
+on:
+  # A tag push is excluded here: release.yml triggers on "push: tags: ['v*']" and calls this
+  # workflow once via workflow_call (below), which is a separate trigger unaffected by this
+  # tags-ignore filter. Without the exclusion, pushing a tag would also match this workflow's own
+  # unfiltered "push" trigger, so the whole suite would run twice for the same commit.
+  push: {tags-ignore: ["**"]}
+  pull_request:
+  workflow_call:
+permissions: {contents: read}
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    env: {JEV_DECIDER: replay}
+    services:
+      postgres:
+        image: postgres:16
+        env: {POSTGRES_USER: jev, POSTGRES_PASSWORD: jev, POSTGRES_DB: jev_naics_test}
+        ports: ["5432:5432"]
+        options: --health-cmd "pg_isready -U jev" --health-interval 2s --health-retries 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.13", cache: pip}
+      - run: python -m pip install -e "backend[api,dev]"
+      - run: cd backend && NAICS_TEST_DATABASE_URL=postgresql://jev:jev@127.0.0.1:5432/jev_naics_test python -m pytest -p no:warnings
+      - run: python -m pytest -p no:warnings frontend/tests

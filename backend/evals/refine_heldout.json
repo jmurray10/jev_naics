@@ -1,0 +1,482 @@
+[
+ {
+  "id": "clear-111150",
+  "expect_code": "111150",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We grow field corn on about 1,200 acres and sell the whole crop to the ethanol plant down the road."
+ },
+ {
+  "id": "clear-112111",
+  "expect_code": "112111",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Cow-calf ranch. About 400 mother cows on leased rangeland, calves sold at the sale barn each fall."
+ },
+ {
+  "id": "clear-114111",
+  "expect_code": "114111",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Commercial fishing boat, 3 crew. We run longlines for halibut and black cod and sell the catch at the dock."
+ },
+ {
+  "id": "clear-212312",
+  "expect_code": "212312",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Rock quarry. We blast limestone, crush it, and sell the gravel and crushed stone to road contractors."
+ },
+ {
+  "id": "clear-221114",
+  "expect_code": "221114",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We own a 20 megawatt solar farm and sell all the electricity to the regional utility under a long-term contract."
+ },
+ {
+  "id": "clear-236118",
+  "expect_code": "236118",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "General contractor doing kitchen and bathroom remodels and room additions for homeowners."
+ },
+ {
+  "id": "clear-311812",
+  "expect_code": "311812",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Wholesale bakery. We bake bread, buns and rolls overnight in a plant and deliver them to grocery stores and restaurants."
+ },
+ {
+  "id": "clear-321113",
+  "expect_code": "321113",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Sawmill that cuts logs from local landowners into dimensional lumber and boards, then kiln dries and sells it to lumberyards."
+ },
+ {
+  "id": "clear-332710",
+  "expect_code": "332710",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Job shop with CNC mills and lathes. We make precision metal parts to customer drawings in small production runs."
+ },
+ {
+  "id": "clear-337110",
+  "expect_code": "337110",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We build custom wood kitchen cabinets and countertops in our shop and install them for builders."
+ },
+ {
+  "id": "clear-424480",
+  "expect_code": "424480",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Produce wholesaler. We buy fresh fruit and vegetables from growers and deliver by refrigerated truck to restaurants and grocers."
+ },
+ {
+  "id": "clear-441110",
+  "expect_code": "441110",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Franchised new car dealership. We sell new vehicles, take trade-ins, and also have a finance office."
+ },
+ {
+  "id": "clear-445110",
+  "expect_code": "445110",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Independent neighborhood grocery store with a meat counter, produce, deli and bakery section."
+ },
+ {
+  "id": "clear-484121",
+  "expect_code": "484121",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Long-haul truckload carrier. 25 tractors pulling dry vans, coast to coast."
+ },
+ {
+  "id": "clear-524210",
+  "expect_code": "524210",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Independent insurance agency selling auto, home and business policies from several carriers."
+ },
+ {
+  "id": "clear-531210",
+  "expect_code": "531210",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Residential real estate brokerage. Our agents list and sell homes and earn commissions at closing."
+ },
+ {
+  "id": "clear-541211",
+  "expect_code": "541211",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "CPA firm with six accountants. We do audits, reviews, bookkeeping and business tax returns."
+ },
+ {
+  "id": "clear-561730",
+  "expect_code": "561730",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Lawn care and landscaping. We mow, trim shrubs, spread mulch and plant flower beds for commercial properties and HOAs."
+ },
+ {
+  "id": "clear-611610",
+  "expect_code": "611610",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Dance studio teaching ballet, tap and jazz to kids and adults. Recitals twice a year."
+ },
+ {
+  "id": "clear-621210",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "General dentistry practice with two dentists and four hygienists. Cleanings, fillings, crowns."
+ },
+ {
+  "id": "clear-713910",
+  "expect_code": "713910",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "18-hole public golf course with a pro shop, driving range and snack bar."
+ },
+ {
+  "id": "clear-722513",
+  "expect_code": "722513",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Counter-service burger and fries place. Customers order and pay at the register, no table service."
+ },
+ {
+  "id": "clear-721110",
+  "expect_code": "721110",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "76-room hotel off the interstate. Rooms, free breakfast, small meeting room."
+ },
+ {
+  "id": "clear-811111",
+  "expect_code": "811111",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Auto repair shop. Brakes, engines, transmissions, oil changes and diagnostics on all makes."
+ },
+ {
+  "id": "clear-922160",
+  "expect_code": "922160",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Volunteer fire department. We respond to structure fires, rescues and medical calls for the township."
+ },
+ {
+  "id": "clear-512110",
+  "expect_code": "512110",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We shoot and edit commercials and corporate videos for clients."
+ },
+ {
+  "id": "clear-623110",
+  "expect_code": "623110",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Licensed 80-bed skilled nursing facility. 24-hour nursing care, rehab therapy and long-term residents, mostly Medicare and Medicaid."
+ },
+ {
+  "id": "clear-238160",
+  "expect_code": "238160",
+  "expect_hold": false,
+  "kind": "clear",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Roofing contractor, residential re-roofs and repairs, asphalt shingle and metal."
+ },
+ {
+  "id": "unexpected-541940-largeanimal",
+  "expect_code": "541940",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Mobile large animal practice. I drive to farms to treat horses and cattle, do pregnancy checks, and handle emergency calls."
+ },
+ {
+  "id": "unexpected-811192-carwash",
+  "expect_code": "811192",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We wash cars. Drive-through automatic bays plus a few hand-wash stalls, open seven days."
+ },
+ {
+  "id": "unexpected-541213-taxprep",
+  "expect_code": "541213",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Seasonal tax preparation storefront. January through April we prepare individual returns and file them electronically."
+ },
+ {
+  "id": "unexpected-513210-appdev",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We design and sell a scheduling app for hair salons, downloaded by customers and sold by license."
+ },
+ {
+  "id": "unexpected-561510-travel",
+  "expect_code": "561510",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Travel agency booking cruises, flights and hotel packages for families. We earn commissions from the suppliers."
+ },
+ {
+  "id": "unexpected-812990-dating",
+  "expect_code": "812990",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Dating app company. Members pay a monthly subscription to match and chat with other singles."
+ },
+ {
+  "id": "unexpected-624410-daycare",
+  "expect_code": "624410",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Licensed child day care center for infants through pre-K, open 6am to 6pm, 45 children."
+ },
+ {
+  "id": "unexpected-812910-petboarding",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "unexpected",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Dog boarding, grooming and daycare. Kennels, play yards, no medical treatment."
+ },
+ {
+  "id": "modern-485310-rideshare",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "I drive for Uber and Lyft full time in my own Camry, mostly nights and airport runs."
+ },
+ {
+  "id": "modern-492210-mealdelivery",
+  "expect_code": "492210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Gig driver doing DoorDash and Grubhub orders. I pick up restaurant meals and drop them at customers' homes."
+ },
+ {
+  "id": "modern-531311-vacationrental",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We manage short-term vacation rental homes on Airbnb for owners. Guest check-ins, cleaning crews and listing upkeep, for a cut of the bookings."
+ },
+ {
+  "id": "modern-518210-crypto",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Bitcoin mining operation. 300 ASIC rigs in a rented warehouse running around the clock."
+ },
+ {
+  "id": "modern-541922-drone",
+  "expect_code": "541922",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Drone pilot business. I shoot aerial photos and video of houses and commercial buildings for realtors and developers."
+ },
+ {
+  "id": "modern-516210-streaming",
+  "expect_code": "516210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run our own on-demand video streaming service with a monthly subscription, no ads."
+ },
+ {
+  "id": "typo-812320-drycleaning",
+  "expect_code": "812320",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "dry claning and laundrey, we do shirts, suits and wedding gowns, pick up and drop off"
+ },
+ {
+  "id": "typo-811121-bodyshop",
+  "expect_code": "811121",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "auto body colision repiar and paint, insurance claims work"
+ },
+ {
+  "id": "typo-238210-electrical",
+  "expect_code": "238210",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "elctrical contrator wiring new homes and service upgrades"
+ },
+ {
+  "id": "typo-621310-chiro",
+  "expect_code": "621310",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "chiropratic office, spinal adjustments and back pain tratment"
+ },
+ {
+  "id": "typo-236220-gc",
+  "expect_code": "236220",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "GC, comm. bldgs, tenant improv. and small office buildouts"
+ },
+ {
+  "id": "typo-322211-boxes",
+  "expect_code": "322211",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Mfr of corrugated shipping boxs, we run a box plant"
+ },
+ {
+  "id": "confusable-541511-vs-513210-customsoftware",
+  "expect_code": "541511",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We write custom software for our clients. Each project is built to the customer's specifications and they own the code when finished."
+ },
+ {
+  "id": "confusable-531311-vs-531110-propertymgmt",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We manage apartment buildings for the owners. We collect rent, handle maintenance calls and screen tenants, and we are paid a percentage of rent. We do not own any of the buildings."
+ },
+ {
+  "id": "confusable-561320-vs-561311-tempstaffing",
+  "expect_code": "561320",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Staffing company. We hire warehouse and clerical workers ourselves, pay them, and send them to client sites by the day or week."
+ },
+ {
+  "id": "confusable-611620-vs-713940-martialarts",
+  "expect_code": "611620",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Karate and martial arts school. Students attend belt-level classes taught by instructors, kids and adults."
+ },
+ {
+  "id": "confusable-722410-vs-722511-bar",
+  "expect_code": "722410",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Neighborhood bar. Beer, liquor and cocktails, a jukebox and pool table. We sell a few bags of chips and frozen pizzas."
+ },
+ {
+  "id": "confusable-457110-vs-445131-gasstation",
+  "expect_code": "457110",
+  "expect_hold": false,
+  "kind": "confusable",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Gas station with a convenience store. Most of our sales are fuel, plus snacks, drinks and cigarettes inside."
+ },
+ {
+  "id": "hold-revenue-only",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Annual revenue of about $2.4 million with 12 employees."
+ },
+ {
+  "id": "hold-funding-only",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We just closed a $3 million seed round from angel investors and are hiring."
+ },
+ {
+  "id": "hold-two-businesses",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run a dental office and also a trucking company that hauls gravel."
+ },
+ {
+  "id": "hold-generic-services",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "General business services company"
+ },
+ {
+  "id": "hold-coverage-request",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Looking for workers comp, general liability and cyber coverage at the best price."
+ },
+ {
+  "id": "hold-no-ops-boilerplate",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine held-out set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Family owned since 1987. We pride ourselves on great customer service and quality, and our team is dedicated to your success."
+ }
+]

@@ -1,0 +1,5052 @@
+{
+  "01d4be5264df7348df2e526f": {
+    "choices": {
+      "node_44_45": {
+        "choice": "457",
+        "confidence": 0.81,
+        "probabilities": {
+          "441": 0.02,
+          "444": 0.0,
+          "445": 0.0,
+          "449": 0.0,
+          "455": 0.0,
+          "456": 0.0,
+          "457": 0.84,
+          "458": 0.0,
+          "459": 0.14
+        }
+      },
+      "node_56": {
+        "choice": "561",
+        "confidence": 0.94,
+        "probabilities": {
+          "561": 0.97,
+          "562": 0.03
+        }
+      },
+      "node_81": {
+        "choice": "812",
+        "confidence": 0.86,
+        "probabilities": {
+          "811": 0.1,
+          "812": 0.9,
+          "813": 0.0,
+          "814": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:25+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Self-service and tunnel car wash for cars and trucks."
+    },
+    "usage": {
+      "input_tokens": 1960,
+      "output_tokens": 198
+    }
+  },
+  "0259f95ae5a63973befa9cd7": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 0.61,
+        "probabilities": {
+          "custom_work_per_client": 0.33,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.67,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 1.0,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 1.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.95,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.87,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.62,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.82,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:24+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Professional services for businesses."
+    },
+    "usage": {
+      "input_tokens": 2806,
+      "output_tokens": 384
+    }
+  },
+  "0670a26a4d5067841c603ef1": {
+    "choices": {
+      "node_51": {
+        "choice": "513",
+        "confidence": 0.49,
+        "probabilities": {
+          "512": 0.22,
+          "513": 0.58,
+          "516": 0.0,
+          "517": 0.0,
+          "518": 0.19,
+          "519": 0.01
+        }
+      },
+      "node_541": {
+        "choice": "5415",
+        "confidence": 1.0,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 1.0,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:30+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+    },
+    "usage": {
+      "input_tokens": 1596,
+      "output_tokens": 187
+    }
+  },
+  "083f75f543939c185133fa1a": {
+    "choices": {
+      "node_484": {
+        "choice": "4841",
+        "confidence": 0.93,
+        "probabilities": {
+          "4841": 0.96,
+          "4842": 0.04
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:33+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+    },
+    "usage": {
+      "input_tokens": 552,
+      "output_tokens": 44
+    }
+  },
+  "0c93e24b69b3b7e5412842cb": {
+    "choices": {
+      "node_6213": {
+        "choice": "62139",
+        "confidence": 0.99,
+        "probabilities": {
+          "62131": 0.0,
+          "62132": 0.0,
+          "62133": 0.0,
+          "62134": 0.0,
+          "62139": 1.0
+        }
+      },
+      "node_6219": {
+        "choice": "62199",
+        "confidence": 0.98,
+        "probabilities": {
+          "62191": 0.01,
+          "62199": 0.99
+        }
+      },
+      "node_8129": {
+        "choice": "81291",
+        "confidence": 0.58,
+        "probabilities": {
+          "81291": 0.69,
+          "81292": 0.01,
+          "81293": 0.01,
+          "81299": 0.29
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:35+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+    },
+    "usage": {
+      "input_tokens": 1027,
+      "output_tokens": 193
+    }
+  },
+  "0deb4a9e4b433a0afd9ee81a": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "ongoing_managed_service",
+        "confidence": 0.86,
+        "probabilities": {
+          "custom_work_per_client": 0.11,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.01,
+          "ongoing_managed_service": 0.88,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 0.96,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.97,
+          "55": 0.0,
+          "56": 0.02,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.01,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.86,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.82,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.79,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.17,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:37+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Marketing for local restaurants: strategy, social media ads, and campaign management."
+    },
+    "usage": {
+      "input_tokens": 2816,
+      "output_tokens": 386
+    }
+  },
+  "12e1b2f291e37d8368159919": {
+    "choices": {
+      "node_48412": {
+        "choice": "484121",
+        "confidence": 1.0,
+        "probabilities": {
+          "484121": 1.0,
+          "484122": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:34+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+    },
+    "usage": {
+      "input_tokens": 564,
+      "output_tokens": 52
+    }
+  },
+  "16d4b883c3a14a32358c5e95": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 1.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "23",
+        "confidence": 0.76,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.78,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.01,
+          "55": 0.0,
+          "56": 0.02,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.19,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.99,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.93,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.85,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.1,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:32+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We install and service commercial heating and air conditioning systems for office buildings."
+    },
+    "usage": {
+      "input_tokens": 2815,
+      "output_tokens": 384
+    }
+  },
+  "1ae303aa4a16f0d7c27dd669": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "own_software_product",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 1.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "51",
+        "confidence": 0.92,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.93,
+          "52": 0.0,
+          "53": 0.05,
+          "54": 0.02,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.95,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.88,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.12,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:29+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We sell subscriptions to our own cloud software that schedules appointments for hair salons."
+    },
+    "usage": {
+      "input_tokens": 2817,
+      "output_tokens": 386
+    }
+  },
+  "221001eea2980f8ea02dd629": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "custom_work_per_client",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 1.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 0.61,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.36,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.64,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.72,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.17,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:30+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+    },
+    "usage": {
+      "input_tokens": 2820,
+      "output_tokens": 385
+    }
+  },
+  "228e0eaf0c5e9eafd67e7d3a": {
+    "choices": {
+      "full_final": {
+        "choice": "541213",
+        "confidence": 1.0,
+        "probabilities": {
+          "522390": 0.0,
+          "541211": 0.0,
+          "541213": 1.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_522390": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "fit_541211": {
+        "noul": 0.18,
+        "verdict": null
+      },
+      "fit_541213": {
+        "noul": 0.95,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:28+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "522390": {
+          "code": "522390",
+          "description": "This industry comprises establishments primarily engaged in facilitating credit intermediation (except mortgage and loan brokerage; and financial transactions processing, reserve, and clearinghouse activities).",
+          "index_terms": [
+            "Other Activities Related to Credit Intermediation",
+            "Check cashing services",
+            "Loan servicing",
+            "Money order issuance services",
+            "Money transmission services",
+            "Payday lending services",
+            "Travelers' check issuance services"
+          ],
+          "title": "Other Activities Related to Credit Intermediation"
+        },
+        "541211": {
+          "code": "541211",
+          "description": "This U.S. industry comprises establishments of accountants that are certified to audit the accounting records of public and private organizations and to attest to compliance with generally accepted accounting practices. Offices of certified public accountants (CPAs) may provide one or more of the following accounting services: (1) auditing financial statements; (2) designing accounting systems; (3) preparing financial statements; (4) developing budgets; and (5) providing advice on matters related to accounting. These establishments may also provide related services, such as bookkeeping, tax return preparation, and payroll processing.",
+          "index_terms": [
+            "Offices of Certified Public Accountants",
+            "Accountants' (i.e., CPAs) offices,",
+            "Accountants' (i.e., CPAs) private",
+            "Accounting (i.e., CPAs) services,",
+            "Auditing accountants' (i.e., CPAs)",
+            "Auditing accountants' (i.e., CPAs)",
+            "Auditing services (i.e., CPA services),",
+            "Auditors' (i.e., CPAs) offices, accounts"
+          ],
+          "title": "Offices of Certified Public Accountants"
+        },
+        "541213": {
+          "code": "541213",
+          "description": "This U.S. industry comprises establishments (except offices of CPAs) engaged in providing tax return preparation services without also providing accounting, bookkeeping, billing, or payroll processing services. Basic knowledge of tax law and filing requirements is required.",
+          "index_terms": [
+            "Tax Preparation Services",
+            "Income tax compilation services",
+            "Income tax return preparation services",
+            "Tax return preparation services"
+          ],
+          "title": "Tax Preparation Services"
+        }
+      },
+      "ops_description": "Individual and small-business income tax return preparation."
+    },
+    "usage": {
+      "input_tokens": 1378,
+      "output_tokens": 128
+    }
+  },
+  "22d3a40e39420ce3ab775717": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 0.73,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.77,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.23
+        }
+      },
+      "node_root": {
+        "choice": "72",
+        "confidence": 1.0,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 1.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.93,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.87,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.07,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:31+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A counter-service coffee shop selling espresso drinks and pastries to walk-in customers."
+    },
+    "usage": {
+      "input_tokens": 2817,
+      "output_tokens": 384
+    }
+  },
+  "26e96a788b2d448124ca1ca3": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 0.98,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.99,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.01
+        }
+      },
+      "node_root": {
+        "choice": "44-45",
+        "confidence": 0.77,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.01,
+          "42": 0.2,
+          "44-45": 0.79,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.88,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.87,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:25+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Sales of products."
+    },
+    "usage": {
+      "input_tokens": 2805,
+      "output_tokens": 387
+    }
+  },
+  "284cffffc2edb021943d3641": {
+    "choices": {
+      "node_31_33": {
+        "choice": "337",
+        "confidence": 0.99,
+        "probabilities": {
+          "311": 0.0,
+          "312": 0.0,
+          "313": 0.0,
+          "314": 0.0,
+          "315": 0.0,
+          "316": 0.0,
+          "321": 0.01,
+          "322": 0.0,
+          "323": 0.0,
+          "324": 0.0,
+          "325": 0.0,
+          "326": 0.0,
+          "327": 0.0,
+          "331": 0.0,
+          "332": 0.0,
+          "333": 0.0,
+          "334": 0.0,
+          "335": 0.0,
+          "336": 0.0,
+          "337": 0.99,
+          "339": 0.0
+        }
+      },
+      "node_44_45": {
+        "choice": "449",
+        "confidence": 0.88,
+        "probabilities": {
+          "441": 0.0,
+          "444": 0.1,
+          "445": 0.0,
+          "449": 0.9,
+          "455": 0.0,
+          "456": 0.0,
+          "457": 0.0,
+          "458": 0.0,
+          "459": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:29+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+    },
+    "usage": {
+      "input_tokens": 3529,
+      "output_tokens": 317
+    }
+  },
+  "2b03a92c8f7576982853bee7": {
+    "choices": {},
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_541110": {
+        "noul": 0.97,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:26+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "541110": {
+          "code": "541110",
+          "description": "This industry comprises offices of legal practitioners known as lawyers or attorneys (i.e., counselors-at-law) primarily engaged in the practice of law. Establishments in this industry may provide expertise in a range or in specific areas of law, such as criminal law, corporate law, family and estate law, patent law, real estate law, or tax law.",
+          "index_terms": [
+            "Offices of Lawyers",
+            "Attorneys' offices",
+            "Attorneys' private practices",
+            "Barristers' offices",
+            "Barristers' private practices",
+            "Corporate law offices",
+            "Counselors' at law offices",
+            "Counselors' at law private practices"
+          ],
+          "title": "Offices of Lawyers"
+        }
+      },
+      "ops_description": "A law firm handling business litigation for corporate clients."
+    },
+    "usage": {
+      "input_tokens": 545,
+      "output_tokens": 27
+    }
+  },
+  "2d230ad2f5224d042e7b40aa": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 1.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "81",
+        "confidence": 0.96,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.03,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.97,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.49,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.1,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T06:57:47+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Mobile car detailing at customers' homes."
+    },
+    "usage": {
+      "input_tokens": 2809,
+      "output_tokens": 384
+    }
+  },
+  "2ecd919ba113c88c1901e81a": {
+    "choices": {
+      "node_4841": {
+        "choice": "48412",
+        "confidence": 0.99,
+        "probabilities": {
+          "48411": 0.0,
+          "48412": 1.0
+        }
+      },
+      "node_4842": {
+        "choice": "48423",
+        "confidence": 0.93,
+        "probabilities": {
+          "48421": 0.03,
+          "48422": 0.02,
+          "48423": 0.95
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:34+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+    },
+    "usage": {
+      "input_tokens": 679,
+      "output_tokens": 104
+    }
+  },
+  "35841743f4f0c822114ec2c4": {
+    "choices": {
+      "node_32199": {
+        "choice": "321999",
+        "confidence": 0.9,
+        "probabilities": {
+          "321991": 0.01,
+          "321992": 0.06,
+          "321999": 0.9299999999999999
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:29+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+    },
+    "usage": {
+      "input_tokens": 589,
+      "output_tokens": 64
+    }
+  },
+  "3bed9b77ed186844a556006d": {
+    "choices": {
+      "node_512": {
+        "choice": "5121",
+        "confidence": 0.59,
+        "probabilities": {
+          "5121": 0.79,
+          "5122": 0.21
+        }
+      },
+      "node_513": {
+        "choice": "5132",
+        "confidence": 0.99,
+        "probabilities": {
+          "5131": 0.01,
+          "5132": 0.99
+        }
+      },
+      "node_54151": {
+        "choice": "541511",
+        "confidence": 1.0,
+        "probabilities": {
+          "541511": 1.0,
+          "541512": 0.0,
+          "541513": 0.0,
+          "541519": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:30+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+    },
+    "usage": {
+      "input_tokens": 995,
+      "output_tokens": 158
+    }
+  },
+  "3f1f037f57266b6b45ecd5fd": {
+    "choices": {
+      "node_621": {
+        "choice": "6213",
+        "confidence": 0.48,
+        "probabilities": {
+          "6211": 0.04,
+          "6212": 0.0,
+          "6213": 0.56,
+          "6214": 0.02,
+          "6215": 0.01,
+          "6216": 0.01,
+          "6219": 0.36
+        }
+      },
+      "node_812": {
+        "choice": "8129",
+        "confidence": 0.96,
+        "probabilities": {
+          "8121": 0.01,
+          "8122": 0.01,
+          "8123": 0.0,
+          "8129": 0.98
+        }
+      },
+      "node_813": {
+        "choice": "8139",
+        "confidence": 0.62,
+        "probabilities": {
+          "8131": 0.08,
+          "8132": 0.06,
+          "8133": 0.07,
+          "8134": 0.09,
+          "8139": 0.7
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:34+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+    },
+    "usage": {
+      "input_tokens": 1236,
+      "output_tokens": 226
+    }
+  },
+  "3f2e87b9e358d4e84110ebcf": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 1.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "81",
+        "confidence": 0.37,
+        "probabilities": {
+          "11": 0.01,
+          "21": 0.0,
+          "22": 0.01,
+          "23": 0.0,
+          "31-33": 0.01,
+          "42": 0.02,
+          "44-45": 0.16,
+          "48-49": 0.0,
+          "51": 0.01,
+          "52": 0.01,
+          "53": 0.02,
+          "54": 0.28,
+          "55": 0.03,
+          "56": 0.01,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.01,
+          "72": 0.01,
+          "81": 0.4,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.21,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.87,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:22+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "About $750,000 in revenue last year."
+    },
+    "usage": {
+      "input_tokens": 2815,
+      "output_tokens": 384
+    }
+  },
+  "3ff96ee284bf6b38c98b0670": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 1.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "62",
+        "confidence": 0.99,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 1.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.95,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.36,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.08,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:28+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Family dental practice with two dentists and a hygienist."
+    },
+    "usage": {
+      "input_tokens": 2814,
+      "output_tokens": 384
+    }
+  },
+  "447755021a5152c42d4c2ff4": {
+    "choices": {
+      "node_512": {
+        "choice": "5121",
+        "confidence": 0.66,
+        "probabilities": {
+          "5121": 0.83,
+          "5122": 0.17
+        }
+      },
+      "node_513": {
+        "choice": "5132",
+        "confidence": 1.0,
+        "probabilities": {
+          "5131": 0.0,
+          "5132": 1.0
+        }
+      },
+      "node_54151": {
+        "choice": "541511",
+        "confidence": 0.98,
+        "probabilities": {
+          "541511": 0.98,
+          "541512": 0.01,
+          "541513": 0.0,
+          "541519": 0.01
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:36+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We make software for insurance agencies, some as a product and some built to order."
+    },
+    "usage": {
+      "input_tokens": 993,
+      "output_tokens": 158
+    }
+  },
+  "45e8c4f4d10dce3e75e896e5": {
+    "choices": {
+      "full_final": {
+        "choice": "811192",
+        "confidence": 1.0,
+        "probabilities": {
+          "811192": 1.0,
+          "812930": 0.0,
+          "812990": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_811192": {
+        "noul": 0.95,
+        "verdict": null
+      },
+      "fit_812930": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "fit_812990": {
+        "noul": 0.06,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T06:57:48+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "811192": {
+          "code": "811192",
+          "description": "This U.S. industry comprises establishments primarily engaged in cleaning, washing, and/or waxing automotive vehicles, such as passenger cars, trucks, and vans, and trailers.",
+          "index_terms": [
+            "Car Washes",
+            "Automotive detail shops",
+            "Automotive detailing services (i.e.,",
+            "Automotive washing and polishing",
+            "Car detailers",
+            "Car washes",
+            "Detailing services (i.e., cleaning and",
+            "Mobile car and truck washes"
+          ],
+          "title": "Car Washes"
+        },
+        "812930": {
+          "code": "812930",
+          "description": "This industry comprises establishments primarily engaged in providing parking space for motor vehicles, usually on an hourly, daily, or monthly basis and/or valet parking services.",
+          "index_terms": [
+            "Parking Lots and Garages",
+            "Automobile parking garages or lots",
+            "Garages, automobile parking",
+            "Parking garages, automobile",
+            "Parking lots, automobile",
+            "Parking services, valet",
+            "Valet parking services"
+          ],
+          "title": "Parking Lots and Garages"
+        },
+        "812990": {
+          "code": "812990",
+          "description": "This industry comprises establishments primarily engaged in providing personal services (except personal care services, death care services, drycleaning and laundry services, pet care services, photofinishing services, or parking space and/or valet parking services).",
+          "index_terms": [
+            "All Other Personal Services",
+            "Astrology services",
+            "Baby shoe bronzing services",
+            "Bail bonding services",
+            "Balloon-o-gram services",
+            "Blood pressure testing machine",
+            "Bondsperson services",
+            "Check room services"
+          ],
+          "title": "All Other Personal Services"
+        }
+      },
+      "ops_description": "Mobile car detailing at customers' homes."
+    },
+    "usage": {
+      "input_tokens": 1202,
+      "output_tokens": 128
+    }
+  },
+  "4804ebce7bdb94f2bb407b44": {
+    "choices": {
+      "node_541": {
+        "choice": "5418",
+        "confidence": 1.0,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 0.0,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 1.0,
+          "5419": 0.0
+        }
+      },
+      "node_56": {
+        "choice": "561",
+        "confidence": 1.0,
+        "probabilities": {
+          "561": 1.0,
+          "562": 0.0
+        }
+      },
+      "node_72": {
+        "choice": "722",
+        "confidence": 0.97,
+        "probabilities": {
+          "721": 0.02,
+          "722": 0.98
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:37+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Marketing for local restaurants: strategy, social media ads, and campaign management."
+    },
+    "usage": {
+      "input_tokens": 1471,
+      "output_tokens": 188
+    }
+  },
+  "4c77c9b7e9d31d563b4641ce": {
+    "choices": {
+      "node_561": {
+        "choice": "5619",
+        "confidence": 0.41,
+        "probabilities": {
+          "5611": 0.0,
+          "5612": 0.08,
+          "5613": 0.0,
+          "5614": 0.01,
+          "5615": 0.01,
+          "5616": 0.0,
+          "5617": 0.41,
+          "5619": 0.49
+        }
+      },
+      "node_811": {
+        "choice": "8111",
+        "confidence": 0.9,
+        "probabilities": {
+          "8111": 0.93,
+          "8112": 0.01,
+          "8113": 0.02,
+          "8114": 0.04
+        }
+      },
+      "node_812": {
+        "choice": "8129",
+        "confidence": 0.63,
+        "probabilities": {
+          "8121": 0.01,
+          "8122": 0.0,
+          "8123": 0.27,
+          "8129": 0.72
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:25+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Self-service and tunnel car wash for cars and trucks."
+    },
+    "usage": {
+      "input_tokens": 1521,
+      "output_tokens": 226
+    }
+  },
+  "5048bc2daf0bbbe462f6a760": {
+    "choices": {
+      "node_51": {
+        "choice": "518",
+        "confidence": 0.66,
+        "probabilities": {
+          "512": 0.11,
+          "513": 0.0,
+          "516": 0.0,
+          "517": 0.08,
+          "518": 0.73,
+          "519": 0.08
+        }
+      },
+      "node_541": {
+        "choice": "5415",
+        "confidence": 0.65,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 0.7,
+          "5416": 0.27,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 0.03
+        }
+      },
+      "node_56": {
+        "choice": "561",
+        "confidence": 0.97,
+        "probabilities": {
+          "561": 0.99,
+          "562": 0.01
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:35+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We advise companies on cybersecurity, run penetration tests, and monitor their networks."
+    },
+    "usage": {
+      "input_tokens": 1855,
+      "output_tokens": 224
+    }
+  },
+  "55209fc9413aa03da173e47b": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 0.54,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.6,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.4,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "51",
+        "confidence": 0.96,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.01,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.96,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.03,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.75,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.86,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.81,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:24+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Software"
+    },
+    "usage": {
+      "input_tokens": 2802,
+      "output_tokens": 384
+    }
+  },
+  "570c6e43ff7e72c5ca2961b7": {
+    "choices": {
+      "node_51": {
+        "choice": "513",
+        "confidence": 0.52,
+        "probabilities": {
+          "512": 0.04,
+          "513": 0.6,
+          "516": 0.0,
+          "517": 0.01,
+          "518": 0.35,
+          "519": 0.0
+        }
+      },
+      "node_53": {
+        "choice": "533",
+        "confidence": 0.25,
+        "probabilities": {
+          "531": 0.01,
+          "532": 0.5,
+          "533": 0.49
+        }
+      },
+      "node_541": {
+        "choice": "5415",
+        "confidence": 0.97,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 0.98,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 0.02
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:30+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We sell subscriptions to our own cloud software that schedules appointments for hair salons."
+    },
+    "usage": {
+      "input_tokens": 1916,
+      "output_tokens": 233
+    }
+  },
+  "593a56ece740729e5b36ecf2": {
+    "choices": {
+      "node_5121": {
+        "choice": "51211",
+        "confidence": 0.28,
+        "probabilities": {
+          "51211": 0.46,
+          "51212": 0.07,
+          "51213": 0.04,
+          "51219": 0.43
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:36+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We make software for insurance agencies, some as a product and some built to order."
+    },
+    "usage": {
+      "input_tokens": 584,
+      "output_tokens": 70
+    }
+  },
+  "5a27c303136964aff8b6f424": {
+    "choices": {
+      "node_56": {
+        "choice": "561",
+        "confidence": 0.95,
+        "probabilities": {
+          "561": 0.98,
+          "562": 0.02
+        }
+      },
+      "node_81": {
+        "choice": "812",
+        "confidence": 0.75,
+        "probabilities": {
+          "811": 0.18,
+          "812": 0.8200000000000001,
+          "813": 0.0,
+          "814": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T06:57:48+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Mobile car detailing at customers' homes."
+    },
+    "usage": {
+      "input_tokens": 951,
+      "output_tokens": 95
+    }
+  },
+  "5beec8f05e849630017e7926": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "custom_work_per_client",
+        "confidence": 0.78,
+        "probabilities": {
+          "custom_work_per_client": 0.81,
+          "in_person_service": 0.03,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.16,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 0.98,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.01,
+          "53": 0.0,
+          "54": 0.99,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.96,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.96,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.09,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:27+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Individual and small-business income tax return preparation."
+    },
+    "usage": {
+      "input_tokens": 2810,
+      "output_tokens": 385
+    }
+  },
+  "5cb1569036afe2a11279cc35": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "own_software_product",
+        "confidence": 0.87,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.11,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.89,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "53",
+        "confidence": 0.96,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.03,
+          "52": 0.0,
+          "53": 0.97,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.58,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.11,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.05,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.78,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:23+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Licensing revenue and setup fees."
+    },
+    "usage": {
+      "input_tokens": 2809,
+      "output_tokens": 386
+    }
+  },
+  "5dc24d7dcaed361fd290aa18": {
+    "choices": {
+      "node_722": {
+        "choice": "7225",
+        "confidence": 0.91,
+        "probabilities": {
+          "7223": 0.05,
+          "7224": 0.01,
+          "7225": 0.94
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:31+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A counter-service coffee shop selling espresso drinks and pastries to walk-in customers."
+    },
+    "usage": {
+      "input_tokens": 474,
+      "output_tokens": 54
+    }
+  },
+  "641892292602918b76d85da6": {
+    "choices": {
+      "node_561": {
+        "choice": "5617",
+        "confidence": 0.89,
+        "probabilities": {
+          "5611": 0.0,
+          "5612": 0.01,
+          "5613": 0.0,
+          "5614": 0.0,
+          "5615": 0.0,
+          "5616": 0.0,
+          "5617": 0.91,
+          "5619": 0.08
+        }
+      },
+      "node_811": {
+        "choice": "8111",
+        "confidence": 0.88,
+        "probabilities": {
+          "8111": 0.91,
+          "8112": 0.01,
+          "8113": 0.01,
+          "8114": 0.07
+        }
+      },
+      "node_812": {
+        "choice": "8129",
+        "confidence": 0.86,
+        "probabilities": {
+          "8121": 0.04,
+          "8122": 0.0,
+          "8123": 0.06,
+          "8129": 0.9
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T06:57:48+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Mobile car detailing at customers' homes."
+    },
+    "usage": {
+      "input_tokens": 1518,
+      "output_tokens": 226
+    }
+  },
+  "6ed10470476a9c3ba3e01edf": {
+    "choices": {
+      "node_52": {
+        "choice": "522",
+        "confidence": 0.32,
+        "probabilities": {
+          "521": 0.03,
+          "522": 0.44,
+          "523": 0.35,
+          "524": 0.08,
+          "525": 0.1
+        }
+      },
+      "node_541": {
+        "choice": "5412",
+        "confidence": 1.0,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 1.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 0.0,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:27+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Individual and small-business income tax return preparation."
+    },
+    "usage": {
+      "input_tokens": 1508,
+      "output_tokens": 178
+    }
+  },
+  "7242c642c195bc2f4ab8275a": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 1.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "62",
+        "confidence": 0.54,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.03,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.56,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.4,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.99,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.69,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.37,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.06,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:34+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+    },
+    "usage": {
+      "input_tokens": 2818,
+      "output_tokens": 384
+    }
+  },
+  "7973c3cb17a1f8fd10cfb14c": {
+    "choices": {
+      "node_5411": {
+        "choice": "54111",
+        "confidence": 1.0,
+        "probabilities": {
+          "54111": 1.0,
+          "54112": 0.0,
+          "54119": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:26+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A law firm handling business litigation for corporate clients."
+    },
+    "usage": {
+      "input_tokens": 459,
+      "output_tokens": 59
+    }
+  },
+  "7bd86546a01bdc0c3d65489f": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 1.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "51",
+        "confidence": 0.27,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.32,
+          "52": 0.28,
+          "53": 0.0,
+          "54": 0.21,
+          "55": 0.16,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.03,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.38,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.89,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:23+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Seed round raised on a convertible note, no revenue yet."
+    },
+    "usage": {
+      "input_tokens": 2813,
+      "output_tokens": 384
+    }
+  },
+  "86a7ae44ed4f7709260e5b76": {
+    "choices": {
+      "node_54151": {
+        "choice": "541519",
+        "confidence": 0.67,
+        "probabilities": {
+          "541511": 0.01,
+          "541512": 0.1,
+          "541513": 0.14,
+          "541519": 0.75
+        }
+      },
+      "node_5416": {
+        "choice": "54169",
+        "confidence": 0.79,
+        "probabilities": {
+          "54161": 0.14,
+          "54162": 0.0,
+          "54169": 0.86
+        }
+      },
+      "node_5419": {
+        "choice": "54199",
+        "confidence": 0.98,
+        "probabilities": {
+          "54191": 0.0,
+          "54192": 0.01,
+          "54193": 0.0,
+          "54194": 0.0,
+          "54199": 0.99
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:35+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We advise companies on cybersecurity, run penetration tests, and monitor their networks."
+    },
+    "usage": {
+      "input_tokens": 1164,
+      "output_tokens": 210
+    }
+  },
+  "890e45d1cfd004db13a893cf": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 0.8,
+        "probabilities": {
+          "custom_work_per_client": 0.03,
+          "in_person_service": 0.82,
+          "makes_physical_goods": 0.01,
+          "not_stated": 0.13,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.01
+        }
+      },
+      "node_root": {
+        "choice": "55",
+        "confidence": 0.39,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.08,
+          "42": 0.0,
+          "44-45": 0.04,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.14,
+          "55": 0.43,
+          "56": 0.01,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.19,
+          "81": 0.11,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.79,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.06,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.94,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:37+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We run a bakery, a landscaping crew, and an accounting practice."
+    },
+    "usage": {
+      "input_tokens": 2815,
+      "output_tokens": 384
+    }
+  },
+  "8a6508eaac150b62462a2269": {
+    "choices": {
+      "node_2382": {
+        "choice": "23822",
+        "confidence": 1.0,
+        "probabilities": {
+          "23821": 0.0,
+          "23822": 1.0,
+          "23829": 0.0
+        }
+      },
+      "node_5617": {
+        "choice": "56179",
+        "confidence": 0.97,
+        "probabilities": {
+          "56171": 0.01,
+          "56172": 0.01,
+          "56173": 0.0,
+          "56174": 0.0,
+          "56179": 0.98
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:32+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We install and service commercial heating and air conditioning systems for office buildings."
+    },
+    "usage": {
+      "input_tokens": 729,
+      "output_tokens": 137
+    }
+  },
+  "8cf23ab44328e2afaaf64d26": {
+    "choices": {
+      "node_3219": {
+        "choice": "32199",
+        "confidence": 0.28,
+        "probabilities": {
+          "32191": 0.47,
+          "32192": 0.01,
+          "32199": 0.52
+        }
+      },
+      "node_3371": {
+        "choice": "33711",
+        "confidence": 0.99,
+        "probabilities": {
+          "33711": 1.0,
+          "33712": 0.0
+        }
+      },
+      "node_4491": {
+        "choice": "44911",
+        "confidence": 0.3,
+        "probabilities": {
+          "44911": 0.65,
+          "44912": 0.35
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:29+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+    },
+    "usage": {
+      "input_tokens": 902,
+      "output_tokens": 149
+    }
+  },
+  "94d6fdb92ad68cdfe9f4d763": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "ongoing_managed_service",
+        "confidence": 0.49,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.44,
+          "ongoing_managed_service": 0.56,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "52",
+        "confidence": 0.79,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.8,
+          "53": 0.05,
+          "54": 0.04,
+          "55": 0.08,
+          "56": 0.02,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.08,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.09,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.58,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:22+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Monthly management fees from clients."
+    },
+    "usage": {
+      "input_tokens": 2807,
+      "output_tokens": 386
+    }
+  },
+  "9655eaf46fd63d5b34e39221": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "sells_to_consumers",
+        "confidence": 0.75,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.22,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.78
+        }
+      },
+      "node_root": {
+        "choice": "44-45",
+        "confidence": 0.96,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.97,
+          "48-49": 0.0,
+          "51": 0.03,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.93,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.96,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.1,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.09,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.4,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:24+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "E-commerce"
+    },
+    "usage": {
+      "input_tokens": 2803,
+      "output_tokens": 390
+    }
+  },
+  "9b592df365066fee521c2a7f": {
+    "choices": {
+      "node_541": {
+        "choice": "5419",
+        "confidence": 0.99,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 0.0,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 1.0
+        }
+      },
+      "node_62": {
+        "choice": "621",
+        "confidence": 0.99,
+        "probabilities": {
+          "621": 1.0,
+          "622": 0.0,
+          "623": 0.0,
+          "624": 0.0
+        }
+      },
+      "node_81": {
+        "choice": "812",
+        "confidence": 0.75,
+        "probabilities": {
+          "811": 0.08,
+          "812": 0.81,
+          "813": 0.09,
+          "814": 0.01
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:34+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+    },
+    "usage": {
+      "input_tokens": 1760,
+      "output_tokens": 224
+    }
+  },
+  "9cab076cd89cb2ec1aee7469": {
+    "choices": {
+      "node_522": {
+        "choice": "5223",
+        "confidence": 0.92,
+        "probabilities": {
+          "5221": 0.02,
+          "5222": 0.03,
+          "5223": 0.95
+        }
+      },
+      "node_523": {
+        "choice": "5239",
+        "confidence": 0.96,
+        "probabilities": {
+          "5231": 0.02,
+          "5232": 0.01,
+          "5239": 0.97
+        }
+      },
+      "node_54121": {
+        "choice": "541213",
+        "confidence": 0.98,
+        "probabilities": {
+          "541211": 0.01,
+          "541213": 0.99,
+          "541214": 0.0,
+          "541219": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:27+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Individual and small-business income tax return preparation."
+    },
+    "usage": {
+      "input_tokens": 1315,
+      "output_tokens": 178
+    }
+  },
+  "9ddc88b5ff920365384a3d21": {
+    "choices": {
+      "node_541": {
+        "choice": "5411",
+        "confidence": 1.0,
+        "probabilities": {
+          "5411": 1.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 0.0,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:26+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A law firm handling business litigation for corporate clients."
+    },
+    "usage": {
+      "input_tokens": 933,
+      "output_tokens": 114
+    }
+  },
+  "9df90b1169fa3a3a23166d47": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 1.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "52",
+        "confidence": 0.32,
+        "probabilities": {
+          "11": 0.01,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.01,
+          "42": 0.01,
+          "44-45": 0.16,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.37,
+          "53": 0.01,
+          "54": 0.02,
+          "55": 0.07,
+          "56": 0.01,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.33,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.22,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.82,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.96,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:24+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "making money"
+    },
+    "usage": {
+      "input_tokens": 2803,
+      "output_tokens": 384
+    }
+  },
+  "a82f5bae6882177352f41b20": {
+    "choices": {
+      "full_final": {
+        "choice": "513210",
+        "confidence": 0.32,
+        "probabilities": {
+          "512110": 0.0,
+          "513210": 0.55,
+          "541511": 0.45
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_512110": {
+        "noul": 0.02,
+        "verdict": null
+      },
+      "fit_513210": {
+        "noul": 0.53,
+        "verdict": null
+      },
+      "fit_541511": {
+        "noul": 0.58,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:36+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "512110": {
+          "code": "512110",
+          "description": "This industry comprises establishments primarily engaged in producing, or producing and distributing motion pictures, videos, television programs, or television commercials.",
+          "index_terms": [
+            "Motion Picture and Video Production",
+            "Animated cartoon production",
+            "Animated cartoon production and",
+            "Commercials, television, production",
+            "Film studios producing films",
+            "Films, motion picture production",
+            "Films, motion picture production and",
+            "Instructional video production"
+          ],
+          "title": "Motion Picture and Video Production"
+        },
+        "513210": {
+          "code": "513210",
+          "description": "This industry comprises establishments primarily engaged in software publishing. Establishments in this industry carry out operations necessary for producing and distributing computer software, such as designing, providing documentation, assisting in installation, and providing support services to software purchasers. These establishments may design, develop, and publish, or publish only. These establishments may publish and distribute software through subscriptions and/or downloads.",
+          "index_terms": [
+            "Software Publishers",
+            "Software Publishers",
+            "Software Publishers",
+            "Applications development and",
+            "Applications software, computer,",
+            "Computer software publishers, packaged",
+            "Computer software publishing and",
+            "Games, computer software, publishing"
+          ],
+          "title": "Software Publishers"
+        },
+        "541511": {
+          "code": "541511",
+          "description": "This U.S. industry comprises establishments primarily engaged in writing, modifying, testing, and supporting software to meet the needs of a particular customer.",
+          "index_terms": [
+            "Custom Computer Programming Services",
+            "Applications software programming",
+            "Computer program or software",
+            "Computer programming services,",
+            "Computer software analysis and design",
+            "Computer software programming",
+            "Computer software support services,",
+            "Industrial robot automation"
+          ],
+          "title": "Custom Computer Programming Services"
+        }
+      },
+      "ops_description": "We make software for insurance agencies, some as a product and some built to order."
+    },
+    "usage": {
+      "input_tokens": 1228,
+      "output_tokens": 128
+    }
+  },
+  "aa48cd80155e45d26b962e07": {
+    "choices": {
+      "full_final": {
+        "choice": "621399",
+        "confidence": 0.42,
+        "probabilities": {
+          "621399": 0.61,
+          "621999": 0.22,
+          "812910": 0.17
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_621399": {
+        "noul": 0.12,
+        "verdict": null
+      },
+      "fit_621999": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "fit_812910": {
+        "noul": 0.04,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:35+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "621399": {
+          "code": "621399",
+          "description": "This U.S. industry comprises establishments of independent health practitioners (except physicians; dentists; chiropractors; optometrists; mental health specialists; physical, occupational, and speech therapists; audiologists; and podiatrists). These practitioners operate private or group practices in their own offices (e.g., centers, clinics) or in the facilities of others, such as hospitals or HMO medical centers.",
+          "index_terms": [
+            "Offices of All Other Miscellaneous Health Practitioners",
+            "Acupuncturists' (except MDs or DOs)",
+            "Advanced practicing registered nurses’",
+            "Certified registered nurse anesthetists’",
+            "Christian Science practitioners' offices",
+            "Clinical nurse specialists’ (CNSs)",
+            "Clinical pharmacists' offices (e.g.,",
+            "Dental hygienists' offices (e.g., centers,"
+          ],
+          "title": "Offices of All Other Miscellaneous Health Practitioners"
+        },
+        "621999": {
+          "code": "621999",
+          "description": "This U.S. industry comprises establishments primarily engaged in providing ambulatory health care services (except offices of physicians, dentists, and other health practitioners; outpatient care centers; medical and diagnostic laboratories; home health care providers; ambulances; and blood and organ banks).",
+          "index_terms": [
+            "All Other Miscellaneous Ambulatory Health Care Services",
+            "Blood pressure screening facilities",
+            "Blood pressure screening services",
+            "Employee drug testing services",
+            "Head lice removal services (except by",
+            "Health screening services (except by",
+            "Hearing testing services (except by",
+            "Medical care management services"
+          ],
+          "title": "All Other Miscellaneous Ambulatory Health Care Services"
+        },
+        "812910": {
+          "code": "812910",
+          "description": "This industry comprises establishments primarily engaged in providing pet care services (except veterinary), such as boarding, grooming, sitting, walking, and training pets.",
+          "index_terms": [
+            "Pet Care (except Veterinary) Services",
+            "Animal grooming services",
+            "Animal shelters",
+            "Boarding services, pet",
+            "Dog pounds",
+            "Grooming services, animal",
+            "Guard dog training services",
+            "Guide dog training services"
+          ],
+          "title": "Pet Care (except Veterinary) Services"
+        }
+      },
+      "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+    },
+    "usage": {
+      "input_tokens": 1416,
+      "output_tokens": 128
+    }
+  },
+  "aaf1bbfa0038a33b84ac4424": {
+    "choices": {
+      "node_5121": {
+        "choice": "51219",
+        "confidence": 0.32,
+        "probabilities": {
+          "51211": 0.41,
+          "51212": 0.06,
+          "51213": 0.03,
+          "51219": 0.5
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:30+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+    },
+    "usage": {
+      "input_tokens": 586,
+      "output_tokens": 70
+    }
+  },
+  "adbc8a0d34e7847af9f19494": {
+    "choices": {
+      "node_62": {
+        "choice": "621",
+        "confidence": 1.0,
+        "probabilities": {
+          "621": 1.0,
+          "622": 0.0,
+          "623": 0.0,
+          "624": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:28+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Family dental practice with two dentists and a hygienist."
+    },
+    "usage": {
+      "input_tokens": 685,
+      "output_tokens": 58
+    }
+  },
+  "ae88682f3c0d2611f3983d6e": {
+    "choices": {
+      "node_5418": {
+        "choice": "54181",
+        "confidence": 0.93,
+        "probabilities": {
+          "54181": 0.94,
+          "54182": 0.0,
+          "54183": 0.04,
+          "54184": 0.0,
+          "54185": 0.0,
+          "54186": 0.0,
+          "54187": 0.0,
+          "54189": 0.02
+        }
+      },
+      "node_561": {
+        "choice": "5614",
+        "confidence": 0.48,
+        "probabilities": {
+          "5611": 0.01,
+          "5612": 0.0,
+          "5613": 0.01,
+          "5614": 0.55,
+          "5615": 0.0,
+          "5616": 0.0,
+          "5617": 0.0,
+          "5619": 0.43
+        }
+      },
+      "node_722": {
+        "choice": "7225",
+        "confidence": 0.89,
+        "probabilities": {
+          "7223": 0.07,
+          "7224": 0.0,
+          "7225": 0.93
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:37+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Marketing for local restaurants: strategy, social media ads, and campaign management."
+    },
+    "usage": {
+      "input_tokens": 1450,
+      "output_tokens": 266
+    }
+  },
+  "af6ac78a225e91d6a7a4e6eb": {
+    "choices": {
+      "node_51": {
+        "choice": "513",
+        "confidence": 0.86,
+        "probabilities": {
+          "512": 0.09,
+          "513": 0.88,
+          "516": 0.0,
+          "517": 0.0,
+          "518": 0.03,
+          "519": 0.0
+        }
+      },
+      "node_541": {
+        "choice": "5415",
+        "confidence": 1.0,
+        "probabilities": {
+          "5411": 0.0,
+          "5412": 0.0,
+          "5413": 0.0,
+          "5414": 0.0,
+          "5415": 1.0,
+          "5416": 0.0,
+          "5417": 0.0,
+          "5418": 0.0,
+          "5419": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:36+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We make software for insurance agencies, some as a product and some built to order."
+    },
+    "usage": {
+      "input_tokens": 1594,
+      "output_tokens": 187
+    }
+  },
+  "b110dfbb2d0a6dd3ac1f69ec": {
+    "choices": {
+      "full_final": {
+        "choice": "812990",
+        "confidence": 0.35,
+        "probabilities": {
+          "812310": 0.39,
+          "812930": 0.05,
+          "812990": 0.5599999999999999
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_812310": {
+        "noul": 0.08,
+        "verdict": null
+      },
+      "fit_812930": {
+        "noul": 0.06,
+        "verdict": null
+      },
+      "fit_812990": {
+        "noul": 0.14,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:26+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "812310": {
+          "code": "812310",
+          "description": "This industry comprises establishments primarily engaged in (1) operating facilities with coin- or card-operated or similar self-service laundry and drycleaning equipment for customer use on the premises and/or (2) supplying and servicing coin- or card-operated or similar self-service laundry and drycleaning equipment for customer use in places of business operated by others, such as apartments and dormitories.",
+          "index_terms": [
+            "Coin-Operated Laundries and Drycleaners",
+            "Automatic laundries, coin-operated",
+            "Coin-operated drycleaners and laundries",
+            "Coin-operated laundry and drycleaning",
+            "Drycleaning machine routes (i.e.,",
+            "Drycleaning services, coin-operated or",
+            "Launderettes",
+            "Laundries, coin-operated or similar self-"
+          ],
+          "title": "Coin-Operated Laundries and Drycleaners"
+        },
+        "812930": {
+          "code": "812930",
+          "description": "This industry comprises establishments primarily engaged in providing parking space for motor vehicles, usually on an hourly, daily, or monthly basis and/or valet parking services.",
+          "index_terms": [
+            "Parking Lots and Garages",
+            "Automobile parking garages or lots",
+            "Garages, automobile parking",
+            "Parking garages, automobile",
+            "Parking lots, automobile",
+            "Parking services, valet",
+            "Valet parking services"
+          ],
+          "title": "Parking Lots and Garages"
+        },
+        "812990": {
+          "code": "812990",
+          "description": "This industry comprises establishments primarily engaged in providing personal services (except personal care services, death care services, drycleaning and laundry services, pet care services, photofinishing services, or parking space and/or valet parking services).",
+          "index_terms": [
+            "All Other Personal Services",
+            "Astrology services",
+            "Baby shoe bronzing services",
+            "Bail bonding services",
+            "Balloon-o-gram services",
+            "Blood pressure testing machine",
+            "Bondsperson services",
+            "Check room services"
+          ],
+          "title": "All Other Personal Services"
+        }
+      },
+      "ops_description": "Self-service and tunnel car wash for cars and trucks."
+    },
+    "usage": {
+      "input_tokens": 1354,
+      "output_tokens": 128
+    }
+  },
+  "b68c882183bb628b42bab9ae": {
+    "choices": {
+      "node_48_49": {
+        "choice": "484",
+        "confidence": 1.0,
+        "probabilities": {
+          "481": 0.0,
+          "482": 0.0,
+          "483": 0.0,
+          "484": 1.0,
+          "485": 0.0,
+          "486": 0.0,
+          "487": 0.0,
+          "488": 0.0,
+          "491": 0.0,
+          "492": 0.0,
+          "493": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:33+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+    },
+    "usage": {
+      "input_tokens": 1385,
+      "output_tokens": 124
+    }
+  },
+  "b8bba980da4914f93e5dcb9c": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "custom_work_per_client",
+        "confidence": 0.89,
+        "probabilities": {
+          "custom_work_per_client": 0.91,
+          "in_person_service": 0.03,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.06,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 1.0,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 1.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.95,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.11,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:26+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A law firm handling business litigation for corporate clients."
+    },
+    "usage": {
+      "input_tokens": 2811,
+      "output_tokens": 385
+    }
+  },
+  "b8fc37e4a16549b74f0ef6a3": {
+    "choices": {
+      "node_8111": {
+        "choice": "81119",
+        "confidence": 0.99,
+        "probabilities": {
+          "81111": 0.01,
+          "81112": 0.0,
+          "81119": 0.99
+        }
+      },
+      "node_8123": {
+        "choice": "81231",
+        "confidence": 0.44,
+        "probabilities": {
+          "81231": 0.63,
+          "81232": 0.36,
+          "81233": 0.01
+        }
+      },
+      "node_8129": {
+        "choice": "81299",
+        "confidence": 0.71,
+        "probabilities": {
+          "81291": 0.02,
+          "81292": 0.01,
+          "81293": 0.19,
+          "81299": 0.78
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:26+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Self-service and tunnel car wash for cars and trucks."
+    },
+    "usage": {
+      "input_tokens": 1062,
+      "output_tokens": 182
+    }
+  },
+  "ba6d64595be5b27f6b3e1920": {
+    "choices": {
+      "node_62139": {
+        "choice": "621399",
+        "confidence": 0.98,
+        "probabilities": {
+          "621391": 0.01,
+          "621399": 0.99
+        }
+      },
+      "node_62199": {
+        "choice": "621999",
+        "confidence": 0.99,
+        "probabilities": {
+          "621991": 0.0,
+          "621999": 1.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:35+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+    },
+    "usage": {
+      "input_tokens": 770,
+      "output_tokens": 101
+    }
+  },
+  "bea04cc9d2e75c7f4c15f3d8": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "ongoing_managed_service",
+        "confidence": 0.81,
+        "probabilities": {
+          "custom_work_per_client": 0.16,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.84,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 0.96,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.03,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.96,
+          "55": 0.0,
+          "56": 0.01,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.47,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.22,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.15,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:35+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We advise companies on cybersecurity, run penetration tests, and monitor their networks."
+    },
+    "usage": {
+      "input_tokens": 2816,
+      "output_tokens": 386
+    }
+  },
+  "c1ec57784f2a620921ecb921": {
+    "choices": {
+      "full_final": {
+        "choice": "722515",
+        "confidence": 0.99,
+        "probabilities": {
+          "722310": 0.0,
+          "722513": 0.01,
+          "722515": 0.99
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_722310": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "fit_722513": {
+        "noul": 0.15,
+        "verdict": null
+      },
+      "fit_722515": {
+        "noul": 0.91,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:31+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "722310": {
+          "code": "722310",
+          "description": "This industry comprises establishments primarily engaged in providing food services at institutional, governmental, commercial, or industrial locations of others based on contractual arrangements with these types of organizations for a specified period of time. The establishments of this industry provide food services for the convenience of the contracting organization or the contracting organization's customers. The contractual arrangement of these establishments with contracting organizations may vary by type of facility operated (e.g., cafeteria, restaurant, fast-food eating place), revenue sharing, cost structure, and personnel provided. Management staff is always provided by food service contractors.",
+          "index_terms": [
+            "Food Service Contractors",
+            "Airline food services contractors",
+            "Cafeteria food services contractors (e.g.,",
+            "Food concession contractors (e.g.,",
+            "Food service contractors, airline",
+            "Food service contractors, cafeteria",
+            "Food service contractors, concession",
+            "Food service contractors, industrial"
+          ],
+          "title": "Food Service Contractors"
+        },
+        "722513": {
+          "code": "722513",
+          "description": "This U.S. industry comprises establishments primarily engaged in providing food services (except snack and nonalcoholic beverage bars) where patrons generally order or select items and pay before eating. Food and drink may be consumed on premises, taken out, or delivered to the customer's location. Some establishments in this industry may provide these food services in combination with selling alcoholic beverages.",
+          "index_terms": [
+            "Limited-Service Restaurants",
+            "Cafes, limited-service",
+            "Carryout restaurants",
+            "Delicatessen restaurants",
+            "Diners, limited-service",
+            "Drive-in restaurants",
+            "Family restaurants, limited-service",
+            "Fast casual restaurants"
+          ],
+          "title": "Limited-Service Restaurants"
+        },
+        "722515": {
+          "code": "722515",
+          "description": "This U.S. industry comprises establishments primarily engaged in (1) preparing and/or serving a specialty snack, such as ice cream, frozen yogurt, cookies, or popcorn, or (2) serving nonalcoholic beverages, such as coffee, juices, or sodas for consumption on or near the premises. These establishments may carry and sell a combination of snack, nonalcoholic beverage, and other related products (e.g., coffee beans, mugs, coffee makers) but generally promote and sell a unique snack or nonalcoholic beverage.",
+          "index_terms": [
+            "Snack and Nonalcoholic Beverage Bars",
+            "Bagel shops, on premise baking and",
+            "Bakery cafes, on premise baking and",
+            "Beverage (e.g., coffee, juice, soft drink)",
+            "Canteens, fixed location",
+            "Coffee shops, on premise brewing",
+            "Confectionery snack shops, made on",
+            "Cookie shops, on premise baking and"
+          ],
+          "title": "Snack and Nonalcoholic Beverage Bars"
+        }
+      },
+      "ops_description": "A counter-service coffee shop selling espresso drinks and pastries to walk-in customers."
+    },
+    "usage": {
+      "input_tokens": 1579,
+      "output_tokens": 128
+    }
+  },
+  "c71532295b2552bfe2610184": {
+    "choices": {
+      "node_81119": {
+        "choice": "811192",
+        "confidence": 0.99,
+        "probabilities": {
+          "811191": 0.0,
+          "811192": 1.0,
+          "811198": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T06:57:48+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Mobile car detailing at customers' homes."
+    },
+    "usage": {
+      "input_tokens": 552,
+      "output_tokens": 64
+    }
+  },
+  "c9496a48587080b88abeb8bb": {
+    "choices": {
+      "full_final": {
+        "choice": "337110",
+        "confidence": 1.0,
+        "probabilities": {
+          "321999": 0.0,
+          "337110": 1.0,
+          "449110": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_321999": {
+        "noul": 0.08,
+        "verdict": null
+      },
+      "fit_337110": {
+        "noul": 0.92,
+        "verdict": null
+      },
+      "fit_449110": {
+        "noul": 0.09,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:29+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "321999": {
+          "code": "321999",
+          "description": "This U.S. industry comprises establishments primarily engaged in manufacturing wood products (except establishments operating sawmills and preservation facilities; establishments manufacturing veneer, engineered wood products, millwork, wood containers, pallets, and wood container parts; and establishments making manufactured homes (i.e., mobile homes) and prefabricated buildings and components).",
+          "index_terms": [
+            "All Other Miscellaneous Wood Product Manufacturing",
+            "Applicators, wood, manufacturing",
+            "Audio cabinets (i.e., housings), wood,",
+            "Bentwood (steam bent) products (except",
+            "Blocks, tackle, wood, manufacturing",
+            "Blocks, tailors' pressing wood,",
+            "Boards, bulletin, wood and cork,",
+            "Boards, wood (e.g., clip, ironing, meat,"
+          ],
+          "title": "All Other Miscellaneous Wood Product Manufacturing"
+        },
+        "337110": {
+          "code": "337110",
+          "description": "This industry comprises establishments primarily engaged in manufacturing wood or plastics laminated on wood kitchen cabinets, bathroom vanities, and countertops (except freestanding). The cabinets and counters may be made on a stock or custom basis.",
+          "index_terms": [
+            "Wood Kitchen Cabinet and Countertop Manufacturing",
+            "Bathroom vanities (except freestanding),",
+            "Cabinets, kitchen (except freestanding),",
+            "Countertops (i.e., kitchen, bathroom),",
+            "Countertops, wood, manufacturing",
+            "Drainboards, wood or plastics laminated",
+            "Kitchen cabinets (except freestanding),",
+            "Medicine cabinets (except freestanding),"
+          ],
+          "title": "Wood Kitchen Cabinet and Countertop Manufacturing"
+        },
+        "449110": {
+          "code": "449110",
+          "description": "This industry comprises establishments primarily engaged in retailing new furniture, such as household furniture (e.g., baby furniture, box springs, and mattresses) and outdoor furniture; office furniture (except sold in combination with office supplies and equipment); and/or furniture sold in combination with major appliances, home electronics, home furnishings, or floor coverings.",
+          "index_terms": [
+            "Furniture Retailers",
+            "Furniture Retailers",
+            "Furniture Retailers",
+            "Furniture Retailers",
+            "Furniture Retailers",
+            "Bed stores, retail",
+            "Furniture and appliance stores (i.e.,",
+            "Furniture stores (e.g., household, office,"
+          ],
+          "title": "Furniture Retailers"
+        }
+      },
+      "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+    },
+    "usage": {
+      "input_tokens": 1465,
+      "output_tokens": 128
+    }
+  },
+  "cabdb5fb2857f6cda8aa486b": {
+    "choices": {
+      "node_621": {
+        "choice": "6212",
+        "confidence": 1.0,
+        "probabilities": {
+          "6211": 0.0,
+          "6212": 1.0,
+          "6213": 0.0,
+          "6214": 0.0,
+          "6215": 0.0,
+          "6216": 0.0,
+          "6219": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:28+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Family dental practice with two dentists and a hygienist."
+    },
+    "usage": {
+      "input_tokens": 636,
+      "output_tokens": 94
+    }
+  },
+  "cb4940d3992a671433a0dcb9": {
+    "choices": {
+      "full_final": {
+        "choice": "541690",
+        "confidence": 0.42,
+        "probabilities": {
+          "541513": 0.06,
+          "541519": 0.33,
+          "541690": 0.61
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_541513": {
+        "noul": 0.15,
+        "verdict": null
+      },
+      "fit_541519": {
+        "noul": 0.27,
+        "verdict": null
+      },
+      "fit_541690": {
+        "noul": 0.38,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:36+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "541513": {
+          "code": "541513",
+          "description": "This U.S. industry comprises establishments primarily engaged in providing on-site management and operation of clients' computer systems and/or data processing facilities. Establishments providing computer systems or data processing facilities support services are included in this industry.",
+          "index_terms": [
+            "Computer Facilities Management Services",
+            "Computer systems facilities (i.e., clients'",
+            "Data processing facilities (i.e., clients'",
+            "Facilities (i.e., clients' facilities)",
+            "Facilities (i.e., clients' facilities) support"
+          ],
+          "title": "Computer Facilities Management Services"
+        },
+        "541519": {
+          "code": "541519",
+          "description": "This U.S. industry comprises establishments primarily engaged in providing computer related services (except custom programming, systems integration design, and facilities management services). Establishments providing computer disaster recovery services or software installation services are included in this industry.",
+          "index_terms": [
+            "Other Computer Related Services",
+            "Computer disaster recovery services",
+            "Software installation services, computer"
+          ],
+          "title": "Other Computer Related Services"
+        },
+        "541690": {
+          "code": "541690",
+          "description": "This industry comprises establishments primarily engaged in providing advice and assistance to businesses and other organizations on scientific and technical issues (except environmental).",
+          "index_terms": [
+            "Other Scientific and Technical Consulting Services",
+            "Agricultural consulting services",
+            "Agrology consulting services",
+            "Agronomy consulting services",
+            "Biological consulting services",
+            "Building envelope consulting services",
+            "Chemical consulting services",
+            "Dairy herd consulting services"
+          ],
+          "title": "Other Scientific and Technical Consulting Services"
+        }
+      },
+      "ops_description": "We advise companies on cybersecurity, run penetration tests, and monitor their networks."
+    },
+    "usage": {
+      "input_tokens": 1186,
+      "output_tokens": 128
+    }
+  },
+  "cc7d0b329848b396d452f477": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 0.83,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.86,
+          "ongoing_managed_service": 0.13,
+          "own_software_product": 0.01,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "52",
+        "confidence": 0.97,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.98,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.02,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.75,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.05,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.82,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:23+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A percentage of each transaction volume."
+    },
+    "usage": {
+      "input_tokens": 2808,
+      "output_tokens": 384
+    }
+  },
+  "cdd21599f005d7ca711ed6dd": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 1.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "81",
+        "confidence": 0.94,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.01,
+          "48-49": 0.01,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.01,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.02,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.95,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.93,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.16,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.11,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:25+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Self-service and tunnel car wash for cars and trucks."
+    },
+    "usage": {
+      "input_tokens": 2812,
+      "output_tokens": 384
+    }
+  },
+  "d3fd794f5306548e159a0f99": {
+    "choices": {
+      "node_238": {
+        "choice": "2382",
+        "confidence": 1.0,
+        "probabilities": {
+          "2381": 0.0,
+          "2382": 1.0,
+          "2383": 0.0,
+          "2389": 0.0
+        }
+      },
+      "node_561": {
+        "choice": "5617",
+        "confidence": 0.54,
+        "probabilities": {
+          "5611": 0.0,
+          "5612": 0.37,
+          "5613": 0.0,
+          "5614": 0.01,
+          "5615": 0.0,
+          "5616": 0.0,
+          "5617": 0.6,
+          "5619": 0.02
+        }
+      },
+      "node_811": {
+        "choice": "8113",
+        "confidence": 0.98,
+        "probabilities": {
+          "8111": 0.0,
+          "8112": 0.01,
+          "8113": 0.99,
+          "8114": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:32+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We install and service commercial heating and air conditioning systems for office buildings."
+    },
+    "usage": {
+      "input_tokens": 1544,
+      "output_tokens": 226
+    }
+  },
+  "d52288ec6e24c502fdf1528d": {
+    "choices": {
+      "node_8111": {
+        "choice": "81119",
+        "confidence": 0.93,
+        "probabilities": {
+          "81111": 0.01,
+          "81112": 0.04,
+          "81119": 0.95
+        }
+      },
+      "node_8123": {
+        "choice": "81232",
+        "confidence": 0.87,
+        "probabilities": {
+          "81231": 0.05,
+          "81232": 0.91,
+          "81233": 0.04
+        }
+      },
+      "node_8129": {
+        "choice": "81299",
+        "confidence": 0.81,
+        "probabilities": {
+          "81291": 0.01,
+          "81292": 0.01,
+          "81293": 0.13,
+          "81299": 0.85
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T06:57:48+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Mobile car detailing at customers' homes."
+    },
+    "usage": {
+      "input_tokens": 1059,
+      "output_tokens": 182
+    }
+  },
+  "d6ce8ed70b6656b6f81df9f8": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 0.99,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 1.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "52",
+        "confidence": 0.35,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.07,
+          "44-45": 0.08,
+          "48-49": 0.0,
+          "51": 0.01,
+          "52": 0.4,
+          "53": 0.04,
+          "54": 0.18000000000000002,
+          "55": 0.0,
+          "56": 0.16,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.06,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.08,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.91,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.88,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:23+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We earn commissions."
+    },
+    "usage": {
+      "input_tokens": 2805,
+      "output_tokens": 384
+    }
+  },
+  "d745c1aafc4256cbe81082ba": {
+    "choices": {
+      "full_final": {
+        "choice": "541810",
+        "confidence": 1.0,
+        "probabilities": {
+          "541810": 1.0,
+          "541830": 0.0,
+          "541890": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_541810": {
+        "noul": 0.86,
+        "verdict": null
+      },
+      "fit_541830": {
+        "noul": 0.17,
+        "verdict": null
+      },
+      "fit_541890": {
+        "noul": 0.08,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:37+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "541810": {
+          "code": "541810",
+          "description": "This industry comprises establishments primarily engaged in creating advertising campaigns and placing such advertising in print and digital periodicals, newspapers, radio and television, or other media. These establishments are organized to provide a full range of services (i.e., through in-house capabilities or subcontracting), including advice, creative services, account management, production of advertising content, media planning, and buying (i.e., placing advertising).",
+          "index_terms": [
+            "Advertising Agencies",
+            "Advertising agencies",
+            "Advertising agency consulting services",
+            "Digital advertising agencies",
+            "Internet advertising agencies",
+            "Online advertising agencies"
+          ],
+          "title": "Advertising Agencies"
+        },
+        "541830": {
+          "code": "541830",
+          "description": "This industry comprises establishments primarily engaged in purchasing advertising time or space from media outlets and reselling it to advertising agencies or individual companies directly.",
+          "index_terms": [
+            "Media Buying Agencies",
+            "Media buying agencies",
+            "Media buying services"
+          ],
+          "title": "Media Buying Agencies"
+        },
+        "541890": {
+          "code": "541890",
+          "description": "This industry comprises establishments primarily engaged in providing advertising services (except advertising agency services, public relations agency services, media buying agency services, media representative services, display advertising services, direct mail advertising services, advertising material distribution services, and marketing consulting services).",
+          "index_terms": [
+            "Other Services Related to Advertising",
+            "Advertising specialty (e.g., keychain,",
+            "Demonstration services, merchandise",
+            "Display lettering services",
+            "Mannequin decorating services",
+            "Sign lettering and painting services",
+            "Welcoming services (i.e., advertising",
+            "Window dressing or trimming services,"
+          ],
+          "title": "Other Services Related to Advertising"
+        }
+      },
+      "ops_description": "Marketing for local restaurants: strategy, social media ads, and campaign management."
+    },
+    "usage": {
+      "input_tokens": 1247,
+      "output_tokens": 128
+    }
+  },
+  "d755e06f2f2b966052a82427": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "custom_work_per_client",
+        "confidence": 0.49,
+        "probabilities": {
+          "custom_work_per_client": 0.56,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.29,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.15
+        }
+      },
+      "node_root": {
+        "choice": "31-33",
+        "confidence": 0.99,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.99,
+          "42": 0.0,
+          "44-45": 0.01,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.99,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.1,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:28+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+    },
+    "usage": {
+      "input_tokens": 2816,
+      "output_tokens": 388
+    }
+  },
+  "d7b703d6a924e6e2d561195a": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 0.59,
+        "probabilities": {
+          "custom_work_per_client": 0.09,
+          "in_person_service": 0.65,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.24,
+          "ongoing_managed_service": 0.01,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.01
+        }
+      },
+      "node_root": {
+        "choice": "53",
+        "confidence": 0.94,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.94,
+          "54": 0.03,
+          "55": 0.02,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.01,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.96,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.08,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.64,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.07,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.94,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:38+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Rental properties, a food truck, and IT consulting."
+    },
+    "usage": {
+      "input_tokens": 2813,
+      "output_tokens": 384
+    }
+  },
+  "d8cf11f6e9e6efbf2ea89b1f": {
+    "choices": {
+      "node_23": {
+        "choice": "238",
+        "confidence": 0.99,
+        "probabilities": {
+          "236": 0.0,
+          "237": 0.0,
+          "238": 1.0
+        }
+      },
+      "node_56": {
+        "choice": "561",
+        "confidence": 0.92,
+        "probabilities": {
+          "561": 0.96,
+          "562": 0.04
+        }
+      },
+      "node_81": {
+        "choice": "811",
+        "confidence": 1.0,
+        "probabilities": {
+          "811": 1.0,
+          "812": 0.0,
+          "813": 0.0,
+          "814": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:32+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We install and service commercial heating and air conditioning systems for office buildings."
+    },
+    "usage": {
+      "input_tokens": 1317,
+      "output_tokens": 141
+    }
+  },
+  "e44d69f8b619c4c53992803b": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "not_stated",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 1.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "42",
+        "confidence": 0.31,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.01,
+          "23": 0.0,
+          "31-33": 0.01,
+          "42": 0.36,
+          "44-45": 0.07,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.22,
+          "53": 0.01,
+          "54": 0.06,
+          "55": 0.0,
+          "56": 0.23,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.03,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.09,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.9,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.03,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.05,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.84,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:23+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We invoice customers net 30."
+    },
+    "usage": {
+      "input_tokens": 2809,
+      "output_tokens": 384
+    }
+  },
+  "e70932f4b4c2f7afed8b2220": {
+    "choices": {
+      "node_321": {
+        "choice": "3219",
+        "confidence": 0.99,
+        "probabilities": {
+          "3211": 0.0,
+          "3212": 0.0,
+          "3219": 1.0
+        }
+      },
+      "node_337": {
+        "choice": "3371",
+        "confidence": 1.0,
+        "probabilities": {
+          "3371": 1.0,
+          "3372": 0.0,
+          "3379": 0.0
+        }
+      },
+      "node_449": {
+        "choice": "4491",
+        "confidence": 0.99,
+        "probabilities": {
+          "4491": 0.99,
+          "4492": 0.01
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:29+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+    },
+    "usage": {
+      "input_tokens": 847,
+      "output_tokens": 146
+    }
+  },
+  "e8a4606346494fe1e1e9cec5": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "own_software_product",
+        "confidence": 0.53,
+        "probabilities": {
+          "custom_work_per_client": 0.4,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.01,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.59,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "51",
+        "confidence": 0.91,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.92,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.08,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.89,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.91,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.94,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.26,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:36+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We make software for insurance agencies, some as a product and some built to order."
+    },
+    "usage": {
+      "input_tokens": 2818,
+      "output_tokens": 386
+    }
+  },
+  "ea4e47fcbb609784655dd49d": {
+    "choices": {
+      "node_72": {
+        "choice": "722",
+        "confidence": 1.0,
+        "probabilities": {
+          "721": 0.0,
+          "722": 1.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:31+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A counter-service coffee shop selling espresso drinks and pastries to walk-in customers."
+    },
+    "usage": {
+      "input_tokens": 552,
+      "output_tokens": 40
+    }
+  },
+  "ecc120a258fc1e02fdd17302": {
+    "choices": {},
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_621210": {
+        "noul": 0.97,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:28+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "621210": {
+          "code": "621210",
+          "description": "This industry comprises establishments of health practitioners having the degree of D.M.D. (Doctor of Dental Medicine), D.D.S. (Doctor of Dental Surgery), or D.D.Sc. (Doctor of Dental Science) primarily engaged in the independent practice of general or specialized dentistry or dental surgery. These practitioners operate private or group practices in their own offices (e.g., centers, clinics) or in the facilities of others, such as hospitals or HMO medical centers. They can provide either comprehensive preventive, cosmetic, or emergency care, or specialize in a single field of dentistry.",
+          "index_terms": [
+            "Offices of Dentists",
+            "DDSs' (doctors of dental surgery)",
+            "Dental surgeons' offices (e.g., centers,",
+            "Dentists' offices (e.g., centers, clinics)",
+            "DMDs' (doctors of dental medicine)",
+            "Doctors of dental medicine (DMDs)",
+            "Doctors of dental surgery (DDSs)",
+            "Endodontists' offices (e.g., centers,"
+          ],
+          "title": "Offices of Dentists"
+        }
+      },
+      "ops_description": "Family dental practice with two dentists and a hygienist."
+    },
+    "usage": {
+      "input_tokens": 628,
+      "output_tokens": 27
+    }
+  },
+  "ee62a3b9b7b79a594f03a6c2": {
+    "choices": {
+      "full_final": {
+        "choice": "541511",
+        "confidence": 1.0,
+        "probabilities": {
+          "512199": 0.0,
+          "513210": 0.0,
+          "541511": 1.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_512199": {
+        "noul": 0.02,
+        "verdict": null
+      },
+      "fit_513210": {
+        "noul": 0.08,
+        "verdict": null
+      },
+      "fit_541511": {
+        "noul": 0.97,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:31+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "512199": {
+          "code": "512199",
+          "description": "This U.S. industry comprises establishments primarily engaged in providing motion picture and video services (except motion picture and video production, distribution, exhibition, and teleproduction and other postproduction services).",
+          "index_terms": [
+            "Other Motion Picture and Video Industries",
+            "Booking agencies, motion picture",
+            "Booking agencies, motion picture or",
+            "Film libraries, motion picture or video,",
+            "Film preservation services",
+            "Film processing laboratories, motion",
+            "Film restoration services",
+            "Laboratory services, motion picture"
+          ],
+          "title": "Other Motion Picture and Video Industries"
+        },
+        "513210": {
+          "code": "513210",
+          "description": "This industry comprises establishments primarily engaged in software publishing. Establishments in this industry carry out operations necessary for producing and distributing computer software, such as designing, providing documentation, assisting in installation, and providing support services to software purchasers. These establishments may design, develop, and publish, or publish only. These establishments may publish and distribute software through subscriptions and/or downloads.",
+          "index_terms": [
+            "Software Publishers",
+            "Software Publishers",
+            "Software Publishers",
+            "Applications development and",
+            "Applications software, computer,",
+            "Computer software publishers, packaged",
+            "Computer software publishing and",
+            "Games, computer software, publishing"
+          ],
+          "title": "Software Publishers"
+        },
+        "541511": {
+          "code": "541511",
+          "description": "This U.S. industry comprises establishments primarily engaged in writing, modifying, testing, and supporting software to meet the needs of a particular customer.",
+          "index_terms": [
+            "Custom Computer Programming Services",
+            "Applications software programming",
+            "Computer program or software",
+            "Computer programming services,",
+            "Computer software analysis and design",
+            "Computer software programming",
+            "Computer software support services,",
+            "Industrial robot automation"
+          ],
+          "title": "Custom Computer Programming Services"
+        }
+      },
+      "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+    },
+    "usage": {
+      "input_tokens": 1268,
+      "output_tokens": 128
+    }
+  },
+  "efbfe963b5b9147b40095955": {
+    "choices": {
+      "node_7223": {
+        "choice": "72231",
+        "confidence": 0.6,
+        "probabilities": {
+          "72231": 0.74,
+          "72232": 0.04,
+          "72233": 0.22
+        }
+      },
+      "node_72251": {
+        "choice": "722515",
+        "confidence": 0.94,
+        "probabilities": {
+          "722511": 0.0,
+          "722513": 0.04,
+          "722514": 0.0,
+          "722515": 0.96
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:31+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "A counter-service coffee shop selling espresso drinks and pastries to walk-in customers."
+    },
+    "usage": {
+      "input_tokens": 972,
+      "output_tokens": 132
+    }
+  },
+  "f089c848f746b04565fc1820": {
+    "choices": {
+      "full_final": {
+        "choice": "238220",
+        "confidence": 1.0,
+        "probabilities": {
+          "238220": 1.0,
+          "561790": 0.0,
+          "811310": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_238220": {
+        "noul": 0.95,
+        "verdict": null
+      },
+      "fit_561790": {
+        "noul": 0.05,
+        "verdict": null
+      },
+      "fit_811310": {
+        "noul": 0.06,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:32+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "238220": {
+          "code": "238220",
+          "description": "This industry comprises establishments primarily engaged in installing and servicing plumbing, heating, and air-conditioning equipment. Contractors in this industry may provide both parts and labor when performing work. The work performed may include new work, additions, alterations, maintenance, and repairs.",
+          "index_terms": [
+            "Plumbing, Heating, and Air-Conditioning Contractors",
+            "Air system balancing and testing",
+            "Air vent installation",
+            "Air-conditioning system (except",
+            "Bathroom plumbing fixture and sanitary",
+            "Blower or fan, cooling and dry heating,",
+            "Boiler chipping, cleaning and scaling",
+            "Boiler, heating, installation"
+          ],
+          "title": "Plumbing, Heating, and Air-Conditioning Contractors"
+        },
+        "561790": {
+          "code": "561790",
+          "description": "This industry comprises establishments primarily engaged in providing services to buildings and dwellings (except exterminating and pest control; janitorial; landscaping care and maintenance; and carpet and upholstery cleaning).",
+          "index_terms": [
+            "Other Services to Buildings and Dwellings",
+            "Building exterior cleaning services",
+            "Building gas systems conversion (e.g.,",
+            "Chimney cleaning services",
+            "Chimney sweep (i.e., cleaning) services",
+            "Cleaning (e.g., power sweeping,",
+            "Cleaning building exteriors (except",
+            "Cleaning swimming pools"
+          ],
+          "title": "Other Services to Buildings and Dwellings"
+        },
+        "811310": {
+          "code": "811310",
+          "description": "This industry comprises establishments primarily engaged in the repair and maintenance of commercial and industrial machinery and equipment. Establishments in this industry either sharpen/install commercial and industrial machinery blades and saws or provide welding (e.g., automotive, general) repair services; or repair agricultural and other heavy and industrial machinery and equipment (e.g., forklifts and other material handling equipment, machine tools, commercial refrigeration equipment, construction equipment, and mining machinery).",
+          "index_terms": [
+            "Commercial and Industrial Machinery and Equipment (except Automotive and",
+            "Agricultural machinery and equipment",
+            "Armature rewinding services (except on",
+            "Blade sharpening, commercial and",
+            "Cargo container repair and maintenance",
+            "Coil rewinding (except on an assembly",
+            "Commercial and industrial machinery",
+            "Commercial gaming machine repair and"
+          ],
+          "title": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+        }
+      },
+      "ops_description": "We install and service commercial heating and air conditioning systems for office buildings."
+    },
+    "usage": {
+      "input_tokens": 1435,
+      "output_tokens": 128
+    }
+  },
+  "f35d4c17984f2f692b83816a": {
+    "choices": {
+      "node_51219": {
+        "choice": "512199",
+        "confidence": 0.73,
+        "probabilities": {
+          "512191": 0.14,
+          "512199": 0.86
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:30+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+    },
+    "usage": {
+      "input_tokens": 491,
+      "output_tokens": 52
+    }
+  },
+  "f3d8561b1acf1a6ff0ff1c1e": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "in_person_service",
+        "confidence": 0.96,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.98,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.02,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "48-49",
+        "confidence": 1.0,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 1.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 0.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.98,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.34,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.09,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:32+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+    },
+    "usage": {
+      "input_tokens": 2823,
+      "output_tokens": 387
+    }
+  },
+  "f60f29289e14c7cbd1c536e6": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "own_software_product",
+        "confidence": 1.0,
+        "probabilities": {
+          "custom_work_per_client": 0.0,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.0,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 1.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "51",
+        "confidence": 0.98,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.98,
+          "52": 0.0,
+          "53": 0.01,
+          "54": 0.01,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.74,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.93,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.17,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.06,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.27,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:25+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "SaaS"
+    },
+    "usage": {
+      "input_tokens": 2804,
+      "output_tokens": 386
+    }
+  },
+  "fb264160866ceb9ebd37cb07": {
+    "choices": {
+      "node_5223": {
+        "choice": "52239",
+        "confidence": 0.89,
+        "probabilities": {
+          "52231": 0.02,
+          "52232": 0.05,
+          "52239": 0.93
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {},
+    "recorded_at": "2026-10-06T05:10:27+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Individual and small-business income tax return preparation."
+    },
+    "usage": {
+      "input_tokens": 465,
+      "output_tokens": 59
+    }
+  },
+  "fcefcd0196a9bf80694b4405": {
+    "choices": {
+      "full_final": {
+        "choice": "484121",
+        "confidence": 1.0,
+        "probabilities": {
+          "484121": 1.0,
+          "484210": 0.0,
+          "484230": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "fit_484121": {
+        "noul": 0.97,
+        "verdict": null
+      },
+      "fit_484210": {
+        "noul": 0.04,
+        "verdict": null
+      },
+      "fit_484230": {
+        "noul": 0.11,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:34+00:00",
+    "scores": {},
+    "state": {
+      "finalists": {
+        "484121": {
+          "code": "484121",
+          "description": "This U.S. industry comprises establishments primarily engaged in providing long-distance general freight truckload (TL) trucking. These long-distance general freight truckload carrier establishments provide full truck movement of freight from origin to destination. The shipment of freight on a truck is characterized as a full single load not combined with other shipments.",
+          "index_terms": [
+            "General Freight Trucking, Long-Distance, Truckload",
+            "Bulk mail truck transportation, contract,",
+            "Container trucking services, long-",
+            "General freight trucking, long-distance,",
+            "Motor freight carrier, general, long-",
+            "Trucking, general freight, long-distance,"
+          ],
+          "title": "General Freight Trucking, Long-Distance, Truckload"
+        },
+        "484210": {
+          "code": "484210",
+          "description": "This industry comprises establishments primarily engaged in providing local or long-distance trucking of used household, used institutional, or used commercial furniture and equipment. Incidental packing and storage activities are often provided by these establishments.",
+          "index_terms": [
+            "Used Household and Office Goods Moving",
+            "Furniture moving, used",
+            "Motor freight carrier, used household",
+            "Trucking used household, office, or",
+            "Used household and office goods",
+            "Van lines, moving and storage services"
+          ],
+          "title": "Used Household and Office Goods Moving"
+        },
+        "484230": {
+          "code": "484230",
+          "description": "This industry comprises establishments primarily engaged in providing long-distance specialized trucking. These establishments provide trucking between metropolitan areas that may cross North American country borders.",
+          "index_terms": [
+            "Specialized Freight (except Used Goods) Trucking, Long-Distance",
+            "Automobile carrier trucking, long-",
+            "Boat hauling, truck, long-distance",
+            "Bulk liquids trucking, long-distance",
+            "Dry bulk carrier, truck, long-distance",
+            "Farm products trucking, long-distance",
+            "Flatbed trucking, long-distance",
+            "Forest products trucking, long-distance"
+          ],
+          "title": "Specialized Freight (except Used Goods) Trucking, Long-Distance"
+        }
+      },
+      "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+    },
+    "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 128
+    }
+  },
+  "ffdf8b7910103e1c9daf39b9": {
+    "choices": {
+      "assist_delivery": {
+        "choice": "custom_work_per_client",
+        "confidence": 0.96,
+        "probabilities": {
+          "custom_work_per_client": 0.97,
+          "in_person_service": 0.0,
+          "makes_physical_goods": 0.0,
+          "not_stated": 0.03,
+          "ongoing_managed_service": 0.0,
+          "own_software_product": 0.0,
+          "resells_to_businesses": 0.0,
+          "sells_to_consumers": 0.0
+        }
+      },
+      "node_root": {
+        "choice": "54",
+        "confidence": 1.0,
+        "probabilities": {
+          "11": 0.0,
+          "21": 0.0,
+          "22": 0.0,
+          "23": 0.0,
+          "31-33": 0.0,
+          "42": 0.0,
+          "44-45": 0.0,
+          "48-49": 0.0,
+          "51": 0.0,
+          "52": 0.0,
+          "53": 0.0,
+          "54": 1.0,
+          "55": 0.0,
+          "56": 0.0,
+          "61": 0.0,
+          "62": 0.0,
+          "71": 0.0,
+          "72": 0.0,
+          "81": 0.0,
+          "92": 0.0
+        }
+      }
+    },
+    "model": "jev-1.13.0",
+    "nouls": {
+      "assist_operations_text": {
+        "noul": 0.92,
+        "verdict": null
+      },
+      "assist_single_activity": {
+        "noul": 0.96,
+        "verdict": null
+      },
+      "assist_states_activity": {
+        "noul": 0.05,
+        "verdict": null
+      },
+      "assist_states_customers": {
+        "noul": 0.06,
+        "verdict": null
+      },
+      "full_underspecified": {
+        "noul": 0.75,
+        "verdict": null
+      }
+    },
+    "recorded_at": "2026-10-06T05:10:25+00:00",
+    "scores": {},
+    "state": {
+      "ops_description": "Consulting"
+    },
+    "usage": {
+      "input_tokens": 2804,
+      "output_tokens": 385
+    }
+  }
+}

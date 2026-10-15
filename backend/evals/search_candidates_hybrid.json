@@ -1,0 +1,1009 @@
+{
+ "search_k": 10,
+ "data_version": "2f186767967f38d4",
+ "search_sql_sha256": "91f5f7cac823b4c5",
+ "terms_version": "a07e93048f4312fc",
+ "spelling": [
+  0.4,
+  2,
+  0.5,
+  0.25,
+  4,
+  40,
+  3
+ ],
+ "results": {
+  "Small animal hospital with two doctors. We do wellness exams, vaccines, spays and neuters, dental cleanings and x-rays for dogs and cats, plus some after-hours emergency visits.": [
+   {
+    "code": "423450",
+    "title": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",
+    "rank": 1.404061,
+    "snippet": "surgical, merchant wholesalers; Artificial limbs merchant wholesalers; Beds, <b>hospital</b>, merchant wholesalers; Crutches merchant wholesalers; <b>Dental</b> chairs merchant wholesalers … Wheelchairs merchant wholesalers; Whirlpool baths, <b>hospital</b>, merchant wholesalers; <b>X</b>-<b>ray</b> machines and parts, medical and <b>dental</b>"
+   },
+   {
+    "code": "621512",
+    "title": "Diagnostic Imaging Centers",
+    "rank": 1.349497,
+    "snippet": "SCAN) centers; CT-SCAN (computer tomography) centers; <b>Dental</b> <b>X</b>-<b>ray</b> laboratories; Diagnostic imaging centers (medical); Laboratories … <b>dental</b> <b>X</b>-<b>ray</b>; Laboratories, medical radiological or <b>X</b>-<b>ray</b>; Laboratory testing services, medical radiological"
+   },
+   {
+    "code": "311111",
+    "title": "Dog and Cat Food Manufacturing",
+    "rank": 1.190221,
+    "snippet": "industry comprises establishments primarily engaged in manufacturing <b>dog</b> and <b>cat</b> food from ingredients, such as grains, oilseed mill … products, and meat products. Index: <b>Animal</b> feed mills, <b>dog</b> and <b>cat</b>, manufacturing; <b>Animal</b> feeds, prepared, <b>dog</b> and <b>cat</b>"
+   },
+   {
+    "code": "621493",
+    "title": "Freestanding Ambulatory Surgical and Emergency Centers",
+    "rank": 1.01677,
+    "snippet": "surgery) on an outpatient basis or (2) providing <b>emergency</b> care services (e.g., setting broken bones, treating lacerations … rooms, and specialized equipment, such as anesthetic or <b>X</b>-<b>ray</b> equipment. Index: Ambulatory surgical centers"
+   },
+   {
+    "code": "621511",
+    "title": "Medical Laboratories",
+    "rank": 1.014636,
+    "snippet": "medical; Genetic testing laboratories; Laboratories, medical (except radiological, <b>X</b>-<b>ray</b>); Laboratory testing services, medical (except radiological … <b>X</b>-<b>ray</b>); Medical laboratories (except radiological, <b>X</b>-<b>ray</b>); Medical pathology laboratories; Mycology health laboratories"
+   },
+   {
+    "code": "334517",
+    "title": "Irradiation Apparatus Manufacturing",
+    "rank": 0.99617,
+    "snippet": "form of beta-<b>rays</b>, gamma-<b>rays</b>, <b>X</b>-<b>rays</b>, or other ionizing radiation. Index: Beta … computerized axial tomography) scanners manufacturing; Fluoroscopes manufacturing; Fluoroscopic <b>X</b>-<b>ray</b> apparatus and tubes manufacturing; Gamma-<b>ray</b>"
+   },
+   {
+    "code": "325992",
+    "title": "Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing",
+    "rank": 0.867811,
+    "snippet": "cartridges manufacturing; Film, sensitized (e.g., camera, motion picture, <b>X</b>-<b>ray</b>), manufacturing; Fixers, prepared photographic, manufacturing; Graphic … Toner cartridges rebuilding; Toners, electrostatic and photographic, manufacturing; <b>X</b>-<b>ray</b> film and plates, sensitized, manufacturing"
+   },
+   {
+    "code": "115210",
+    "title": "Support Activities for Animal Production",
+    "rank": 0.80395,
+    "snippet": "more of the following: (1) breeding services for <b>animals</b>, including companion <b>animals</b> (e.g., <b>cats</b>, <b>dogs</b>, pet birds … horses; (4) dairy herd improvement activities; (5) livestock <b>spraying</b>; and (6) sheep dipping and shearing. Index: <b>Animal</b> semen"
+   },
+   {
+    "code": "622110",
+    "title": "General Medical and Surgical Hospitals",
+    "rank": 0.803435,
+    "snippet": "known and licensed as general medical and surgical <b>hospitals</b> primarily engaged in providing diagnostic and medical treatment (both … such as outpatient services, anatomical pathology services, diagnostic <b>X</b>-<b>ray</b> services, clinical laboratory services, operating room"
+   },
+   {
+    "code": "331492",
+    "title": "Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",
+    "rank": 0.776449,
+    "snippet": "scrap; Recovering silver from used photographic film or <b>X</b>-<b>ray</b> plates; Refining nonferrous metals and alloys … metals; Silver recovering from used photographic film or <b>X</b>-<b>ray</b> plates; Smelting and refining of nonferrous"
+   }
+  ],
+  "Neighborhood bakery storefront. We mix and bake our own sourdough loaves, baguettes and cakes from scratch every morning in the back and sell them over the counter for customers to take home. No seating.": [
+   {
+    "code": "311813",
+    "title": "Frozen Cakes, Pies, and Other Pastries Manufacturing",
+    "rank": 0.875818,
+    "snippet": "industry comprises establishments primarily engaged in manufacturing frozen <b>bakery</b> products (except bread), such as <b>cakes</b>, pies, and doughnuts … Index: <b>Baked</b> goods (except bread, bread-type rolls), frozen, manufacturing; <b>Cake</b>, frozen, manufacturing; Crullers, frozen, made"
+   },
+   {
+    "code": "311812",
+    "title": "Commercial Bakeries",
+    "rank": 0.804007,
+    "snippet": "bread and bread-type rolls and other fresh <b>bakery</b> (except cookies and crackers) products. Index: Bagels made … commercial <b>bakeries</b>; <b>Bakery</b> products, fresh (i.e., bread, <b>cakes</b>, doughnuts, pastries), made in commercial <b>bakeries</b>; Biscuits, bread-type, made"
+   },
+   {
+    "code": "311811",
+    "title": "Retail Bakeries",
+    "rank": 0.754378,
+    "snippet": "establishments primarily engaged in retailing bread and other <b>bakery</b> products not for immediate consumption made on the premises … from flour, not from prepared dough. Index: <b>Bakeries</b> with <b>baking</b> from flour on the premises, retailing"
+   },
+   {
+    "code": "445291",
+    "title": "Baked Goods Retailers",
+    "rank": 0.729884,
+    "snippet": "industry comprises establishments primarily engaged in retailing <b>baked</b> goods not for immediate consumption and not made … premises. Index: <b>Baked</b> goods (not made on premises) stores"
+   },
+   {
+    "code": "311999",
+    "title": "All Other Miscellaneous Food Manufacturing",
+    "rank": 0.609967,
+    "snippet": "specialties; dairy products; meat products; seafood products; <b>bakeries</b> and tortillas; snack foods; coffee and tea; flavoring syrups … this industry are establishments primarily engaged in <b>mixing</b> purchased dried and/or dehydrated ingredients including those <b>mixing</b> purchased dried"
+   },
+   {
+    "code": "325991",
+    "title": "Custom Compounding of Purchased Resins",
+    "rank": 0.505571,
+    "snippet": "industry comprises establishments primarily engaged in (1) <b>custom</b> <b>mixing</b> and blending plastics resins made elsewhere or (2) reformulating … plastics resins from recycled plastics products. Index: <b>Custom</b> compounding (i.e., blending and <b>mixing</b>) of purchased plastics resins; Plastics"
+   },
+   {
+    "code": "327320",
+    "title": "Ready-Mix Concrete Manufacturing",
+    "rank": 0.503403,
+    "snippet": "industry comprises establishments, such as batch plants or <b>mix</b> plants, primarily engaged in manufacturing concrete delivered … purchaser in a plastic and unhardened state. Ready-<b>mix</b> concrete manufacturing establishments may mine, quarry, or purchase sand"
+   },
+   {
+    "code": "311824",
+    "title": "Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",
+    "rank": 0.499642,
+    "snippet": "manufacturing dry pasta and/or (2) manufacturing prepared flour <b>mixes</b> or dough from flour ground elsewhere. The establishments … from purchased flour; Bread and bread-type roll <b>mixes</b> made from purchased flour; <b>Cake</b> <b>mixes</b> made from purchased"
+   },
+   {
+    "code": "445298",
+    "title": "All Other Specialty Food Retailers",
+    "rank": 0.485939,
+    "snippet": "vegetables, meat, fish, seafood, confections, nuts, popcorn, and <b>baked</b> goods) not for immediate consumption and not made … premises. Index: Bottled water providers, direct <b>selling</b>; Coffee and tea (i.e., packaged) stores; Dairy product stores"
+   },
+   {
+    "code": "722515",
+    "title": "Snack and Nonalcoholic Beverage Bars",
+    "rank": 0.480632,
+    "snippet": "near the premises. These establishments may carry and <b>sell</b> a combination of snack, nonalcoholic beverage, and other related … beans, mugs, coffee makers) but generally promote and <b>sell</b> a unique snack or nonalcoholic beverage. Index: Bagel shops"
+   }
+  ],
+  "We go out to homes and restaurants to get rid of termites, roaches, bed bugs and mice. Quarterly spray contracts, bait stations, and tenting houses for fumigation.": [
+   {
+    "code": "325320",
+    "title": "Pesticide and Other Agricultural Chemical Manufacturing",
+    "rank": 0.634521,
+    "snippet": "fungicides, insecticides, pesticides) manufacturing; Flea powders or <b>sprays</b> manufacturing; Fly <b>sprays</b> manufacturing; Fungicides manufacturing; Herbicides manufacturing; Household-type … Paris green insecticides manufacturing; Pest (e.g., ant, rat, <b>roach</b>, rodent) control poison manufacturing; Pesticides manufacturing; Plant growth regulants"
+   },
+   {
+    "code": "561710",
+    "title": "Exterminating and Pest Control Services",
+    "rank": 0.625258,
+    "snippet": "engaged in exterminating and controlling birds, mosquitoes, rodents, <b>termites</b>, and other insects and pests (except for crop production … forestry production). Establishments providing <b>fumigation</b> services are included in this industry. Index: Bird proofing services; Exterminating services; <b>Fumigating</b>"
+   },
+   {
+    "code": "722511",
+    "title": "Full-Service Restaurants",
+    "rank": 0.558876,
+    "snippet": "entertainment. Index: Bagel shops, full service; Brew pub <b>restaurants</b>, primarily serving meals, full service; Diners, full service; Doughnut … shops, full service; Family <b>restaurants</b>, full service; Fine dining <b>restaurants</b>, full service; Full service <b>restaurants</b>; Pizza parlors, full"
+   },
+   {
+    "code": "722513",
+    "title": "Limited-Service Restaurants",
+    "rank": 0.508353,
+    "snippet": "selling alcoholic beverages. Index: Cafes, limited-service; Carryout <b>restaurants</b>; Delicatessen <b>restaurants</b>; Diners, limited-service; Drive-in <b>restaurants</b>; Family … <b>restaurants</b>, limited-service; Fast casual <b>restaurants</b>; Fast-food <b>restaurants</b>; Pizza delivery shops; Pizza parlors, limited-service; Pizzerias, limited"
+   },
+   {
+    "code": "721191",
+    "title": "Bed-and-Breakfast Inns",
+    "rank": 0.482145,
+    "snippet": "providing short-term lodging in facilities known as <b>bed</b>-and-breakfast inns. These establishments provide short-term lodging … private <b>homes</b> or small buildings converted for this purpose. <b>Bed</b>-and-breakfast inns are characterized by a highly"
+   },
+   {
+    "code": "624229",
+    "title": "Other Community Housing Services",
+    "rank": 0.460778,
+    "snippet": "providing one or more of the following community <b>housing</b> services: (1) transitional <b>housing</b> to low-income individuals … volunteer construction or repair of low-cost <b>housing</b>, in partnership with the homeowner who may assist"
+   },
+   {
+    "code": "925110",
+    "title": "Administration of Housing Programs",
+    "rank": 0.451538,
+    "snippet": "primarily engaged in the administration and planning of <b>housing</b> programs. Index: Building standards agencies, government; <b>Housing</b> authorities, nonoperating … <b>Housing</b> programs, planning and development, government"
+   },
+   {
+    "code": "532283",
+    "title": "Home Health Equipment Rental",
+    "rank": 0.435619,
+    "snippet": "industry comprises establishments primarily engaged in renting <b>home</b>-type health and invalid equipment, such as wheelchairs, hospital <b>beds</b> … walkers, and crutches. Index: Crutches, invalid, rental; Furniture, <b>home</b> health, rental; <b>Home</b> health furniture and equipment rental; Hospital"
+   },
+   {
+    "code": "321991",
+    "title": "Manufactured Home (Mobile Home) Manufacturing",
+    "rank": 0.430845,
+    "snippet": "industry comprises establishments primarily engaged in making manufactured <b>homes</b> (i.e., mobile <b>homes</b>) and nonresidential mobile buildings. Manufactured <b>homes</b> … highway movement. Index: Buildings, mobile, commercial use, manufacturing; <b>Houses</b>, prefabricated mobile <b>homes</b>, manufacturing; Manufactured (mobile) buildings for commercial"
+   },
+   {
+    "code": "336213",
+    "title": "Motor Home Manufacturing",
+    "rank": 0.413541,
+    "snippet": "comprises establishments primarily engaged in (1) manufacturing motor <b>homes</b> on purchased chassis and/or (2) manufacturing conversion vans … assembly line basis. Motor <b>homes</b> are units where the motor and the living <b>quarters</b> are integrated"
+   }
+  ],
+  "Mobile service van. We rekey and repair door locks, install deadbolts and keypad entry systems, open safes, and get people back into their houses and cars when they're locked out.": [
+   {
+    "code": "561622",
+    "title": "Locksmiths",
+    "rank": 1.014843,
+    "snippet": "primarily engaged in (1) selling mechanical or electronic <b>locking</b> devices, <b>safes</b>, and security vaults, along with <b>installation</b>, <b>repair</b> … rebuilding, or adjusting <b>services</b> or (2) <b>installing</b>, <b>repairing</b>, rebuilding, and adjusting mechanical or electronic <b>locking</b> devices, <b>safes</b>"
+   },
+   {
+    "code": "332510",
+    "title": "Hardware Manufacturing",
+    "rank": 0.713376,
+    "snippet": "such as metal hinges, metal handles, keys, and <b>locks</b> (except coin- or card-operated, time <b>locks</b>). Index: Aircraft … Casters, industrial, metal, manufacturing; Dead bolts, metal, manufacturing; <b>Door</b> <b>locks</b>, metal, manufacturing; <b>Door</b> <b>opening</b> and closing devices (except"
+   },
+   {
+    "code": "238290",
+    "title": "Other Building Equipment Contractors",
+    "rank": 0.667922,
+    "snippet": "This industry comprises establishments primarily engaged in <b>installing</b> or <b>servicing</b> building equipment (except electrical, plumbing, heating, cooling … ventilation equipment). The <b>repair</b> and maintenance of miscellaneous building equipment is included in this industry. The work performed"
+   },
+   {
+    "code": "561621",
+    "title": "Security Systems Services (except Locksmiths)",
+    "rank": 0.656493,
+    "snippet": "establishments primarily engaged in (1) selling security alarm <b>systems</b>, such as burglar and fire alarms, along with <b>installation</b> … <b>repair</b>, or monitoring <b>services</b> or (2) remote monitoring of electronic security alarm <b>systems</b>. Index: Alarm <b>system</b> monitoring <b>services</b>"
+   },
+   {
+    "code": "811192",
+    "title": "Car Washes",
+    "rank": 0.645686,
+    "snippet": "washing, and/or waxing automotive vehicles, such as passenger <b>cars</b>, trucks, and <b>vans</b>, and trailers. Index: Automotive detail shops … Automotive detailing <b>services</b> (i.e., cleaning, polishing); Automotive washing and polishing; <b>Car</b> detailers; <b>Car</b> washes; Detailing <b>services</b> (i.e., cleaning"
+   },
+   {
+    "code": "811111",
+    "title": "General Automotive Repair",
+    "rank": 0.634826,
+    "snippet": "wide range of mechanical and electrical <b>repair</b> and maintenance <b>services</b> for automotive vehicles, such as passenger <b>cars</b>, trucks … <b>vans</b>, and all trailers or (2) engine <b>repair</b> and replacement. Index: Automotive engine <b>repair</b> and replacement shops; Automotive"
+   },
+   {
+    "code": "336320",
+    "title": "Motor Vehicle Electrical and Electronic Equipment Manufacturing",
+    "rank": 0.578313,
+    "snippet": "purchased gauges), automotive, truck, and bus, manufacturing; Keyless <b>entry</b> <b>systems</b>, automotive, truck, and bus, manufacturing; Locomotive and railroad … <b>car</b> light fixtures manufacturing; Motors, starter, for internal combustion engines, manufacturing; Power window and <b>door</b> <b>lock</b> <b>systems</b>, automotive"
+   },
+   {
+    "code": "624229",
+    "title": "Other Community Housing Services",
+    "rank": 0.577368,
+    "snippet": "providing one or more of the following community <b>housing</b> <b>services</b>: (1) transitional <b>housing</b> to low-income individuals … families; (2) volunteer construction or <b>repair</b> of low-cost <b>housing</b>, in partnership with the homeowner who may assist"
+   },
+   {
+    "code": "811198",
+    "title": "All Other Automotive Repair and Maintenance",
+    "rank": 0.571903,
+    "snippet": "industry comprises establishments primarily engaged in providing automotive <b>repair</b> and maintenance <b>services</b> (except mechanical and electrical <b>repair</b> … maintenance; body, paint, interior, and glass <b>repair</b>; motor oil change and lubrication; and <b>car</b> washing) for automotive vehicles"
+   },
+   {
+    "code": "811310",
+    "title": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+    "rank": 0.565592,
+    "snippet": "This industry comprises establishments primarily engaged in the <b>repair</b> and maintenance of commercial and industrial machinery and equipment … saws or provide welding (e.g., automotive, general) <b>repair</b> <b>services</b>; or <b>repair</b> agricultural and other heavy and industrial machinery"
+   }
+  ],
+  "We own a CrossFit box. Members pay monthly for WODs, HIIT classes and open gym, and we run an on-ramp program for newbies plus a couple of in-house throwdowns a year.": [
+   {
+    "code": "925110",
+    "title": "Administration of Housing Programs",
+    "rank": 0.882994,
+    "snippet": "administration and planning of <b>housing</b> <b>programs</b>. Index: Building standards agencies, government; <b>Housing</b> authorities, nonoperating; <b>Housing</b> <b>programs</b>, planning and development, government"
+   },
+   {
+    "code": "321215",
+    "title": "Engineered Wood Member Manufacturing",
+    "rank": 0.604064,
+    "snippet": "establishments primarily engaged in manufacturing fabricated or laminated <b>wood</b> arches, <b>wood</b> roof and floor trusses, and/or other fabricated … laminated <b>wood</b> structural <b>members</b>. Index: Arches, glue laminated or pre-engineered <b>wood</b>, manufacturing; Fabricated structural <b>wood</b> <b>members</b> manufacturing"
+   },
+   {
+    "code": "624229",
+    "title": "Other Community Housing Services",
+    "rank": 0.451681,
+    "snippet": "providing one or more of the following community <b>housing</b> services: (1) transitional <b>housing</b> to low-income … with furniture and household supplies. Index: Energy assistance <b>programs</b>; Home construction organizations, work (sweat) equity; <b>Housing</b> assistance"
+   },
+   {
+    "code": "525910",
+    "title": "Open-End Investment Funds",
+    "rank": 0.435374,
+    "snippet": "This industry comprises legal entities (i.e., <b>open</b>-end investment funds) organized to pool assets that consist of securities … asset value. Index: Funds, mutual, <b>open</b>-ended; Investment funds, <b>open</b>-ended; Management investment offices, <b>open</b>-ended; Money market"
+   },
+   {
+    "code": "923130",
+    "title": "Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)",
+    "rank": 0.377805,
+    "snippet": "engaged in the planning, administration, and coordination of <b>programs</b> for public assistance, social work, and welfare activities … disability insurance, Medicare, unemployment insurance, and workers' compensation <b>programs</b> are included in this industry. Index: Community social service"
+   },
+   {
+    "code": "322212",
+    "title": "Folding Paperboard Box Manufacturing",
+    "rank": 0.35375,
+    "snippet": "converting paperboard (except corrugated) into folding paperboard <b>boxes</b> without manufacturing paper and paperboard. Index: <b>Boxes</b>, folding (except corrugated … folding (except milk), made from purchased paperboard; Folding <b>boxes</b> (except corrugated) made from purchased paperboard; Folding paper"
+   },
+   {
+    "code": "721310",
+    "title": "Rooming and Boarding Houses, Dormitories, and Workers' Camps",
+    "rank": 0.350054,
+    "snippet": "establishments primarily engaged in operating rooming and boarding <b>houses</b> and similar facilities, such as fraternity <b>houses</b>, sorority <b>houses</b>, off campus dormitories, residential clubs, and workers' camps. These establishments provide temporary or longer"
+   },
+   {
+    "code": "111421",
+    "title": "Nursery and Tree Production",
+    "rank": 0.348559,
+    "snippet": "forth, under cover or in <b>open</b> fields and/or (2) growing short rotation woody trees with a growth … harvest cycle of 10 <b>years</b> or less for pulp or tree stock. Index: Azalea farming; Christmas tree growing"
+   },
+   {
+    "code": "923110",
+    "title": "Administration of Education Programs",
+    "rank": 0.334536,
+    "snippet": "activities, statistical reports and data collection, and centralized <b>programs</b> for educational administration. Government scholarship <b>programs</b> are included … education (except school boards); Education offices, nonoperating; Education <b>program</b> administration; Education statistics centers, government; State education departments; Teacher"
+   },
+   {
+    "code": "525110",
+    "title": "Pension Funds",
+    "rank": 0.334408,
+    "snippet": "industry comprises legal entities (i.e., funds, plans, and/or <b>programs</b>) organized to provide retirement income benefits exclusively … sponsor's employees or <b>members</b>. Index: Employee benefit pension plans; Funds, employee benefit pension; Funds, pension; Pension funds"
+   }
+  ],
+  "Boba spot near campus. Milk teas, taro and brown sugar slushes, fruit teas with popping pearls, and a few bao on the side. Mostly to-go, orders come through the delivery apps too.": [
+   {
+    "code": "311313",
+    "title": "Beet Sugar Manufacturing",
+    "rank": 0.741006,
+    "snippet": "comprises establishments primarily engaged in manufacturing refined beet <b>sugar</b> from <b>sugar</b> beets. Index: Beet pulp, dried, manufacturing; Beet … <b>sugar</b> refining; <b>Brown</b> beet <b>sugar</b> refining; <b>Brown</b> <b>sugar</b> made from beet <b>sugar</b>; Confectioner's beet <b>sugar</b> manufacturing; Granulated"
+   },
+   {
+    "code": "111991",
+    "title": "Sugar Beet Farming",
+    "rank": 0.692063,
+    "snippet": "industry comprises establishments primarily engaged in growing <b>sugar</b> beets. Index: <b>Sugar</b> beet farming"
+   },
+   {
+    "code": "311999",
+    "title": "All Other Miscellaneous Food Manufacturing",
+    "rank": 0.68492,
+    "snippet": "food (except animal food; grain and oilseed milling; <b>sugar</b> and confectionery products; preserved <b>fruits</b>, vegetables, and specialties; dairy … products; bakeries and tortillas; snack foods; coffee and <b>tea</b>; flavoring syrups and concentrates; seasonings and dressings; and perishable"
+   },
+   {
+    "code": "311314",
+    "title": "Cane Sugar Manufacturing",
+    "rank": 0.678798,
+    "snippet": "processing sugarcane and/or (2) refining cane <b>sugar</b> from raw cane <b>sugar</b>. Index: Blackstrap molasses manufacturing; <b>Brown</b> <b>sugar</b> manufacturing … Cane <b>sugar</b> manufacturing; Cane syrup manufacturing; Confectioner's powdered <b>sugar</b> manufacturing; Granulated cane <b>sugar</b> manufacturing; Invert <b>sugar</b> manufacturing"
+   },
+   {
+    "code": "492210",
+    "title": "Local Messengers and Local Delivery",
+    "rank": 0.642239,
+    "snippet": "establishments primarily engaged in providing local messenger and <b>delivery</b> services of small items within a single metropolitan area … generally provide point-to-point pick-up and <b>delivery</b> and do not operate as part of an intercity"
+   },
+   {
+    "code": "312111",
+    "title": "Soft Drink Manufacturing",
+    "rank": 0.623936,
+    "snippet": "carbonated waters. Index: Artificially carbonated waters manufacturing; Beverages, <b>fruit</b> and vegetable drinks, cocktails, and ades, manufacturing; Beverages, soft … Carbonated soft drinks manufacturing; Coffee, iced, manufacturing; Drinks, <b>fruit</b> (except juice), manufacturing; Flavored water manufacturing; <b>Fruit</b> drinks (except"
+   },
+   {
+    "code": "424490",
+    "title": "Other Grocery and Related Products Merchant Wholesalers",
+    "rank": 0.551643,
+    "snippet": "except canned); meat products (except canned); and fresh <b>fruits</b> and vegetables). Included in this industry are establishments primarily … yeast merchant wholesalers; Butter substitutes merchant wholesalers; Cane <b>sugar</b>, refined, merchant wholesalers; Canned foods (e.g., fish, meat, seafood"
+   },
+   {
+    "code": "311920",
+    "title": "Coffee and Tea Manufacturing",
+    "rank": 0.539001,
+    "snippet": "following: (1) roasting coffee; (2) manufacturing coffee and <b>tea</b> concentrates (including instant and freeze-dried); (3) blending <b>tea</b> … manufacturing herbal <b>tea</b>; and (5) manufacturing coffee extracts, flavorings, and syrups. Index: Coffee concentrates (i.e., instant coffee) manufacturing"
+   },
+   {
+    "code": "311520",
+    "title": "Ice Cream and Frozen Dessert Manufacturing",
+    "rank": 0.504543,
+    "snippet": "product substitutes manufacturing; Frozen desserts (except bakery) manufacturing; <b>Fruit</b> <b>pops</b>, frozen, manufacturing; Ice cream manufacturing; Ice cream specialties … manufacturing; Ice <b>milk</b> manufacturing; Ice <b>milk</b> specialties manufacturing; Ices, flavored sherbets, manufacturing; Juice <b>pops</b>, frozen, manufacturing; Nondairy frozen"
+   },
+   {
+    "code": "112120",
+    "title": "Dairy Cattle and Milk Production",
+    "rank": 0.489226,
+    "snippet": "This industry comprises establishments primarily engaged in <b>milking</b> dairy cattle. Index: Dairy cattle farming; <b>Milk</b> production, dairy cattle … <b>Milking</b> dairy cattle"
+   }
+  ],
+  "LLC for my gig driving. I take rides off the apps in my own SUV, mostly airport runs and late-night pickups downtown, and the platforms pay out to me weekly.": [
+   {
+    "code": "611692",
+    "title": "Automobile Driving Schools",
+    "rank": 0.507429,
+    "snippet": "industry comprises establishments primarily engaged in offering automobile <b>driving</b> instruction. Index: Automobile <b>driving</b> schools; Driver education; Driver training … schools (except bus, heavy equipment, truck); Motorcycle <b>driving</b> schools"
+   },
+   {
+    "code": "488119",
+    "title": "Other Airport Operations",
+    "rank": 0.475422,
+    "snippet": "engaged in (1) operating international, national, or civil <b>airports</b>, or public flying fields or (2) supporting <b>airport</b> operations … services. Index: Aircraft hangar rental; Aircraft parking service; <b>Airport</b> baggage handling services; <b>Airport</b> cargo handling services; <b>Airport</b> operators"
+   },
+   {
+    "code": "512132",
+    "title": "Drive-In Motion Picture Theaters",
+    "rank": 0.472746,
+    "snippet": "industry comprises establishments primarily engaged in operating <b>drive</b>-in motion picture theaters. Index: <b>Drive</b>-in motion picture theaters … Motion picture theaters, <b>drive</b>-in; Movie theaters, <b>drive</b>-in; Open air motion picture theaters; Theaters, motion picture, <b>drive</b>"
+   },
+   {
+    "code": "512131",
+    "title": "Motion Picture Theaters (except Drive-Ins)",
+    "rank": 0.422763,
+    "snippet": "primarily engaged in operating motion picture theaters (except <b>drive</b>-ins) and/or exhibiting motion pictures or videos at film … itinerant; Motion picture theaters, indoor; Movie theaters (except <b>drive</b>-in); Theaters, motion picture (except <b>drive</b>-in); Theaters, motion"
+   },
+   {
+    "code": "333612",
+    "title": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",
+    "rank": 0.388558,
+    "snippet": "manufacturing gears, speed changers, and industrial high-speed <b>drives</b> (except hydrostatic). Index: <b>Drives</b>, high-speed industrial (except hydrostatic"
+   },
+   {
+    "code": "611620",
+    "title": "Sports and Recreation Instruction",
+    "rank": 0.373769,
+    "snippet": "camps are included in this industry. Index: Academies, <b>riding</b> instruction; Aerobic dance and exercise instruction; Automobile racing schools … tennis) instructors (i.e., not participating in sporting events); <b>Riding</b> instruction academies or schools; Schools, sports instruction; Scuba instruction"
+   },
+   {
+    "code": "713990",
+    "title": "All Other Amusement and Recreation Industries",
+    "rank": 0.30996,
+    "snippet": "supplying and servicing in others' facilities); Amusement <b>ride</b> concession operators (i.e., supplying and servicing in others' facilities); Archery … recreational; Camps (except instructional), day; Canoeing, recreational; Carnival <b>ride</b> concession operators (i.e., supplying and servicing in others' facilities"
+   },
+   {
+    "code": "722513",
+    "title": "Limited-Service Restaurants",
+    "rank": 0.296244,
+    "snippet": "where patrons generally order or select items and <b>pay</b> before eating. Food and drink may be consumed … service; Carryout restaurants; Delicatessen restaurants; Diners, limited-service; <b>Drive</b>-in restaurants; Family restaurants, limited-service; Fast casual restaurants"
+   },
+   {
+    "code": "561990",
+    "title": "All Other Support Services",
+    "rank": 0.258515,
+    "snippet": "convention and trade show organizing services). Index: Auctioneers, <b>independent</b>; Bartering services; Bottle exchanges; Coin <b>pick</b>-up services, parking … meter reading services, contract; Inventory computing services; Inventory <b>taking</b> services; License issuing services (except government), motor vehicle; Locating"
+   },
+   {
+    "code": "333310",
+    "title": "Commercial and Service Industry Machinery Manufacturing",
+    "rank": 0.256484,
+    "snippet": "washing machinery manufacturing; Carnival and amusement park <b>rides</b> manufacturing; Carnival and amusement park shooting gallery machinery manufacturing; Carousels … picture cameras manufacturing; Motion picture theater projectors manufacturing; <b>Night</b> vision optical devices manufacturing; Oil water separators manufacturing; Optical"
+   }
+  ],
+  "Dev shop of five. Clients bring us an idea and we ship an MVP: iOS and Android builds in React Native, a backend, then sprints of bug fixes and new features on retainer. The client owns the code.": [
+   {
+    "code": "336611",
+    "title": "Ship Building and Repairing",
+    "rank": 0.626414,
+    "snippet": "establishments primarily engaged in operating shipyards. Shipyards are <b>fixed</b> facilities with drydocks and fabrication equipment capable of <b>building</b> … <b>ship</b>, defined as watercraft typically suitable or intended for other than personal or recreational use. Activities of shipyards"
+   },
+   {
+    "code": "921150",
+    "title": "American Indian and Alaska Native Tribal Governments",
+    "rank": 0.547099,
+    "snippet": "This industry comprises American Indian and Alaska <b>Native</b> governing bodies. Establishments in this industry perform legislative, judicial … administrative functions for their American Indian and Alaska <b>Native</b> lands. Included in this industry are American Indian"
+   },
+   {
+    "code": "236115",
+    "title": "New Single-Family Housing Construction (except For-Sale Builders)",
+    "rank": 0.443129,
+    "snippet": "establishments primarily responsible for the entire construction of <b>new</b> single-family housing, such as single-family detached houses … modular and prefabricated houses. Single-family housing design-<b>build</b> firms and single-family construction management firms acting"
+   },
+   {
+    "code": "531110",
+    "title": "Lessors of Residential Buildings and Dwellings",
+    "rank": 0.433902,
+    "snippet": "establishments primarily engaged in acting as lessors of <b>buildings</b> used as residences or dwellings, such as single-family … homes, apartment <b>buildings</b>, and town homes. Included in this industry are owner-lessors and establishments renting real estate"
+   },
+   {
+    "code": "236117",
+    "title": "New Housing For-Sale Builders",
+    "rank": 0.383521,
+    "snippet": "This U.S. industry comprises establishments primarily engaged in <b>building</b> <b>new</b> homes on land that is <b>owned</b> or controlled … sale of the home. Establishments in this industry <b>build</b> single-family and/or multifamily homes. These establishments are often"
+   },
+   {
+    "code": "444180",
+    "title": "Other Building Material Dealers",
+    "rank": 0.370171,
+    "snippet": "retailers) primarily engaged in retailing specialized lines of <b>new</b> <b>building</b> materials, such as lumber, fencing, glass, doors, plumbing … fixtures and supplies, electrical supplies, prefabricated <b>buildings</b> and kits, and kitchen and bath cabinets and countertops"
+   },
+   {
+    "code": "811191",
+    "title": "Automotive Oil Change and Lubrication Shops",
+    "rank": 0.367779,
+    "snippet": "vans. Index: Automotive oil change and lubrication <b>shops</b>; Lubrication <b>shops</b>, automotive; Oil change and lubrication <b>shops</b>, automotive; Quick … lube <b>shops</b>"
+   },
+   {
+    "code": "812111",
+    "title": "Barber Shops",
+    "rank": 0.364905,
+    "snippet": "This U.S. industry comprises establishments known as barber <b>shops</b> or men's hair stylist <b>shops</b> primarily engaged … shaving and trimming men's beards. Index: Barber <b>shops</b>; Hair stylist services, men's; Hair stylist <b>shops</b>"
+   },
+   {
+    "code": "236220",
+    "title": "Commercial and Institutional Building Construction",
+    "rank": 0.362539,
+    "snippet": "comprises establishments primarily responsible for the construction (including <b>new</b> work, additions, alterations, maintenance, and repairs) of commercial … institutional <b>buildings</b> and related structures, such as stadiums, grain elevators, and indoor swimming facilities. This industry includes establishments"
+   },
+   {
+    "code": "236116",
+    "title": "New Multifamily Housing Construction (except For-Sale Builders)",
+    "rank": 0.353887,
+    "snippet": "contractor establishments primarily responsible for the construction of <b>new</b> multifamily residential housing units (e.g., high-rise, garden, town … ground-to-roof wall). Multifamily design-<b>build</b> firms and multifamily housing construction management firms acting as general contractors"
+   }
+  ],
+  "we do resedential re-roofs tear offs asphault shingle and some metal roofs also leak repares and skylight instal after storms insurance claims welcome": [
+   {
+    "code": "238160",
+    "title": "Roofing Contractors",
+    "rank": 1.354181,
+    "snippet": "This industry comprises establishments primarily engaged in <b>roofing</b>. This industry <b>also</b> includes establishments treating <b>roofs</b> (i.e., spraying, painting … coating) and <b>installing</b> <b>skylights</b>. The work performed may include new work, additions, alterations, maintenance, and repairs. Index: <b>Asphalt</b>"
+   },
+   {
+    "code": "524291",
+    "title": "Claims Adjusting",
+    "rank": 0.967849,
+    "snippet": "establishments primarily engaged in investigating, appraising, and settling <b>insurance</b> <b>claims</b>. Index: Cause-of-loss investigators, <b>insurance</b>; <b>Claims</b> adjusting … <b>insurance</b>; Fire investigators; <b>Insurance</b> <b>claims</b> adjusting; <b>Insurance</b> <b>claims</b> investigation services; <b>Insurance</b> settlement offices; Loss control consultants"
+   },
+   {
+    "code": "324122",
+    "title": "Asphalt Shingle and Coating Materials Manufacturing",
+    "rank": 0.885146,
+    "snippet": "saturating purchased mats and felts with <b>asphalt</b> or tar from purchased <b>asphaltic</b> materials and (2) manufacturing <b>asphalt</b> … <b>roofing</b> cements and coatings from purchased <b>asphaltic</b> materials. Index: <b>Asphalt</b> <b>roofing</b> cements made from purchased <b>asphaltic</b> materials; <b>Asphalt</b>"
+   },
+   {
+    "code": "423330",
+    "title": "Roofing, Siding, and Insulation Material Merchant Wholesalers",
+    "rank": 0.76811,
+    "snippet": "engaged in the merchant wholesale distribution of nonwood <b>roofing</b> and nonwood siding and insulation materials. Index: <b>Asphalt</b> felts … coatings merchant wholesalers; <b>Asphalt</b> <b>roofing</b> <b>shingles</b> merchant wholesalers; Ceramic and clay <b>roofing</b> materials merchant wholesalers; Eavestroughing merchant wholesalers"
+   },
+   {
+    "code": "524298",
+    "title": "All Other Insurance Related Activities",
+    "rank": 0.659666,
+    "snippet": "industry comprises establishments primarily engaged in providing <b>insurance</b> services on a contract or fee basis (except <b>insurance</b> agencies … brokerages, <b>claims</b> adjusting, and third party administration). <b>Insurance</b> advisory services, <b>insurance</b> actuarial services, and <b>insurance</b> ratemaking services"
+   },
+   {
+    "code": "524292",
+    "title": "Pharmacy Benefit Management and Other Third Party Administration of Insurance and Pension Funds",
+    "rank": 0.659109,
+    "snippet": "services and other third party administration services of <b>insurance</b> and pension funds, such as <b>claims</b> processing and other … administrative services to <b>insurance</b> carriers, employee benefit plans, and self-<b>insurance</b> funds. Index: <b>Claims</b> processing services, <b>insurance</b>, third"
+   },
+   {
+    "code": "332321",
+    "title": "Metal Window and Door Manufacturing",
+    "rank": 0.616899,
+    "snippet": "industry comprises establishments primarily engaged in manufacturing <b>metal</b> framed windows (i.e., typically using purchased glass) and <b>metal</b> doors … Examples of products made by these establishments are <b>metal</b> door frames; <b>metal</b> framed window and door screens"
+   },
+   {
+    "code": "524210",
+    "title": "Insurance Agencies and Brokerages",
+    "rank": 0.525294,
+    "snippet": "agents (i.e., brokers) in selling annuities and <b>insurance</b> policies. Index: Agencies, <b>insurance</b>; Brokerages, <b>insurance</b>; Brokers' offices, <b>insurance</b>; <b>Insurance</b> … agencies; <b>Insurance</b> brokerages; Life <b>insurance</b> agencies"
+   },
+   {
+    "code": "524127",
+    "title": "Direct Title Insurance Carriers",
+    "rank": 0.463198,
+    "snippet": "underwriting (i.e., assuming the risk and assigning premiums) <b>insurance</b> policies to protect the owners of real estate … title defect to real property. Index: Guaranteeing titles; <b>Insurance</b> carriers, title, direct; <b>Insurance</b> underwriting, title, direct; Real estate"
+   },
+   {
+    "code": "238170",
+    "title": "Siding Contractors",
+    "rank": 0.461645,
+    "snippet": "This industry comprises establishments primarily engaged in <b>installing</b> siding of wood, aluminum, vinyl, or other exterior finish material … brick, stone, stucco, or curtain wall). This industry <b>also</b> includes establishments <b>installing</b> gutters and downspouts. The work performed"
+   }
+  ],
+  "nail shop 8 staions manicure pedicure acrylic's gel dip powder nail art walk ins welcom": [
+   {
+    "code": "812113",
+    "title": "Nail Salons",
+    "rank": 1.32814,
+    "snippet": "industry comprises establishments primarily engaged in providing <b>nail</b> care services, such as <b>manicures</b>, <b>pedicures</b>, and <b>nail</b> extensions. Index … <b>Manicure</b> and <b>pedicure</b> salons; Manicurist services; <b>Nail</b> salons; <b>Pedicure</b> and <b>manicure</b> salons; Pedicurist services"
+   },
+   {
+    "code": "325620",
+    "title": "Toilet Preparation Manufacturing",
+    "rank": 0.696121,
+    "snippet": "After-shave preparations manufacturing; Antiperspirants, personal, manufacturing; Baby <b>powder</b> and baby oil manufacturing; Bath salts manufacturing; Blending … body, face, hand) manufacturing; Makeup (i.e., cosmetics) manufacturing; <b>Manicure</b> preparations manufacturing; Mouthwashes (except medicinal) manufacturing; <b>Nail</b> polish remover"
+   },
+   {
+    "code": "512131",
+    "title": "Motion Picture Theaters (except Drive-Ins)",
+    "rank": 0.693135,
+    "snippet": "engaged in operating motion picture theaters (except drive-<b>ins</b>) and/or exhibiting motion pictures or videos at film festivals"
+   },
+   {
+    "code": "611511",
+    "title": "Cosmetology and Barber Schools",
+    "rank": 0.656702,
+    "snippet": "training in barbering, hair styling, or the cosmetic <b>arts</b>, such as makeup or skin care. These schools provide … colleges; Beauty schools; Colleges, barber and beauty; Cosmetic <b>art</b> schools (e.g., makeup, skin care); Cosmetology schools; <b>Manicure</b>"
+   },
+   {
+    "code": "332117",
+    "title": "Powder Metallurgy Part Manufacturing",
+    "rank": 0.459821,
+    "snippet": "industry comprises establishments primarily engaged in manufacturing <b>powder</b> metallurgy products using any of the various <b>powder</b> metallurgy processing … parts on a job or order basis. Index: <b>Powder</b> metallurgy products manufactured on a job or order basis"
+   },
+   {
+    "code": "325611",
+    "title": "Soap and Other Detergent Manufacturing",
+    "rank": 0.454715,
+    "snippet": "detergents, such as laundry and dishwashing detergents; toothpaste <b>gels</b> and tooth <b>powders</b>; and natural glycerin. Index: Bar soaps … hard, liquid, soft) manufacturing; Laundry soap, chips, and <b>powder</b> manufacturing; Mechanic's hand soaps and pastes manufacturing; Presoaks"
+   },
+   {
+    "code": "459920",
+    "title": "Art Dealers",
+    "rank": 0.445589,
+    "snippet": "primarily engaged in retailing original and limited edition <b>art</b> works created by others. Included in this industry … establishments primarily engaged in displaying works of <b>art</b> for retail sale in <b>art</b> galleries. Index: <b>Art</b> auctions; <b>Art</b>"
+   },
+   {
+    "code": "711190",
+    "title": "Other Performing Arts Companies",
+    "rank": 0.373844,
+    "snippet": "This industry comprises companies or groups"
+   },
+   {
+    "code": "811191",
+    "title": "Automotive Oil Change and Lubrication Shops",
+    "rank": 0.367779,
+    "snippet": "vans. Index: Automotive oil change and lubrication <b>shops</b>; Lubrication <b>shops</b>, automotive; Oil change and lubrication <b>shops</b>, automotive; Quick … lube <b>shops</b>"
+   },
+   {
+    "code": "812111",
+    "title": "Barber Shops",
+    "rank": 0.364905,
+    "snippet": "This U.S. industry comprises establishments known as barber <b>shops</b> or men's hair stylist <b>shops</b> primarily engaged … shaving and trimming men's beards. Index: Barber <b>shops</b>; Hair stylist services, men's; Hair stylist <b>shops</b>"
+   }
+  ],
+  "Buy here pay here lot we sell pre owned cars pickups and suvs,finance in house.around 40 vehicals on the lot at a time we buy most of them at the auctoin": [
+   {
+    "code": "541830",
+    "title": "Media Buying Agencies",
+    "rank": 0.658372,
+    "snippet": "industry comprises establishments primarily engaged in purchasing advertising <b>time</b> or space from media outlets and reselling … advertising agencies or individual companies directly. Index: Media <b>buying</b> agencies; Media <b>buying</b> services"
+   },
+   {
+    "code": "812930",
+    "title": "Parking Lots and Garages",
+    "rank": 0.623968,
+    "snippet": "primarily engaged in providing parking space for motor <b>vehicles</b>, usually on an hourly, daily, or monthly basis and/or … valet parking services. Index: Automobile parking garages or <b>lots</b>; Garages, automobile parking; Parking garages, automobile; Parking <b>lots</b>, automobile"
+   },
+   {
+    "code": "522220",
+    "title": "Sales Financing",
+    "rank": 0.585645,
+    "snippet": "This industry comprises establishments primarily engaged in sales <b>financing</b> or sales <b>financing</b> in combination with leasing. Sales <b>financing</b> … from or through arrangements with dealers. Index: Automobile <b>finance</b> leasing companies; Automobile <b>financing</b>; Commercial and inventory <b>financing</b> (except"
+   },
+   {
+    "code": "532112",
+    "title": "Passenger Car Leasing",
+    "rank": 0.563559,
+    "snippet": "industry comprises establishments primarily engaged in leasing passenger <b>cars</b> without drivers, generally for long periods of <b>time</b>. Index … Automobile leasing; <b>Car</b> leasing; Fleet leasing, passenger <b>vehicle</b>; Passenger <b>car</b> leasing; Passenger truck (light duty) leasing; Passenger"
+   },
+   {
+    "code": "532111",
+    "title": "Passenger Car Rental",
+    "rank": 0.539492,
+    "snippet": "industry comprises establishments primarily engaged in renting passenger <b>cars</b> without drivers, generally for short periods of <b>time</b>. Index … Automobile rental; <b>Car</b> rental; <b>Car</b> rental agencies; Hearse rental without driver; Limousine rental without driver; Luxury automobile rental"
+   },
+   {
+    "code": "921130",
+    "title": "Public Finance Activities",
+    "rank": 0.503753,
+    "snippet": "industry comprises government establishments primarily engaged in public <b>finance</b>, taxation, and monetary policy. Included are financial administration activities"
+   },
+   {
+    "code": "561613",
+    "title": "Armored Car Services",
+    "rank": 0.500626,
+    "snippet": "This U.S. industry comprises establishments primarily engaged in <b>picking</b> up and delivering money, receipts, or other valuable items … protect such properties while in transit. Index: Armored <b>car</b> services"
+   },
+   {
+    "code": "522299",
+    "title": "International, Secondary Market, and All Other Nondepository Credit Intermediation",
+    "rank": 0.462854,
+    "snippet": "imported goods; (2) establishments primarily engaged in <b>buying</b>, pooling, and repackaging loans for sale to others … other nondepository credit (except credit card issuing, sales <b>financing</b>, consumer lending, and real estate credit). Examples of types"
+   },
+   {
+    "code": "488999",
+    "title": "All Other Support Activities for Transportation",
+    "rank": 0.45408,
+    "snippet": "arrangement; and packing and crating). Index: Arrangement of <b>car</b> pools and vanpools (except ridesharing arrangement services); Arrangement … nonemergency medical transportation, without providing social assistance services; <b>Car</b> pools, arrangement of (except ridesharing arrangement services); Liquefied natural"
+   },
+   {
+    "code": "531210",
+    "title": "Offices of Real Estate Agents and Brokers",
+    "rank": 0.427077,
+    "snippet": "more of the following: (1) <b>selling</b> real estate for others; (2) <b>buying</b> real estate for others … offices, real estate; Buyers' agents, real estate, offices; <b>Buying</b> agencies, real estate; <b>Buying</b> real estate for others"
+   }
+  ],
+  "genral dentistry practise, one DDS two hygentists. cleanings, filings, crowns, root canels and some invisalign.take most PPO insurence": [
+   {
+    "code": "332119",
+    "title": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
+    "rank": 0.559351,
+    "snippet": "comprises establishments primarily engaged in (1) stamping metal <b>crowns</b> and closures, such as bottle caps and home canning … establishments may perform surface finishing operations, such as <b>cleaning</b> and deburring, on the products they manufacture. Index: Bottle"
+   },
+   {
+    "code": "524210",
+    "title": "Insurance Agencies and Brokerages",
+    "rank": 0.525294,
+    "snippet": "agents (i.e., brokers) in selling annuities and <b>insurance</b> policies. Index: Agencies, <b>insurance</b>; Brokerages, <b>insurance</b>; Brokers' offices, <b>insurance</b>; <b>Insurance</b> … agencies; <b>Insurance</b> brokerages; Life <b>insurance</b> agencies"
+   },
+   {
+    "code": "524127",
+    "title": "Direct Title Insurance Carriers",
+    "rank": 0.463198,
+    "snippet": "underwriting (i.e., assuming the risk and assigning premiums) <b>insurance</b> policies to protect the owners of real estate … title defect to real property. Index: Guaranteeing titles; <b>Insurance</b> carriers, title, direct; <b>Insurance</b> underwriting, title, direct; Real estate"
+   },
+   {
+    "code": "525190",
+    "title": "Other Insurance Funds",
+    "rank": 0.456924,
+    "snippet": "welfare-related employee benefit funds)) organized to provide <b>insurance</b> exclusively for the sponsor, firm, or its employees … members. Self-<b>insurance</b> funds (except employee benefit funds) and workers' compensation <b>insurance</b> funds are included in this industry"
+   },
+   {
+    "code": "524298",
+    "title": "All Other Insurance Related Activities",
+    "rank": 0.438198,
+    "snippet": "industry comprises establishments primarily engaged in providing <b>insurance</b> services on a contract or fee basis (except <b>insurance</b> agencies … brokerages, claims adjusting, and third party administration). <b>Insurance</b> advisory services, <b>insurance</b> actuarial services, and <b>insurance</b> ratemaking services"
+   },
+   {
+    "code": "524128",
+    "title": "Other Direct Insurance (except Life, Health, and Medical) Carriers",
+    "rank": 0.418161,
+    "snippet": "initially underwriting (e.g., assuming the risk, assigning premiums) <b>insurance</b> policies (except life, disability income, accidental death and dismemberment … health and medical, property and casualty, and title <b>insurance</b> policies). Index: Bank deposit <b>insurance</b> carriers, direct; Burial <b>insurance</b>"
+   },
+   {
+    "code": "524113",
+    "title": "Direct Life Insurance Carriers",
+    "rank": 0.417296,
+    "snippet": "risk and assigning premiums) annuities and life <b>insurance</b> policies, disability income <b>insurance</b> policies, and accidental death and dismemberment … <b>insurance</b> policies. Index: Accidental death and dismemberment <b>insurance</b> carriers, direct; Accidental death and dismemberment <b>insurance</b> underwriting, direct; Annuities"
+   },
+   {
+    "code": "524114",
+    "title": "Direct Health and Medical Insurance Carriers",
+    "rank": 0.40615,
+    "snippet": "risk and assigning premiums) health and medical <b>insurance</b> policies. Group hospitalization plans and HMO establishments that provide health … medical <b>insurance</b> policies without providing health care services are included in this industry. Index: Dental <b>insurance</b> carriers, direct"
+   },
+   {
+    "code": "524292",
+    "title": "Pharmacy Benefit Management and Other Third Party Administration of Insurance and Pension Funds",
+    "rank": 0.390787,
+    "snippet": "services and other third party administration services of <b>insurance</b> and pension funds, such as claims processing and other … administrative services to <b>insurance</b> carriers, employee benefit plans, and self-<b>insurance</b> funds. Index: Claims processing services, <b>insurance</b>, third"
+   },
+   {
+    "code": "524126",
+    "title": "Direct Property and Casualty Insurance Carriers",
+    "rank": 0.380082,
+    "snippet": "underwriting (i.e., assuming the risk and assigning premiums) <b>insurance</b> policies that protect policyholders against losses that may occur … damage or liability. Index: Agricultural (i.e., crop, livestock) <b>insurance</b> carriers, direct; Automobile <b>insurance</b> carriers, direct; Bonding, fidelity"
+   }
+  ],
+  "Independent auto repair shop, four bays. Most of our money is labor on engine diagnostics, brakes, suspension and engine replacements for all makes. We also sell and mount some tires and run a small used-parts shelf, maybe 15% of sales.": [
+   {
+    "code": "811114",
+    "title": "Specialized Automotive Repair",
+    "rank": 1.171713,
+    "snippet": "primarily engaged in providing specialized mechanical or electrical <b>repair</b> and maintenance services (except <b>engine</b> <b>repair</b> and <b>replacement</b> … trucks, and vans, and all trailers. Index: Automotive <b>brake</b> <b>repair</b> <b>shops</b>; Automotive electrical <b>repair</b> <b>shops</b>; Automotive exhaust system"
+   },
+   {
+    "code": "811122",
+    "title": "Automotive Glass Replacement Shops",
+    "rank": 1.015681,
+    "snippet": "This U.S. industry comprises establishments primarily engaged in <b>replacing</b>, <b>repairing</b>, and/or tinting automotive vehicle glass, such as passenger … truck, and van glass. Index: Automotive glass <b>shops</b>; Glass installation, automotive <b>repair</b>; Glass <b>shops</b>, automotive; Glass tinting, automotive"
+   },
+   {
+    "code": "811198",
+    "title": "All Other Automotive Repair and Maintenance",
+    "rank": 0.911989,
+    "snippet": "industry comprises establishments primarily engaged in providing automotive <b>repair</b> and maintenance services (except mechanical and electrical <b>repair</b> … maintenance; body, paint, interior, and glass <b>repair</b>; motor oil change and lubrication; and car washing) for automotive vehicles"
+   },
+   {
+    "code": "441330",
+    "title": "Automotive Parts and Accessories Retailers",
+    "rank": 0.87276,
+    "snippet": "industry comprises establishments primarily engaged in retailing new, <b>used</b>, and/or rebuilt automotive <b>parts</b> and accessories, with or without … <b>repairing</b> automobiles; and/or establishments primarily engaged in retailing and installing automotive accessories. Index: <b>Auto</b> supply stores; Automobile <b>parts</b>"
+   },
+   {
+    "code": "423140",
+    "title": "Motor Vehicle Parts (Used) Merchant Wholesalers",
+    "rank": 0.855855,
+    "snippet": "primarily engaged in the merchant wholesale distribution of <b>used</b> motor vehicle <b>parts</b> (except <b>used</b> <b>tires</b> and tubes … dismantling motor vehicles for the purpose of <b>selling</b> the <b>parts</b>. Index: Automotive <b>parts</b>, <b>used</b>, merchant wholesalers; Generators, motor"
+   },
+   {
+    "code": "423120",
+    "title": "Motor Vehicle Supplies and New Parts Merchant Wholesalers",
+    "rank": 0.842663,
+    "snippet": "accessories, tools, and equipment; and new motor vehicle <b>parts</b> (except new <b>tires</b> and tubes). Index: Aftermarket <b>parts</b>, automotive … merchant wholesalers; <b>Auto</b> body <b>shop</b> supplies merchant wholesalers; Automobile accessories (except <b>tires</b>, tubes) merchant wholesalers; Automobile glass merchant"
+   },
+   {
+    "code": "811111",
+    "title": "General Automotive Repair",
+    "rank": 0.820274,
+    "snippet": "wide range of mechanical and electrical <b>repair</b> and maintenance services for automotive vehicles, such as passenger cars, trucks … vans, and all trailers or (2) <b>engine</b> <b>repair</b> and <b>replacement</b>. Index: Automotive <b>engine</b> <b>repair</b> and <b>replacement</b> <b>shops</b>; Automotive"
+   },
+   {
+    "code": "441340",
+    "title": "Tire Dealers",
+    "rank": 0.714629,
+    "snippet": "comprises establishments primarily engaged in retailing new and/or <b>used</b> <b>tires</b> and tubes or retailing new <b>tires</b> in combination … with automotive <b>repair</b> services. Index: Automotive <b>tire</b> dealers; <b>Tire</b> dealers, automotive; Truck <b>tires</b> and tubes dealers (except heavy"
+   },
+   {
+    "code": "811411",
+    "title": "Home and Garden Equipment Repair and Maintenance",
+    "rank": 0.675063,
+    "snippet": "This U.S. industry comprises establishments primarily engaged in <b>repairing</b> and servicing home and garden equipment without retailing … tools, edgers, snowblowers, leaf blowers, and trimmers. Index: <b>Engine</b> <b>repair</b>, <b>small</b>; Garden equipment <b>repair</b> and maintenance services without"
+   },
+   {
+    "code": "336412",
+    "title": "Aircraft Engine and Engine Parts Manufacturing",
+    "rank": 0.662291,
+    "snippet": "more of the following: (1) manufacturing aircraft <b>engines</b> and <b>engine</b> <b>parts</b>; (2) developing and <b>making</b> prototypes of aircraft … <b>engines</b> and <b>engine</b> <b>parts</b>; (3) aircraft propulsion system conversion (i.e., major modifications to systems); and (4) aircraft propulsion"
+   }
+  ],
+  "Family cow-calf operation, about 300 head of Angus. We sell weaned calves every fall, which is most of our income. We also bale and sell surplus hay to neighbors and do a little custom fencing work in the off season.": [
+   {
+    "code": "111940",
+    "title": "Hay Farming",
+    "rank": 0.677259,
+    "snippet": "This industry comprises establishments primarily engaged in growing <b>hay</b>, alfalfa, clover, and/or mixed <b>hay</b>. Index: Alfalfa <b>hay</b> farming … Clover <b>hay</b> farming; Grass <b>hay</b> farming; <b>Hay</b> farming (e.g., alfalfa <b>hay</b>, clover <b>hay</b>, grass <b>hay</b>); Mixed <b>hay</b> farming"
+   },
+   {
+    "code": "236115",
+    "title": "New Single-Family Housing Construction (except For-Sale Builders)",
+    "rank": 0.65504,
+    "snippet": "responsible for the entire construction of new single-<b>family</b> housing, such as single-<b>family</b> detached houses and town … each housing unit (1) is separated from its <b>neighbors</b> by a ground-to-roof wall"
+   },
+   {
+    "code": "333111",
+    "title": "Farm Machinery and Equipment Manufacturing",
+    "rank": 0.452116,
+    "snippet": "mowing equipment (except lawn and garden-type). Index: <b>Bale</b> throwers manufacturing; Balers, farm-type (e.g., cotton, <b>hay</b>, straw … feeders manufacturing; Combines (i.e., harvester-threshers) manufacturing; Corn <b>heads</b> for combines manufacturing; Corn pickers and shellers manufacturing; Cotton"
+   },
+   {
+    "code": "236117",
+    "title": "New Housing For-Sale Builders",
+    "rank": 0.445056,
+    "snippet": "home. Establishments in this industry build single-<b>family</b> and/or multifamily homes. These establishments are often referred … merchant builders, but are <b>also</b> known as production or for-sale builders. Index: Apartment building for-sale builders"
+   },
+   {
+    "code": "621410",
+    "title": "Family Planning Centers",
+    "rank": 0.432082,
+    "snippet": "staff primarily engaged in providing a range of <b>family</b> planning services on an outpatient basis, such as contraceptive … Birth control clinics; Childbirth preparation classes; Counseling services, <b>family</b> planning; <b>Family</b> planning centers; <b>Family</b> planning counseling services; Fertility"
+   },
+   {
+    "code": "112111",
+    "title": "Beef Cattle Ranching and Farming",
+    "rank": 0.428595,
+    "snippet": "Index: Backgrounding, cattle; Beef cattle ranching or farming; <b>Calf</b> (e.g., feeder, stocker, veal) production; Cattle conditioning <b>operations</b>; Cattle … farming or ranching; Dairy heifer replacement production; Feeder <b>calf</b> production; Stocker <b>calf</b> production; Veal <b>calf</b> production"
+   },
+   {
+    "code": "624410",
+    "title": "Child Care Services",
+    "rank": 0.41973,
+    "snippet": "children from birth through school age and may <b>also</b> offer pre-kindergarten, kindergarten, and/or before- or after-school … development in health, social and emotional learning, and <b>family</b> engagement. Index: Babysitting services in provider's own home"
+   },
+   {
+    "code": "115113",
+    "title": "Crop Harvesting, Primarily by Machine",
+    "rank": 0.402168,
+    "snippet": "machine harvesting; Fruit, machine harvesting; Grain, machine harvesting; <b>Hay</b> mowing, raking, <b>baling</b>, and chopping; Nuts, machine harvesting; Peanut"
+   },
+   {
+    "code": "624190",
+    "title": "Other Individual and Family Services",
+    "rank": 0.400034,
+    "snippet": "establishments primarily engaged in providing nonresidential individual and <b>family</b> social assistance services (except those specifically directed toward children … offender rehabilitation agencies; Ex-offender self-help organizations; <b>Family</b> social service agencies; <b>Family</b> welfare services; Hotline centers; Individual"
+   },
+   {
+    "code": "332114",
+    "title": "Custom Roll Forming",
+    "rank": 0.387334,
+    "snippet": "This U.S. industry comprises establishments primarily engaged in <b>custom</b> roll forming metal products by use of rotary motion … contours to bend or shape the products. Index: <b>Custom</b> roll forming metal products; Gutters and down spouts sheet"
+   }
+  ],
+  "Wedding and family portrait photographer. Booking weddings, engagement shoots and senior portraits is about 85% of revenue. The rest is selling printed albums and wall canvases and teaching a couple of beginner camera workshops a year.": [
+   {
+    "code": "541921",
+    "title": "Photography Studios, Portrait",
+    "rank": 1.041493,
+    "snippet": "This U.S. industry comprises establishments known as <b>portrait</b> studios primarily <b>engaged</b> in providing still, video, or digital <b>portrait</b> … photography services. Index: Passport photography services; Photography services, <b>portrait</b> (e.g., still, video); Photography studios, <b>portrait</b>; <b>Portrait</b> photography services"
+   },
+   {
+    "code": "423410",
+    "title": "Photographic Equipment and Supplies Merchant Wholesalers",
+    "rank": 0.756794,
+    "snippet": "This industry comprises establishments primarily <b>engaged</b> in the merchant wholesale distribution of <b>photographic</b> equipment and supplies (except office … equipment). Index: Camcorders (except household-type) merchant wholesalers; <b>Camera</b> equipment and supplies, <b>photographic</b>, merchant wholesalers; <b>Cameras</b>, television, merchant"
+   },
+   {
+    "code": "323111",
+    "title": "Commercial Printing (except Screen and Books)",
+    "rank": 0.682845,
+    "snippet": "This U.S. industry comprises establishments primarily <b>engaged</b> in commercial <b>printing</b> (except screen <b>printing</b>, <b>books</b> <b>printing</b>) without publishing (except … fabric grey goods <b>printing</b>). The <b>printing</b> processes used in this industry include, but are not limited to, lithographic"
+   },
+   {
+    "code": "333310",
+    "title": "Commercial and Service Industry Machinery Manufacturing",
+    "rank": 0.679872,
+    "snippet": "This industry comprises establishments primarily <b>engaged</b> in manufacturing commercial and service industry machinery, such as optical instruments … lenses (except ophthalmic), <b>photographic</b> and photocopying equipment, automatic vending machinery, commercial laundry and drycleaning machinery, office machinery, automotive"
+   },
+   {
+    "code": "323117",
+    "title": "Books Printing",
+    "rank": 0.655454,
+    "snippet": "This U.S. industry comprises establishments primarily <b>engaged</b> in <b>printing</b> or <b>printing</b> and binding <b>books</b> and pamphlets without publishing … Index: Almanacs <b>printing</b> and binding without publishing; Almanacs <b>printing</b> without publishing; <b>Books</b> <b>printing</b> and binding without publishing; <b>Books</b>"
+   },
+   {
+    "code": "325992",
+    "title": "Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing",
+    "rank": 0.633951,
+    "snippet": "This U.S. industry comprises establishments primarily <b>engaged</b> in manufacturing sensitized film, sensitized paper, sensitized cloth, sensitized plates, toners … photocopiers, laser printers, and similar electrostatic <b>printing</b> devices), toner cartridges, and <b>photographic</b> chemicals. Index: Computer printer toner cartridges"
+   },
+   {
+    "code": "424920",
+    "title": "Book, Periodical, and Newspaper Merchant Wholesalers",
+    "rank": 0.548369,
+    "snippet": "This industry comprises establishments primarily <b>engaged</b> in the merchant wholesale distribution of <b>books</b>, periodicals, and newspapers. Index: Antique … <b>book</b> merchant wholesalers; Atlases merchant wholesalers; <b>Books</b> merchant wholesalers; Brochures merchant wholesalers; Magazines merchant wholesalers; Maps (except globe"
+   },
+   {
+    "code": "459210",
+    "title": "Book Retailers and News Dealers",
+    "rank": 0.525698,
+    "snippet": "This industry comprises establishments primarily <b>engaged</b> in retailing new <b>books</b>, newspapers, magazines, and other periodicals (without publishing). Index … <b>Book</b> clubs, not publishing, new <b>books</b>, mail-order; <b>Book</b> stores; Comic <b>book</b> stores; Home delivery newspaper routes, direct"
+   },
+   {
+    "code": "812990",
+    "title": "All Other Personal Services",
+    "rank": 0.51172,
+    "snippet": "This industry comprises establishments primarily <b>engaged</b> in providing personal services (except personal care services, death care services, drycleaning … operated personal service machine (e.g., blood pressure, locker, <b>photographic</b>, scale, shoeshine) concession operators; Comfort station operation; Concierge services"
+   },
+   {
+    "code": "711510",
+    "title": "Independent Artists, Writers, and Performers",
+    "rank": 0.47092,
+    "snippet": "This industry comprises independent (i.e., freelance) individuals primarily <b>engaged</b> in performing in artistic productions, in creating artistic … industry also includes athletes and other celebrities exclusively <b>engaged</b> in endorsing products and making speeches or public appearances"
+   }
+  ],
+  "Sit-down Italian place, 60 seats with servers, beer and wine. Dinner service is the main business. On weekends we also cater a few office lunches and parties, and we sell our jarred marinara at the host stand.": [
+   {
+    "code": "445320",
+    "title": "Beer, Wine, and Liquor Retailers",
+    "rank": 1.163452,
+    "snippet": "retailing packaged alcoholic beverages, such as ale, <b>beer</b>, <b>wine</b>, and liquor. Index: <b>Beer</b> stores, packaged; Duty free liquor … shops; Liquor stores, package; Package stores (i.e., liquor); <b>Wine</b> shops, packaged"
+   },
+   {
+    "code": "722320",
+    "title": "Caterers",
+    "rank": 0.847562,
+    "snippet": "primarily engaged in providing single event-based food <b>services</b>. These establishments generally have equipment and vehicles to transport … premise site. Banquet halls with <b>catering</b> staff are included in this industry. Examples of events <b>catered</b> by establishments"
+   },
+   {
+    "code": "518210",
+    "title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+    "rank": 0.802407,
+    "snippet": "primarily engaged in providing computing infrastructure, data processing <b>services</b>, Web <b>hosting</b> <b>services</b> (except software publishing), and related <b>services</b> … including streaming support <b>services</b> (except streaming distribution <b>services</b>). Data processing establishments provide complete processing and specialized reports from"
+   },
+   {
+    "code": "424810",
+    "title": "Beer and Ale Merchant Wholesalers",
+    "rank": 0.782423,
+    "snippet": "primarily engaged in the merchant wholesale distribution of <b>beer</b>, ale, porter, and other fermented malt beverages. Index: Alcoholic … beverages (except distilled spirits, <b>wine</b>) merchant wholesalers; Ale merchant wholesalers; <b>Beer</b> merchant wholesalers; Beverages, alcoholic (except distilled spirits"
+   },
+   {
+    "code": "812990",
+    "title": "All Other Personal Services",
+    "rank": 0.664768,
+    "snippet": "industry comprises establishments primarily engaged in providing personal <b>services</b> (except personal care <b>services</b>, death care <b>services</b>, drycleaning … laundry <b>services</b>, pet care <b>services</b>, photofinishing <b>services</b>, or parking space and/or valet parking <b>services</b>). Index: Astrology <b>services</b>; Baby"
+   },
+   {
+    "code": "722330",
+    "title": "Mobile Food Services",
+    "rank": 0.610608,
+    "snippet": "establishment is the central location from which the <b>caterer</b> route is <b>serviced</b>, not each vehicle or cart. Included … industry are establishments primarily engaged in providing food <b>services</b> from vehicles, such as hot dog carts"
+   },
+   {
+    "code": "561439",
+    "title": "Other Business Service Centers (including Copy Shops)",
+    "rank": 0.56674,
+    "snippet": "providing photocopying, duplicating, blueprinting, and other document copying <b>services</b>, without <b>also</b> providing printing <b>services</b> (e.g., offset printing, quick … printing, digital printing, prepress <b>services</b>) and (2) establishments (except private mail centers) engaged in providing a range"
+   },
+   {
+    "code": "524292",
+    "title": "Pharmacy Benefit Management and Other Third Party Administration of Insurance and Pension Funds",
+    "rank": 0.54953,
+    "snippet": "primarily engaged in providing pharmacy benefit management (PBM) <b>services</b> and other third <b>party</b> administration <b>services</b> of insurance … funds, such as claims processing and other administrative <b>services</b> to insurance carriers, employee benefit plans, and self-insurance"
+   },
+   {
+    "code": "424820",
+    "title": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+    "rank": 0.543295,
+    "snippet": "primarily engaged in the merchant wholesale distribution of <b>wine</b>, distilled alcoholic beverages, and/or neutral spirits and ethyl alcohol … used in blended <b>wines</b> and distilled liquors. Index: Alcoholic beverages, <b>wine</b>, and distilled spirits merchant wholesalers; Beverages, <b>wine</b>"
+   },
+   {
+    "code": "711110",
+    "title": "Theater Companies and Dinner Theaters",
+    "rank": 0.503321,
+    "snippet": "puppet shows and (2) establishments, commonly known as <b>dinner</b> theaters, engaged in producing live theatrical productions … Broadway theaters; Burlesque companies; Comedy troupes; Community theaters; <b>Dinner</b> theaters; Improvisational theaters; Mime theaters; Musical theater companies"
+   }
+  ]
+ }
+}

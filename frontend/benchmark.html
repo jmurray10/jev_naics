@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NAICS benchmark</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%224%22 fill=%22%231b1a17%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <!-- Static results of the JEV-57 staged run. The source data and per-case reviews stay local; this page shows
+       totals and short paraphrased examples only. Re-run and re-review before changing a number here. -->
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">N</span>
+      <div>
+        <p class="brand-name">NAICS with Jev</p>
+        <p class="brand-sub">Benchmark on real company descriptions</p>
+      </div>
+    </div>
+    <nav class="top-links">
+      <a href="./">Classifier</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>60 real company descriptions, reviewed case by case</h2>
+      <p class="muted">A random sample of unique descriptions from the public ExioNAICS dataset (Hugging Face), each run
+        live through the hybrid classifier (search, tree walk only when search is unsure), on the pinned Jev model.
+        A separate reviewer judged every answer blind, from the description and the official Census text, without
+        seeing the classifier's probabilities.</p>
+      <div class="stats">
+        <div class="stat"><b data-total="cases">60</b><span>descriptions</span></div>
+        <div class="stat ok"><b data-total="not-defensible">0</b><span>indefensible codes assigned</span></div>
+        <div class="stat"><b data-total="assigned">40</b><span>assigned a code (67%)</span></div>
+        <div class="stat"><b data-total="held">20</b><span>held for a person (33%)</span></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>What happened to each description</h2>
+      <table class="bench">
+        <thead><tr><th>Outcome</th><th>Review verdict</th><th class="n">Cases</th></tr></thead>
+        <tbody>
+          <tr><td rowspan="3">Assigned a code</td><td>Defensible: fits the primary business</td><td class="n" data-total="defensible">36</td></tr>
+          <tr><td>Arguable: a neighbouring code is better, this one is not wrong</td><td class="n" data-total="arguable">4</td></tr>
+          <tr class="zero"><td>Not defensible</td><td class="n">0</td></tr>
+          <tr><td rowspan="2">Held for a person</td><td>Hold reasonable: mixed, vague, or between codes</td><td class="n" data-total="hold-ok">15</td></tr>
+          <tr><td>Should have acted: a safe miss, a person sees it</td><td class="n" data-total="hold-miss">5</td></tr>
+        </tbody>
+      </table>
+      <p class="muted small">The 4 arguable picks are all the same kind of call: wholesale vs retail, or franchisor vs
+        operator. 4 of the 5 missed holds leaned to the right code but stayed under the bar.</p>
+    </section>
+
+    <section class="card">
+      <h2>The public labels are less reliable than the classifier</h2>
+      <p class="muted">Reviewing the dataset's own NAICS labels for the same 60 descriptions:</p>
+      <div class="stats">
+        <div class="stat"><b data-total="labels-right">19</b><span>labels right</span></div>
+        <div class="stat"><b data-total="labels-partly">23</b><span>partly right (one of several codes)</span></div>
+        <div class="stat bad"><b data-total="labels-wrong">18</b><span>labels wrong</span></div>
+      </div>
+      <p class="muted small">Scored against the labels alone, only 27 of the 40 assigned codes look right. On review,
+        all 13 others hold up: 10 defensible, 3 arguable. That is why each case is judged on its merits, not by label match.</p>
+    </section>
+
+    <section class="card">
+      <h2>Examples</h2>
+      <ul class="examples">
+        <li>
+          <p class="ex-head"><span class="outcome act">Assigned</span> A roofing contractor in Rochester, NY</p>
+          <p>Jev: <code>238160</code> Roofing Contractors. Dataset label: <code>111310</code> Orange Groves.</p>
+          <p class="muted small">Defensible; the label is wrong.</p>
+        </li>
+        <li>
+          <p class="ex-head"><span class="outcome act">Assigned</span> Geomechanics consulting for oil and gas reservoirs</p>
+          <p>Jev: <code>541330</code> Engineering Services. Dataset label: <code>513210</code> Software Publishers.</p>
+          <p class="muted small">Defensible; the label is wrong.</p>
+        </li>
+        <li>
+          <p class="ex-head"><span class="outcome act">Assigned</span> A hotel brand company that franchises its brands to owners</p>
+          <p>Jev: <code>533110</code> Lessors of Nonfinancial Intangible Assets (franchising). Dataset labels:
+            <code>531390</code>, <code>721110</code> Hotels.</p>
+          <p class="muted small">Defensible: the business earns franchise royalties, it does not mainly run hotels.</p>
+        </li>
+        <li>
+          <p class="ex-head"><span class="outcome hold">Held</span> A freight forwarder: land, air and ocean freight, contract logistics</p>
+          <p>Jev held it for a person. Its lean was <code>488510</code> Freight Transportation Arrangement, which matches the label.</p>
+          <p class="muted small">A safe miss: it should have acted, and a person sees it instead of a wrong code.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>How to read this</h2>
+      <ul class="notes muted small">
+        <li>A hold is the design: when the description does not settle a code, a person decides instead of a guess.</li>
+        <li>On a hold, the code Jev leaned to is a diagnostic, not a suggestion. Some reasonable holds leaned the wrong way.</li>
+        <li>60 cases is a small sample. Thresholds are calibrated separately and were not tuned on these cases.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NAICS with Jev</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect width=%2216%22 height=%2216%22 rx=%224%22 fill=%22%231b1a17%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/config.js"></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">N</span>
+      <div>
+        <p class="brand-name">NAICS with Jev</p>
+        <p class="brand-sub">Search the official Census text · Jev picks · code decides</p>
+      </div>
+    </div>
+    <nav class="top-links">
+      <a href="benchmark.html">Benchmark</a>
+      <a class="api-link" href="/docs" target="_blank" rel="noopener">API</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tabs" role="tablist" aria-label="Mode">
+      <button role="tab" id="tabClassifyBtn" aria-selected="true" aria-controls="tabClassify" data-tab="classify">Classify</button>
+      <button role="tab" id="tabAssistBtn" aria-selected="false" aria-controls="tabAssist" data-tab="assist">Live assist</button>
+    </div>
+
+    <div class="tab-panel" id="tabClassify" role="tabpanel" aria-labelledby="tabClassifyBtn">
+    <section class="card ask">
+      <div class="ask-head">
+        <label for="description" class="label">Description of operations</label>
+        <!-- Typed is the default: only what you write is classified. Examples are opt-in. -->
+        <div class="seg" id="sourceSeg" role="radiogroup" aria-label="Where the description comes from">
+          <button role="radio" aria-checked="true" data-source="typed">Type your own</button>
+          <button role="radio" aria-checked="false" data-source="example">Pick an example</button>
+        </div>
+      </div>
+      <select id="example" aria-label="Pick an eval example" hidden><option value="">Choose an example…</option></select>
+      <textarea id="description" rows="3" maxlength="4000" placeholder="Describe what the business does, e.g. Family dental practice with two dentists and a hygienist."></textarea>
+      <div class="row">
+        <div class="seg" id="modeSeg" role="radiogroup" aria-label="Classifier">
+          <button role="radio" aria-checked="true" data-mode="hybrid" title="Search, then Jev picks in one call; only when search is unsure, the tree walk adds its finalists and Jev picks over both">Search + tree fallback</button>
+          <button role="radio" aria-checked="false" data-mode="search" title="Full-text search, then Jev picks among the top results in one call">Search + Jev pick</button>
+          <button role="radio" aria-checked="false" data-mode="full" title="Jev walks the tree level by level, about 5 calls">Tree walk</button>
+        </div>
+        <div class="actions">
+          <button class="secondary" id="searchGo" title="Full-text search of the official text. No model call, no cost.">Search</button>
+          <button class="primary" id="go">Classify</button>
+        </div>
+      </div>
+      <p class="muted small" id="gold" hidden></p>
+    </section>
+
+    <section class="card verdict" id="verdict" hidden>
+      <div class="verdict-head">
+        <span class="outcome" id="outcome"></span>
+        <div>
+          <p class="verdict-title" id="verdict-title"></p>
+          <p class="muted" id="verdict-reason"></p>
+          <p class="muted small search-notes" id="verdict-notes" hidden></p>
+        </div>
+      </div>
+      <ol class="crumbs" id="crumbs"></ol>
+      <div class="facts" id="facts"></div>
+      <details class="official" id="official" hidden>
+        <summary>Official Census description</summary>
+        <p id="official-text"></p>
+        <p class="muted small" id="official-terms"></p>
+      </details>
+    </section>
+
+    <section class="card" id="walk-card" hidden>
+      <h2>How Jev walked the tree</h2>
+      <p class="muted small">Each level is one call: every kept path's node is asked at once. Bars are Jev's probabilities over that node's children; highlighted rows stayed on the beam.</p>
+      <div id="walk" class="walk"></div>
+    </section>
+
+    <section class="card" id="finalists-card" hidden>
+      <h2 id="finalists-title">Finalists</h2>
+      <p class="muted small" id="finalists-note"></p>
+      <div id="finalists" class="finalists"></div>
+    </section>
+
+    <section class="card" id="results-card" hidden>
+      <h2>Search results</h2>
+      <p class="muted small">Postgres full-text search of the official Census text: titles, index entries, examples, and descriptions, with rare words counting more. No model call. Classify has Jev pick among the top results.</p>
+      <p class="muted small search-notes" id="results-notes" hidden></p>
+      <ol id="results" class="results"></ol>
+    </section>
+    </div>
+
+    <!-- Live assist: checks the text on each typing pause (POST /v1/assist); Submit finalizes (POST /v1/finalize). -->
+    <div class="tab-panel" id="tabAssist" role="tabpanel" aria-labelledby="tabAssistBtn" hidden>
+      <section class="card ask">
+        <label for="assistText" class="label">Description of operations</label>
+        <p class="muted small assist-intro">Type as a broker would. After each pause, Jev checks whether the text says what the business does, specifically enough for a NAICS code. Submit is never blocked.</p>
+        <div class="engine" role="group" aria-label="Method">
+          <label for="assistEngine" class="small muted">Method</label>
+          <select id="assistEngine">
+            <option value="assist">Current assist (tree walk)</option>
+            <option value="refine">Refine (wide pick, then verify)</option>
+          </select>
+        </div>
+        <textarea id="assistText" rows="4" maxlength="4000" placeholder="e.g. We install and maintain commercial HVAC systems for office buildings."></textarea>
+        <div class="meter" id="assistMeter" aria-live="polite">
+          <div class="steps">
+            <span class="step">Sector</span><span class="step">Industry group</span><span class="step">NAICS code</span>
+          </div>
+          <p class="meter-line"><b id="assistStatus"></b> <span id="assistLabel" class="muted">Type at least three words; the check runs when you pause.</span><span class="checking" id="assistChecking" aria-hidden="true">checking…</span></p>
+        </div>
+        <p class="tip empty" id="assistTip" role="note"></p>
+        <p class="muted small reading" id="assistReading" aria-live="polite"></p>
+        <div class="pick" id="assistPick" hidden></div>
+        <div class="facts" id="assistFacts"></div>
+        <details class="official cands" id="assistOfficial">
+          <summary>Official Census description (none yet)</summary>
+          <p id="assistOfficialText"></p>
+          <p class="muted small" id="assistOfficialTerms"></p>
+        </details>
+        <details class="cands" id="assistCandsWrap">
+          <summary class="muted small"><span id="assistCandsTitle">Industries the tree walk ended on</span> <span id="assistCandsCount">(none yet)</span></summary>
+          <div class="finalists" id="assistCands"></div>
+        </details>
+        <div class="row"><div class="actions"><button class="primary" id="assistSubmit">Submit</button></div></div>
+      </section>
+      <section class="card final" id="assistFinal" hidden></section>
+    </div>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

@@ -1,0 +1,1709 @@
+{
+ "run_id": "E11-verify-refine_heldout-20261006",
+ "variant": "verify",
+ "summary": {
+  "cases": 60,
+  "coded": 49,
+  "coded_right": 49,
+  "coded_wrong": 0,
+  "wrong_ids": [],
+  "gold_cases": 54,
+  "gold_coded_right": 49,
+  "ambiguous_with_gold_offered": 0,
+  "recall_at_k": [
+   53,
+   54
+  ],
+  "errors": 0,
+  "statuses": {
+   "CODED": 49,
+   "NEEDS_INFO": 6,
+   "PARTIAL": 5
+  },
+  "calls_mean": 1.9,
+  "input_tokens_mean": 44671,
+  "seconds_median": 0.1
+ },
+ "rows": [
+  {
+   "id": "refine_heldout:clear-111150",
+   "gold": "111150",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "111150",
+   "partial": "111150",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "111150",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.15,
+   "usage": {
+    "input_tokens": 44683,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 111150 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-112111",
+   "gold": "112111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "112111",
+   "partial": "112111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "112111",
+    "112130",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44554,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 112111 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-114111",
+   "gold": "114111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "114111",
+   "partial": "114111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "114111",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44788,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 114111 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-212312",
+   "gold": "212312",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "212312",
+   "partial": "212312",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "212312",
+    "327992",
+    "327991",
+    "212321"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45052,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 212312 at p 0.99; fit 0.89.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-221114",
+   "gold": "221114",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "221114",
+   "partial": "221114",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "221114",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44743,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 221114 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-236118",
+   "gold": "236118",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "236118",
+   "partial": "236118",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "236118",
+    "236115",
+    "236220",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45303,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 236118 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-311812",
+   "gold": "311812",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "311812",
+   "partial": "311812",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "311812",
+    "424490",
+    "311811",
+    "311821"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 45045,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 311812 at p 1.00; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-321113",
+   "gold": "321113",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "321113",
+   "partial": "321113",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "321113",
+    "113310",
+    "113110",
+    "115310"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44482,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 321113 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-332710",
+   "gold": "332710",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "332710",
+   "partial": "332710",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "332710",
+    "332721",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44839,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 332710 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-337110",
+   "gold": "337110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "337110",
+   "partial": "337110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "337110",
+    "321918",
+    "238350",
+    "321999"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 45132,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 337110 at p 0.99; fit 0.87.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-424480",
+   "gold": "424480",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "424480",
+   "partial": "424480",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "424480",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44680,
+    "output_tokens": 12832
+   },
+   "reason": "Verified 424480 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-441110",
+   "gold": "441110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "441110",
+   "partial": "441110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "441110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44812,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 441110 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-445110",
+   "gold": "445110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "445110",
+   "partial": "445110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "445110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44899,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 445110 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-484121",
+   "gold": "484121",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484121",
+   "partial": "484121",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484121",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.16,
+   "usage": {
+    "input_tokens": 44957,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 484121 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-524210",
+   "gold": "524210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "524210",
+   "partial": "524210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "524210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44682,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 524210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-531210",
+   "gold": "531210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531210",
+   "partial": "531210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44741,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 531210 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-541211",
+   "gold": "541211",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "5412",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541211",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45008,
+    "output_tokens": 12829
+   },
+   "reason": "The verify step was not sure of one industry.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-561730",
+   "gold": "561730",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561730",
+   "partial": "561730",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238990",
+    "238910",
+    "561730",
+    "811411"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 45179,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 561730 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-611610",
+   "gold": "611610",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611610",
+   "partial": "611610",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713940",
+    "611610",
+    "711120",
+    "713990"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44776,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 611610 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-621210",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45011,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-713910",
+   "gold": "713910",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "713910",
+   "partial": "713910",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713910",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44732,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 713910 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-722513",
+   "gold": "722513",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722513",
+   "partial": "722513",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722513",
+    "722511",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45232,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 722513 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-721110",
+   "gold": "721110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "721110",
+   "partial": "721110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "721110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44847,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 721110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-811111",
+   "gold": "811111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811111",
+   "partial": "811111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811111",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44963,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811111 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-922160",
+   "gold": "922160",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "922160",
+   "partial": "922160",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "922160",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44781,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 922160 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-512110",
+   "gold": "512110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "512110",
+   "partial": "512110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "512110",
+    "541922",
+    "512191",
+    "713990"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44977,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 512110 at p 1.00; fit 0.81.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-623110",
+   "gold": "623110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "623110",
+   "partial": "623110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "623110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44927,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 623110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:clear-238160",
+   "gold": "238160",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238160",
+   "partial": "238160",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238160",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44819,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238160 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-541940-largeanimal",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541940",
+   "partial": "541940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621111",
+    "621399",
+    "541940",
+    "621999"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45529,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 541940 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-811192-carwash",
+   "gold": "811192",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811192",
+   "partial": "811192",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811192",
+    "561790",
+    "561720",
+    "561990"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44851,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811192 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-541213-taxprep",
+   "gold": "541213",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541213",
+   "partial": "541213",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541213",
+    "813920",
+    "812990",
+    "523940"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44995,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 541213 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-513210-appdev",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "423430",
+    "456120"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44491,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-561510-travel",
+   "gold": "561510",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561510",
+   "partial": "561510",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561510",
+    "425120",
+    "459999",
+    "721110"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44840,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 561510 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-812990-dating",
+   "gold": "812990",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "5162",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "516210",
+    "513210",
+    "519290",
+    "513140"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45058,
+    "output_tokens": 12830
+   },
+   "reason": "The verify step was not sure of one industry.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-624410-daycare",
+   "gold": "624410",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "624410",
+   "partial": "624410",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "611110",
+    "611710",
+    "624410",
+    "611699"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44756,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 624410 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:unexpected-812910-petboarding",
+   "gold": "812910",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "8129",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812910",
+    "721199",
+    "721310",
+    "112990"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44853,
+    "output_tokens": 12828
+   },
+   "reason": "The verify step was not sure of one industry.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:modern-485310-rideshare",
+   "gold": "485310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "485310",
+   "partial": "485310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "485310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44902,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 485310 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:modern-492210-mealdelivery",
+   "gold": "492210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "492210",
+   "partial": "492210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "492210",
+    "492110",
+    "485310",
+    "722310"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44946,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 492210 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:modern-531311-vacationrental",
+   "gold": "531311",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531311",
+   "partial": "531311",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531311",
+    "721199",
+    "531110",
+    "721110"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44883,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 531311 at p 0.81; fit 0.58.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:modern-518210-crypto",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "5182",
+   "tooltip": "delivery_mode",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "523910",
+    "212290",
+    "212220"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45133,
+    "output_tokens": 12828
+   },
+   "reason": "The verify step was not sure of one industry.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:modern-541922-drone",
+   "gold": "541922",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541922",
+   "partial": "541922",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541922",
+    "512110",
+    "541370",
+    "512199"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44807,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 541922 at p 1.00; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:modern-516210-streaming",
+   "gold": "516210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "516210",
+   "partial": "516210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "516210",
+    "516120",
+    "517111",
+    "512120"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45202,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 516210 at p 1.00; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:typo-812320-drycleaning",
+   "gold": "812320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812320",
+   "partial": "812320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812320",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44977,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812320 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:typo-811121-bodyshop",
+   "gold": "811121",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811121",
+   "partial": "811121",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811121",
+    "332812",
+    "336211",
+    "332710"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45084,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811121 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:typo-238210-electrical",
+   "gold": "238210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238210",
+   "partial": "238210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44896,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:typo-621310-chiro",
+   "gold": "621310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621310",
+   "partial": "621310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 44775,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621310 at p 1.00; fit 0.99.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:typo-236220-gc",
+   "gold": "236220",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "2362",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "236220",
+    "236210",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.14,
+   "usage": {
+    "input_tokens": 45098,
+    "output_tokens": 12829
+   },
+   "reason": "The verify step was not sure of one industry.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:typo-322211-boxes",
+   "gold": "322211",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "322211",
+   "partial": "322211",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "322211",
+    "339999",
+    "332439",
+    "339950"
+   ],
+   "calls": 2,
+   "seconds": 0.11,
+   "usage": {
+    "input_tokens": 45062,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 322211 at p 1.00; fit 0.90.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:confusable-541511-vs-513210-customsoftware",
+   "gold": "541511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541511",
+   "partial": "541511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541511",
+    "513210",
+    "512230",
+    "512290"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44777,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541511 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:confusable-531311-vs-531110-propertymgmt",
+   "gold": "531311",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531311",
+   "partial": "531311",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531311",
+    "561110",
+    "561210",
+    "561790"
+   ],
+   "calls": 2,
+   "seconds": 0.13,
+   "usage": {
+    "input_tokens": 45046,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 531311 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:confusable-561320-vs-561311-tempstaffing",
+   "gold": "561320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561320",
+   "partial": "561320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561320",
+    "561330",
+    "561311",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45169,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 561320 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:confusable-611620-vs-713940-martialarts",
+   "gold": "611620",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611620",
+   "partial": "611620",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713940",
+    "611620",
+    "713990",
+    "813990"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 45080,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 611620 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:confusable-722410-vs-722511-bar",
+   "gold": "722410",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722410",
+   "partial": "722410",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722410",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44892,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 722410 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:confusable-457110-vs-445131-gasstation",
+   "gold": "457110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "457110",
+   "partial": "457110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "457110",
+    "424710",
+    "424720",
+    "425120"
+   ],
+   "calls": 2,
+   "seconds": 0.1,
+   "usage": {
+    "input_tokens": 44592,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 457110 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:hold-revenue-only",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "54",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "541511",
+    "541611",
+    "541110"
+   ],
+   "calls": 1,
+   "seconds": 0.05,
+   "usage": {
+    "input_tokens": 42489,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:hold-funding-only",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "513210",
+    "541511",
+    "523999",
+    "541990"
+   ],
+   "calls": 1,
+   "seconds": 0.05,
+   "usage": {
+    "input_tokens": 42490,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:hold-two-businesses",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "62",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "621210",
+    "484110",
+    "621111",
+    "484220"
+   ],
+   "calls": 1,
+   "seconds": 0.05,
+   "usage": {
+    "input_tokens": 42490,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:hold-generic-services",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "56",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "561110",
+    "561499",
+    "561439",
+    "541611"
+   ],
+   "calls": 1,
+   "seconds": 0.06,
+   "usage": {
+    "input_tokens": 42478,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:hold-coverage-request",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "52",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "524210",
+    "524298",
+    "561110",
+    "524126"
+   ],
+   "calls": 1,
+   "seconds": 0.06,
+   "usage": {
+    "input_tokens": 42489,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  },
+  {
+   "id": "refine_heldout:hold-no-ops-boilerplate",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "455219",
+    "459999",
+    "541611",
+    "444140"
+   ],
+   "calls": 1,
+   "seconds": 0.07,
+   "usage": {
+    "input_tokens": 42502,
+    "output_tokens": 12666
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null
+  }
+ ]
+}
