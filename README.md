@@ -280,5 +280,6 @@ Security problems go through private vulnerability reporting instead (SECURITY.m
 
 ## Licence
 
-MIT (see [LICENSE](LICENSE)). The Census files are US Government works and are not covered by it.
+MIT (see [LICENSE](LICENSE)). The Census files are US Government works and are not covered by it
+([NOTICE](NOTICE)).
 Using TypeSafe's API live is subject to TypeSafe's own terms.

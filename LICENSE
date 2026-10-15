@@ -19,13 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The Census Bureau NAICS 2022 source files under data/census-2022/, and the text derived from them,
-are works of the United States Government, obtained from https://www.census.gov/naics/, and are not
-covered by this licence.
-
-TypeSafe Jev is a hosted model from TypeSafe (https://docs.typesafe.ai). This licence covers the code
-in this repository, not the model or TypeSafe's API; using the API live is subject to TypeSafe's own
-terms.
