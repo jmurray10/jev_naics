@@ -1,0 +1,3956 @@
+{
+ "components": {
+  "schemas": {
+   "AskedOut": {
+    "description": "One node asked at a level: its children were the options.",
+    "properties": {
+     "node": {
+      "description": "The node whose children were offered (root for sectors).",
+      "title": "Node",
+      "type": "string"
+     },
+     "options": {
+      "description": "Every child offered (the closed set).",
+      "items": {
+       "type": "string"
+      },
+      "title": "Options",
+      "type": "array"
+     },
+     "title": {
+      "description": "The node's title.",
+      "title": "Title",
+      "type": "string"
+     },
+     "top": {
+      "description": "The five most probable children.",
+      "items": {
+       "$ref": "#/components/schemas/OptionOut"
+      },
+      "title": "Top",
+      "type": "array"
+     },
+     "valid": {
+      "description": "False when the answer was malformed; that path was dropped.",
+      "title": "Valid",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "node",
+     "title",
+     "valid",
+     "options",
+     "top"
+    ],
+    "title": "AskedOut",
+    "type": "object"
+   },
+   "AssistCandidateOut": {
+    "description": "A tree-walk finalist, best first.",
+    "properties": {
+     "code": {
+      "description": "Six-digit industry, a tree-walk finalist.",
+      "title": "Code",
+      "type": "string"
+     },
+     "fit": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability this industry describes the business.",
+      "title": "Fit"
+     },
+     "p": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its probability in the walk's final pick.",
+      "title": "P"
+     },
+     "path_score": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its path score from the walk.",
+      "title": "Path Score"
+     },
+     "title": {
+      "description": "Its official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "p",
+     "path_score",
+     "fit"
+    ],
+    "title": "AssistCandidateOut",
+    "type": "object"
+   },
+   "AssistIn": {
+    "description": "The description as typed so far.",
+    "examples": [
+     {
+      "description": "Mobile car detailing at customers' homes."
+     }
+    ],
+    "properties": {
+     "description": {
+      "description": "The description of operations. Must not be blank.",
+      "maxLength": 4000,
+      "title": "Description",
+      "type": "string"
+     }
+    },
+    "required": [
+     "description"
+    ],
+    "title": "AssistIn",
+    "type": "object"
+   },
+   "AssistOut": {
+    "description": "How specific a NAICS code the text supports so far, and what to add.",
+    "examples": [
+     {
+      "calls": 1,
+      "candidates": [],
+      "checks": {
+       "delivery_mode": {
+        "choice": "own_software_product",
+        "p": 0.8
+       },
+       "is_operations_text": 0.9,
+       "single_primary_activity": 0.9,
+       "states_activity": 0.2,
+       "states_customers": 0.1,
+       "underspecified": 0.6
+      },
+      "config_version": "2026-10-05",
+      "level": 2,
+      "model": "jev",
+      "naics_partial": "51",
+      "partial_title": "Information",
+      "reason": "The text does not yet say enough to assign a code.",
+      "seconds": 0.3,
+      "sector": {
+       "code": "51",
+       "p": 0.85,
+       "title": "Information"
+      },
+      "status": "NEEDS_INFO",
+      "tooltip": "What exactly does the business do or sell? Be specific: 'scheduling software for dental offices' rather than 'software'.",
+      "tooltip_id": "states_activity"
+     }
+    ],
+    "properties": {
+     "calls": {
+      "description": "Jev calls made (1 when the text needs more information).",
+      "title": "Calls",
+      "type": "integer"
+     },
+     "candidates": {
+      "description": "The walk's top finalists, best first.",
+      "items": {
+       "$ref": "#/components/schemas/AssistCandidateOut"
+      },
+      "title": "Candidates",
+      "type": "array"
+     },
+     "checks": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/ChecksOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The completeness checks."
+     },
+     "config_version": {
+      "description": "Version of the assist questions and bars (questions.py).",
+      "title": "Config Version",
+      "type": "string"
+     },
+     "level": {
+      "anyOf": [
+       {
+        "enum": [
+         6,
+         4,
+         2
+        ],
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Digits of naics_partial.",
+      "title": "Level"
+     },
+     "model": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The Jev model that answered.",
+      "title": "Model"
+     },
+     "naics": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The 6-digit code; only when CODED.",
+      "title": "Naics"
+     },
+     "naics_partial": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The deepest level the text supports: 6, 4, or 2 digits.",
+      "title": "Naics Partial"
+     },
+     "naics_title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Naics Title"
+     },
+     "partial_title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Partial Title"
+     },
+     "picklist": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/PicklistOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "AMBIGUOUS only: the question that settles it."
+     },
+     "reason": {
+      "description": "One sentence.",
+      "title": "Reason",
+      "type": "string"
+     },
+     "seconds": {
+      "description": "Wall time.",
+      "title": "Seconds",
+      "type": "number"
+     },
+     "sector": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/SectorOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The sector Jev leans to: a diagnostic, shown on the meter only at its bar."
+     },
+     "status": {
+      "description": "CODED: a 6-digit code. PARTIAL: an industry group or a sector. AMBIGUOUS: between commonly confused codes; see picklist. NEEDS_INFO: the text does not say enough yet (never a 6-digit code). ERROR: a call failed or an answer was malformed; show nothing.",
+      "enum": [
+       "CODED",
+       "PARTIAL",
+       "AMBIGUOUS",
+       "NEEDS_INFO",
+       "ERROR"
+      ],
+      "title": "Status",
+      "type": "string"
+     },
+     "tooltip": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its fixed copy.",
+      "title": "Tooltip"
+     },
+     "tooltip_id": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The one missing thing: is_operations_text, states_activity, delivery_mode, states_customers, or single_primary_activity.",
+      "title": "Tooltip Id"
+     }
+    },
+    "required": [
+     "status",
+     "naics",
+     "naics_title",
+     "naics_partial",
+     "partial_title",
+     "level",
+     "candidates",
+     "checks",
+     "sector",
+     "tooltip_id",
+     "tooltip",
+     "picklist",
+     "reason",
+     "model",
+     "calls",
+     "seconds",
+     "config_version"
+    ],
+    "title": "AssistOut",
+    "type": "object"
+   },
+   "BeamPathOut": {
+    "description": "A path kept after a level.",
+    "properties": {
+     "path": {
+      "description": "Codes from sector down.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Path",
+      "type": "array"
+     },
+     "score": {
+      "description": "Geometric mean of the path's edge probabilities.",
+      "title": "Score",
+      "type": "number"
+     }
+    },
+    "required": [
+     "path",
+     "score"
+    ],
+    "title": "BeamPathOut",
+    "type": "object"
+   },
+   "CandidateOut": {
+    "description": "An industry the judge was offered: one that the hybrid or the tree walk considered.",
+    "properties": {
+     "code": {
+      "description": "Six-digit industry.",
+      "title": "Code",
+      "type": "string"
+     },
+     "fit": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability this industry describes the business.",
+      "title": "Fit"
+     },
+     "hybrid_code": {
+      "description": "The hybrid picked it.",
+      "title": "Hybrid Code",
+      "type": "boolean"
+     },
+     "p": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The judge's probability for it.",
+      "title": "P"
+     },
+     "sources": {
+      "description": "Which methods considered it.",
+      "items": {
+       "enum": [
+        "hybrid",
+        "tree"
+       ],
+       "type": "string"
+      },
+      "title": "Sources",
+      "type": "array"
+     },
+     "title": {
+      "description": "Its official title.",
+      "title": "Title",
+      "type": "string"
+     },
+     "tree_code": {
+      "description": "The tree walk picked it.",
+      "title": "Tree Code",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "p",
+     "fit",
+     "sources",
+     "hybrid_code",
+     "tree_code"
+    ],
+    "title": "CandidateOut",
+    "type": "object"
+   },
+   "ChecksOut": {
+    "description": "The completeness checks: probabilities that each holds for the text.",
+    "properties": {
+     "delivery_mode": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/DeliveryOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "How it is delivered."
+     },
+     "is_operations_text": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "It describes what the business does, not only revenue.",
+      "title": "Is Operations Text"
+     },
+     "single_primary_activity": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "One main activity is clear.",
+      "title": "Single Primary Activity"
+     },
+     "states_activity": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The activity is specific enough to identify the industry.",
+      "title": "States Activity"
+     },
+     "states_customers": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "It says who the customers are.",
+      "title": "States Customers"
+     },
+     "underspecified": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The tree walk's vagueness check (too vague or mixed).",
+      "title": "Underspecified"
+     }
+    },
+    "required": [
+     "is_operations_text",
+     "states_activity",
+     "states_customers",
+     "single_primary_activity",
+     "underspecified",
+     "delivery_mode"
+    ],
+    "title": "ChecksOut",
+    "type": "object"
+   },
+   "ClassifyIn": {
+    "description": "A description of what the business does.",
+    "examples": [
+     {
+      "description": "Mobile car detailing at customers' homes.",
+      "mode": "hybrid"
+     },
+     {
+      "description": "Small-animal veterinary clinic.",
+      "mode": "search"
+     },
+     {
+      "description": "Family dental practice with two dentists and a hygienist.",
+      "mode": "full"
+     }
+    ],
+    "properties": {
+     "description": {
+      "description": "The description of operations. Must not be blank.",
+      "maxLength": 4000,
+      "title": "Description",
+      "type": "string"
+     },
+     "mode": {
+      "default": "hybrid",
+      "description": "hybrid: search first; only when search holds because the right industry may be missing, the tree walk adds its finalists and Jev picks once over both (1 call, about 7 on a fallback). search: full-text search, then Jev picks among the results (one call). full: walk all of NAICS 2022 down the tree. tree: same as full (the library and README call this method `tree`; the response echoes whichever of the two was sent).",
+      "enum": [
+       "hybrid",
+       "search",
+       "full",
+       "tree"
+      ],
+      "title": "Mode",
+      "type": "string"
+     }
+    },
+    "required": [
+     "description"
+    ],
+    "title": "ClassifyIn",
+    "type": "object"
+   },
+   "ClassifyOut": {
+    "description": "The result: a NAICS code, or a hold, and how Jev got there.",
+    "examples": [
+     {
+      "calls": 5,
+      "code": "621210",
+      "finalists": [],
+      "fit_noul": 0.98,
+      "gate": "auto_act",
+      "mode": "full",
+      "model": "jev",
+      "model_path": [],
+      "path": [
+       {
+        "code": "62",
+        "level": "sector",
+        "title": "Health Care and Social Assistance"
+       }
+      ],
+      "path_score": 1.0,
+      "probability": 1.0,
+      "reason": "Picked 621210 at p 1.00; fit 0.98.",
+      "seconds": 2.4,
+      "title": "Offices of Dentists",
+      "trace": [],
+      "underspecified_noul": 0.08
+     }
+    ],
+    "properties": {
+     "calls": {
+      "description": "Jev calls made.",
+      "title": "Calls",
+      "type": "integer"
+     },
+     "code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The NAICS 2022 code; null on a hold.",
+      "title": "Code"
+     },
+     "fallback": {
+      "default": false,
+      "description": "hybrid: the tree walk ran because search held.",
+      "title": "Fallback",
+      "type": "boolean"
+     },
+     "finalists": {
+      "description": "search: the search results Jev picked among. full: the industries the walk ended on.",
+      "items": {
+       "$ref": "#/components/schemas/FinalistOut"
+      },
+      "title": "Finalists",
+      "type": "array"
+     },
+     "fit_noul": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability the picked industry fits; holds below 0.50 (search) or 0.50 (full).",
+      "title": "Fit Noul"
+     },
+     "gate": {
+      "description": "auto_act: code emitted. hold: a person decides.",
+      "enum": [
+       "auto_act",
+       "hold"
+      ],
+      "title": "Gate",
+      "type": "string"
+     },
+     "hold_reason": {
+      "anyOf": [
+       {
+        "enum": [
+         "too_vague",
+         "invalid_answer",
+         "low_probability",
+         "misfit",
+         "service_error",
+         "no_match"
+        ],
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Why it held, if it did. too_vague: the description is too vague or mixes unrelated lines of business. low_probability: the pick's probability is below its bar, or (search/hybrid) search found only one candidate, so there is nothing to compare. misfit: Jev doubts the picked industry describes the business (its fit check is below the bar). no_match: (search/hybrid) no NAICS industry's official text matches these words; Jev was not asked. invalid_answer: an answer was malformed or missing; nothing is acted on. service_error: no TypeSafe key and no recorded answer, or a TypeSafe call failed.",
+      "title": "Hold Reason"
+     },
+     "mode": {
+      "description": "Which classifier ran: echoes what was sent (full and tree are the same walk).",
+      "enum": [
+       "hybrid",
+       "search",
+       "full",
+       "tree"
+      ],
+      "title": "Mode",
+      "type": "string"
+     },
+     "model": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The Jev model that answered.",
+      "title": "Model"
+     },
+     "model_path": {
+      "description": "On a hold, Jev's best path: a diagnostic only, never an answer to act on.",
+      "items": {
+       "$ref": "#/components/schemas/StepOut"
+      },
+      "title": "Model Path",
+      "type": "array"
+     },
+     "path": {
+      "description": "Sector to industry for the answer; empty on a hold.",
+      "items": {
+       "$ref": "#/components/schemas/StepOut"
+      },
+      "title": "Path",
+      "type": "array"
+     },
+     "path_score": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "full only: the joint probability of the picked path across the walk (reported, not gated).",
+      "title": "Path Score"
+     },
+     "probability": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability of the picked code; acts at 0.70 or more (search) or 0.70 (full). A single search result holds without a pick: nothing to compare.",
+      "title": "Probability"
+     },
+     "reason": {
+      "description": "One sentence.",
+      "title": "Reason",
+      "type": "string"
+     },
+     "search_notes": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/SearchNotesOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "search and hybrid: how search read the text (spelling corrections, modern terms)."
+     },
+     "seconds": {
+      "description": "Wall time.",
+      "title": "Seconds",
+      "type": "number"
+     },
+     "title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Title"
+     },
+     "trace": {
+      "description": "full only: every level of the walk.",
+      "items": {
+       "$ref": "#/components/schemas/LevelOut"
+      },
+      "title": "Trace",
+      "type": "array"
+     },
+     "underspecified_noul": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability the description is too vague; holds at 0.70 (search) or 0.70 (full).",
+      "title": "Underspecified Noul"
+     }
+    },
+    "required": [
+     "mode",
+     "gate",
+     "code",
+     "title",
+     "probability",
+     "path_score",
+     "path",
+     "model_path",
+     "hold_reason",
+     "reason",
+     "underspecified_noul",
+     "fit_noul",
+     "finalists",
+     "trace",
+     "model",
+     "calls",
+     "seconds"
+    ],
+    "title": "ClassifyOut",
+    "type": "object"
+   },
+   "ConsensusIn": {
+    "description": "A description of what the business does.",
+    "examples": [
+     {
+      "description": "Mobile car detailing at customers' homes."
+     }
+    ],
+    "properties": {
+     "description": {
+      "description": "The description of operations. Must not be blank.",
+      "maxLength": 4000,
+      "title": "Description",
+      "type": "string"
+     }
+    },
+    "required": [
+     "description"
+    ],
+    "title": "ConsensusIn",
+    "type": "object"
+   },
+   "ConsensusOut": {
+    "description": "The consensus answer or hold, the step that produced it, and what each method said.",
+    "examples": [
+     {
+      "calls": 6,
+      "candidates": [],
+      "code": "811192",
+      "fit_noul": 0.95,
+      "gate": "auto_act",
+      "methods": {
+       "hybrid": {
+        "calls": 1,
+        "code": "811192",
+        "fit_noul": 0.95,
+        "gate": "auto_act",
+        "probability": 0.99
+       },
+       "tree": {
+        "calls": 5,
+        "code": "811192",
+        "fit_noul": 0.93,
+        "gate": "auto_act",
+        "probability": 0.97
+       }
+      },
+      "model": "jev",
+      "probability": 0.99,
+      "reason": "The hybrid and the tree walk both picked 811192 (p 0.99 and 0.97).",
+      "seconds": 8.1,
+      "step": "agreement",
+      "title": "Car Washes"
+     }
+    ],
+    "properties": {
+     "calls": {
+      "description": "Jev calls made in all.",
+      "title": "Calls",
+      "type": "integer"
+     },
+     "candidates": {
+      "description": "judge only: what the judge was offered.",
+      "items": {
+       "$ref": "#/components/schemas/CandidateOut"
+      },
+      "title": "Candidates",
+      "type": "array"
+     },
+     "code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The NAICS 2022 code; null on a hold.",
+      "title": "Code"
+     },
+     "fit_noul": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The picked industry's fit.",
+      "title": "Fit Noul"
+     },
+     "gate": {
+      "description": "auto_act: code emitted. hold: a person decides.",
+      "enum": [
+       "auto_act",
+       "hold"
+      ],
+      "title": "Gate",
+      "type": "string"
+     },
+     "hold_reason": {
+      "anyOf": [
+       {
+        "enum": [
+         "too_vague",
+         "invalid_answer",
+         "low_probability",
+         "misfit",
+         "service_error",
+         "no_match"
+        ],
+        "type": "string"
+       },
+       {
+        "const": "methods_disagree",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Why it held, if it did: the reasons of /v1/classify, or (tree-first) methods_disagree: the tree walk and the hybrid picked different codes.",
+      "title": "Hold Reason"
+     },
+     "methods": {
+      "additionalProperties": {
+       "$ref": "#/components/schemas/MethodOut"
+      },
+      "description": "Each method's own answer.",
+      "propertyNames": {
+       "enum": [
+        "hybrid",
+        "tree"
+       ]
+      },
+      "title": "Methods",
+      "type": "object"
+     },
+     "model": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The Jev model that answered.",
+      "title": "Model"
+     },
+     "probability": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "agreement: the hybrid's probability. judge: the judge's.",
+      "title": "Probability"
+     },
+     "reason": {
+      "description": "One sentence.",
+      "title": "Reason",
+      "type": "string"
+     },
+     "seconds": {
+      "description": "Wall time.",
+      "title": "Seconds",
+      "type": "number"
+     },
+     "step": {
+      "description": "agreement: the hybrid and the tree walk picked the same code; no further call. tree_only (triage, tree-first): only the tree walk answered and the hybrid held unsure; the tree's answer stands. judge: Jev picked once over every industry either method considered, with search's gates. hold (consensus) or broker (triage, tree-first): a method held as too vague, on a malformed answer, or on a service error, there were fewer than two candidates, (triage) the judge held, or (tree-first) the methods disagreed; a person decides.",
+      "enum": [
+       "agreement",
+       "tree_only",
+       "judge",
+       "hold",
+       "broker"
+      ],
+      "title": "Step",
+      "type": "string"
+     },
+     "title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Title"
+     }
+    },
+    "required": [
+     "gate",
+     "code",
+     "title",
+     "probability",
+     "fit_noul",
+     "hold_reason",
+     "step",
+     "reason",
+     "methods",
+     "candidates",
+     "model",
+     "calls",
+     "seconds"
+    ],
+    "title": "ConsensusOut",
+    "type": "object"
+   },
+   "CorrectionOut": {
+    "description": "A typed word search corrected to the nearest Census word.",
+    "properties": {
+     "corrected": {
+      "description": "The Census word searched with it (at reduced weight).",
+      "title": "Corrected",
+      "type": "string"
+     },
+     "typed": {
+      "description": "The word as typed.",
+      "title": "Typed",
+      "type": "string"
+     }
+    },
+    "required": [
+     "typed",
+     "corrected"
+    ],
+    "title": "CorrectionOut",
+    "type": "object"
+   },
+   "DeliveryOut": {
+    "description": "How Jev read the delivery of what the business sells (a closed Choice with a not_stated option).",
+    "properties": {
+     "choice": {
+      "description": "own_software_product, custom_work_per_client, ongoing_managed_service, makes_physical_goods, resells_to_businesses, sells_to_consumers, in_person_service, or not_stated.",
+      "title": "Choice",
+      "type": "string"
+     },
+     "p": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its probability.",
+      "title": "P"
+     }
+    },
+    "required": [
+     "choice",
+     "p"
+    ],
+    "title": "DeliveryOut",
+    "type": "object"
+   },
+   "ErrorOut": {
+    "description": "An error. Most are a sentence; request validation returns FastAPI's list of problems.",
+    "examples": [
+     {
+      "detail": "no NAICS 2022 code 999999"
+     }
+    ],
+    "properties": {
+     "detail": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "items": {
+         "additionalProperties": true,
+         "type": "object"
+        },
+        "type": "array"
+       }
+      ],
+      "description": "Why the request failed.",
+      "title": "Detail"
+     }
+    },
+    "required": [
+     "detail"
+    ],
+    "title": "ErrorOut",
+    "type": "object"
+   },
+   "EvalOut": {
+    "description": "An eval description with its gold answer.",
+    "examples": [
+     {
+      "expect_code": "621210",
+      "expect_hold": false,
+      "id": "dental-office",
+      "ops_description": "..."
+     }
+    ],
+    "properties": {
+     "expect_code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Gold NAICS 2022 code; null when it must hold.",
+      "title": "Expect Code"
+     },
+     "expect_hold": {
+      "description": "True when the right answer is a hold.",
+      "title": "Expect Hold",
+      "type": "boolean"
+     },
+     "id": {
+      "description": "Case id.",
+      "title": "Id",
+      "type": "string"
+     },
+     "ops_description": {
+      "description": "The description.",
+      "title": "Ops Description",
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "ops_description",
+     "expect_code",
+     "expect_hold"
+    ],
+    "title": "EvalOut",
+    "type": "object"
+   },
+   "ExpandedOut": {
+    "description": "A modern term search read as Census wording (from the reviewed list).",
+    "properties": {
+     "census": {
+      "description": "The Census wording searched with it.",
+      "title": "Census",
+      "type": "string"
+     },
+     "term": {
+      "description": "The term found in the text.",
+      "title": "Term",
+      "type": "string"
+     }
+    },
+    "required": [
+     "term",
+     "census"
+    ],
+    "title": "ExpandedOut",
+    "type": "object"
+   },
+   "FinalistOut": {
+    "description": "A candidate industry (a walk finalist or a search result) and how the final step judged it.",
+    "properties": {
+     "code": {
+      "description": "Six-digit industry.",
+      "title": "Code",
+      "type": "string"
+     },
+     "fit": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability this industry describes the business.",
+      "title": "Fit"
+     },
+     "p": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Probability in the final pick; null when there was nothing to pick between (one search result) or the pick was malformed.",
+      "title": "P"
+     },
+     "path_score": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "full: its path score from the walk.",
+      "title": "Path Score"
+     },
+     "search_rank": {
+      "anyOf": [
+       {
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "search: its place in the results (1 = best).",
+      "title": "Search Rank"
+     },
+     "search_score": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "search: its full-text score.",
+      "title": "Search Score"
+     },
+     "source": {
+      "anyOf": [
+       {
+        "enum": [
+         "search",
+         "tree"
+        ],
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "hybrid fallback: where the candidate came from (tree: a walk finalist search never returned; it has no search rank or score).",
+      "title": "Source"
+     },
+     "title": {
+      "description": "Its official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "p",
+     "fit"
+    ],
+    "title": "FinalistOut",
+    "type": "object"
+   },
+   "FinalizeIn": {
+    "description": "The final description, and the broker's pick-list answer if they gave one.",
+    "examples": [
+     {
+      "description": "Mobile car detailing at customers' homes."
+     },
+     {
+      "description": "We build software for clients.",
+      "user_pick": {
+       "code": "541511",
+       "picklist_id": "541511_513210"
+      }
+     }
+    ],
+    "properties": {
+     "description": {
+      "description": "The description of operations. Must not be blank.",
+      "maxLength": 4000,
+      "title": "Description",
+      "type": "string"
+     },
+     "user_pick": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/UserPickIn"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The broker's pick-list answer, if any."
+     }
+    },
+    "required": [
+     "description"
+    ],
+    "title": "FinalizeIn",
+    "type": "object"
+   },
+   "FinalizeOut": {
+    "description": "The final code or hold, and where the code came from.",
+    "examples": [
+     {
+      "code": "811192",
+      "config_version": "2026-10-05",
+      "ensemble": {
+       "calls": 6,
+       "candidates": [],
+       "code": "811192",
+       "fit_noul": 0.95,
+       "gate": "auto_act",
+       "methods": {},
+       "model": "jev",
+       "probability": 0.99,
+       "reason": "\u2026",
+       "seconds": 1.0,
+       "step": "agreement",
+       "title": "Car Washes"
+      },
+      "gate": "auto_act",
+      "reason": "The tree walk and the hybrid both picked 811192 (p 0.99 and 0.99).",
+      "source": "jev_ensemble",
+      "title": "Car Washes"
+     }
+    ],
+    "properties": {
+     "code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The NAICS 2022 code; null on a hold.",
+      "title": "Code"
+     },
+     "config_version": {
+      "description": "Version of the assist questions and bars.",
+      "title": "Config Version",
+      "type": "string"
+     },
+     "ensemble": {
+      "$ref": "#/components/schemas/ConsensusOut",
+      "description": "What tree-first said, kept for audit even under a user pick."
+     },
+     "gate": {
+      "description": "auto_act: a code. hold: a person reviews it.",
+      "enum": [
+       "auto_act",
+       "hold"
+      ],
+      "title": "Gate",
+      "type": "string"
+     },
+     "hold_reason": {
+      "anyOf": [
+       {
+        "enum": [
+         "too_vague",
+         "invalid_answer",
+         "low_probability",
+         "misfit",
+         "service_error",
+         "no_match"
+        ],
+        "type": "string"
+       },
+       {
+        "const": "methods_disagree",
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Why it held, if it did.",
+      "title": "Hold Reason"
+     },
+     "reason": {
+      "description": "One sentence.",
+      "title": "Reason",
+      "type": "string"
+     },
+     "source": {
+      "anyOf": [
+       {
+        "enum": [
+         "jev_ensemble",
+         "user_pick"
+        ],
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "jev_ensemble: tree-first agreed or stood. user_pick: the broker's pick-list answer. Null on a hold.",
+      "title": "Source"
+     },
+     "title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Title"
+     }
+    },
+    "required": [
+     "gate",
+     "code",
+     "title",
+     "source",
+     "hold_reason",
+     "reason",
+     "ensemble",
+     "config_version"
+    ],
+    "title": "FinalizeOut",
+    "type": "object"
+   },
+   "FullTextHitOut": {
+    "description": "An industry whose official text matches the words searched.",
+    "examples": [
+     {
+      "code": "541940",
+      "rank": 1.9,
+      "snippet": "licensed <b>veterinary</b> practitioners primarily engaged in the practice",
+      "title": "Veterinary Services"
+     }
+    ],
+    "properties": {
+     "code": {
+      "description": "Six-digit industry.",
+      "title": "Code",
+      "type": "string"
+     },
+     "rank": {
+      "description": "Full-text score: each matched word's weighted rank times its rarity (IDF).",
+      "title": "Rank",
+      "type": "number"
+     },
+     "snippet": {
+      "description": "The official description or index entries around the matching words.",
+      "title": "Snippet",
+      "type": "string"
+     },
+     "title": {
+      "description": "Official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "rank",
+     "snippet"
+    ],
+    "title": "FullTextHitOut",
+    "type": "object"
+   },
+   "HTTPValidationError": {
+    "properties": {
+     "detail": {
+      "items": {
+       "$ref": "#/components/schemas/ValidationError"
+      },
+      "title": "Detail",
+      "type": "array"
+     }
+    },
+    "title": "HTTPValidationError",
+    "type": "object"
+   },
+   "HealthOut": {
+    "description": "The tree is loaded and, in the deploy shape (NAICS_MIGRATE_ON_START=false), the database too.",
+    "examples": [
+     {
+      "database": "ready",
+      "industries": 1012,
+      "ok": true,
+      "problems": [],
+      "sectors": 20
+     },
+     {
+      "database": "not_ready",
+      "industries": 1012,
+      "ok": false,
+      "problems": [
+       "no data loaded (run: python -m jev_naics.db_cli build)"
+      ],
+      "sectors": 20
+     }
+    ],
+    "properties": {
+     "database": {
+      "description": "not_checked: NAICS_MIGRATE_ON_START is true (the default), so the API built the database itself at start and health checks only the tree. ready / not_ready: NAICS_MIGRATE_ON_START is false, so health checks that `db_cli build` has loaded the current data (1,012 industries, this code's data version, a known query).",
+      "enum": [
+       "ready",
+       "not_ready",
+       "not_checked"
+      ],
+      "title": "Database",
+      "type": "string"
+     },
+     "industries": {
+      "description": "Six-digit industries in the tree.",
+      "title": "Industries",
+      "type": "integer"
+     },
+     "ok": {
+      "description": "True on a 200. False (with a 503) when the database is checked and not ready.",
+      "title": "Ok",
+      "type": "boolean"
+     },
+     "problems": {
+      "description": "What is wrong with the database; empty when ready.",
+      "items": {
+       "type": "string"
+      },
+      "title": "Problems",
+      "type": "array"
+     },
+     "sectors": {
+      "description": "Sectors in the tree.",
+      "title": "Sectors",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "ok",
+     "industries",
+     "sectors",
+     "database"
+    ],
+    "title": "HealthOut",
+    "type": "object"
+   },
+   "LevelOut": {
+    "description": "One level of the walk: one call, every open node asked in parallel.",
+    "properties": {
+     "asked": {
+      "description": "Nodes asked at this level.",
+      "items": {
+       "$ref": "#/components/schemas/AskedOut"
+      },
+      "title": "Asked",
+      "type": "array"
+     },
+     "beam": {
+      "description": "The paths kept (up to 3).",
+      "items": {
+       "$ref": "#/components/schemas/BeamPathOut"
+      },
+      "title": "Beam",
+      "type": "array"
+     },
+     "level": {
+      "description": "1 = sectors.",
+      "title": "Level",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "level",
+     "asked",
+     "beam"
+    ],
+    "title": "LevelOut",
+    "type": "object"
+   },
+   "MethodOut": {
+    "description": "What one method answered on its own.",
+    "properties": {
+     "calls": {
+      "description": "Jev calls it made.",
+      "title": "Calls",
+      "type": "integer"
+     },
+     "code": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its code; null on a hold.",
+      "title": "Code"
+     },
+     "fit_noul": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its pick's fit.",
+      "title": "Fit Noul"
+     },
+     "gate": {
+      "description": "auto_act: it picked a code. hold: it held.",
+      "enum": [
+       "auto_act",
+       "hold"
+      ],
+      "title": "Gate",
+      "type": "string"
+     },
+     "hold_reason": {
+      "anyOf": [
+       {
+        "enum": [
+         "too_vague",
+         "invalid_answer",
+         "low_probability",
+         "misfit",
+         "service_error",
+         "no_match"
+        ],
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Why it held, if it did.",
+      "title": "Hold Reason"
+     },
+     "probability": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its pick's probability (on a hold, the pick it leaned to).",
+      "title": "Probability"
+     }
+    },
+    "required": [
+     "gate",
+     "code",
+     "probability",
+     "fit_noul",
+     "hold_reason",
+     "calls"
+    ],
+    "title": "MethodOut",
+    "type": "object"
+   },
+   "NodeOut": {
+    "description": "A NAICS 2022 node with its official text.",
+    "examples": [
+     {
+      "children": [],
+      "code": "621210",
+      "description": "This industry comprises establishments of health practitioners ...",
+      "index_terms": [
+       "Dentists' offices"
+      ],
+      "level": "national industry",
+      "path": [],
+      "title": "Offices of Dentists"
+     }
+    ],
+    "properties": {
+     "children": {
+      "description": "Its children; empty for an industry.",
+      "items": {
+       "$ref": "#/components/schemas/StepOut"
+      },
+      "title": "Children",
+      "type": "array"
+     },
+     "code": {
+      "description": "The code.",
+      "title": "Code",
+      "type": "string"
+     },
+     "description": {
+      "description": "Official Census description (first paragraph).",
+      "title": "Description",
+      "type": "string"
+     },
+     "index_terms": {
+      "description": "Census index terms (industries only; the first 12).",
+      "items": {
+       "type": "string"
+      },
+      "title": "Index Terms",
+      "type": "array"
+     },
+     "level": {
+      "description": "Its level in the tree.",
+      "title": "Level",
+      "type": "string"
+     },
+     "path": {
+      "description": "Its ancestors, sector first.",
+      "items": {
+       "$ref": "#/components/schemas/StepOut"
+      },
+      "title": "Path",
+      "type": "array"
+     },
+     "title": {
+      "description": "Official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "level",
+     "description",
+     "index_terms",
+     "path",
+     "children"
+    ],
+    "title": "NodeOut",
+    "type": "object"
+   },
+   "OptionOut": {
+    "description": "One option Jev weighed at a node.",
+    "properties": {
+     "code": {
+      "description": "The child code.",
+      "title": "Code",
+      "type": "string"
+     },
+     "p": {
+      "description": "Jev's probability for this child.",
+      "title": "P",
+      "type": "number"
+     },
+     "title": {
+      "description": "Its official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "p"
+    ],
+    "title": "OptionOut",
+    "type": "object"
+   },
+   "PickOptionOut": {
+    "description": "One answer on a pick-list.",
+    "properties": {
+     "code": {
+      "description": "The NAICS 2022 code this answer means.",
+      "title": "Code",
+      "type": "string"
+     },
+     "label": {
+      "description": "The answer as shown to the broker.",
+      "title": "Label",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "label"
+    ],
+    "title": "PickOptionOut",
+    "type": "object"
+   },
+   "PicklistOut": {
+    "description": "One question that settles a commonly confused pair; the broker's answer is the code.",
+    "properties": {
+     "id": {
+      "description": "Which pick-list (assist.py PICKLISTS, or make_or_resell).",
+      "title": "Id",
+      "type": "string"
+     },
+     "options": {
+      "description": "The answers and the code each one means.",
+      "items": {
+       "$ref": "#/components/schemas/PickOptionOut"
+      },
+      "title": "Options",
+      "type": "array"
+     },
+     "question": {
+      "description": "Fixed copy.",
+      "title": "Question",
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "question",
+     "options"
+    ],
+    "title": "PicklistOut",
+    "type": "object"
+   },
+   "ReferenceOut": {
+    "description": "The public NAICS 2022 reference data: every industry and the 2017 -> 2022 concordance.",
+    "examples": [
+     {
+      "from_2017": {
+       "212111": [
+        "212114"
+       ],
+       "212113": [
+        "212114",
+        "212115"
+       ]
+      },
+      "industries": {
+       "541940": "Veterinary Services",
+       "621210": "Offices of Dentists"
+      },
+      "version": "naics2022-0123456789abcdef"
+     }
+    ],
+    "properties": {
+     "from_2017": {
+      "additionalProperties": {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      "description": "A NAICS 2017 industry code that 2022 retired or partly moved -> every 2022 industry it became (more than one when it split), from the Census concordance. Codes 2022 kept unchanged are not listed.",
+      "title": "From 2017",
+      "type": "object"
+     },
+     "industries": {
+      "additionalProperties": {
+       "type": "string"
+      },
+      "description": "Every NAICS 2022 six-digit industry (1,012): code -> official title.",
+      "title": "Industries",
+      "type": "object"
+     },
+     "version": {
+      "description": "A hash of `industries` and `from_2017` together: it changes only when the data does, so a caller's saved copy can be checked against the service.",
+      "title": "Version",
+      "type": "string"
+     }
+    },
+    "required": [
+     "version",
+     "industries",
+     "from_2017"
+    ],
+    "title": "ReferenceOut",
+    "type": "object"
+   },
+   "RefineIn": {
+    "description": "The description, and which refine variant to run.",
+    "examples": [
+     {
+      "description": "Mobile car detailing at customers' homes."
+     }
+    ],
+    "properties": {
+     "description": {
+      "description": "The description of operations. Must not be blank.",
+      "maxLength": 4000,
+      "title": "Description",
+      "type": "string"
+     },
+     "lexicon": {
+      "default": true,
+      "description": "Read the text against the lexicon first (E15): a recognised term or abbreviation ('SaaS', 'HVAC') is checked even when it is a single word, and its Census wording is added for Jev when the text is short.",
+      "title": "Lexicon",
+      "type": "boolean"
+     },
+     "variant": {
+      "default": "cascade",
+      "description": "Which refine variant (experiments/EXPERIMENT.md, E9 and E10). Provisional default: verify first, then the score step only when verify does not code.",
+      "enum": [
+       "wide",
+       "verify",
+       "score",
+       "scoreb",
+       "agree",
+       "cascade",
+       "cascadeb",
+       "union"
+      ],
+      "title": "Variant",
+      "type": "string"
+     }
+    },
+    "required": [
+     "description"
+    ],
+    "title": "RefineIn",
+    "type": "object"
+   },
+   "RefineOut": {
+    "description": "An assist result from the refine experiment: the same fields, plus what the wide pick and verify saw.",
+    "examples": [
+     {
+      "calls": 1,
+      "candidates": [],
+      "checks": {
+       "delivery_mode": {
+        "choice": "own_software_product",
+        "p": 0.8
+       },
+       "is_operations_text": 0.9,
+       "single_primary_activity": 0.9,
+       "states_activity": 0.2,
+       "states_customers": 0.1,
+       "underspecified": 0.6
+      },
+      "config_version": "2026-10-05",
+      "level": 2,
+      "model": "jev",
+      "naics_partial": "51",
+      "partial_title": "Information",
+      "reason": "The text does not yet say enough to assign a code.",
+      "seconds": 0.3,
+      "sector": {
+       "code": "51",
+       "p": 0.85,
+       "title": "Information"
+      },
+      "status": "NEEDS_INFO",
+      "tooltip": "What exactly does the business do or sell? Be specific: 'scheduling software for dental offices' rather than 'software'.",
+      "tooltip_id": "states_activity"
+     }
+    ],
+    "properties": {
+     "agree": {
+      "anyOf": [
+       {
+        "type": "boolean"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "score variants: the two opposite-order picks agree.",
+      "title": "Agree"
+     },
+     "calls": {
+      "description": "Jev calls made (1 when the text needs more information).",
+      "title": "Calls",
+      "type": "integer"
+     },
+     "candidates": {
+      "description": "The walk's top finalists, best first.",
+      "items": {
+       "$ref": "#/components/schemas/AssistCandidateOut"
+      },
+      "title": "Candidates",
+      "type": "array"
+     },
+     "checks": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/ChecksOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The completeness checks."
+     },
+     "config_version": {
+      "description": "Version of the assist questions and bars (questions.py).",
+      "title": "Config Version",
+      "type": "string"
+     },
+     "level": {
+      "anyOf": [
+       {
+        "enum": [
+         6,
+         4,
+         2
+        ],
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Digits of naics_partial.",
+      "title": "Level"
+     },
+     "model": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The Jev model that answered.",
+      "title": "Model"
+     },
+     "naics": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The 6-digit code; only when CODED.",
+      "title": "Naics"
+     },
+     "naics_partial": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The deepest level the text supports: 6, 4, or 2 digits.",
+      "title": "Naics Partial"
+     },
+     "naics_title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Naics Title"
+     },
+     "partial_title": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its official title.",
+      "title": "Partial Title"
+     },
+     "picklist": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/PicklistOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "AMBIGUOUS only: the question that settles it."
+     },
+     "reading": {
+      "description": "Lexicon terms read in the text and the Census wording each means (empty wording: recognised, nothing added).",
+      "items": {
+       "additionalProperties": {
+        "type": "string"
+       },
+       "type": "object"
+      },
+      "title": "Reading",
+      "type": "array"
+     },
+     "reason": {
+      "description": "One sentence.",
+      "title": "Reason",
+      "type": "string"
+     },
+     "seconds": {
+      "description": "Wall time.",
+      "title": "Seconds",
+      "type": "number"
+     },
+     "sector": {
+      "anyOf": [
+       {
+        "$ref": "#/components/schemas/SectorOut"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The sector Jev leans to: a diagnostic, shown on the meter only at its bar."
+     },
+     "status": {
+      "description": "As assist, plus TOO_SHORT: fewer than three words, so nothing was asked (0 calls). It is not an error and not a vague-text result.",
+      "enum": [
+       "CODED",
+       "PARTIAL",
+       "AMBIGUOUS",
+       "NEEDS_INFO",
+       "TOO_SHORT",
+       "ERROR"
+      ],
+      "title": "Status",
+      "type": "string"
+     },
+     "tooltip": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "Its fixed copy.",
+      "title": "Tooltip"
+     },
+     "tooltip_id": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "description": "The one missing thing: is_operations_text, states_activity, delivery_mode, states_customers, or single_primary_activity.",
+      "title": "Tooltip Id"
+     },
+     "usage": {
+      "additionalProperties": {
+       "type": "integer"
+      },
+      "description": "Jev token usage summed over the calls.",
+      "title": "Usage",
+      "type": "object"
+     },
+     "variant": {
+      "description": "The variant that ran.",
+      "title": "Variant",
+      "type": "string"
+     },
+     "verify": {
+      "description": "Each verified candidate: p, p_reversed, level, fit.",
+      "items": {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      "title": "Verify",
+      "type": "array"
+     },
+     "wide": {
+      "description": "The wide pick's candidates, best first.",
+      "items": {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      "title": "Wide",
+      "type": "array"
+     }
+    },
+    "required": [
+     "status",
+     "naics",
+     "naics_title",
+     "naics_partial",
+     "partial_title",
+     "level",
+     "candidates",
+     "checks",
+     "sector",
+     "tooltip_id",
+     "tooltip",
+     "picklist",
+     "reason",
+     "model",
+     "calls",
+     "seconds",
+     "config_version",
+     "variant",
+     "wide",
+     "verify",
+     "agree",
+     "usage",
+     "reading"
+    ],
+    "title": "RefineOut",
+    "type": "object"
+   },
+   "SearchHitOut": {
+    "description": "An industry whose title or index terms match.",
+    "examples": [
+     {
+      "code": "812199",
+      "matched": "Tattoo parlors",
+      "title": "Other Personal Care Services"
+     }
+    ],
+    "properties": {
+     "code": {
+      "description": "Six-digit industry.",
+      "title": "Code",
+      "type": "string"
+     },
+     "matched": {
+      "description": "The title or index term that matched.",
+      "title": "Matched",
+      "type": "string"
+     },
+     "title": {
+      "description": "Official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "matched"
+    ],
+    "title": "SearchHitOut",
+    "type": "object"
+   },
+   "SearchNotesOut": {
+    "description": "How search read the text: spelling corrections and modern terms. Never a code.",
+    "properties": {
+     "corrections": {
+      "description": "Typed words corrected to Census words.",
+      "items": {
+       "$ref": "#/components/schemas/CorrectionOut"
+      },
+      "title": "Corrections",
+      "type": "array"
+     },
+     "expanded": {
+      "description": "Modern terms read as Census wording.",
+      "items": {
+       "$ref": "#/components/schemas/ExpandedOut"
+      },
+      "title": "Expanded",
+      "type": "array"
+     }
+    },
+    "required": [
+     "corrections",
+     "expanded"
+    ],
+    "title": "SearchNotesOut",
+    "type": "object"
+   },
+   "SearchOut": {
+    "description": "Full-text search results, and how the text was read.",
+    "examples": [
+     {
+      "corrections": [
+       {
+        "corrected": "veterinary",
+        "typed": "vetrinary"
+       }
+      ],
+      "expanded": [],
+      "hits": [
+       {
+        "code": "541940",
+        "rank": 1.9,
+        "snippet": "...",
+        "title": "Veterinary Services"
+       }
+      ]
+     }
+    ],
+    "properties": {
+     "corrections": {
+      "description": "Typed words corrected to Census words.",
+      "items": {
+       "$ref": "#/components/schemas/CorrectionOut"
+      },
+      "title": "Corrections",
+      "type": "array"
+     },
+     "expanded": {
+      "description": "Modern terms read as Census wording.",
+      "items": {
+       "$ref": "#/components/schemas/ExpandedOut"
+      },
+      "title": "Expanded",
+      "type": "array"
+     },
+     "hits": {
+      "description": "Industries ranked by their official text, best first.",
+      "items": {
+       "$ref": "#/components/schemas/FullTextHitOut"
+      },
+      "title": "Hits",
+      "type": "array"
+     }
+    },
+    "required": [
+     "corrections",
+     "expanded",
+     "hits"
+    ],
+    "title": "SearchOut",
+    "type": "object"
+   },
+   "SectorOut": {
+    "description": "The sector the text leans to.",
+    "properties": {
+     "code": {
+      "description": "The sector Jev leans to (31-33, 44-45, 48-49 are ranges).",
+      "title": "Code",
+      "type": "string"
+     },
+     "p": {
+      "description": "Its probability.",
+      "title": "P",
+      "type": "number"
+     },
+     "title": {
+      "description": "Its official title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "p"
+    ],
+    "title": "SectorOut",
+    "type": "object"
+   },
+   "StepOut": {
+    "description": "One node on the path from sector to industry.",
+    "properties": {
+     "code": {
+      "description": "NAICS code (sectors 31-33, 44-45, 48-49 are ranges).",
+      "title": "Code",
+      "type": "string"
+     },
+     "level": {
+      "description": "sector, subsector, industry group, NAICS industry, or national industry.",
+      "title": "Level",
+      "type": "string"
+     },
+     "title": {
+      "description": "Official NAICS 2022 title.",
+      "title": "Title",
+      "type": "string"
+     }
+    },
+    "required": [
+     "code",
+     "title",
+     "level"
+    ],
+    "title": "StepOut",
+    "type": "object"
+   },
+   "UserPickIn": {
+    "description": "The broker's answer to a pick-list.",
+    "properties": {
+     "code": {
+      "description": "The code the chosen answer means.",
+      "pattern": "^[0-9]{6}$",
+      "title": "Code",
+      "type": "string"
+     },
+     "picklist_id": {
+      "description": "The pick-list the broker answered.",
+      "maxLength": 64,
+      "title": "Picklist Id",
+      "type": "string"
+     }
+    },
+    "required": [
+     "picklist_id",
+     "code"
+    ],
+    "title": "UserPickIn",
+    "type": "object"
+   },
+   "ValidationError": {
+    "properties": {
+     "ctx": {
+      "title": "Context",
+      "type": "object"
+     },
+     "input": {
+      "title": "Input"
+     },
+     "loc": {
+      "items": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "integer"
+        }
+       ]
+      },
+      "title": "Location",
+      "type": "array"
+     },
+     "msg": {
+      "title": "Message",
+      "type": "string"
+     },
+     "type": {
+      "title": "Error Type",
+      "type": "string"
+     }
+    },
+    "required": [
+     "loc",
+     "msg",
+     "type"
+    ],
+    "title": "ValidationError",
+    "type": "object"
+   }
+  },
+  "securitySchemes": {
+   "bearer": {
+    "description": "One of the keys in the service's `NAICS_API_KEYS`.",
+    "scheme": "bearer",
+    "type": "http"
+   }
+  }
+ },
+ "info": {
+  "description": "NAICS from a description of operations, with TypeSafe Jev choosing and code deciding.\n\n1. **classify**: `search` finds the best-matching industries with Postgres full-text search over the official Census text, then Jev picks one of only those in one call, with a fit check. `full` walks all of NAICS 2022 (1,012 industries) down the official tree (about 5 calls). `hybrid` tries `search` first and falls back to the tree walk only when search is unsure.\n2. **naics**: full-text search of the Census text, or look up any code. No model call.\n3. **service**: health and the eval descriptions.\n\n**Notes.**\n- Classifying calls Jev and **costs TypeSafe credits** (with no key it replays recorded answers).\n- A hold is a normal 200 result: too vague, unsure, or the picked industry does not fit.\n- Routes are versioned under `/v1`; the unversioned paths still work but are deprecated.\n- **Auth:** every route except health and the reference export needs `Authorization: Bearer <key>`, a key from the service's `NAICS_API_KEYS`. No credential is 401; a wrong one is 403.\n- Every response carries an `X-Request-ID` header: the caller's own (1-64 of `A-Z a-z 0-9 _ -`), else a new one. It is on the request's log line, so a caller can correlate its logs with the service's.",
+  "title": "jev-naics",
+  "version": "0.1.1"
+ },
+ "openapi": "3.1.0",
+ "paths": {
+  "/classify": {
+   "post": {
+    "deprecated": true,
+    "description": "`hybrid` **(1 Jev call, or about 7 on a fallback)** tries `search` first and falls back to `full` only when search is unsure. `search` **(1 Jev call)** runs the full-text search, then Jev picks one of the top 10 results in one call and checks each one's fit; without the search database it holds. `full` **(about 5 Jev calls)** walks the Census tree: one call per level with every kept node asked in parallel, the best 3 paths kept, then one call that picks among the finalists and checks each one's fit. `tree` is the same walk as `full` under the name the library and README use; the response's `mode` echoes whichever of the two was sent. Every mode **costs TypeSafe credits**. Code holds when the description is too vague, the pick's probability is under its bar, or the picked industry does not fit (bars in the response field descriptions).",
+    "operationId": "legacy_classify",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/ClassifyIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ClassifyOut"
+        }
+       }
+      },
+      "description": "A NAICS code or a hold, with the path and every step Jev took."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long, or mode is not hybrid, search, full, or tree."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Classify a description",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/evals": {
+   "get": {
+    "deprecated": true,
+    "description": "The descriptions used to measure full-NAICS classification, with their gold answers.",
+    "operationId": "legacy_listEvals",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "items": {
+          "$ref": "#/components/schemas/EvalOut"
+         },
+         "title": "Response Legacy Listevals",
+         "type": "array"
+        }
+       }
+      },
+      "description": "The full-NAICS eval set with gold codes."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "List the eval descriptions",
+    "tags": [
+     "service"
+    ]
+   }
+  },
+  "/health": {
+   "get": {
+    "deprecated": true,
+    "description": "Loads the NAICS 2022 tree. With NAICS_MIGRATE_ON_START=false (the production shape, where a deploy step builds the database) it also verifies the database and answers **503** with `ok: false` until it is ready, so a load balancer or Compose health check never routes to an API whose search would fail. No model call.",
+    "operationId": "legacy_getHealth",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HealthOut"
+        }
+       }
+      },
+      "description": "Ready: the tree is loaded (and, in the deploy shape, the database is current)."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HealthOut"
+        }
+       }
+      },
+      "description": "NAICS_MIGRATE_ON_START is false and the database is not ready: unreachable, not migrated, empty, or an older data version. Run `python -m jev_naics.db_cli build`."
+     }
+    },
+    "summary": "Check the tree and the database",
+    "tags": [
+     "service"
+    ]
+   }
+  },
+  "/naics": {
+   "get": {
+    "deprecated": true,
+    "description": "A plain text search of official titles and Census index terms. No model call.",
+    "operationId": "legacy_searchNaics",
+    "parameters": [
+     {
+      "description": "Words to find, e.g. tattoo.",
+      "in": "query",
+      "name": "q",
+      "required": true,
+      "schema": {
+       "description": "Words to find, e.g. tattoo.",
+       "maxLength": 80,
+       "minLength": 2,
+       "title": "Q",
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "items": {
+          "$ref": "#/components/schemas/SearchHitOut"
+         },
+         "title": "Response Legacy Searchnaics",
+         "type": "array"
+        }
+       }
+      },
+      "description": "Up to 20 industries, title matches first."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "q is shorter than 2 characters."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Find a word in titles or index terms",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/naics/search": {
+   "get": {
+    "deprecated": true,
+    "description": "Type a description of operations, or any words. Postgres full-text search ranks every 2022 industry by its official title, Census index entries, illustrative examples, the activities other industries' cross-references send to it, and its description, with rare words counting more. **No model call, no cost.** Use **Classify a description** with mode `search` to have Jev pick among these.\n\n- **Spelling:** a word the Census text lacks is corrected to the nearest Census word (at most 2 edits), counted at 0.5 of a typed word's weight, with the typed word kept (`corrections`).\n- **Modern terms:** words such as SaaS or telehealth add their Census wording (`expanded`) at 0.25 of a typed word's weight, from a reviewed list; never a code.",
+    "operationId": "legacy_fullTextSearch",
+    "parameters": [
+     {
+      "description": "The words or description to search.",
+      "in": "query",
+      "name": "q",
+      "required": true,
+      "schema": {
+       "description": "The words or description to search.",
+       "maxLength": 4000,
+       "title": "Q",
+       "type": "string"
+      }
+     },
+     {
+      "description": "How many results, 1-50.",
+      "in": "query",
+      "name": "limit",
+      "required": false,
+      "schema": {
+       "default": 10,
+       "description": "How many results, 1-50.",
+       "maximum": 50,
+       "minimum": 1,
+       "title": "Limit",
+       "type": "integer"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/SearchOut"
+        }
+       }
+      },
+      "description": "Industries ranked by how well their official text matches, best first."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "q is blank or too long, or limit is outside 1-50."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The search database is not configured or not reachable, or service authentication is not configured."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Full-text search of the official NAICS text",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/naics/{code}": {
+   "get": {
+    "deprecated": true,
+    "description": "Any level of the official 2022 tree. No model call.",
+    "operationId": "legacy_getNaics",
+    "parameters": [
+     {
+      "description": "A NAICS 2022 code (2 to 6 digits, or a range sector such as 31-33).",
+      "in": "path",
+      "name": "code",
+      "required": true,
+      "schema": {
+       "description": "A NAICS 2022 code (2 to 6 digits, or a range sector such as 31-33).",
+       "examples": [
+        "621210"
+       ],
+       "title": "Code",
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/NodeOut"
+        }
+       }
+      },
+      "description": "The node's official title, description, path, and children."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "404": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No NAICS 2022 node has this code."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      },
+      "description": "Validation Error"
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Look up a NAICS code",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/v1/assist": {
+   "post": {
+    "description": "Call on a typing pause. One Jev call asks the sector and the completeness checks together; when the text is not yet operations, not specific, or too vague, it stops there (`NEEDS_INFO`, **1 call**, never a 6-digit code). Otherwise the tree walk continues to a code (`CODED`), a pick-list between commonly confused codes (`AMBIGUOUS`), or an industry group or sector (`PARTIAL`): **about 5 calls**. The tooltip and pick-list copy are fixed; Jev only answers checks and closed Choices. **Costs TypeSafe credits.**",
+    "operationId": "assist",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/AssistIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/AssistOut"
+        }
+       }
+      },
+      "description": "How specific a code the text supports, the one thing to add, and a pick-list if needed."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Assist as the broker types",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/v1/classify": {
+   "post": {
+    "description": "`hybrid` **(1 Jev call, or about 7 on a fallback)** tries `search` first and falls back to `full` only when search is unsure. `search` **(1 Jev call)** runs the full-text search, then Jev picks one of the top 10 results in one call and checks each one's fit; without the search database it holds. `full` **(about 5 Jev calls)** walks the Census tree: one call per level with every kept node asked in parallel, the best 3 paths kept, then one call that picks among the finalists and checks each one's fit. `tree` is the same walk as `full` under the name the library and README use; the response's `mode` echoes whichever of the two was sent. Every mode **costs TypeSafe credits**. Code holds when the description is too vague, the pick's probability is under its bar, or the picked industry does not fit (bars in the response field descriptions).",
+    "operationId": "classify",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/ClassifyIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ClassifyOut"
+        }
+       }
+      },
+      "description": "A NAICS code or a hold, with the path and every step Jev took."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long, or mode is not hybrid, search, full, or tree."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Classify a description",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/v1/consensus": {
+   "post": {
+    "description": "Runs `hybrid` and `full` on the description. When both pick the same code, that code is the answer with no further call (`step: agreement`). When either holds as too vague, on a malformed answer, or on a service error, it holds. Otherwise Jev picks once over every industry either method considered (their answers plus their search results or finalists, a closed set built in code), with the same probability, fit, and vagueness gates as `search` (`step: judge`). **Costs TypeSafe credits**: about 6 Jev calls, 12 on a hybrid fallback, plus 1 when judged.",
+    "operationId": "consensus",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/ConsensusIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ConsensusOut"
+        }
+       }
+      },
+      "description": "A NAICS code or a hold, the step that produced it, and each method's answer."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Classify by consensus of the hybrid and the tree walk",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/v1/evals": {
+   "get": {
+    "description": "The descriptions used to measure full-NAICS classification, with their gold answers.",
+    "operationId": "listEvals",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "items": {
+          "$ref": "#/components/schemas/EvalOut"
+         },
+         "title": "Response Listevals",
+         "type": "array"
+        }
+       }
+      },
+      "description": "The full-NAICS eval set with gold codes."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "List the eval descriptions",
+    "tags": [
+     "service"
+    ]
+   }
+  },
+  "/v1/finalize": {
+   "post": {
+    "description": "Runs tree-first (the tree walk, checked by the hybrid). With a broker's pick-list answer, that answer is the code (`source: user_pick`), and tree-first still runs and is returned for audit. Submission is never blocked: a hold means a person reviews it. **Costs TypeSafe credits**: about 6 Jev calls.",
+    "operationId": "finalize",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/FinalizeIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/FinalizeOut"
+        }
+       }
+      },
+      "description": "The final code or hold, its source, and what tree-first said."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long, or the pick is not a NAICS 2022 industry."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Finalize on submit",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/v1/health": {
+   "get": {
+    "description": "Loads the NAICS 2022 tree. With NAICS_MIGRATE_ON_START=false (the production shape, where a deploy step builds the database) it also verifies the database and answers **503** with `ok: false` until it is ready, so a load balancer or Compose health check never routes to an API whose search would fail. No model call.",
+    "operationId": "getHealth",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HealthOut"
+        }
+       }
+      },
+      "description": "Ready: the tree is loaded (and, in the deploy shape, the database is current)."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HealthOut"
+        }
+       }
+      },
+      "description": "NAICS_MIGRATE_ON_START is false and the database is not ready: unreachable, not migrated, empty, or an older data version. Run `python -m jev_naics.db_cli build`."
+     }
+    },
+    "summary": "Check the tree and the database",
+    "tags": [
+     "service"
+    ]
+   }
+  },
+  "/v1/naics": {
+   "get": {
+    "description": "A plain text search of official titles and Census index terms. No model call.",
+    "operationId": "searchNaics",
+    "parameters": [
+     {
+      "description": "Words to find, e.g. tattoo.",
+      "in": "query",
+      "name": "q",
+      "required": true,
+      "schema": {
+       "description": "Words to find, e.g. tattoo.",
+       "maxLength": 80,
+       "minLength": 2,
+       "title": "Q",
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "items": {
+          "$ref": "#/components/schemas/SearchHitOut"
+         },
+         "title": "Response Searchnaics",
+         "type": "array"
+        }
+       }
+      },
+      "description": "Up to 20 industries, title matches first."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "q is shorter than 2 characters."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Find a word in titles or index terms",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/v1/naics/reference": {
+   "get": {
+    "description": "The public Census reference data a caller needs without the classifier: the 1,012 six-digit industries with their official titles (for example, a form's list of codes) and the 2017 -> 2022 concordance (to read a written 2017 code). The same JSON as `python -m jev_naics --export-reference`. **No model call, no database.**",
+    "operationId": "getReference",
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ReferenceOut"
+        }
+       }
+      },
+      "description": "Every industry's code and title, the 2017 -> 2022 concordance, and their version."
+     }
+    },
+    "summary": "Export the NAICS 2022 reference data",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/v1/naics/search": {
+   "get": {
+    "description": "Type a description of operations, or any words. Postgres full-text search ranks every 2022 industry by its official title, Census index entries, illustrative examples, the activities other industries' cross-references send to it, and its description, with rare words counting more. **No model call, no cost.** Use **Classify a description** with mode `search` to have Jev pick among these.\n\n- **Spelling:** a word the Census text lacks is corrected to the nearest Census word (at most 2 edits), counted at 0.5 of a typed word's weight, with the typed word kept (`corrections`).\n- **Modern terms:** words such as SaaS or telehealth add their Census wording (`expanded`) at 0.25 of a typed word's weight, from a reviewed list; never a code.",
+    "operationId": "fullTextSearch",
+    "parameters": [
+     {
+      "description": "The words or description to search.",
+      "in": "query",
+      "name": "q",
+      "required": true,
+      "schema": {
+       "description": "The words or description to search.",
+       "maxLength": 4000,
+       "title": "Q",
+       "type": "string"
+      }
+     },
+     {
+      "description": "How many results, 1-50.",
+      "in": "query",
+      "name": "limit",
+      "required": false,
+      "schema": {
+       "default": 10,
+       "description": "How many results, 1-50.",
+       "maximum": 50,
+       "minimum": 1,
+       "title": "Limit",
+       "type": "integer"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/SearchOut"
+        }
+       }
+      },
+      "description": "Industries ranked by how well their official text matches, best first."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "q is blank or too long, or limit is outside 1-50."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The search database is not configured or not reachable, or service authentication is not configured."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Full-text search of the official NAICS text",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/v1/naics/{code}": {
+   "get": {
+    "description": "Any level of the official 2022 tree. No model call.",
+    "operationId": "getNaics",
+    "parameters": [
+     {
+      "description": "A NAICS 2022 code (2 to 6 digits, or a range sector such as 31-33).",
+      "in": "path",
+      "name": "code",
+      "required": true,
+      "schema": {
+       "description": "A NAICS 2022 code (2 to 6 digits, or a range sector such as 31-33).",
+       "examples": [
+        "621210"
+       ],
+       "title": "Code",
+       "type": "string"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/NodeOut"
+        }
+       }
+      },
+      "description": "The node's official title, description, path, and children."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "404": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No NAICS 2022 node has this code."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      },
+      "description": "Validation Error"
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Look up a NAICS code",
+    "tags": [
+     "naics"
+    ]
+   }
+  },
+  "/v1/refine/assist": {
+   "post": {
+    "description": "An experiment beside `/assist`, which it does not change. One Jev call carries the completeness checks and a Choice over all 1,012 industries (in blocks of at most 240); a second verifies the best candidates with their full Census text (`variant`). With `lexicon` (the default) a one- or two-word text is checked when it holds a recognised term or passes the completeness checks; without it, fewer than three words returns `TOO_SHORT` with no call. **Costs TypeSafe credits**: about 40-45k input tokens per call.",
+    "operationId": "refineAssist",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/RefineIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/RefineOut"
+        }
+       }
+      },
+      "description": "The assist result from the wide pick plus a verify step, with what each saw."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Assist, refine experiment (E9)",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/v1/tree-first": {
+   "post": {
+    "description": "Runs `hybrid` and `full` **in parallel**; the tree walk's answer is the default. It stands when the hybrid picks the same code (`step: agreement`) or holds unsure: low probability, misfit, or no match (`step: tree_only`). It goes back to the broker (`step: broker`) when the hybrid picks a different code (`hold_reason: methods_disagree`), finds the description too vague, or fails, and whenever the tree walk holds. No judge call. **Costs TypeSafe credits**: about 6 Jev calls, 12 on a hybrid fallback.",
+    "operationId": "treeFirst",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/ConsensusIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ConsensusOut"
+        }
+       }
+      },
+      "description": "The tree walk's code or a hold for the broker, the step, and each method's answer."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Tree walk first, checked by the hybrid",
+    "tags": [
+     "classify"
+    ]
+   }
+  },
+  "/v1/triage": {
+   "post": {
+    "description": "Runs `hybrid` and `full` **in parallel**. Accepted with no further call when both pick the same code (`step: agreement`) or when only the tree walk answers and the hybrid held unsure (`step: tree_only`). A hybrid that failed (malformed answer, service error) is never read as \"no answer\": it goes back to the broker. Anything else (a split, a lone hybrid answer, both unsure) is judged once over every industry either method considered, with `search`'s gates (`step: judge`); a judge hold, or a too-vague description, goes back to the broker (`step: broker`). **Costs TypeSafe credits**: about 6 Jev calls, 12 on a hybrid fallback, plus 1 when judged.",
+    "operationId": "triage",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/ConsensusIn"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ConsensusOut"
+        }
+       }
+      },
+      "description": "A NAICS code or a hold for the broker, the step that produced it, and each method's answer."
+     },
+     "401": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No credential: send `Authorization: Bearer <key>`."
+     },
+     "403": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The credential is not one of the service's keys."
+     },
+     "409": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "No TypeSafe key is set and no answer is recorded for this exact description."
+     },
+     "422": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "The description is blank or too long."
+     },
+     "503": {
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ErrorOut"
+        }
+       }
+      },
+      "description": "Service authentication is not configured (no `NAICS_API_KEYS`)."
+     }
+    },
+    "security": [
+     {
+      "bearer": []
+     }
+    ],
+    "summary": "Triage for a broker: accept, judge, or hand back",
+    "tags": [
+     "classify"
+    ]
+   }
+  }
+ },
+ "tags": [
+  {
+   "description": "Description in, NAICS code or a hold out (costs TypeSafe credits).",
+   "name": "classify"
+  },
+  {
+   "description": "The official NAICS 2022 text: full-text search, or look up a code. No model call.",
+   "name": "naics"
+  },
+  {
+   "description": "Health and the eval descriptions. No model call.",
+   "name": "service"
+  }
+ ]
+}

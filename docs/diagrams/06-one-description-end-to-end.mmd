@@ -1,0 +1,37 @@
+flowchart TD
+    A["1. A person types what the business does<br/><i>We bake and sell fresh bread and pastries<br/>at our retail bakery</i>"]
+    subgraph SEARCHM["The search method (02-search-method)"]
+        direction TB
+        B["2. Code tidies the words<br/>fixes typos, translates modern terms<br/>(no AI used)"]
+        C[("3. Database look-up<br/>1,012 industries checked by index<br/>best 10 matches kept<br/>(no AI used)")]
+        D["Short list, ranked<br/>311811 Retail Bakeries<br/>311812 Commercial Bakeries<br/>311813 Frozen Cakes and Pies<br/>445291 Baked Goods Retailers<br/>... 6 more"]
+        E["4. Jev (the AI) reads the official text<br/>for just those 10 and answers<br/>which one fits, how well, how vague"]
+        F["Jev's answer<br/>pick 311811 at 85% sure<br/>fit 0.56, vagueness 0.45"]
+        G{{"5. Code checks the answer<br/>sure enough? 85% vs 70% needed<br/>fits? 0.56 vs 0.50 needed<br/>clear enough? 0.45 vs under 0.70"}}
+        B --> C --> D --> E --> F --> G
+    end
+    H["6a. Answer: 311811 Retail Bakeries<br/>with its path:<br/>Manufacturing > Food > Bakeries<br/>> Bread and Bakery > Retail Bakeries"]
+    I["6b. Hold for a person<br/>with the reason<br/>no code is guessed"]
+    subgraph FALL["Only in hybrid, when search holds because the right industry may be missing (04-hybrid-method)"]
+        direction TB
+        J["Jev walks the NAICS tree level by level<br/>(03-tree-method) and adds up to 3 finalists"]
+        K["Jev picks once more over the 10 plus the finalists<br/>then code checks the same gates again"]
+        J --> K
+    end
+    A --> B
+    G -->|"all checks pass"| H
+    G -->|"vague or error"| I
+    G -.->|"does not pass, industry may be missing"| J
+    K -.->|"pass"| H
+    K -.->|"fail"| I
+
+    classDef person fill:#fff4d6,stroke:#b8860b,color:#222
+    classDef code fill:#e3f1ec,stroke:#1f6f5c,color:#222
+    classDef ai fill:#e2e8f6,stroke:#2d4f9e,color:#222,stroke-dasharray: 5 5
+    classDef out fill:#d9f2d9,stroke:#2e7d32,color:#222
+    classDef hold fill:#f6e4e0,stroke:#a63a2b,color:#222
+    class A person
+    class B,C,D,G code
+    class E,F,J,K ai
+    class H out
+    class I hold

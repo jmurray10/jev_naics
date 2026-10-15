@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+tools/out/
+.scratch/
+.superpowers/
+
+# Real application data extracts (third-party data stays local)
+test_data/
+
+# Playwright MCP snapshots and screenshots (local verification only)
+.playwright-mcp/

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "daycare",
+    "expect_code": "624410",
+    "expect_hold": false,
+    "source": "held-out (JEV-48): written 2026-09-29 before the finalist step, gold from the Census index; never tuned on",
+    "ops_description": "Licensed daycare center caring for infants and preschool children while parents work."
+  },
+  {
+    "id": "craft-brewery",
+    "expect_code": "312120",
+    "expect_hold": false,
+    "source": "held-out (JEV-48): written 2026-09-29 before the finalist step, gold from the Census index; never tuned on",
+    "ops_description": "Craft brewery that brews and cans its own beer and sells it to bars and liquor stores."
+  },
+  {
+    "id": "roofing-contractor",
+    "expect_code": "238160",
+    "expect_hold": false,
+    "source": "held-out (JEV-48): written 2026-09-29 before the finalist step, gold from the Census index; never tuned on",
+    "ops_description": "Residential roofing contractor replacing shingle and metal roofs after storm damage."
+  },
+  {
+    "id": "dog-kennel",
+    "expect_code": "812910",
+    "expect_hold": false,
+    "source": "held-out (JEV-48): written 2026-09-29 before the finalist step, gold from the Census index; never tuned on",
+    "ops_description": "Dog boarding kennel with daily walks and overnight stays while owners travel."
+  },
+  {
+    "id": "mobile-detailing",
+    "expect_code": "811192",
+    "expect_hold": false,
+    "source": "held-out (JEV-48): written 2026-09-29 before the finalist step, gold from the Census index; never tuned on",
+    "ops_description": "Mobile auto detailing service that washes, waxes, and cleans car interiors at customers' homes."
+  },
+  {
+    "id": "auto-body-shop",
+    "expect_code": "811121",
+    "expect_hold": false,
+    "source": "held-out (JEV-48): written 2026-09-29 before the finalist step, gold from the Census index; never tuned on",
+    "ops_description": "Collision repair shop fixing dents, straightening frames, and repainting damaged cars."
+  }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "id": "rev-fees",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Monthly management fees from clients."
+ },
+ {
+  "id": "rev-amount",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "About $750,000 in revenue last year."
+ },
+ {
+  "id": "rev-commission",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We earn commissions."
+ },
+ {
+  "id": "rev-funding",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Seed round raised on a convertible note, no revenue yet."
+ },
+ {
+  "id": "rev-billing",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We invoice customers net 30."
+ },
+ {
+  "id": "rev-transaction",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "A percentage of each transaction volume."
+ },
+ {
+  "id": "rev-licensing",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Licensing revenue and setup fees."
+ },
+ {
+  "id": "rev-money",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "revenue",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "making money"
+ },
+ {
+  "id": "gen-software",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "generic",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Software"
+ },
+ {
+  "id": "gen-services",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "generic",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Professional services for businesses."
+ },
+ {
+  "id": "gen-ecommerce",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "generic",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "E-commerce"
+ },
+ {
+  "id": "gen-consulting",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "generic",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Consulting"
+ },
+ {
+  "id": "gen-sales",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "generic",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Sales of products."
+ },
+ {
+  "id": "gen-saas",
+  "expect_status": "NEEDS_INFO",
+  "expect_code": null,
+  "kind": "generic",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "SaaS"
+ },
+ {
+  "id": "ok-carwash",
+  "expect_status": "CODED",
+  "expect_code": "811192",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Self-service and tunnel car wash for cars and trucks."
+ },
+ {
+  "id": "ok-law",
+  "expect_status": "CODED",
+  "expect_code": "541110",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "A law firm handling business litigation for corporate clients."
+ },
+ {
+  "id": "ok-tax",
+  "expect_status": "CODED",
+  "expect_code": "541213",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Individual and small-business income tax return preparation."
+ },
+ {
+  "id": "ok-dental",
+  "expect_status": "CODED",
+  "expect_code": "621210",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Family dental practice with two dentists and a hygienist."
+ },
+ {
+  "id": "ok-cabinets",
+  "expect_status": "CODED",
+  "expect_code": "337110",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We build custom wood kitchen cabinets in our shop and sell them to homeowners."
+ },
+ {
+  "id": "ok-saas",
+  "expect_status": "CODED",
+  "expect_code": "513210",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We sell subscriptions to our own cloud software that schedules appointments for hair salons."
+ },
+ {
+  "id": "ok-custom-dev",
+  "expect_status": "CODED",
+  "expect_code": "541511",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We write custom software to each client's specifications under fixed-bid contracts for mid-size manufacturers."
+ },
+ {
+  "id": "ok-coffee",
+  "expect_status": "CODED",
+  "expect_code": "722515",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "A counter-service coffee shop selling espresso drinks and pastries to walk-in customers."
+ },
+ {
+  "id": "ok-hvac",
+  "expect_status": "CODED",
+  "expect_code": "238220",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We install and service commercial heating and air conditioning systems for office buildings."
+ },
+ {
+  "id": "ok-trucking",
+  "expect_status": "CODED",
+  "expect_code": "484121",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Long-haul full-truckload freight trucking across the lower 48 states for shippers."
+ },
+ {
+  "id": "ok-vet",
+  "expect_status": "CODED",
+  "expect_code": "541940",
+  "kind": "clear",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Small-animal veterinary clinic offering exams, vaccinations, and surgery for dogs and cats."
+ },
+ {
+  "id": "conf-it",
+  "expect_status": "AMBIGUOUS_OR_PARTIAL",
+  "expect_code": null,
+  "kind": "confusable",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We advise companies on cybersecurity, run penetration tests, and monitor their networks."
+ },
+ {
+  "id": "conf-sw",
+  "expect_status": "AMBIGUOUS_OR_PARTIAL",
+  "expect_code": null,
+  "kind": "confusable",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We make software for insurance agencies, some as a product and some built to order."
+ },
+ {
+  "id": "conf-mkt",
+  "expect_status": "AMBIGUOUS_OR_PARTIAL",
+  "expect_code": null,
+  "kind": "confusable",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Marketing for local restaurants: strategy, social media ads, and campaign management."
+ },
+ {
+  "id": "mix-1",
+  "expect_status": "NEEDS_INFO_OR_PARTIAL",
+  "expect_code": null,
+  "kind": "mixed",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "We run a bakery, a landscaping crew, and an accounting practice."
+ },
+ {
+  "id": "mix-2",
+  "expect_status": "NEEDS_INFO_OR_PARTIAL",
+  "expect_code": null,
+  "kind": "mixed",
+  "source": "assist dev set, synthetic, written 2026-10-05 before the assist bars were measured",
+  "ops_description": "Rental properties, a food truck, and IT consulting."
+ }
+]

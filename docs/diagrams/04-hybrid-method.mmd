@@ -1,0 +1,14 @@
+flowchart TD
+    D["Description"] --> S["Search, then Jev picks, then gates<br/>(the search method, 02-search-method)<br/>1 model call"]
+    S --> Q{"Search acted?<br/>all gates passed"}
+    Q -->|"yes"| A["auto_act(code)<br/>done in one call"]
+    Q -->|"no: vague, malformed<br/>or service error"| H1["hold(reason)<br/>no fallback"]
+    Q -->|"no: right industry may<br/>be missing from results"| W["Tree walk adds up to 3 finalists<br/>(the tree method, 03-tree-method,<br/>without its own pick)"]
+    W --> N{"Walk added<br/>something new?"}
+    N -->|"no"| H2["hold: search's hold stands"]
+    N -->|"yes"| P["Jev picks once over<br/>search results + finalists<br/>(up to 13)"]
+    P --> G{"Picked an industry<br/>the walk added, and<br/>all gates pass?"}
+    G -->|"yes"| A2["auto_act(code)"]
+    G -->|"no"| H3["hold(reason)"]
+    classDef model stroke-dasharray: 5 5
+    class S,W,P model

@@ -1,0 +1,2024 @@
+{
+ "run_id": "E9-union-dev-20261006",
+ "variant": "union",
+ "summary": {
+  "cases": 81,
+  "coded": 55,
+  "coded_right": 54,
+  "coded_wrong": 1,
+  "wrong_ids": [
+   "assist_dev:conf-mkt"
+  ],
+  "gold_cases": 61,
+  "gold_coded_right": 54,
+  "ambiguous_with_gold_offered": 1,
+  "recall_at_k": [
+   57,
+   60
+  ],
+  "errors": 1,
+  "statuses": {
+   "AMBIGUOUS": 3,
+   "CODED": 55,
+   "ERROR": 1,
+   "NEEDS_INFO": 17,
+   "PARTIAL": 5
+  },
+  "calls_mean": 5.8,
+  "input_tokens_mean": 42813,
+  "seconds_median": 0.72
+ },
+ "rows": [
+  {
+   "id": "full_naics:electrical-contractor",
+   "gold": "238210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238210",
+   "partial": "238210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238210",
+    "236220",
+    "331110",
+    "331210"
+   ],
+   "calls": 7,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 45566,
+    "output_tokens": 12896
+   },
+   "reason": "238210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:plumbing-hvac",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.75,
+   "usage": {
+    "input_tokens": 47083,
+    "output_tokens": 12988
+   },
+   "reason": "238220 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:long-haul-trucking",
+   "gold": "484121",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484121",
+   "partial": "484121",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484121",
+    "484110",
+    "484122",
+    "331110"
+   ],
+   "calls": 8,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 45710,
+    "output_tokens": 12899
+   },
+   "reason": "484121 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:insurance-brokerage",
+   "gold": "524210",
+   "expect_hold": false,
+   "status": "ERROR",
+   "code": null,
+   "partial": null,
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": null,
+   "wide_top": [],
+   "calls": 1,
+   "seconds": 0.03,
+   "usage": {
+    "input_tokens": 42492,
+    "output_tokens": 12663
+   },
+   "reason": "Wide block 4 was malformed."
+  },
+  {
+   "id": "full_naics:cpa-office",
+   "gold": "541211",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "5412",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541211",
+    "523940",
+    "524298",
+    "521110"
+   ],
+   "calls": 6,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 45540,
+    "output_tokens": 12897
+   },
+   "reason": "No candidate was judged the primary activity."
+  },
+  {
+   "id": "full_naics:custom-programming",
+   "gold": "541511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541511",
+   "partial": "541511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541511",
+    "513210",
+    "512230",
+    "512290"
+   ],
+   "calls": 8,
+   "seconds": 0.82,
+   "usage": {
+    "input_tokens": 45935,
+    "output_tokens": 12943
+   },
+   "reason": "541511 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:full-service-restaurant",
+   "gold": "722511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722511",
+   "partial": "722511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722511",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 45610,
+    "output_tokens": 12896
+   },
+   "reason": "722511 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:physician-office",
+   "gold": "621111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621111",
+   "partial": "621111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621111",
+    "621498",
+    "331110",
+    "331210"
+   ],
+   "calls": 8,
+   "seconds": 0.72,
+   "usage": {
+    "input_tokens": 46624,
+    "output_tokens": 12942
+   },
+   "reason": "621111 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:supermarket",
+   "gold": "445110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "445110",
+   "partial": "445110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "445110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.6,
+   "usage": {
+    "input_tokens": 45477,
+    "output_tokens": 12902
+   },
+   "reason": "445110 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:underspecified-ops",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541611",
+    "561110",
+    "541990",
+    "813910"
+   ],
+   "calls": 1,
+   "seconds": 0.07,
+   "usage": {
+    "input_tokens": 42484,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "full_naics:dental-office",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 6,
+   "seconds": 0.7,
+   "usage": {
+    "input_tokens": 46905,
+    "output_tokens": 12988
+   },
+   "reason": "621210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:veterinary-clinic",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "6214",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "621498",
+    "621111",
+    "621399",
+    "621999"
+   ],
+   "calls": 8,
+   "seconds": 0.74,
+   "usage": {
+    "input_tokens": 46808,
+    "output_tokens": 12942
+   },
+   "reason": "No candidate was judged the primary activity."
+  },
+  {
+   "id": "full_naics:car-wash",
+   "gold": "811192",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811192",
+   "partial": "811192",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811192",
+    "561790",
+    "561720",
+    "457120"
+   ],
+   "calls": 7,
+   "seconds": 0.84,
+   "usage": {
+    "input_tokens": 47119,
+    "output_tokens": 13034
+   },
+   "reason": "811192 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:florist",
+   "gold": "459310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "459310",
+   "partial": "459310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.74,
+   "usage": {
+    "input_tokens": 46389,
+    "output_tokens": 12994
+   },
+   "reason": "459310 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:dry-cleaner",
+   "gold": "812320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812320",
+   "partial": "812320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812320",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 1.05,
+   "usage": {
+    "input_tokens": 46144,
+    "output_tokens": 12942
+   },
+   "reason": "812320 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:chiropractor",
+   "gold": "621310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621310",
+   "partial": "621310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 1.31,
+   "usage": {
+    "input_tokens": 47097,
+    "output_tokens": 12988
+   },
+   "reason": "621310 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:optometrist",
+   "gold": "621320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621320",
+   "partial": "621320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621320",
+    "456130",
+    "541990",
+    "541940"
+   ],
+   "calls": 7,
+   "seconds": 0.7,
+   "usage": {
+    "input_tokens": 46347,
+    "output_tokens": 12942
+   },
+   "reason": "621320 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:moving-company",
+   "gold": "484210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484210",
+   "partial": "484210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 0.72,
+   "usage": {
+    "input_tokens": 46649,
+    "output_tokens": 12991
+   },
+   "reason": "484210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:pet-groomer",
+   "gold": "812910",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812910",
+   "partial": "812910",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812910",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 0.76,
+   "usage": {
+    "input_tokens": 46665,
+    "output_tokens": 12988
+   },
+   "reason": "812910 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:landscaper",
+   "gold": "561730",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561730",
+   "partial": "561730",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238990",
+    "561730",
+    "238910",
+    "237990"
+   ],
+   "calls": 7,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 45887,
+    "output_tokens": 12896
+   },
+   "reason": "561730 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:gym",
+   "gold": "713940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "713940",
+   "partial": "713940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713940",
+    "812191",
+    "812199",
+    "813990"
+   ],
+   "calls": 7,
+   "seconds": 1.79,
+   "usage": {
+    "input_tokens": 46674,
+    "output_tokens": 12988
+   },
+   "reason": "713940 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:hotel",
+   "gold": "721110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "721110",
+   "partial": "721110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "721110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 45386,
+    "output_tokens": 12896
+   },
+   "reason": "721110 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:tattoo-studio",
+   "gold": "812199",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812199",
+   "partial": "812199",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812199",
+    "812990",
+    "812112",
+    "713990"
+   ],
+   "calls": 8,
+   "seconds": 0.49,
+   "usage": {
+    "input_tokens": 45853,
+    "output_tokens": 12896
+   },
+   "reason": "812199 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:software-publisher",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "423430",
+    "334111"
+   ],
+   "calls": 7,
+   "seconds": 0.73,
+   "usage": {
+    "input_tokens": 45938,
+    "output_tokens": 12944
+   },
+   "reason": "513210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:contract-rnd-lab",
+   "gold": "541715",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541715",
+   "partial": "541715",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541715",
+    "541380",
+    "331110",
+    "331210"
+   ],
+   "calls": 7,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 45718,
+    "output_tokens": 12897
+   },
+   "reason": "541715 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:payment-processor",
+   "gold": "522320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522320",
+   "partial": "522320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522320",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 45564,
+    "output_tokens": 12898
+   },
+   "reason": "522320 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:consumer-lender",
+   "gold": "522291",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522291",
+   "partial": "522291",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522291",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 0.8,
+   "usage": {
+    "input_tokens": 46991,
+    "output_tokens": 12991
+   },
+   "reason": "522291 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:investment-adviser",
+   "gold": "523940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "523940",
+   "partial": "523940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "523940",
+    "541990",
+    "541611",
+    "541211"
+   ],
+   "calls": 7,
+   "seconds": 0.76,
+   "usage": {
+    "input_tokens": 47237,
+    "output_tokens": 12990
+   },
+   "reason": "523940 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:surgical-instruments",
+   "gold": "339112",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "339112",
+   "partial": "339112",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "339112",
+    "326199",
+    "339113",
+    "325411"
+   ],
+   "calls": 8,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 47403,
+    "output_tokens": 12989
+   },
+   "reason": "339112 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:bingo-operator",
+   "gold": "713290",
+   "expect_hold": false,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "7132",
+   "tooltip": "single_primary_activity",
+   "picklist": "candidates",
+   "picklist_codes": [
+    "713290",
+    "713210"
+   ],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713290",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.77,
+   "usage": {
+    "input_tokens": 46660,
+    "output_tokens": 12988
+   },
+   "reason": "The candidates only partly fit: 713290, 713210."
+  },
+  {
+   "id": "full_naics:commercial-bank",
+   "gold": "522110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522110",
+   "partial": "522110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.48,
+   "usage": {
+    "input_tokens": 45223,
+    "output_tokens": 12896
+   },
+   "reason": "522110 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:it-staffing",
+   "gold": "561320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561320",
+   "partial": "561320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561320",
+    "561311",
+    "513210",
+    "561330"
+   ],
+   "calls": 8,
+   "seconds": 0.73,
+   "usage": {
+    "input_tokens": 46100,
+    "output_tokens": 12943
+   },
+   "reason": "561320 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "full_naics:esp-no-naics",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "493110"
+   ],
+   "calls": 8,
+   "seconds": 0.82,
+   "usage": {
+    "input_tokens": 46147,
+    "output_tokens": 12944
+   },
+   "reason": "513210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:typo-vet",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "6211",
+   "tooltip": "states_customers",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "621498",
+    "621111",
+    "621399",
+    "621493"
+   ],
+   "calls": 8,
+   "seconds": 1.1,
+   "usage": {
+    "input_tokens": 47585,
+    "output_tokens": 12988
+   },
+   "reason": "No candidate was judged the primary activity."
+  },
+  {
+   "id": "messy_dev:typo-restaurant",
+   "gold": "722511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722511",
+   "partial": "722511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722511",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.48,
+   "usage": {
+    "input_tokens": 45594,
+    "output_tokens": 12896
+   },
+   "reason": "722511 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:typo-plumbing",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 45525,
+    "output_tokens": 12896
+   },
+   "reason": "238220 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:typo-dentist",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 6,
+   "seconds": 1.23,
+   "usage": {
+    "input_tokens": 45555,
+    "output_tokens": 12896
+   },
+   "reason": "621210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:jargon-saas-payroll",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "541214"
+   ],
+   "calls": 8,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 46303,
+    "output_tokens": 12944
+   },
+   "reason": "513210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:jargon-app",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "516210",
+    "713950",
+    "713990"
+   ],
+   "calls": 7,
+   "seconds": 0.75,
+   "usage": {
+    "input_tokens": 45993,
+    "output_tokens": 12944
+   },
+   "reason": "513210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:jargon-telehealth",
+   "gold": "621111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621111",
+   "partial": "621111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621111",
+    "621498",
+    "621491",
+    "331110"
+   ],
+   "calls": 8,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 46919,
+    "output_tokens": 12945
+   },
+   "reason": "621111 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:jargon-ghost-kitchen",
+   "gold": "722513",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722513",
+   "partial": "722513",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722513",
+    "722511",
+    "722310",
+    "722320"
+   ],
+   "calls": 7,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 46331,
+    "output_tokens": 12945
+   },
+   "reason": "722513 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:jargon-iaas",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 46717,
+    "output_tokens": 12990
+   },
+   "reason": "518210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:multi-software-consulting",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "541519"
+   ],
+   "calls": 8,
+   "seconds": 0.92,
+   "usage": {
+    "input_tokens": 46495,
+    "output_tokens": 12990
+   },
+   "reason": "513210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:multi-landscaping-snow",
+   "gold": "561730",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561730",
+   "partial": "561730",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561730",
+    "238910",
+    "238990",
+    "811411"
+   ],
+   "calls": 7,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 45750,
+    "output_tokens": 12896
+   },
+   "reason": "561730 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:multi-auto-repair-tires",
+   "gold": "811111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811111",
+   "partial": "811111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811111",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 0.81,
+   "usage": {
+    "input_tokens": 46702,
+    "output_tokens": 12988
+   },
+   "reason": "811111 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:incidental-app-plumber",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "238120",
+    "238210",
+    "331110"
+   ],
+   "calls": 8,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 47210,
+    "output_tokens": 12988
+   },
+   "reason": "238220 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:incidental-streaming-electrician",
+   "gold": "238210",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "2382",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238210",
+    "238290",
+    "541512",
+    "541519"
+   ],
+   "calls": 7,
+   "seconds": 1.13,
+   "usage": {
+    "input_tokens": 46275,
+    "output_tokens": 12942
+   },
+   "reason": "No candidate was judged the primary activity."
+  },
+  {
+   "id": "messy_dev:incidental-fintech-lender",
+   "gold": "522291",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522291",
+   "partial": "522291",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522291",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 0.82,
+   "usage": {
+    "input_tokens": 46776,
+    "output_tokens": 12991
+   },
+   "reason": "522291 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:incidental-podcast-farm",
+   "gold": "111110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "111110",
+   "partial": "111110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "111110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 45148,
+    "output_tokens": 12897
+   },
+   "reason": "111110 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:incidental-telehealth-dentist",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 6,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 45555,
+    "output_tokens": 12896
+   },
+   "reason": "621210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "messy_dev:incidental-online-store-bakery",
+   "gold": "311811",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "311811",
+   "partial": "311811",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "311811",
+    "445291",
+    "722515",
+    "445110"
+   ],
+   "calls": 8,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 45606,
+    "output_tokens": 12899
+   },
+   "reason": "311811 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:rev-fees",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "52",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "523940",
+    "525910",
+    "551114",
+    "551111"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42480,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-amount",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "812990",
+    "459999",
+    "541611"
+   ],
+   "calls": 1,
+   "seconds": 0.03,
+   "usage": {
+    "input_tokens": 42488,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-commission",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "425120",
+    "524210",
+    "531210",
+    "522310"
+   ],
+   "calls": 1,
+   "seconds": 0.03,
+   "usage": {
+    "input_tokens": 42478,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-funding",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541511",
+    "523999",
+    "513210",
+    "541990"
+   ],
+   "calls": 1,
+   "seconds": 0.03,
+   "usage": {
+    "input_tokens": 42486,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-billing",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "561110",
+    "541219",
+    "425120",
+    "522110"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42482,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-transaction",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "52",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "522320",
+    "522390",
+    "522110",
+    "522210"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42481,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-licensing",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "533110",
+    "513210",
+    "512230",
+    "541990"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42482,
+    "output_tokens": 12665
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:rev-money",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "too_short",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": null,
+   "wide_top": [],
+   "calls": 0,
+   "seconds": 0.0,
+   "usage": {},
+   "reason": "Fewer than 3 words: nothing to check yet."
+  },
+  {
+   "id": "assist_dev:gen-software",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "too_short",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": null,
+   "wide_top": [],
+   "calls": 0,
+   "seconds": 0.0,
+   "usage": {},
+   "reason": "Fewer than 3 words: nothing to check yet."
+  },
+  {
+   "id": "assist_dev:gen-services",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "54",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "541611",
+    "541110",
+    "331110"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42479,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:gen-ecommerce",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "too_short",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": null,
+   "wide_top": [],
+   "calls": 0,
+   "seconds": 0.0,
+   "usage": {},
+   "reason": "Fewer than 3 words: nothing to check yet."
+  },
+  {
+   "id": "assist_dev:gen-consulting",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "too_short",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": null,
+   "wide_top": [],
+   "calls": 0,
+   "seconds": 0.0,
+   "usage": {},
+   "reason": "Fewer than 3 words: nothing to check yet."
+  },
+  {
+   "id": "assist_dev:gen-sales",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "44-45",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "455219",
+    "459999",
+    "445132",
+    "441110"
+   ],
+   "calls": 1,
+   "seconds": 0.03,
+   "usage": {
+    "input_tokens": 42478,
+    "output_tokens": 12666
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:gen-saas",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "too_short",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": null,
+   "wide_top": [],
+   "calls": 0,
+   "seconds": 0.0,
+   "usage": {},
+   "reason": "Fewer than 3 words: nothing to check yet."
+  },
+  {
+   "id": "assist_dev:ok-carwash",
+   "gold": "811192",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811192",
+   "partial": "811192",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811192",
+    "561790",
+    "561720",
+    "457120"
+   ],
+   "calls": 7,
+   "seconds": 1.63,
+   "usage": {
+    "input_tokens": 46963,
+    "output_tokens": 13034
+   },
+   "reason": "811192 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-law",
+   "gold": "541110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541110",
+   "partial": "541110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541110",
+    "813920",
+    "812990",
+    "813910"
+   ],
+   "calls": 6,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 45277,
+    "output_tokens": 12897
+   },
+   "reason": "541110 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-tax",
+   "gold": "541213",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541213",
+   "partial": "541213",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541213",
+    "523940",
+    "524298",
+    "813920"
+   ],
+   "calls": 7,
+   "seconds": 0.84,
+   "usage": {
+    "input_tokens": 46777,
+    "output_tokens": 12989
+   },
+   "reason": "541213 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-dental",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 6,
+   "seconds": 0.61,
+   "usage": {
+    "input_tokens": 45545,
+    "output_tokens": 12896
+   },
+   "reason": "621210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-cabinets",
+   "gold": "337110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "337110",
+   "partial": "337110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "337110",
+    "321918",
+    "321999",
+    "321911"
+   ],
+   "calls": 8,
+   "seconds": 0.78,
+   "usage": {
+    "input_tokens": 46101,
+    "output_tokens": 12943
+   },
+   "reason": "337110 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-saas",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "512230"
+   ],
+   "calls": 8,
+   "seconds": 0.89,
+   "usage": {
+    "input_tokens": 46170,
+    "output_tokens": 12944
+   },
+   "reason": "513210 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-custom-dev",
+   "gold": "541511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541511",
+   "partial": "541511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541511",
+    "513210",
+    "512230",
+    "512290"
+   ],
+   "calls": 6,
+   "seconds": 0.77,
+   "usage": {
+    "input_tokens": 46090,
+    "output_tokens": 12943
+   },
+   "reason": "541511 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-coffee",
+   "gold": "722515",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722515",
+   "partial": "722515",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722515",
+    "722513",
+    "722330",
+    "331110"
+   ],
+   "calls": 7,
+   "seconds": 0.86,
+   "usage": {
+    "input_tokens": 46692,
+    "output_tokens": 12942
+   },
+   "reason": "722515 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-hvac",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 7,
+   "seconds": 0.92,
+   "usage": {
+    "input_tokens": 46956,
+    "output_tokens": 12988
+   },
+   "reason": "238220 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-trucking",
+   "gold": "484121",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484121",
+   "partial": "484121",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484121",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 8,
+   "seconds": 0.81,
+   "usage": {
+    "input_tokens": 46574,
+    "output_tokens": 12991
+   },
+   "reason": "484121 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:ok-vet",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "6213",
+   "tooltip": "states_customers",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "621498",
+    "621111",
+    "621399",
+    "621999"
+   ],
+   "calls": 8,
+   "seconds": 0.85,
+   "usage": {
+    "input_tokens": 46802,
+    "output_tokens": 12942
+   },
+   "reason": "No candidate was judged the primary activity."
+  },
+  {
+   "id": "assist_dev:conf-it",
+   "gold": null,
+   "expect_hold": true,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "54",
+   "tooltip": "single_primary_activity",
+   "picklist": "it_services",
+   "picklist_codes": [
+    "541512",
+    "541519",
+    "541690",
+    "541611"
+   ],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541512",
+    "541519",
+    "541511",
+    "541513"
+   ],
+   "calls": 6,
+   "seconds": 0.82,
+   "usage": {
+    "input_tokens": 46189,
+    "output_tokens": 12944
+   },
+   "reason": "The candidates only partly fit: 541519, 541690, 541513, 541512."
+  },
+  {
+   "id": "assist_dev:conf-sw",
+   "gold": null,
+   "expect_hold": true,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "51",
+   "tooltip": null,
+   "picklist": "541511_513210",
+   "picklist_codes": [
+    "513210",
+    "541511"
+   ],
+   "gold_in_wide": false,
+   "wide_top": [
+    "513210",
+    "541511",
+    "524298",
+    "512110"
+   ],
+   "calls": 8,
+   "seconds": 1.66,
+   "usage": {
+    "input_tokens": 45941,
+    "output_tokens": 12944
+   },
+   "reason": "The candidates only partly fit: 541511, 513210."
+  },
+  {
+   "id": "assist_dev:conf-mkt",
+   "gold": null,
+   "expect_hold": true,
+   "status": "CODED",
+   "code": "541810",
+   "partial": "541810",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541810",
+    "722511",
+    "541613",
+    "722513"
+   ],
+   "calls": 6,
+   "seconds": 1.35,
+   "usage": {
+    "input_tokens": 46974,
+    "output_tokens": 12990
+   },
+   "reason": "541810 is the only candidate judged the primary activity, and both option orders picked it."
+  },
+  {
+   "id": "assist_dev:mix-1",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "551114",
+    "551111",
+    "722515",
+    "311811"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42488,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  },
+  {
+   "id": "assist_dev:mix-2",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "53",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "531110",
+    "531190",
+    "551114",
+    "531311"
+   ],
+   "calls": 1,
+   "seconds": 0.04,
+   "usage": {
+    "input_tokens": 42486,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code."
+  }
+ ]
+}

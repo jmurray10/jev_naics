@@ -1,0 +1,26 @@
+flowchart LR
+    ENV["Environment<br/>description of operations<br/>+ Census NAICS 2022 text"]
+    subgraph SENSORS["Sensors"]
+        direction TB
+        SEARCH["Postgres search<br/>spelling, modern terms, top 10<br/>(search, and hybrid first)"]
+        TREE["NAICS tree<br/>children at each level<br/>(tree, and hybrid fallback)"]
+        JEV["Jev (TypeSafe)<br/>Choice over a closed list<br/>fit and vagueness probabilities"]
+    end
+    subgraph AGENT["Agent program (code)"]
+        direction TB
+        LIST["Build the closed list<br/>of candidates"]
+        GATES{"Gates<br/>probability ≥ 0.70<br/>fit ≥ 0.50<br/>vagueness &lt; 0.70<br/>valid answer"}
+    end
+    subgraph ACT["Actuators (code-owned)"]
+        direction TB
+        AUTO["auto_act(code)"]
+        HOLD["hold(reason)<br/>for a person"]
+    end
+    ENV --> SEARCH
+    ENV --> TREE
+    SEARCH --> LIST
+    TREE --> LIST
+    LIST -->|"only these options"| JEV
+    JEV -->|"answers, checked in code"| GATES
+    GATES -->|"all pass"| AUTO
+    GATES -->|"anything else, NaN or error"| HOLD

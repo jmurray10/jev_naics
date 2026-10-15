@@ -1,0 +1,482 @@
+[
+ {
+  "id": "finance-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "finance-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no advice or fund management is performed",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We build an AI portfolio-rebalancing platform and sell subscription licenses to independent investment advisory firms, who white-label it for their own clients. Our staff are engineers and product people; we never touch client money and give no investment advice ourselves. Revenue is a monthly per-seat software fee."
+ },
+ {
+  "id": "finance-1-service",
+  "expect_code": "523940",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "finance-1",
+  "why": "523940 Portfolio Management and Investment Advice: managing portfolio assets of others on a fee basis, with authority to make investment decisions",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "Our AI-driven investing app charges members a monthly fee of 0.25% of assets, and we hold discretionary authority to rebalance their accounts into model portfolios. Registered advisor representatives are available by video call for plan questions. Revenue is the monthly advisory fee."
+ },
+ {
+  "id": "finance-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "finance-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription (mobile applications development and publishing)",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish a personal budgeting app for iOS and Android. Users pay a $9 monthly subscription for automatic transaction categorizing, bill reminders and AI spending insights. We have developers and support staff only and do not advise anyone on money."
+ },
+ {
+  "id": "finance-2-service",
+  "expect_code": "523940",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "finance-2",
+  "why": "523940: financial planning services, customized, fees paid by client; investment advice without authority to execute trades",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run a subscription money-coaching service: for $79 a month each client gets a certified financial planner who builds a customized plan, reviews it monthly by video, and uses our app to track goals. We do not buy or sell securities for clients."
+ },
+ {
+  "id": "finance-3-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "finance-3",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; the licensees, not this firm, act as securities brokers",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop an online trading platform and license it to broker-dealers, who put their own brand on the app. We charge a monthly platform subscription plus a setup fee, and we are not a broker ourselves and never accept customer orders or hold accounts."
+ },
+ {
+  "id": "finance-3-service",
+  "expect_code": "523150",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "finance-3",
+  "why": "523150 Investment Banking and Securities Intermediation: securities brokerages; index entry 'Online securities brokerages'",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We operate a commission-free stock and ETF trading app. Customers open brokerage accounts with us and we execute their buy and sell orders, earning revenue from payment for order flow and a $5 monthly premium tier for extended-hours trading."
+ },
+ {
+  "id": "insurance-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "insurance-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; insurance carriers are the customers",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We build and license a cloud policy-administration and quoting platform to property and casualty carriers. Carriers pay an annual license and a monthly subscription based on policy count; we do not sell, underwrite or bind insurance, and we hold no insurance license."
+ },
+ {
+  "id": "insurance-1-service",
+  "expect_code": "524210",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "insurance-1",
+  "why": "524210 Insurance Agencies and Brokerages: acting as agents (brokers) in selling insurance policies (Census cross-reference excludes underwriting)",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We are an online insurance agency: customers get auto and renters quotes in our app, compare carriers, and buy a policy in minutes, with licensed agents on chat for questions. We earn commissions from the carriers whose policies we place and do not underwrite anything."
+ },
+ {
+  "id": "insurance-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "insurance-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software licensed to carriers",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop AI claims-estimation software that reads damage photos and produces repair estimates. Insurance carriers and body shops license it on an annual subscription, and our company has no adjusters and does not settle any claims."
+ },
+ {
+  "id": "insurance-2-service",
+  "expect_code": "524291",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "insurance-2",
+  "why": "524291 Claims Adjusting: investigating, appraising, and settling insurance claims",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We settle auto and property damage claims for insurance carriers under contract. Our field and desk adjusters investigate and appraise losses, using an app with AI photo estimates to speed up reviews, and bill carriers a fee per claim."
+ },
+ {
+  "id": "lending-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "lending-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; licensees, not this firm, lend",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We license a credit decisioning engine and loan-origination platform to community banks and credit unions. Customers pay a monthly subscription based on volume of applications; we do not make loans, take deposits, or put any of our own money out."
+ },
+ {
+  "id": "lending-1-service",
+  "expect_code": "522291",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "lending-1",
+  "why": "522291 Consumer Lending: making unsecured cash loans to consumers",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We make small unsecured personal loans of $500 to $5,000 through our mobile app. Our own algorithm approves applicants in minutes, we fund the loans from our balance sheet, and we earn interest and origination fees."
+ },
+ {
+  "id": "lending-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "lending-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; processing is explicitly not performed",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop point-of-sale and checkout payments software for retailers and restaurants and sell it as a monthly subscription. Merchants run it on their own terminals with whichever processor they choose; we do not move or settle money."
+ },
+ {
+  "id": "lending-2-service",
+  "expect_code": "522320",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "lending-2",
+  "why": "522320 Financial Transactions Processing: credit card processing; electronic funds transfer services including peer-to-peer payment services",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We process card and peer-to-peer payments for small merchants and consumers through our app. Funds move through us and we settle to merchant bank accounts the next day, charging a percentage of each transaction plus a small monthly account fee."
+ },
+ {
+  "id": "health-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "health-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no medical services are provided",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish electronic health record and appointment-scheduling software for independent medical clinics. Clinics subscribe monthly per provider and we provide implementation and support; none of our staff treat patients."
+ },
+ {
+  "id": "health-1-service",
+  "expect_code": "621111",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "health-1",
+  "why": "621111 Offices of Physicians: health practitioners with M.D./D.O. engaged in independent practice of general medicine",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run a virtual primary care practice. Patients join for a $49 monthly membership and see our employed physicians by video visit, exchanging messages through our app. The doctors diagnose, treat, and prescribe, and we bill members and their insurers."
+ },
+ {
+  "id": "health-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "health-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software sold to practitioners",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We build a scheduling, notes and billing app for therapists and counselors and sell it by monthly subscription. We employ developers and customer-support staff; we do not employ clinicians or see patients."
+ },
+ {
+  "id": "health-2-service",
+  "expect_code": "621330",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "health-2",
+  "why": "621330 Offices of Mental Health Practitioners (except Physicians): diagnosis and treatment of mental, emotional, and behavioral disorders by psychologists, social workers",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We provide online talk therapy. Members pay a monthly fee and are matched through our app with a licensed clinical social worker or psychologist on our staff, who holds weekly video sessions and message check-ins."
+ },
+ {
+  "id": "health-3-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "health-3",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; self-service app, no practitioner involved",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish a nutrition tracking and meal-planning app. Users subscribe at $12 a month for barcode scanning, AI meal suggestions and macro goals, and there is no coaching from a person; the staff are developers, designers and support agents."
+ },
+ {
+  "id": "health-3-service",
+  "expect_code": "621399",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "health-3",
+  "why": "621399 Offices of All Other Miscellaneous Health Practitioners: dietitians' offices",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run a virtual nutrition practice. Our registered dietitians counsel clients by video and in-app messaging on medical nutrition plans, for a monthly subscription of $120 that includes our meal-log app."
+ },
+ {
+  "id": "realestate-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "realestate-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no brokerage activity",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We sell a CRM and listing-marketing software suite to real estate brokerages, billed per agent per month with AI lead scoring and automated email follow-up. We do not represent buyers or sellers and do not earn commissions."
+ },
+ {
+  "id": "realestate-1-service",
+  "expect_code": "531210",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "realestate-1",
+  "why": "531210 Offices of Real Estate Agents and Brokers: selling real estate for others",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We are a tech-driven residential brokerage: home sellers list through our app, our licensed agents price, market, and show the home, and we earn a commission at closing. We use an AI pricing tool and virtual tours but our agents represent the clients."
+ },
+ {
+  "id": "realestate-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "realestate-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software only",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop a property management platform that landlords subscribe to monthly, with rent collection, maintenance tickets, and an AI lease-renewal assistant. We do not manage or own any property ourselves."
+ },
+ {
+  "id": "realestate-2-service",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "realestate-2",
+  "why": "531311 Residential Property Managers: managing residential real estate for others",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We manage apartment buildings and rental homes for owners. Tenants pay rent, submit repair requests and sign leases through our app, and our on-site and dispatch staff handle maintenance, screening and rent collection for a monthly management fee of 8% of rent."
+ },
+ {
+  "id": "education-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "education-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no instruction provided",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish a learning management and gradebook platform sold to K-12 school districts under annual subscription. We do not teach students; our staff are software engineers, implementation consultants and support."
+ },
+ {
+  "id": "education-1-service",
+  "expect_code": "611691",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "education-1",
+  "why": "611691 Exam Preparation and Tutoring: academic tutoring; index entry 'Exam preparation and tutoring online'",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run an online tutoring company. Students buy a monthly plan and are matched through our app to live tutors in math and science who work with them on video, and we use AI to recommend practice problems between sessions."
+ },
+ {
+  "id": "education-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "education-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; Census cross-reference 'Publishing software without providing instruction' is not 6114",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We build a coding-practice platform with interactive lessons, auto-graded exercises, and an AI hint assistant, and license it to universities and employers on a yearly subscription. Content is self-paced and we employ no instructors."
+ },
+ {
+  "id": "education-2-service",
+  "expect_code": "611420",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "education-2",
+  "why": "611420 Computer Training: instruction in computer programming, software applications, delivered via Internet or distance learning",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run a live online coding bootcamp. Students pay monthly tuition for a six-month program where our instructors teach programming in video classes, and our platform hosts assignments, an AI tutor, and project reviews."
+ },
+ {
+  "id": "education-3-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "education-3",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software licensed to institutions",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop online exam-proctoring and assessment software that universities and certification bodies license on a monthly subscription, using AI to flag suspicious behavior. We write and sell software; we do not offer courses or run exams ourselves."
+ },
+ {
+  "id": "education-3-service",
+  "expect_code": "611430",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "education-3",
+  "why": "611430 Professional and Management Development Training: index entry 'Continuing education online learning'",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We offer online continuing-education courses for licensed contractors and insurance agents. Members pay a monthly subscription for unlimited access to our video classes and live webinars taught by our instructors, plus an app to track credit hours."
+ },
+ {
+  "id": "logistics-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "logistics-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no delivery performed",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We make delivery-dispatch and route-optimization software that restaurants and grocery stores subscribe to monthly. Customers use their own drivers; we have no drivers, vehicles, or delivery orders of our own."
+ },
+ {
+  "id": "logistics-1-service",
+  "expect_code": "492210",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "logistics-1",
+  "why": "492210 Local Messengers and Local Delivery: restaurant meals order and delivery, grocery delivery services (independent)",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We operate an on-demand local delivery app. Our drivers, who use their own cars and bikes, pick up restaurant meals and groceries and deliver them to customers within the city; we charge a delivery fee per order and a monthly pass."
+ },
+ {
+  "id": "logistics-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "logistics-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software only",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop a transportation management system for shippers and carriers, sold as a monthly subscription with AI load matching and rate benchmarking. We do not arrange any shipments or contract with carriers on anyone's behalf."
+ },
+ {
+  "id": "logistics-2-service",
+  "expect_code": "488510",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "logistics-2",
+  "why": "488510 Freight Transportation Arrangement: arranging transportation of freight between shippers and carriers, not directly providing shipping",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We are a digital freight broker. Shippers post loads in our app, our algorithm matches them with carriers, and we contract with both and take a margin on every load. We own no trucks and do not haul freight ourselves."
+ },
+ {
+  "id": "legal-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "legal-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no practice of law",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop AI contract-review software and license it to law firms and corporate legal departments on a per-user monthly subscription. We employ engineers and customer success staff and have no attorneys giving advice to clients."
+ },
+ {
+  "id": "legal-1-service",
+  "expect_code": "541110",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "legal-1",
+  "why": "541110 Offices of Lawyers: primarily engaged in the practice of law",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We are a law firm offering flat-fee business legal services by monthly membership. Clients upload contracts to our portal, our AI tool flags issues, and our attorneys review, negotiate and advise on every matter."
+ },
+ {
+  "id": "legal-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "legal-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; do-it-yourself software",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish cloud bookkeeping software for small businesses, sold for $30 a month with automatic bank feeds, invoicing and AI expense categorization. Customers do their own books; we have no accountants working on client records."
+ },
+ {
+  "id": "legal-2-service",
+  "expect_code": "541219",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "legal-2",
+  "why": "541219 Other Accounting Services: bookkeeping services (except CPAs)",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We provide online bookkeeping to small businesses. For a monthly fee our bookkeepers reconcile accounts, categorize transactions, and produce financial statements in our app, and the clients never have to do the books themselves."
+ },
+ {
+  "id": "legal-3-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "legal-3",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; packaged software sold to filers",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish consumer tax-filing software. Customers buy the program or an annual online subscription, answer guided questions with AI help, and file their own returns. No one on our staff prepares returns for customers."
+ },
+ {
+  "id": "legal-3-service",
+  "expect_code": "541213",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "legal-3",
+  "why": "541213 Tax Preparation Services: providing tax return preparation services",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We prepare personal income tax returns for individuals through an app where clients upload their documents. Our enrolled-agent preparers prepare and file each return for a flat fee, with a monthly plan for year-round tax questions."
+ },
+ {
+  "id": "staffing-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "staffing-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; customers operate the software themselves",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We build and sell payroll and benefits software for small employers, billed monthly per employee. Customers run their own payroll in our application; we do not collect their data or issue paychecks on their behalf."
+ },
+ {
+  "id": "staffing-1-service",
+  "expect_code": "541214",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "staffing-1",
+  "why": "541214 Payroll Services: collecting hours and pay data from clients and generating paychecks, payroll reports and tax filings",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run payroll for small employers as a service. Clients send us hours and pay rates through our app, and our team generates their paychecks, payroll reports, and tax filings every pay period for a monthly per-employee fee."
+ },
+ {
+  "id": "staffing-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "staffing-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software only",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We publish applicant-tracking and AI resume-screening software that employers license on monthly subscriptions. We do not recruit candidates, list jobs for sale, or place anyone with anyone."
+ },
+ {
+  "id": "staffing-2-service",
+  "expect_code": "561320",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "staffing-2",
+  "why": "561320 Temporary Help Services: supplying own employees to clients for limited periods; index entry 'Online temporary staffing services'",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We run an on-demand staffing app for restaurants and warehouses. Clients book shifts, and our own W-2 employees show up to work them while we handle payroll and workers' compensation, billing the client an hourly rate."
+ },
+ {
+  "id": "other-1-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "other-1",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; software licensed to agencies",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop a booking engine and itinerary-management software that travel agencies license on a monthly subscription. We do not sell trips or take bookings from travelers."
+ },
+ {
+  "id": "other-1-service",
+  "expect_code": "561510",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "other-1",
+  "why": "561510 Travel Agencies: acting as agents in selling travel and accommodation; index entry 'Online travel agencies'",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We are an online travel agency: travelers search and book flights, hotels and vacation packages in our app, and our agents handle changes by chat. We earn commissions and service fees from suppliers and a monthly membership for discounted rates."
+ },
+ {
+  "id": "other-2-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "software",
+  "pair": "other-2",
+  "why": "513210 Software Publishers: designing, developing and publishing software, incl. distribution by subscription; no veterinary services",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We develop practice-management software for veterinary clinics, with scheduling, medical records and AI-generated visit notes, sold by monthly subscription. We employ no veterinarians and see no animals."
+ },
+ {
+  "id": "other-2-service",
+  "expect_code": "541940",
+  "expect_hold": false,
+  "kind": "service",
+  "pair": "other-2",
+  "why": "541940 Veterinary Services: practice of veterinary medicine",
+  "source": "refine tech-enabled set, synthetic, written 2026-10-06 before any refine variant was run on it",
+  "ops_description": "We provide veterinary telehealth for dogs and cats. Pet owners pay a monthly plan to video chat with our licensed veterinarians through our app for triage, diagnosis, and treatment advice, and the vets write prescriptions as needed."
+ }
+]

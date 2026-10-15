@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-naics"
+version = "0.1.1"
+description = "Classify a description of operations into a NAICS 2022 industry, or hold it for a person: PEAS, with TypeSafe Jev picking from a closed list code builds."
+license = "MIT"
+readme = "README.md"
+authors = [{name = "Jeff Murray"}]
+keywords = ["naics", "industry-classification", "insurance", "peas", "agents", "typesafe"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Financial",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "typesafe-sdk>=0.7,<0.8",
+    "pyyaml>=6",
+    # jev_naics.db and jev_naics.search_pick import psycopg at module load, and __init__ imports
+    # db: `import jev_naics` needs it even when only the tree walk (method="tree") is used, so it
+    # cannot live only in the api/dev extras (JEV-55). Kept in those extras too, unchanged.
+    "psycopg[binary]>=3.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/jmurray10/jev_naics"
+Documentation = "https://github.com/jmurray10/jev_naics#readme"
+Issues = "https://github.com/jmurray10/jev_naics/issues"
+Changelog = "https://github.com/jmurray10/jev_naics/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+api = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "psycopg[binary]>=3.2",
+]
+dev = [
+    "pytest>=8",
+    "psycopg[binary]>=3.2",
+    "httpx>=0.27",
+    "openpyxl>=3.1",
+    # tests/test_docs.py reads pyproject.toml; tomllib is in the standard library from 3.11 only.
+    "tomli>=2; python_version < '3.11'",
+]
+
+[project.scripts]
+jev-naics = "jev_naics.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+jev_naics = ["data/*.json", "migrations/*.sql", "_jev/providers.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

@@ -1,0 +1,26 @@
+**/.env
+**/.env.*
+.git
+.venv
+**/__pycache__
+data
+tools
+docs
+.github
+backend/tests
+.remember/
+.superpowers/
+**/*.egg-info
+# Data that must never enter an image. The Dockerfiles COPY only backend/ and frontend/ paths
+# today; these keep a future `COPY . .` from baking in local or third-party data. backend/transcripts
+# stays in: it holds only synthetic descriptions and public Census text (SECURITY.md) and replay needs it.
+.scratch/
+test_data/
+experiments/
+.playwright-mcp/
+.pytest_cache/
+**/*.csv
+*.pem
+*.key
+*.sqlite
+.claude/

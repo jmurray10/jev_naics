@@ -1,0 +1,542 @@
+[
+ {
+  "id": "b-sw_vs_service-bookkeeping-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 541219)",
+  "ops_description": "We build and sell a cloud bookkeeping platform for small businesses. The AI sorts transactions, customers pay a monthly subscription, and we push updates every two weeks."
+ },
+ {
+  "id": "b-sw_vs_service-bookkeeping-service",
+  "expect_code": "541219",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Bookkeeping services are indexed to 541219 Other Accounting Services; the app is only the channel",
+  "ops_description": "We do the bookkeeping for small businesses through our app. Clients link their bank, our AI sorts the transactions, and our bookkeepers reconcile the books for a monthly fee."
+ },
+ {
+  "id": "b-sw_vs_service-payroll-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 541214)",
+  "ops_description": "Payroll platform that we code and host, licensed to accounting firms on an annual subscription. Customers run their own payroll in it; we handle releases and support."
+ },
+ {
+  "id": "b-sw_vs_service-payroll-service",
+  "expect_code": "541214",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Payroll processing services are indexed to 541214 Payroll Services; the app is only the channel",
+  "ops_description": "We run payroll for restaurants and shops. Clients send hours through our app, the AI flags errors, and we issue the paychecks and file the payroll taxes for a monthly fee."
+ },
+ {
+  "id": "b-sw_vs_service-rides-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 485310)",
+  "ops_description": "We develop dispatch software, a platform that taxi and limo companies license for a monthly fee per vehicle. AI matches rides to cars. We do not own vehicles or employ drivers."
+ },
+ {
+  "id": "b-sw_vs_service-rides-service",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Ridesharing and ride hailing arrangement services are in 485310 Taxi and Ridesharing Services; the app is only the channel",
+  "ops_description": "Our ride platform matches riders with local drivers in our app. AI sets the price, riders pay per trip, and drivers pay us a monthly subscription to be on the platform."
+ },
+ {
+  "id": "b-sw_vs_service-property-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 531311)",
+  "ops_description": "Property management software platform with AI rent pricing, sold to landlords and management companies on a monthly subscription. We write the code, we do not manage any property."
+ },
+ {
+  "id": "b-sw_vs_service-property-service",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Managing residential real estate for others is 531311 Residential Property Managers; the app is only the channel",
+  "ops_description": "We manage rental homes for out-of-town owners. Owners and tenants use our app, AI screens applicants, and we charge owners a monthly fee of 8 percent of the rent."
+ },
+ {
+  "id": "b-sw_vs_service-therapy-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 621330)",
+  "ops_description": "We publish an electronic health record platform for clinics with AI note-taking. Practices pay a monthly subscription per provider. Our staff are developers and support."
+ },
+ {
+  "id": "b-sw_vs_service-therapy-service",
+  "expect_code": "621330",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Independent psychologists and clinical social workers treating clients are 621330 Offices of Mental Health Practitioners (except Physicians); the app is only the channel",
+  "ops_description": "Licensed therapists, psychologists and LCSWs see clients by video through our app. A monthly subscription covers weekly sessions and AI helps with their notes."
+ },
+ {
+  "id": "b-sw_vs_service-tutoring-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 611691)",
+  "ops_description": "AI math practice platform we develop and license to school districts on a yearly subscription. Teachers log in, we host and update the product."
+ },
+ {
+  "id": "b-sw_vs_service-tutoring-service",
+  "expect_code": "611691",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Academic tutoring including online is 611691 Exam Preparation and Tutoring; the app is only the channel",
+  "ops_description": "Online tutoring: our certified teachers tutor kids in math by video on our platform. Parents pay a monthly subscription for four sessions and the AI picks practice problems."
+ },
+ {
+  "id": "b-sw_vs_service-insurance-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 524210)",
+  "ops_description": "Insurance agency management platform with AI quoting tools, sold to agencies for a monthly fee per user. We build and support the software and sell no insurance."
+ },
+ {
+  "id": "b-sw_vs_service-insurance-service",
+  "expect_code": "524210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Selling insurance policies as an agent or broker is 524210 Insurance Agencies and Brokerages; the app is only the channel",
+  "ops_description": "Online insurance agency. Customers get quotes in our app with an AI assistant, we place their auto and home policies with carriers and earn commissions, plus an optional monthly policy review plan."
+ },
+ {
+  "id": "b-sw_vs_service-tax-software",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Software Publishers 513210: publishes software through subscriptions and/or downloads (distinct from 541213)",
+  "ops_description": "Tax preparation platform, AI-driven, that individuals and preparers subscribe to monthly. We develop and release the product each season; we do not prepare returns ourselves."
+ },
+ {
+  "id": "b-sw_vs_service-tax-service",
+  "expect_code": "541213",
+  "expect_hold": false,
+  "kind": "sw_vs_service",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Tax return preparation is 541213 Tax Preparation Services; the app is only the channel",
+  "ops_description": "Our CPAs and enrolled agents prepare and file your tax return. You upload documents in our app, AI pre-fills the forms, and you pay a flat monthly fee for the year."
+ },
+ {
+  "id": "b-modern-01",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Ridesharing services are in 485310; a driver working through apps is the ride service",
+  "ops_description": "I drive for Uber and Lyft full time in my own car as an independent contractor. Rides come from the apps and I get paid weekly."
+ },
+ {
+  "id": "b-modern-02",
+  "expect_code": "492210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Restaurant meals order and delivery (independent) is indexed to 492210 Local Messengers and Local Delivery",
+  "ops_description": "We deliver restaurant meals for dozens of local restaurants. Customers order on our app and our couriers on bikes and cars bring the food in about 30 minutes; we take a cut from the restaurants."
+ },
+ {
+  "id": "b-modern-03",
+  "expect_code": "532284",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Bicycle sharing services and moped rental are in 532284 Recreational Goods Rental; electric scooters fit the same recreational-goods rental text",
+  "ops_description": "We put 300 electric scooters around campus and downtown. Riders unlock them in an app and pay per minute, and our crew swaps batteries at night."
+ },
+ {
+  "id": "b-modern-04",
+  "expect_code": "516210",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Blog sites, Internet are indexed to 516210 Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content",
+  "ops_description": "Travel blog and newsletter that I write myself. Income is display ads and affiliate links from readers who click through."
+ },
+ {
+  "id": "b-modern-05",
+  "expect_code": "311920",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Roasting coffee is manufacturing, 311920 Coffee and Tea Manufacturing; shipping to subscribers does not change that",
+  "ops_description": "Monthly coffee subscription. We roast the beans ourselves in our warehouse, bag them and mail them to about 2,000 subscribers."
+ },
+ {
+  "id": "b-modern-06",
+  "expect_code": "459110",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Retailing new sporting goods and exercise equipment is 459110 Sporting Goods Retailers; retail is classed by product line, not by selling channel",
+  "ops_description": "Online store selling yoga mats, resistance bands and home gym equipment. We never keep stock; when someone orders we buy from the supplier, who ships it directly to the customer."
+ },
+ {
+  "id": "b-modern-07",
+  "expect_code": "531311",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Managing residential real estate for others, including vacation property managers, is 531311 Residential Property Managers",
+  "ops_description": "We manage vacation homes for owners. We list them on Airbnb and VRBO, handle guests, cleaning and repairs, and keep 20 percent of the bookings."
+ },
+ {
+  "id": "b-modern-08",
+  "expect_code": "722513",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Limited-service restaurants where patrons order and food is taken out or delivered is 722513",
+  "ops_description": "Delivery-only kitchen. We cook burgers and bowls in a commercial kitchen with no dining room, and all orders come through delivery apps."
+ },
+ {
+  "id": "b-modern-09",
+  "expect_code": "531120",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Coworking space rental or leasing is indexed to 531120 Lessors of Nonresidential Buildings (except Miniwarehouses)",
+  "ops_description": "Coworking space. We lease two floors downtown and rent out desks and private offices on monthly memberships, with a conference room people book in our app."
+ },
+ {
+  "id": "b-modern-10",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Pet sitting and pet walking services are 812910 Pet Care (except Veterinary) Services",
+  "ops_description": "Dog walking and pet sitting. Owners book through our app, and our own employees do the walks and drop-in visits."
+ },
+ {
+  "id": "b-modern-11",
+  "expect_code": "323113",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Printing on purchased stock such as apparel by screen process is 323113 Commercial Screen Printing; the retail T-shirt shop code is for stores selling shirts",
+  "ops_description": "Print-on-demand shop. Customers upload artwork on our website and we screen print their design onto t-shirts and hoodies in our shop, then ship them."
+ },
+ {
+  "id": "b-modern-12",
+  "expect_code": "532111",
+  "expect_hold": false,
+  "kind": "modern",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Renting passenger cars without drivers for short periods is 532111 Passenger Car Rental",
+  "ops_description": "Car sharing. We own 25 cars parked around the city that members unlock with an app and rent by the hour, with no driver."
+ },
+ {
+  "id": "b-short-01",
+  "expect_code": "561330",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "PEO is indexed to 561330 Professional Employer Organizations",
+  "ops_description": "co-employment PEO"
+ },
+ {
+  "id": "b-short-02",
+  "expect_code": "524291",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Claims adjusting is 524291 Claims Adjusting",
+  "ops_description": "claims adjuster"
+ },
+ {
+  "id": "b-short-03",
+  "expect_code": "812990",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Bail bonding services are indexed to 812990 All Other Personal Services",
+  "ops_description": "bail bondsman"
+ },
+ {
+  "id": "b-short-04",
+  "expect_code": "541199",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Process serving services are indexed to 541199 All Other Legal Services",
+  "ops_description": "process serving"
+ },
+ {
+  "id": "b-short-05",
+  "expect_code": "115210",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Farriers are indexed to 115210 Support Activities for Animal Production",
+  "ops_description": "farrier"
+ },
+ {
+  "id": "b-short-06",
+  "expect_code": "621512",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "MRI is indexed to 621512 Diagnostic Imaging Centers (patient imaging, not equipment)",
+  "ops_description": "MRI center"
+ },
+ {
+  "id": "b-short-07",
+  "expect_code": "541191",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Title abstract companies are 541191 Title Abstract and Settlement Offices",
+  "ops_description": "title company"
+ },
+ {
+  "id": "b-short-08",
+  "expect_code": "522299",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Pawnshops are indexed to 522299",
+  "ops_description": "pawn shop"
+ },
+ {
+  "id": "b-short-09",
+  "expect_code": "621492",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Dialysis centers and clinics are 621492 Kidney Dialysis Centers",
+  "ops_description": "dialysis clinic"
+ },
+ {
+  "id": "b-short-10",
+  "expect_code": "332710",
+  "expect_hold": false,
+  "kind": "short",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Machine shops are 332710 Machine Shops",
+  "ops_description": "machine shop, CNC milling and turning"
+ },
+ {
+  "id": "b-hold-01",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Revenue only; no activity stated",
+  "ops_description": "We did about $2.4 million in revenue last year with 11 employees."
+ },
+ {
+  "id": "b-hold-02",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Funding only; no activity stated",
+  "ops_description": "Seed-stage company, we raised $3 million from angel investors and are hiring."
+ },
+ {
+  "id": "b-hold-03",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "'AI company' names no industry; software, services or equipment all fit",
+  "ops_description": "We are an AI company."
+ },
+ {
+  "id": "b-hold-04",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "'Platform' names no industry",
+  "ops_description": "We are a platform."
+ },
+ {
+  "id": "b-hold-05",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "'Consulting' names no field; many NAICS consulting industries fit",
+  "ops_description": "Consulting services for businesses."
+ },
+ {
+  "id": "b-hold-06",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Two unrelated businesses with no stated primary: landscaping 561730 vs tax preparation 541213",
+  "ops_description": "We run a landscaping crew in the summer and a tax preparation office in the winter. Each is about half of our revenue."
+ },
+ {
+  "id": "b-hold-07",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Genuine two-way split with no primary: temporary help 561320 vs software publishers 513210",
+  "ops_description": "Half of what we do is placing IT contractors with clients and half is selling our own timesheet software. Revenue is roughly equal between the two."
+ },
+ {
+  "id": "b-hold-08",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "hold",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Describes no activity a Census industry text names ('community', 'tokens')",
+  "ops_description": "Web3 and blockchain company building a community around our token."
+ },
+ {
+  "id": "b-health_prof-01",
+  "expect_code": "621112",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Practice of psychiatry by M.D.s is 621112 Offices of Physicians, Mental Health Specialists; telehealth is only the channel",
+  "ops_description": "Board-certified psychiatrists doing medication management by video visit. Patients book on our app and we prescribe and follow up remotely."
+ },
+ {
+  "id": "b-health_prof-02",
+  "expect_code": "621340",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Physical therapy practice is 621340 Offices of Physical, Occupational and Speech Therapists, and Audiologists",
+  "ops_description": "Virtual physical therapy. Our licensed PTs run live video sessions and guide patients through exercises on a phone app after surgery or injury."
+ },
+ {
+  "id": "b-health_prof-03",
+  "expect_code": "621111",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Independent practice of general medicine by M.D.s is 621111",
+  "ops_description": "Concierge primary care. Patients pay a monthly membership and see our MD in person or on video, same-day, with no insurance billing."
+ },
+ {
+  "id": "b-health_prof-04",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Independent practice of dentistry is 621210 Offices of Dentists; mobile delivery does not change it",
+  "ops_description": "Mobile dentistry. Our dentist and hygienist drive a fully equipped van to nursing homes and schools and do exams, cleanings and fillings on site."
+ },
+ {
+  "id": "b-health_prof-05",
+  "expect_code": "541940",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Licensed veterinary practice is 541940 Veterinary Services",
+  "ops_description": "Telehealth for pets. Our licensed veterinarians video chat with owners, diagnose, and prescribe medication, with referrals for in-person care."
+ },
+ {
+  "id": "b-health_prof-06",
+  "expect_code": "541620",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Advice to organizations on environmental issues is 541620 Environmental Consulting Services",
+  "ops_description": "We advise companies on their carbon footprint and ESG reporting, measure their emissions, and help them meet environmental regulations."
+ },
+ {
+  "id": "b-health_prof-07",
+  "expect_code": "541922",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Photographers specializing in aerial photography are indexed to 541922 Commercial Photography",
+  "ops_description": "Drone photography and video for real estate agents, builders and contractors. FAA-licensed pilots shoot roofs, lots and construction progress."
+ },
+ {
+  "id": "b-health_prof-08",
+  "expect_code": "541511",
+  "expect_hold": false,
+  "kind": "health_prof",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Writing and testing software to meet a particular customer's needs is 541511 Custom Computer Programming Services",
+  "ops_description": "App development studio. Clients hire us to design and build their iOS and Android apps under contract, and we hand over the code at the end."
+ },
+ {
+  "id": "b-industrial-01",
+  "expect_code": "111419",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Growing food crops under protective cover is 111419 Other Food Crops Grown Under Cover",
+  "ops_description": "We grow lettuce and herbs in stacked trays indoors under LED lights, no soil, and sell to grocery stores and restaurants."
+ },
+ {
+  "id": "b-industrial-02",
+  "expect_code": "212321",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Operating commercial sand and gravel pits is 212321 Construction Sand and Gravel Mining",
+  "ops_description": "We dig a gravel pit, wash and screen the rock and sell sand and crushed stone to contractors by the truckload."
+ },
+ {
+  "id": "b-industrial-03",
+  "expect_code": "221114",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Operating solar electric power generation facilities is 221114",
+  "ops_description": "We own a field of solar panels on leased farmland and sell the electricity to the local utility under a long-term contract."
+ },
+ {
+  "id": "b-industrial-04",
+  "expect_code": "321920",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Manufacturing wood pallets is 321920 Wood Container and Pallet Manufacturing",
+  "ops_description": "We build wooden pallets and crates from lumber in our shop and deliver them to warehouses and factories."
+ },
+ {
+  "id": "b-industrial-05",
+  "expect_code": "112120",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Milking dairy cattle is 112120 Dairy Cattle and Milk Production",
+  "ops_description": "Dairy. We milk about 300 cows twice a day and a co-op truck picks up our milk."
+ },
+ {
+  "id": "b-industrial-06",
+  "expect_code": "327320",
+  "expect_hold": false,
+  "kind": "industrial",
+  "source": "refine v2 blind set part B, synthetic, written 2026-10-07 before any run on it",
+  "why": "Manufacturing concrete delivered unhardened to a purchaser is 327320 Ready-Mix Concrete Manufacturing",
+  "ops_description": "We mix concrete at our plant and deliver it in our mixer trucks to builders and driveway contractors."
+ }
+]

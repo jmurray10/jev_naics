@@ -1,0 +1,146 @@
+[
+ {
+  "id": "typo-vet",
+  "expect_code": "541940",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement; the user's own example",
+  "ops_description": "vetrinary clinc for dogs and cats, vacinations and surgery"
+ },
+ {
+  "id": "typo-restaurant",
+  "expect_code": "722511",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "Family resturant with a full bar and table servise for dinner guests."
+ },
+ {
+  "id": "typo-plumbing",
+  "expect_code": "238220",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "Plumbng and HVAC contracter installing boilers and air conditoning in comercial buildings."
+ },
+ {
+  "id": "typo-dentist",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "typo",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "Dentst office with two dentsts doing cleanings, filings, and crowns."
+ },
+ {
+  "id": "jargon-saas-payroll",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "jargon",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement; the user's own example (software company, not a payroll service provider)",
+  "ops_description": "B2B SaaS platform for payroll; all revenue is monthly subscriptions to the software."
+ },
+ {
+  "id": "jargon-app",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "jargon",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "We build and sell a meditation mobile app; revenue is in-app subscriptions."
+ },
+ {
+  "id": "jargon-telehealth",
+  "expect_code": "621111",
+  "expect_hold": false,
+  "kind": "jargon",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "Telehealth practice where our licensed physicians see patients by video visit."
+ },
+ {
+  "id": "jargon-ghost-kitchen",
+  "expect_code": "722513",
+  "expect_hold": false,
+  "kind": "jargon",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "Ghost kitchen making delivery-only burgers and wings sold through DoorDash and Uber Eats."
+ },
+ {
+  "id": "jargon-iaas",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "jargon",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "IaaS provider renting cloud compute, storage, and managed Kubernetes to developers."
+ },
+ {
+  "id": "multi-software-consulting",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "multi",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "We sell practice-management software subscriptions to dental offices. About 10% of revenue is implementation consulting and training."
+ },
+ {
+  "id": "multi-landscaping-snow",
+  "expect_code": "561730",
+  "expect_hold": false,
+  "kind": "multi",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "Commercial landscaping company maintaining office park grounds; in winter we also plow snow for the same clients, a small part of the year's revenue."
+ },
+ {
+  "id": "multi-auto-repair-tires",
+  "expect_code": "811111",
+  "expect_hold": false,
+  "kind": "multi",
+  "source": "JEV-52 dev set, written 2026-09-29 before any refinement",
+  "ops_description": "General auto repair shop doing brakes, engines, and diagnostics; we also sell some used tires on the side."
+ },
+ {
+  "id": "incidental-app-plumber",
+  "expect_code": "238220",
+  "expect_hold": false,
+  "kind": "incidental",
+  "source": "JEV-52 dev set, added after the gate audit: a listed modern term that is incidental to the business (to measure TERM_WEIGHT)",
+  "ops_description": "App-based plumbing repair company: customers book through our app and our licensed plumbers fix leaks and water heaters."
+ },
+ {
+  "id": "incidental-streaming-electrician",
+  "expect_code": "238210",
+  "expect_hold": false,
+  "kind": "incidental",
+  "source": "JEV-52 dev set, added after the gate audit: a listed modern term that is incidental to the business (to measure TERM_WEIGHT)",
+  "ops_description": "We install live streaming camera systems and the electrical wiring for them in churches and schools."
+ },
+ {
+  "id": "incidental-fintech-lender",
+  "expect_code": "522291",
+  "expect_hold": false,
+  "kind": "incidental",
+  "source": "JEV-52 dev set, added after the gate audit: a listed modern term that is incidental to the business (to measure TERM_WEIGHT)",
+  "ops_description": "Fintech company making personal installment loans to consumers from our own balance sheet."
+ },
+ {
+  "id": "incidental-podcast-farm",
+  "expect_code": "111110",
+  "expect_hold": false,
+  "kind": "incidental",
+  "source": "JEV-52 dev set, added after the gate audit: a listed modern term that is incidental to the business (to measure TERM_WEIGHT)",
+  "ops_description": "Soybean farm on 800 acres; the owner also hosts a small farming podcast."
+ },
+ {
+  "id": "incidental-telehealth-dentist",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "incidental",
+  "source": "JEV-52 dev set, added after the gate audit: a listed modern term that is incidental to the business (to measure TERM_WEIGHT)",
+  "ops_description": "General dentistry practice; we also offer telehealth follow-up calls for existing patients."
+ },
+ {
+  "id": "incidental-online-store-bakery",
+  "expect_code": "311811",
+  "expect_hold": false,
+  "kind": "incidental",
+  "source": "JEV-52 dev set, added after the gate audit: a listed modern term that is incidental to the business (to measure TERM_WEIGHT)",
+  "ops_description": "Neighborhood bakery baking bread and cakes on the premises for walk-in customers; a few items also sell through our online store."
+ }
+]

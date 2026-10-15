@@ -1,0 +1,233 @@
+[
+  {
+    "id": "electrical-contractor",
+    "expect_code": "238210",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "We pull permits and install commercial electrical service, panels, and lighting for office build-outs in the metro."
+  },
+  {
+    "id": "plumbing-hvac",
+    "expect_code": "238220",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Licensed shop that installs and services plumbing, boilers, and rooftop HVAC units for restaurants and clinics."
+  },
+  {
+    "id": "long-haul-trucking",
+    "expect_code": "484121",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "For-hire carrier running dry van between distribution centers across several states. We do not warehouse freight."
+  },
+  {
+    "id": "insurance-brokerage",
+    "expect_code": "524210",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Independent agency that places commercial property and casualty policies with multiple carriers and is paid on commission."
+  },
+  {
+    "id": "cpa-office",
+    "expect_code": "541211",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "CPA firm that prepares audited financial statements, tax returns, and bookkeeping for closely held companies."
+  },
+  {
+    "id": "custom-programming",
+    "expect_code": "541511",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "We write custom application software for clients under contract. We do not host their data or sell packaged systems design."
+  },
+  {
+    "id": "full-service-restaurant",
+    "expect_code": "722511",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Sit-down restaurant with table service, a dinner menu, and a full bar. Guests are seated by a host."
+  },
+  {
+    "id": "physician-office",
+    "expect_code": "621111",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Outpatient medical practice of several physicians seeing patients in clinic. We are not a hospital."
+  },
+  {
+    "id": "supermarket",
+    "expect_code": "445110",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Retail grocery store selling a general line of food, including fresh produce, meat, and dairy, for off-premise consumption."
+  },
+  {
+    "id": "underspecified-ops",
+    "expect_code": null,
+    "expect_hold": true,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "We help businesses. Call us for more information."
+  },
+  {
+    "id": "dental-office",
+    "expect_code": "621210",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "General and cosmetic dentistry practice with four dentists, cleanings, fillings, crowns, and implants."
+  },
+  {
+    "id": "veterinary-clinic",
+    "expect_code": "541940",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Small-animal veterinary clinic providing vaccinations, spay and neuter surgery, and pet dental care."
+  },
+  {
+    "id": "car-wash",
+    "expect_code": "811192",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Automated drive-through car wash with self-serve vacuum bays and monthly wash memberships."
+  },
+  {
+    "id": "florist",
+    "expect_code": "459310",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Retail flower shop selling cut flowers and arrangements for weddings and funerals, with local delivery."
+  },
+  {
+    "id": "dry-cleaner",
+    "expect_code": "812320",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Neighborhood dry cleaning and laundry drop-off with alterations and same-day pressing."
+  },
+  {
+    "id": "chiropractor",
+    "expect_code": "621310",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Chiropractic clinic offering spinal adjustments and sports injury rehab for walk-in patients."
+  },
+  {
+    "id": "optometrist",
+    "expect_code": "621320",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Independent optometry practice doing eye exams, contact lens fittings, and eyeglass sales."
+  },
+  {
+    "id": "moving-company",
+    "expect_code": "484210",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Residential moving company packing and moving household goods across town and between states."
+  },
+  {
+    "id": "pet-groomer",
+    "expect_code": "812910",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Mobile dog grooming van offering baths, haircuts, and nail trims at customers' homes."
+  },
+  {
+    "id": "landscaper",
+    "expect_code": "561730",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Commercial landscaping crew mowing, planting, and maintaining grounds for office parks."
+  },
+  {
+    "id": "gym",
+    "expect_code": "713940",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "24-hour fitness gym with weight rooms, group classes, and personal trainers on monthly memberships."
+  },
+  {
+    "id": "hotel",
+    "expect_code": "721110",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "120-room downtown hotel with a lobby bar and conference rooms for business travelers."
+  },
+  {
+    "id": "tattoo-studio",
+    "expect_code": "812199",
+    "expect_hold": false,
+    "source": "evals/test_cases.json (JEV-2); full-NAICS gold checked against the Census titles and index",
+    "ops_description": "Custom tattoo and piercing studio with four resident artists, appointments and walk-ins."
+  },
+  {
+    "id": "software-publisher",
+    "expect_code": "513210",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "We publish desktop accounting software, sold as perpetual licenses and annual subscriptions."
+  },
+  {
+    "id": "contract-rnd-lab",
+    "expect_code": "541715",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "Contract research and development laboratory in materials science and aerospace engineering."
+  },
+  {
+    "id": "payment-processor",
+    "expect_code": "522320",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "We operate a payment processing network that authorizes, clears, and settles card transactions for merchants."
+  },
+  {
+    "id": "consumer-lender",
+    "expect_code": "522291",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "We make personal installment loans directly to consumers."
+  },
+  {
+    "id": "investment-adviser",
+    "expect_code": "523940",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "Registered investment adviser managing client portfolios for a fee based on assets under management."
+  },
+  {
+    "id": "surgical-instruments",
+    "expect_code": "339112",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "We manufacture surgical staplers, forceps, and retractors sold to hospitals."
+  },
+  {
+    "id": "bingo-operator",
+    "expect_code": "713290",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "We operate bingo halls and run sweepstakes games for cash prizes."
+  },
+  {
+    "id": "commercial-bank",
+    "expect_code": "522110",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "Commercial bank taking business deposits and making commercial loans."
+  },
+  {
+    "id": "it-staffing",
+    "expect_code": "561320",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "Temporary IT staffing agency placing contract software developers with clients."
+  },
+  {
+    "id": "esp-no-naics",
+    "expect_code": "513210",
+    "expect_hold": false,
+    "source": "synthetic, written for an intake app's NAICS suggestion (JEV-47)",
+    "ops_description": "Northwind Labs sells a subscription SaaS platform for warehouse scheduling to mid-market logistics companies."
+  }
+]

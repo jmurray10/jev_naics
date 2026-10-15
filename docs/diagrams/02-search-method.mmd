@@ -1,0 +1,9 @@
+flowchart LR
+    D["Description"] --> T["Spelling fixes and<br/>modern-term reading<br/>(code)"]
+    T --> S["Full-text search<br/>top 10 of 1,012<br/>(code)"]
+    S --> J["Jev picks one of 10,<br/>scores fit and vagueness<br/>(1 model call)"]
+    J --> G{{"Gates<br/>probability ≥ 0.70<br/>fit ≥ 0.50<br/>vagueness &lt; 0.70"}}
+    G -->|"pass"| A["auto_act(code)"]
+    G -->|"fail"| H["hold(reason)<br/>hybrid tries the tree walk for some<br/>holds only, see 04-hybrid-method"]
+    classDef model stroke-dasharray: 5 5
+    class J model

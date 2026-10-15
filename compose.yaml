@@ -1,0 +1,84 @@
+# jev_naics: db, api, and web as separate containers, each on 127.0.0.1 only (JEV-55).
+# Start: docker compose up -d --build
+# The production shape (JEV-56, DEPLOY.md): a one-shot `migrate` job builds the database
+# (`python -m jev_naics.db_cli build`: migrate, then load only when the data version changed), and the
+# API, with NAICS_MIGRATE_ON_START=false, never touches the schema; its health check answers 503
+# until the database is ready.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: jev
+      POSTGRES_PASSWORD: jev
+      POSTGRES_DB: jev_naics
+    ports:
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jev -d jev_naics"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+
+  migrate:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    command: ["python", "-m", "jev_naics.db_cli", "build"]
+    environment:
+      NAICS_DATABASE_URL: postgresql://jev:jev@db:5432/jev_naics
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "127.0.0.1:8095:8095"
+    # jev_naics.env reads only TYPESAFE_API_KEY from .env (with none, replay). Compose also forwards the rest
+    # of .env as the environment, which is where NAICS_API_KEYS comes from: without it the API refuses to
+    # start (SECURITY.md). The opt-out NAICS_AUTH_DISABLED is refused here, because NAICS_HOST is 0.0.0.0.
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      NAICS_DATABASE_URL: postgresql://jev:jev@db:5432/jev_naics
+      NAICS_HOST: 0.0.0.0
+      NAICS_WEB_ORIGIN: http://127.0.0.1:8097
+      NAICS_MIGRATE_ON_START: "false"
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    # /v1/health answers 503 (urlopen raises) until the database is migrated, loaded, and current.
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8095/v1/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "127.0.0.1:8097:80"
+    environment:
+      # The page calls its own origin, and nginx forwards /v1/ to the API with a service key, so the key
+      # never reaches the browser (frontend/docker/15-naics-api-origin.sh; SECURITY.md). NAICS_WEB_API_KEY,
+      # if set in .env, is the key the page uses; otherwise NAICS_API_KEYS (one key, not a list).
+      NAICS_API_ORIGIN: http://127.0.0.1:8097
+      NAICS_API_UPSTREAM: http://api:8095
+      NAICS_API_KEY: ${NAICS_WEB_API_KEY:-${NAICS_API_KEYS:-}}
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  pgdata:

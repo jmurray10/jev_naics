@@ -1,0 +1,10 @@
+flowchart LR
+    D["Description"] --> R["Root: 20 sectors"]
+    R --> L["Jev per level:<br/>which child fits?<br/>keep best 3 paths<br/>(several model calls)"]
+    L --> F["Up to 3 finalists"]
+    F --> J["Jev picks one,<br/>scores fit and vagueness<br/>(1 model call)"]
+    J --> G{{"Gates<br/>probability ≥ 0.70<br/>fit ≥ 0.50<br/>vagueness &lt; 0.70"}}
+    G -->|"pass"| A["auto_act(code)"]
+    G -->|"fail"| H["hold(reason)"]
+    classDef model stroke-dasharray: 5 5
+    class L,J model

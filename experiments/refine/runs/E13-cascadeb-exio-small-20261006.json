@@ -1,0 +1,49 @@
+{
+ "run_id": "E13-cascadeb-exio-small-20261006",
+ "variant": "cascadeb",
+ "summary": {
+  "cases": 100,
+  "coded": 56,
+  "coded_right": 34,
+  "coded_wrong": 22,
+  "wrong_ids": [
+   "exio-small:1",
+   "exio-small:8",
+   "exio-small:9",
+   "exio-small:18",
+   "exio-small:19",
+   "exio-small:23",
+   "exio-small:24",
+   "exio-small:26",
+   "exio-small:32",
+   "exio-small:34",
+   "exio-small:35",
+   "exio-small:36",
+   "exio-small:37",
+   "exio-small:56",
+   "exio-small:63",
+   "exio-small:68",
+   "exio-small:73",
+   "exio-small:89",
+   "exio-small:92",
+   "exio-small:95",
+   "exio-small:97",
+   "exio-small:99"
+  ],
+  "gold_cases": 0,
+  "gold_coded_right": 0,
+  "ambiguous_with_gold_offered": 0,
+  "recall_at_k": null,
+  "errors": 1,
+  "statuses": {
+   "AMBIGUOUS": 30,
+   "CODED": 56,
+   "ERROR": 1,
+   "NEEDS_INFO": 8,
+   "PARTIAL": 5
+  },
+  "calls_mean": 2.27,
+  "input_tokens_mean": 48630,
+  "seconds_median": 0.48
+ }
+}

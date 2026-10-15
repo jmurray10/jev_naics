@@ -1,0 +1,42 @@
+# backend/agents/naics/agent.yaml: NAICS 2022 from a description of operations (jev_naics).
+# Questions and thresholds stay in jev_naics/questions.py.
+#
+# architecture must be one of jev_common's ARCHITECTURES enum (_jev/agent_config.py); the model
+# (search, tree walk, or hybrid) is the closest fit. sensors/actuators/judgment are that schema's
+# shape (field names copied from _jev/agent_config.py, not invented).
+agent:
+  name: "naics"
+  use_case:
+    domain: "Insurance applications: the applicant's NAICS 2022 industry"
+    decision: >-
+      A description of operations needs exactly one of the 1,012 NAICS 2022 industries, or a hold for a
+      person when it is too vague, several unrelated businesses, or no candidate fits.
+    why_it_matters: >-
+      NAICS routes the application to an appetite and a rating class; a neighbouring code misprices the
+      risk silently, while a hold costs a person a minute.
+    boundary: >-
+      The only actuator emits a code Jev picked from a closed list built in code (search results, tree
+      finalists, or both; in refine, the best candidates of a wide pick over all 1,012 industries). Hold is
+      code-owned, never an option.
+  architecture: "model-based-reflex"  # search, tree walk, or hybrid: Jev only ever picks from a closed candidate set code built
+  performance:
+    metrics: ["correct code on auto-act", "correct hold", "no wrong auto-act", "Jev calls per description"]
+    eval: "../../evals/full_naics.json"
+  environment:
+    type: "partially-observable, stochastic, episodic, static, discrete"
+  sensors:
+    - name: "ops_description"
+      type: "text"
+    - name: "lexicon_reading"   # refine (experimental): terms read in the text and their Census wording; never a code
+      type: "text"
+  actuators:
+    - name: "emit_naics_code"
+      type: "deterministic"
+      argument: >-
+        one NAICS 2022 industry code Jev picked from a closed candidate set built in code (Postgres
+        full-text search results, tree-walk finalists, or the union of both); never invented
+    - {name: "hold", type: "escalation", owner: "code"}
+  judgment:
+    component: "action-selection"
+    decider: "jev"
+    questions: "jev_naics.questions"

@@ -1,0 +1,140 @@
+{
+ "note": "JEV-52. Modern business terms the 2022 Census NAICS text does not use, each mapped to Census wording (never to a code). Written 2026-09-29 from general knowledge of the terms, before any run on the blind held-out set (evals/messy_heldout.json, which the author has not read). Each 'census' phrase is words that appear in the Census titles, descriptions, or index entries of the industry the term usually means; 'why' says which. Reviewed by a person before changes. Terms the author named as examples when briefing the held-out writer (subscription box, influencer, dark store, micromobility, headless CMS, API platform, creator economy, BNPL, insurtech, proptech, esports, co-working, meal kit) are deliberately absent, so the held-out result is not fit through that brief.",
+ "terms": [
+  {
+   "term": "saas",
+   "census": "software publishers software subscriptions",
+   "why": "513210 Software Publishers: application software sold by subscription"
+  },
+  {
+   "term": "software as a service",
+   "census": "software publishers software subscriptions",
+   "why": "513210"
+  },
+  {
+   "term": "paas",
+   "census": "computing infrastructure providers data processing hosting",
+   "why": "518210"
+  },
+  {
+   "term": "iaas",
+   "census": "computing infrastructure providers data processing hosting",
+   "why": "518210"
+  },
+  {
+   "term": "cloud hosting",
+   "census": "computing infrastructure providers web hosting",
+   "why": "518210"
+  },
+  {
+   "term": "mobile app",
+   "census": "software publishers application software",
+   "why": "513210, when the app is the product sold"
+  },
+  {
+   "term": "app",
+   "census": "software publishers application software",
+   "why": "513210, when the app is the product sold"
+  },
+  {
+   "term": "e-commerce",
+   "census": "retailers retail",
+   "why": "2022 NAICS classifies online sellers by product line under retail"
+  },
+  {
+   "term": "ecommerce",
+   "census": "retailers retail",
+   "why": "as e-commerce"
+  },
+  {
+   "term": "online store",
+   "census": "retailers retail",
+   "why": "as e-commerce"
+  },
+  {
+   "term": "dtc",
+   "census": "retailers retail",
+   "why": "direct-to-consumer brands selling their own goods at retail"
+  },
+  {
+   "term": "direct-to-consumer",
+   "census": "retailers retail",
+   "why": "as dtc"
+  },
+  {
+   "term": "telehealth",
+   "census": "offices of physicians health practitioners",
+   "why": "621111 and other practitioner offices; care delivered remotely"
+  },
+  {
+   "term": "telemedicine",
+   "census": "offices of physicians health practitioners",
+   "why": "as telehealth"
+  },
+  {
+   "term": "ghost kitchen",
+   "census": "limited-service restaurants food preparation delivery",
+   "why": "722513: food ordered and paid for before eating, delivered"
+  },
+  {
+   "term": "cloud kitchen",
+   "census": "limited-service restaurants food preparation delivery",
+   "why": "as ghost kitchen"
+  },
+  {
+   "term": "fintech",
+   "census": "financial transactions processing credit intermediation",
+   "why": "the 522 family; the description names which"
+  },
+  {
+   "term": "crypto",
+   "census": "virtual currency",
+   "why": "the Census index term for cryptocurrency (523160, 523999, 518210)"
+  },
+  {
+   "term": "cryptocurrency",
+   "census": "virtual currency",
+   "why": "as crypto"
+  },
+  {
+   "term": "bitcoin",
+   "census": "virtual currency",
+   "why": "as crypto"
+  },
+  {
+   "term": "rideshare",
+   "census": "taxi limousine passenger transportation",
+   "why": "485310 Taxi and Ridesharing Services"
+  },
+  {
+   "term": "ride-hailing",
+   "census": "taxi limousine passenger transportation",
+   "why": "485310"
+  },
+  {
+   "term": "podcast",
+   "census": "media streaming distribution content providers",
+   "why": "516210"
+  },
+  {
+   "term": "streaming",
+   "census": "media streaming distribution content providers",
+   "why": "516210"
+  },
+  {
+   "term": "freelancer",
+   "census": "independent",
+   "why": "the Census says independent for self-employed workers"
+  },
+  {
+   "term": "gig",
+   "census": "independent contractors",
+   "why": "as freelancer"
+  },
+  {
+   "term": "b2b",
+   "census": "",
+   "why": "business-to-business says nothing about the industry: no expansion"
+  }
+ ]
+}

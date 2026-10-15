@@ -1,0 +1,130 @@
+[
+  {
+    "id": "hy-quirk-vet",
+    "expect_code": "541940",
+    "expect_hold": false,
+    "kind": "taxonomy_quirk",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Small animal hospital with two doctors. We do wellness exams, vaccines, spays and neuters, dental cleanings and x-rays for dogs and cats, plus some after-hours emergency visits."
+  },
+  {
+    "id": "hy-quirk-bakery",
+    "expect_code": "311811",
+    "expect_hold": false,
+    "kind": "taxonomy_quirk",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Neighborhood bakery storefront. We mix and bake our own sourdough loaves, baguettes and cakes from scratch every morning in the back and sell them over the counter for customers to take home. No seating."
+  },
+  {
+    "id": "hy-quirk-pest",
+    "expect_code": "561710",
+    "expect_hold": false,
+    "kind": "taxonomy_quirk",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "We go out to homes and restaurants to get rid of termites, roaches, bed bugs and mice. Quarterly spray contracts, bait stations, and tenting houses for fumigation."
+  },
+  {
+    "id": "hy-quirk-locksmith",
+    "expect_code": "561622",
+    "expect_hold": false,
+    "kind": "taxonomy_quirk",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Mobile service van. We rekey and repair door locks, install deadbolts and keypad entry systems, open safes, and get people back into their houses and cars when they're locked out."
+  },
+  {
+    "id": "hy-vocab-crossfit",
+    "expect_code": "713940",
+    "expect_hold": false,
+    "kind": "vocabulary_gap",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "We own a CrossFit box. Members pay monthly for WODs, HIIT classes and open gym, and we run an on-ramp program for newbies plus a couple of in-house throwdowns a year."
+  },
+  {
+    "id": "hy-vocab-boba",
+    "expect_code": "722515",
+    "expect_hold": false,
+    "kind": "vocabulary_gap",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Boba spot near campus. Milk teas, taro and brown sugar slushes, fruit teas with popping pearls, and a few bao on the side. Mostly to-go, orders come through the delivery apps too."
+  },
+  {
+    "id": "hy-vocab-appdriver",
+    "expect_code": "485310",
+    "expect_hold": false,
+    "kind": "vocabulary_gap",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "LLC for my gig driving. I take rides off the apps in my own SUV, mostly airport runs and late-night pickups downtown, and the platforms pay out to me weekly."
+  },
+  {
+    "id": "hy-vocab-appdev",
+    "expect_code": "541511",
+    "expect_hold": false,
+    "kind": "vocabulary_gap",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Dev shop of five. Clients bring us an idea and we ship an MVP: iOS and Android builds in React Native, a backend, then sprints of bug fixes and new features on retainer. The client owns the code."
+  },
+  {
+    "id": "hy-typo-roofing",
+    "expect_code": "238160",
+    "expect_hold": false,
+    "kind": "typo",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "we do resedential re-roofs tear offs asphault shingle and some metal roofs also leak repares and skylight instal after storms insurance claims welcome"
+  },
+  {
+    "id": "hy-typo-nails",
+    "expect_code": "812113",
+    "expect_hold": false,
+    "kind": "typo",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "nail shop 8 staions manicure pedicure acrylic's gel dip powder nail art walk ins welcom"
+  },
+  {
+    "id": "hy-typo-usedcars",
+    "expect_code": "441120",
+    "expect_hold": false,
+    "kind": "typo",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Buy here pay here lot we sell pre owned cars pickups and suvs,finance in house.around 40 vehicals on the lot at a time we buy most of them at the auctoin"
+  },
+  {
+    "id": "hy-typo-dentist",
+    "expect_code": "621210",
+    "expect_hold": false,
+    "kind": "typo",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "genral dentistry practise, one DDS two hygentists. cleanings, filings, crowns, root canels and some invisalign.take most PPO insurence"
+  },
+  {
+    "id": "hy-multi-autorepair",
+    "expect_code": "811111",
+    "expect_hold": false,
+    "kind": "multi_activity",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Independent auto repair shop, four bays. Most of our money is labor on engine diagnostics, brakes, suspension and engine replacements for all makes. We also sell and mount some tires and run a small used-parts shelf, maybe 15% of sales."
+  },
+  {
+    "id": "hy-multi-cattle",
+    "expect_code": "112111",
+    "expect_hold": false,
+    "kind": "multi_activity",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Family cow-calf operation, about 300 head of Angus. We sell weaned calves every fall, which is most of our income. We also bale and sell surplus hay to neighbors and do a little custom fencing work in the off season."
+  },
+  {
+    "id": "hy-multi-photo",
+    "expect_code": "541921",
+    "expect_hold": false,
+    "kind": "multi_activity",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Wedding and family portrait photographer. Booking weddings, engagement shoots and senior portraits is about 85% of revenue. The rest is selling printed albums and wall canvases and teaching a couple of beginner camera workshops a year."
+  },
+  {
+    "id": "hy-multi-restaurant",
+    "expect_code": "722511",
+    "expect_hold": false,
+    "kind": "multi_activity",
+    "source": "JEV-53 blind held-out, written 2026-09-29 by a separate agent before the hybrid was built",
+    "ops_description": "Sit-down Italian place, 60 seats with servers, beer and wine. Dinner service is the main business. On weekends we also cater a few office lunches and parties, and we sell our jarred marinara at the host stand."
+  }
+]

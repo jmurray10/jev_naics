@@ -1,0 +1,2269 @@
+{
+ "run_id": "E15-cascade-refine_shortmodern-lexfull-exp6-min1-20261007",
+ "variant": "cascade",
+ "summary": {
+  "cases": 72,
+  "coded": 58,
+  "coded_right": 54,
+  "coded_wrong": 4,
+  "wrong_ids": [
+   "refine_shortmodern:two-11",
+   "refine_shortmodern:modern-07",
+   "refine_shortmodern:modern-14",
+   "refine_shortmodern:hold-10"
+  ],
+  "gold_cases": 60,
+  "gold_coded_right": 54,
+  "ambiguous_with_gold_offered": 1,
+  "recall_at_k": [
+   59,
+   60
+  ],
+  "errors": 0,
+  "statuses": {
+   "AMBIGUOUS": 3,
+   "CODED": 58,
+   "NEEDS_INFO": 11
+  },
+  "calls_mean": 1.92,
+  "input_tokens_mean": 45041,
+  "seconds_median": 0.55
+ },
+ "rows": [
+  {
+   "id": "refine_shortmodern:single-01",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.31,
+   "usage": {
+    "input_tokens": 44981,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238220 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "hvac"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-02",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 44989,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.97; fit 0.79.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "saas",
+    "b2b"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-03",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 45068,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 518210 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "paas"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-04",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.27,
+   "usage": {
+    "input_tokens": 45068,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 518210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "iaas"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-05",
+   "gold": "541211",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541211",
+   "partial": "541211",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541211",
+    "523940",
+    "524298",
+    "521110"
+   ],
+   "calls": 2,
+   "seconds": 0.33,
+   "usage": {
+    "input_tokens": 44956,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541211 at p 1.00; fit 0.94.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "cpa"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-06",
+   "gold": "561330",
+   "expect_hold": false,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "56",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561330",
+    "524292",
+    "813910",
+    "814110"
+   ],
+   "calls": 1,
+   "seconds": 0.15,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12665
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-07",
+   "gold": "485310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "485310",
+   "partial": "485310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "485310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.29,
+   "usage": {
+    "input_tokens": 44892,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 485310 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "rideshare"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-08",
+   "gold": "531120",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531120",
+   "partial": "531120",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531120",
+    "531190",
+    "531110",
+    "531390"
+   ],
+   "calls": 2,
+   "seconds": 0.33,
+   "usage": {
+    "input_tokens": 45060,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 531120 at p 1.00; fit 0.91.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "coworking"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:single-09",
+   "gold": "812990",
+   "expect_hold": false,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "62",
+   "tooltip": "states_customers",
+   "picklist": "candidates",
+   "picklist_codes": [
+    "621399",
+    "621410"
+   ],
+   "gold_in_wide": false,
+   "wide_top": [
+    "339999",
+    "456199",
+    "551114",
+    "326299",
+    "541990",
+    "561311",
+    "621410",
+    "621399",
+    "611710",
+    "611699"
+   ],
+   "calls": 3,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 52534,
+    "output_tokens": 13337
+   },
+   "reason": "The candidates only partly fit: 621399, 621410.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-10",
+   "gold": "621512",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621512",
+   "partial": "621512",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621512",
+    "541990",
+    "541380",
+    "334517"
+   ],
+   "calls": 2,
+   "seconds": 0.49,
+   "usage": {
+    "input_tokens": 44981,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621512 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-11",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.45,
+   "usage": {
+    "input_tokens": 44955,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238220 at p 1.00; fit 0.85.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-12",
+   "gold": "238160",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238160",
+   "partial": "238160",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238160",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.48,
+   "usage": {
+    "input_tokens": 44785,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238160 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-13",
+   "gold": "561622",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561622",
+   "partial": "561622",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "444140",
+    "459999",
+    "423710",
+    "423390",
+    "561622",
+    "111110",
+    "812990",
+    "811490",
+    "611699",
+    "611519"
+   ],
+   "calls": 3,
+   "seconds": 0.62,
+   "usage": {
+    "input_tokens": 51716,
+    "output_tokens": 13337
+   },
+   "reason": "561622 is the only candidate judged the primary activity, and both option orders picked it.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-14",
+   "gold": "621340",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621340",
+   "partial": "621340",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621340",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.63,
+   "usage": {
+    "input_tokens": 44968,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621340 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-15",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "621111",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 45294,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-16",
+   "gold": "312130",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "312130",
+   "partial": "312130",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "312130",
+    "111332",
+    "111310",
+    "111320"
+   ],
+   "calls": 2,
+   "seconds": 0.61,
+   "usage": {
+    "input_tokens": 44124,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 312130 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-17",
+   "gold": "312120",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "312120",
+   "partial": "312120",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "312120",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.7,
+   "usage": {
+    "input_tokens": 44686,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 312120 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-18",
+   "gold": "488410",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "488410",
+   "partial": "488410",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "488410",
+    "811198",
+    "811111",
+    "812930"
+   ],
+   "calls": 2,
+   "seconds": 0.71,
+   "usage": {
+    "input_tokens": 44663,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 488410 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-19",
+   "gold": "621391",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621391",
+   "partial": "621391",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621391",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.58,
+   "usage": {
+    "input_tokens": 44971,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621391 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:single-20",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.75,
+   "usage": {
+    "input_tokens": 44967,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-01",
+   "gold": "459991",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "459991",
+   "partial": "459991",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459991",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.72,
+   "usage": {
+    "input_tokens": 44914,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 459991 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-02",
+   "gold": "713990",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "713990",
+   "partial": "713990",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713990",
+    "713110",
+    "713120",
+    "711110"
+   ],
+   "calls": 2,
+   "seconds": 0.6,
+   "usage": {
+    "input_tokens": 45079,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 713990 at p 0.95; fit 0.70.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-03",
+   "gold": "722330",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722330",
+   "partial": "722330",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722330",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.64,
+   "usage": {
+    "input_tokens": 44829,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 722330 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "food truck"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:two-04",
+   "gold": "812910",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812910",
+   "partial": "812910",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812910",
+    "112990",
+    "561311",
+    "624410"
+   ],
+   "calls": 2,
+   "seconds": 0.65,
+   "usage": {
+    "input_tokens": 44949,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812910 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-05",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.55,
+   "usage": {
+    "input_tokens": 45040,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 518210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-06",
+   "gold": "811192",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811192",
+   "partial": "811192",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811192",
+    "561790",
+    "561720",
+    "561990"
+   ],
+   "calls": 2,
+   "seconds": 0.91,
+   "usage": {
+    "input_tokens": 44815,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811192 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-07",
+   "gold": "561710",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561710",
+   "partial": "561710",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561710",
+    "238990",
+    "812990",
+    "813910"
+   ],
+   "calls": 2,
+   "seconds": 0.91,
+   "usage": {
+    "input_tokens": 44868,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 561710 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-08",
+   "gold": "541213",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541213",
+   "partial": "541213",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541213",
+    "523940",
+    "524298",
+    "813920"
+   ],
+   "calls": 2,
+   "seconds": 0.7,
+   "usage": {
+    "input_tokens": 44865,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541213 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-09",
+   "gold": "812990",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812990",
+   "partial": "812990",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812990",
+    "561611",
+    "561990",
+    "561440"
+   ],
+   "calls": 2,
+   "seconds": 0.63,
+   "usage": {
+    "input_tokens": 44794,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812990 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-10",
+   "gold": "621910",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621910",
+   "partial": "621910",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621910",
+    "485991",
+    "488410",
+    "485310"
+   ],
+   "calls": 2,
+   "seconds": 0.78,
+   "usage": {
+    "input_tokens": 44510,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621910 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-11",
+   "gold": "713990",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "713940",
+   "partial": "713940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713940",
+    "713990",
+    "711211",
+    "713910"
+   ],
+   "calls": 2,
+   "seconds": 1.05,
+   "usage": {
+    "input_tokens": 44977,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 713940 at p 0.96; fit 0.74.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-12",
+   "gold": "812990",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812990",
+   "partial": "812990",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541410",
+    "711320",
+    "812990",
+    "561920"
+   ],
+   "calls": 2,
+   "seconds": 0.87,
+   "usage": {
+    "input_tokens": 44776,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 812990 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-13",
+   "gold": "492210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "492210",
+   "partial": "492210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "445110",
+    "492210",
+    "492110",
+    "484110"
+   ],
+   "calls": 2,
+   "seconds": 0.64,
+   "usage": {
+    "input_tokens": 44788,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 492210 at p 1.00; fit 0.87.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:two-14",
+   "gold": "812199",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812199",
+   "partial": "812199",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812199",
+    "812990",
+    "812112",
+    "713990"
+   ],
+   "calls": 2,
+   "seconds": 0.6,
+   "usage": {
+    "input_tokens": 45321,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812199 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-01",
+   "gold": "485310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "485310",
+   "partial": "485310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "485310",
+    "519290",
+    "513210",
+    "516210"
+   ],
+   "calls": 2,
+   "seconds": 0.55,
+   "usage": {
+    "input_tokens": 45010,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 485310 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:modern-02",
+   "gold": "516210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "516210",
+   "partial": "516210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "516210",
+    "516120",
+    "517111",
+    "512120"
+   ],
+   "calls": 2,
+   "seconds": 0.54,
+   "usage": {
+    "input_tokens": 45186,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 516210 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "streaming"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:modern-03",
+   "gold": "711510",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "711510",
+   "partial": "711510",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541990",
+    "513130",
+    "519290",
+    "711510"
+   ],
+   "calls": 2,
+   "seconds": 0.61,
+   "usage": {
+    "input_tokens": 45036,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 711510 at p 1.00; fit 0.89.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-04",
+   "gold": "531120",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "531120",
+   "partial": "531120",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "531120",
+    "531190",
+    "531312",
+    "531110"
+   ],
+   "calls": 2,
+   "seconds": 0.56,
+   "usage": {
+    "input_tokens": 45111,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 531120 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-05",
+   "gold": "492210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "492210",
+   "partial": "492210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "492210",
+    "492110",
+    "722513"
+   ],
+   "calls": 2,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 45039,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 492210 at p 0.99; fit 0.84.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:modern-06",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "531130",
+    "532420",
+    "531190"
+   ],
+   "calls": 2,
+   "seconds": 0.55,
+   "usage": {
+    "input_tokens": 44839,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 518210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-07",
+   "gold": "523160",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "523210",
+   "partial": "523210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "523210",
+    "523160",
+    "523150",
+    "523999"
+   ],
+   "calls": 2,
+   "seconds": 0.94,
+   "usage": {
+    "input_tokens": 44977,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 523210 at p 0.84; fit 0.63.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "bitcoin",
+    "crypto"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:modern-08",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "513210",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 1.82,
+   "usage": {
+    "input_tokens": 45048,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 518210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:modern-09",
+   "gold": "459991",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "459991",
+   "partial": "459991",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459991",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 1.43,
+   "usage": {
+    "input_tokens": 44934,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 459991 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-10",
+   "gold": "722330",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722330",
+   "partial": "722330",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722330",
+    "722513",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 1.5,
+   "usage": {
+    "input_tokens": 45003,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 722330 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-11",
+   "gold": "812910",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812910",
+   "partial": "812910",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812910",
+    "561311",
+    "713990",
+    "561990"
+   ],
+   "calls": 2,
+   "seconds": 3.29,
+   "usage": {
+    "input_tokens": 45063,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812910 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:modern-12",
+   "gold": "336411",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "336411",
+   "partial": "336411",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "336411",
+    "336413",
+    "541370",
+    "336414"
+   ],
+   "calls": 2,
+   "seconds": 1.14,
+   "usage": {
+    "input_tokens": 45171,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 336411 at p 0.99; fit 0.78.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-13",
+   "gold": "713990",
+   "expect_hold": false,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "7139",
+   "tooltip": null,
+   "picklist": "candidates",
+   "picklist_codes": [
+    "713940",
+    "713990"
+   ],
+   "gold_in_wide": true,
+   "wide_top": [
+    "339999",
+    "339920",
+    "423850",
+    "423910",
+    "713940",
+    "713990",
+    "531120",
+    "812990",
+    "611620",
+    "721214"
+   ],
+   "calls": 3,
+   "seconds": 1.15,
+   "usage": {
+    "input_tokens": 52232,
+    "output_tokens": 13337
+   },
+   "reason": "The candidates only partly fit: 713940, 713990.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:modern-14",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541511",
+   "partial": "541511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541511",
+    "513210",
+    "512230",
+    "512290"
+   ],
+   "calls": 2,
+   "seconds": 0.55,
+   "usage": {
+    "input_tokens": 44747,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541511 at p 0.93; fit 0.79.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "mobile app"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:hold-01",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "54",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541611",
+    "541990",
+    "541618",
+    "541690"
+   ],
+   "calls": 1,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 42477,
+    "output_tokens": 12664
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-02",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "812990",
+    "541990",
+    "561990",
+    "561110"
+   ],
+   "calls": 1,
+   "seconds": 0.28,
+   "usage": {
+    "input_tokens": 42475,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-03",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "55",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "551114",
+    "541990",
+    "551111",
+    "551112"
+   ],
+   "calls": 1,
+   "seconds": 0.28,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-04",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "541511",
+    "551114",
+    "513210"
+   ],
+   "calls": 1,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 42475,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-05",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "54",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "541611",
+    "513210",
+    "541511"
+   ],
+   "calls": 1,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-06",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "44-45",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "455219",
+    "459999",
+    "455110",
+    "424990"
+   ],
+   "calls": 1,
+   "seconds": 0.38,
+   "usage": {
+    "input_tokens": 42477,
+    "output_tokens": 12666
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-07",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "52",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "523940",
+    "525910",
+    "551112",
+    "523910"
+   ],
+   "calls": 1,
+   "seconds": 0.32,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-08",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "51",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512110",
+    "541512"
+   ],
+   "calls": 1,
+   "seconds": 0.29,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-09",
+   "gold": null,
+   "expect_hold": true,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "52",
+   "tooltip": "delivery_mode",
+   "picklist": "candidates",
+   "picklist_codes": [
+    "523210",
+    "523999"
+   ],
+   "gold_in_wide": false,
+   "wide_top": [
+    "459999",
+    "339999",
+    "551111",
+    "551112",
+    "541511",
+    "541990",
+    "523999",
+    "523210",
+    "611699",
+    "611420"
+   ],
+   "calls": 3,
+   "seconds": 0.76,
+   "usage": {
+    "input_tokens": 52555,
+    "output_tokens": 13337
+   },
+   "reason": "The candidates only partly fit: 523210, 523999.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "crypto"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:hold-10",
+   "gold": null,
+   "expect_hold": true,
+   "status": "CODED",
+   "code": "711211",
+   "partial": "711211",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "711211",
+    "711219",
+    "713990",
+    "713920"
+   ],
+   "calls": 2,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 45187,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 711211 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "esports"
+   ]
+  },
+  {
+   "id": "refine_shortmodern:hold-11",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "56",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "561320",
+    "561311",
+    "561330",
+    "561110"
+   ],
+   "calls": 1,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 42477,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:hold-12",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "44-45",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "455219",
+    "455110",
+    "456110",
+    "459999"
+   ],
+   "calls": 1,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12666
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-01",
+   "gold": "311811",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "311811",
+   "partial": "311811",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "445291",
+    "445110",
+    "311811",
+    "311812",
+    "561439",
+    "111140",
+    "812990",
+    "624210",
+    "722515",
+    "722513"
+   ],
+   "calls": 3,
+   "seconds": 0.73,
+   "usage": {
+    "input_tokens": 51999,
+    "output_tokens": 13340
+   },
+   "reason": "311811 is the only candidate judged the primary activity, and both option orders picked it.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-02",
+   "gold": "811191",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811191",
+   "partial": "811191",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811191",
+    "488410",
+    "488490",
+    "488999"
+   ],
+   "calls": 2,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 44647,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811191 at p 1.00; fit 0.99.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-03",
+   "gold": "611110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "611110",
+   "partial": "611110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "611110",
+    "923110",
+    "921110",
+    "921130"
+   ],
+   "calls": 2,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 44379,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 611110 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-04",
+   "gold": "112120",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "112120",
+   "partial": "112120",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "112120",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 44616,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 112120 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-05",
+   "gold": "238320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238320",
+   "partial": "238320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238320",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 44827,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238320 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-06",
+   "gold": "541110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541110",
+   "partial": "541110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541110",
+    "813920",
+    "812990",
+    "813990"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 44859,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-07",
+   "gold": "812112",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812112",
+   "partial": "812112",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812112",
+    "812111",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 44863,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812112 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-08",
+   "gold": "623110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "623110",
+   "partial": "623110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "623110",
+    "623311",
+    "622110",
+    "623312"
+   ],
+   "calls": 2,
+   "seconds": 0.73,
+   "usage": {
+    "input_tokens": 44825,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 623110 at p 1.00; fit 0.94.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-09",
+   "gold": "721110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "721110",
+   "partial": "721110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "721110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 44839,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 721110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-10",
+   "gold": "332710",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "332710",
+   "partial": "332710",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "332710",
+    "332721",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.45,
+   "usage": {
+    "input_tokens": 44809,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 332710 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-11",
+   "gold": "713940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "713940",
+   "partial": "713940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713940",
+    "812191",
+    "812199",
+    "621498"
+   ],
+   "calls": 2,
+   "seconds": 0.66,
+   "usage": {
+    "input_tokens": 45071,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 713940 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "refine_shortmodern:control-12",
+   "gold": "812220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812220",
+   "partial": "812220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812220",
+    "712190",
+    "459999",
+    "712120"
+   ],
+   "calls": 2,
+   "seconds": 0.55,
+   "usage": {
+    "input_tokens": 44676,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 812220 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  }
+ ]
+}

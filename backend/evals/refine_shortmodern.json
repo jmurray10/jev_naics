@@ -1,0 +1,650 @@
+[
+ {
+  "id": "single-01",
+  "expect_code": "238220",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "238220 index: HVAC (heating, ventilation and air-conditioning) contractors",
+  "ops_description": "HVAC"
+ },
+ {
+  "id": "single-02",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "513210 text: publish and distribute software through subscriptions; mobile/app publishing indexed (no literal SaaS entry)",
+  "ops_description": "B2B SaaS"
+ },
+ {
+  "id": "single-03",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "518210 index: Platform as a service (PaaS)",
+  "ops_description": "PaaS"
+ },
+ {
+  "id": "single-04",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "518210 examples: Infrastructure as a service (IaaS)",
+  "ops_description": "IaaS"
+ },
+ {
+  "id": "single-05",
+  "expect_code": "541211",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "541211 Offices of Certified Public Accountants",
+  "ops_description": "CPA"
+ },
+ {
+  "id": "single-06",
+  "expect_code": "561330",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "561330 Professional Employer Organizations (PEO)",
+  "ops_description": "PEO"
+ },
+ {
+  "id": "single-07",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "485310 Taxi and Ridesharing Services; index: Ridesharing services",
+  "ops_description": "rideshare"
+ },
+ {
+  "id": "single-08",
+  "expect_code": "531120",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "531120 index: Coworking space rental or leasing",
+  "ops_description": "Coworking"
+ },
+ {
+  "id": "single-09",
+  "expect_code": "812990",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812990 index: Doula services",
+  "ops_description": "doula"
+ },
+ {
+  "id": "single-10",
+  "expect_code": "621512",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "621512 Diagnostic Imaging Centers; index: MRI (magnetic resonance imaging)",
+  "ops_description": "MRI"
+ },
+ {
+  "id": "single-11",
+  "expect_code": "238220",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "238220 Plumbing, Heating, and Air-Conditioning Contractors",
+  "ops_description": "Plumber"
+ },
+ {
+  "id": "single-12",
+  "expect_code": "238160",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "238160 Roofing Contractors",
+  "ops_description": "roofer"
+ },
+ {
+  "id": "single-13",
+  "expect_code": "561622",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "561622 Locksmiths",
+  "ops_description": "Locksmith"
+ },
+ {
+  "id": "single-14",
+  "expect_code": "621340",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "621340 Offices of Physical, Occupational and Speech Therapists, and Audiologists; physical therapists indexed",
+  "ops_description": "Physiotherapist"
+ },
+ {
+  "id": "single-15",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "621210 Offices of Dentists; orthodontists' offices indexed",
+  "ops_description": "orthodontist"
+ },
+ {
+  "id": "single-16",
+  "expect_code": "312130",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "312130 Wineries",
+  "ops_description": "winery"
+ },
+ {
+  "id": "single-17",
+  "expect_code": "312120",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "312120 Breweries",
+  "ops_description": "BREWERY"
+ },
+ {
+  "id": "single-18",
+  "expect_code": "488410",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "488410 Motor Vehicle Towing",
+  "ops_description": "towing"
+ },
+ {
+  "id": "single-19",
+  "expect_code": "621391",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "621391 Offices of Podiatrists",
+  "ops_description": "Podiatrist"
+ },
+ {
+  "id": "single-20",
+  "expect_code": "621210",
+  "expect_hold": false,
+  "kind": "single_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "621210 Offices of Dentists",
+  "ops_description": "Dentist"
+ },
+ {
+  "id": "two-01",
+  "expect_code": "459991",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "459991 index: Vape shops",
+  "ops_description": "vape shop"
+ },
+ {
+  "id": "two-02",
+  "expect_code": "713990",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "713990 index: Escape rooms",
+  "ops_description": "Escape rooms"
+ },
+ {
+  "id": "two-03",
+  "expect_code": "722330",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "722330 index: Food carts and trucks, mobile",
+  "ops_description": "food truck"
+ },
+ {
+  "id": "two-04",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812910 text: pet care services such as boarding, grooming, sitting, walking",
+  "ops_description": "Pet sitting"
+ },
+ {
+  "id": "two-05",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "518210 index: Cloud storage services",
+  "ops_description": "cloud storage"
+ },
+ {
+  "id": "two-06",
+  "expect_code": "811192",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "811192 Car Washes",
+  "ops_description": "car wash"
+ },
+ {
+  "id": "two-07",
+  "expect_code": "561710",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "561710 Exterminating and Pest Control Services",
+  "ops_description": "Pest control"
+ },
+ {
+  "id": "two-08",
+  "expect_code": "541213",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "541213 Tax Preparation Services",
+  "ops_description": "tax preparation"
+ },
+ {
+  "id": "two-09",
+  "expect_code": "812990",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812990 index: Bail bonding services",
+  "ops_description": "Bail bonds"
+ },
+ {
+  "id": "two-10",
+  "expect_code": "621910",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "621910 Ambulance Services",
+  "ops_description": "ambulance service"
+ },
+ {
+  "id": "two-11",
+  "expect_code": "713990",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "713990 index: Pickleball clubs, recreational",
+  "ops_description": "Pickleball club"
+ },
+ {
+  "id": "two-12",
+  "expect_code": "812990",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812990 index: Wedding planning services",
+  "ops_description": "wedding planner"
+ },
+ {
+  "id": "two-13",
+  "expect_code": "492210",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "492210 index: Grocery delivery services (independent)",
+  "ops_description": "grocery delivery"
+ },
+ {
+  "id": "two-14",
+  "expect_code": "812199",
+  "expect_hold": false,
+  "kind": "two_word",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812199 index: Tattoo parlors",
+  "ops_description": "tattoo parlor"
+ },
+ {
+  "id": "modern-01",
+  "expect_code": "485310",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "485310 index: Ride hailing services (including arrangement services)",
+  "ops_description": "ride hailing app connecting drivers and riders in our city"
+ },
+ {
+  "id": "modern-02",
+  "expect_code": "516210",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "516210 index: Subscription Video on Demand (SVOD); stand-alone streaming services",
+  "ops_description": "we run a subscription video on demand streaming service"
+ },
+ {
+  "id": "modern-03",
+  "expect_code": "711510",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "711510 index: Ghost writers, independent; Writers, independent (freelance)",
+  "ops_description": "Freelance ghostwriter, books and articles for clients"
+ },
+ {
+  "id": "modern-04",
+  "expect_code": "531120",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "531120: providing full service office space, lease or service contract; coworking space rental",
+  "ops_description": "we rent desks and private offices to freelancers by the month"
+ },
+ {
+  "id": "modern-05",
+  "expect_code": "492210",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "492210 index: Restaurant meals order and delivery (independent order and delivery services)",
+  "ops_description": "food ordering app, independent couriers deliver restaurant meals"
+ },
+ {
+  "id": "modern-06",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "518210 index: Colocation services (rental of server space)",
+  "ops_description": "colocation data cage and rack space rental for server hardware"
+ },
+ {
+  "id": "modern-07",
+  "expect_code": "523160",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "523160 index: Virtual currency (cryptocurrency) exchange services",
+  "ops_description": "Crypto exchange where customers buy and sell bitcoin"
+ },
+ {
+  "id": "modern-08",
+  "expect_code": "518210",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "518210 index: Platform as a service (PaaS); Application hosting",
+  "ops_description": "platform as a service for developers, managed app hosting"
+ },
+ {
+  "id": "modern-09",
+  "expect_code": "459991",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "459991 Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers",
+  "ops_description": "e-cig and vape retail store selling e-liquids and pods"
+ },
+ {
+  "id": "modern-10",
+  "expect_code": "722330",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "722330 Mobile Food Services; food carts and trucks",
+  "ops_description": "taco truck pop-up at breweries and street festivals"
+ },
+ {
+  "id": "modern-11",
+  "expect_code": "812910",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812910 text: pet care services including sitting and walking",
+  "ops_description": "dog walking and pet sitting booked through an app"
+ },
+ {
+  "id": "modern-12",
+  "expect_code": "336411",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "336411 index: Unmanned and robotic aircraft",
+  "ops_description": "we build drones, unmanned aircraft for survey work"
+ },
+ {
+  "id": "modern-13",
+  "expect_code": "713990",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "713990 index: Trampoline facilities, recreational",
+  "ops_description": "indoor trampoline arena for kids birthday parties"
+ },
+ {
+  "id": "modern-14",
+  "expect_code": "513210",
+  "expect_hold": false,
+  "kind": "modern_multiword",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "513210 index: Mobile applications development and publishing",
+  "ops_description": "mobile app development studio, iOS and Android apps"
+ },
+ {
+  "id": "hold-01",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "generic; no activity named",
+  "ops_description": "consultancy"
+ },
+ {
+  "id": "hold-02",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "generic; no activity named",
+  "ops_description": "Services"
+ },
+ {
+  "id": "hold-03",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "legal form only, no activity",
+  "ops_description": "LLC"
+ },
+ {
+  "id": "hold-04",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "stage of a company, not an industry",
+  "ops_description": "startup"
+ },
+ {
+  "id": "hold-05",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "generic marketing word, no activity",
+  "ops_description": "solutions"
+ },
+ {
+  "id": "hold-06",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "no goods or channel named",
+  "ops_description": "we sell stuff"
+ },
+ {
+  "id": "hold-07",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "could be many things, no activity named",
+  "ops_description": "Holdings"
+ },
+ {
+  "id": "hold-08",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "too vague: manufacturing, software, services all possible",
+  "ops_description": "tech company"
+ },
+ {
+  "id": "hold-09",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "two-way: exchange services 523160 vs mining/hosting 518210 in Census text; one word does not settle it",
+  "ops_description": "crypto"
+ },
+ {
+  "id": "hold-10",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "two-way: Census indexes esports clubs/teams under both 711211 and 713990",
+  "ops_description": "esports club"
+ },
+ {
+  "id": "hold-11",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "two-way: 561320 Temporary Help vs 561311 Employment Placement vs 561312 executive search",
+  "ops_description": "staffing"
+ },
+ {
+  "id": "hold-12",
+  "expect_code": null,
+  "expect_hold": true,
+  "kind": "must_hold",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "channel only, no goods or services named",
+  "ops_description": "online business"
+ },
+ {
+  "id": "control-01",
+  "expect_code": "311811",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "311811 Retail Bakeries",
+  "ops_description": "Family-owned bakery selling fresh bread and pastries to walk-in customers"
+ },
+ {
+  "id": "control-02",
+  "expect_code": "811191",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "811191 Automotive Oil Change and Lubrication Shops",
+  "ops_description": "quick lube shop, oil changes for cars and light trucks"
+ },
+ {
+  "id": "control-03",
+  "expect_code": "611110",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "611110 Elementary and Secondary Schools",
+  "ops_description": "Public elementary school teaching kindergarten through fifth grade"
+ },
+ {
+  "id": "control-04",
+  "expect_code": "112120",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "112120 Dairy Cattle and Milk Production",
+  "ops_description": "dairy farm milking about 300 cows"
+ },
+ {
+  "id": "control-05",
+  "expect_code": "238320",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "238320 Painting and Wall Covering Contractors",
+  "ops_description": "Residential painting contractor, interior and exterior houses"
+ },
+ {
+  "id": "control-06",
+  "expect_code": "541110",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "541110 Offices of Lawyers",
+  "ops_description": "Law firm representing clients in family and criminal cases"
+ },
+ {
+  "id": "control-07",
+  "expect_code": "812112",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812112 Beauty Salons",
+  "ops_description": "hair salon offering cuts, color and styling"
+ },
+ {
+  "id": "control-08",
+  "expect_code": "623110",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "623110 Nursing Care Facilities (Skilled Nursing Facilities)",
+  "ops_description": "Nursing home with round the clock care for elderly residents"
+ },
+ {
+  "id": "control-09",
+  "expect_code": "721110",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "721110 Hotels (except Casino Hotels) and Motels",
+  "ops_description": "Hotel with 120 rooms, a restaurant and meeting space"
+ },
+ {
+  "id": "control-10",
+  "expect_code": "332710",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "332710 Machine Shops",
+  "ops_description": "machine shop making custom metal parts to order"
+ },
+ {
+  "id": "control-11",
+  "expect_code": "713940",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "713940 Fitness and Recreational Sports Centers",
+  "ops_description": "fitness gym with weights, classes and personal trainers"
+ },
+ {
+  "id": "control-12",
+  "expect_code": "812220",
+  "expect_hold": false,
+  "kind": "control_plain",
+  "source": "refine short/modern-language set, synthetic, written 2026-10-06 before any lexicon or gate change was run on it",
+  "why": "812220 Cemeteries and Crematories",
+  "ops_description": "cemetery selling burial plots and maintaining the grounds"
+ }
+]

@@ -1,0 +1,2551 @@
+{
+ "run_id": "E15-cascade-dev-lexfull-exp6-min1-20261007",
+ "variant": "cascade",
+ "summary": {
+  "cases": 81,
+  "coded": 60,
+  "coded_right": 58,
+  "coded_wrong": 2,
+  "wrong_ids": [
+   "assist_dev:gen-saas",
+   "assist_dev:conf-mkt"
+  ],
+  "gold_cases": 61,
+  "gold_coded_right": 58,
+  "ambiguous_with_gold_offered": 0,
+  "recall_at_k": [
+   61,
+   61
+  ],
+  "errors": 0,
+  "statuses": {
+   "AMBIGUOUS": 2,
+   "CODED": 60,
+   "NEEDS_INFO": 16,
+   "PARTIAL": 3
+  },
+  "calls_mean": 1.89,
+  "input_tokens_mean": 45131,
+  "seconds_median": 0.49
+ },
+ "rows": [
+  {
+   "id": "full_naics:electrical-contractor",
+   "gold": "238210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238210",
+   "partial": "238210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238210",
+    "236220",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.54,
+   "usage": {
+    "input_tokens": 45009,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238210 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:plumbing-hvac",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.57,
+   "usage": {
+    "input_tokens": 44987,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238220 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "hvac"
+   ]
+  },
+  {
+   "id": "full_naics:long-haul-trucking",
+   "gold": "484121",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484121",
+   "partial": "484121",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484121",
+    "484110",
+    "484122",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 0.56,
+   "usage": {
+    "input_tokens": 45075,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 484121 at p 0.99; fit 0.90.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:insurance-brokerage",
+   "gold": "524210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "524210",
+   "partial": "524210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "524210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.58,
+   "usage": {
+    "input_tokens": 44690,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 524210 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:cpa-office",
+   "gold": "541211",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "5412",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "339999",
+    "459999",
+    "551114",
+    "551111",
+    "541211",
+    "111110",
+    "813920",
+    "523940",
+    "611699",
+    "611310"
+   ],
+   "calls": 3,
+   "seconds": 0.74,
+   "usage": {
+    "input_tokens": 52186,
+    "output_tokens": 13338
+   },
+   "reason": "No candidate was judged the primary activity.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "cpa"
+   ]
+  },
+  {
+   "id": "full_naics:custom-programming",
+   "gold": "541511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541511",
+   "partial": "541511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541511",
+    "513210",
+    "512230",
+    "512290"
+   ],
+   "calls": 2,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 44771,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541511 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:full-service-restaurant",
+   "gold": "722511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722511",
+   "partial": "722511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722511",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 45062,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 722511 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:physician-office",
+   "gold": "621111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621111",
+   "partial": "621111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621111",
+    "621498",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 45376,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621111 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:supermarket",
+   "gold": "445110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "445110",
+   "partial": "445110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "445110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.48,
+   "usage": {
+    "input_tokens": 44917,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 445110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:underspecified-ops",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541611",
+    "561110",
+    "541990",
+    "813910"
+   ],
+   "calls": 1,
+   "seconds": 0.24,
+   "usage": {
+    "input_tokens": 42484,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:dental-office",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 45011,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:veterinary-clinic",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "5419",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459910",
+    "339999",
+    "423450",
+    "325412",
+    "541940",
+    "111110",
+    "621498",
+    "621111",
+    "611519",
+    "611699"
+   ],
+   "calls": 3,
+   "seconds": 0.65,
+   "usage": {
+    "input_tokens": 52681,
+    "output_tokens": 13337
+   },
+   "reason": "No candidate was judged the primary activity.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:car-wash",
+   "gold": "811192",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811192",
+   "partial": "811192",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811192",
+    "561790",
+    "561720",
+    "457120"
+   ],
+   "calls": 2,
+   "seconds": 0.69,
+   "usage": {
+    "input_tokens": 44774,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811192 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:florist",
+   "gold": "459310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "459310",
+   "partial": "459310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.64,
+   "usage": {
+    "input_tokens": 44679,
+    "output_tokens": 12834
+   },
+   "reason": "Verified 459310 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:dry-cleaner",
+   "gold": "812320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812320",
+   "partial": "812320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812320",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 44967,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812320 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:chiropractor",
+   "gold": "621310",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621310",
+   "partial": "621310",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621310",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 44785,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621310 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:optometrist",
+   "gold": "621320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621320",
+   "partial": "621320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621320",
+    "456130",
+    "541990",
+    "541940"
+   ],
+   "calls": 2,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 44814,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621320 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:moving-company",
+   "gold": "484210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484210",
+   "partial": "484210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 44678,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 484210 at p 1.00; fit 0.80.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:pet-groomer",
+   "gold": "812910",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812910",
+   "partial": "812910",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812910",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.62,
+   "usage": {
+    "input_tokens": 44714,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812910 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:landscaper",
+   "gold": "561730",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561730",
+   "partial": "561730",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238990",
+    "561730",
+    "238910",
+    "237990"
+   ],
+   "calls": 2,
+   "seconds": 0.62,
+   "usage": {
+    "input_tokens": 45313,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 561730 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:gym",
+   "gold": "713940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "713940",
+   "partial": "713940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "713940",
+    "812191",
+    "812199",
+    "813990"
+   ],
+   "calls": 2,
+   "seconds": 0.54,
+   "usage": {
+    "input_tokens": 45017,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 713940 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:hotel",
+   "gold": "721110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "721110",
+   "partial": "721110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "721110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 44847,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 721110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:tattoo-studio",
+   "gold": "812199",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "812199",
+   "partial": "812199",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "812199",
+    "812990",
+    "812112",
+    "713990"
+   ],
+   "calls": 2,
+   "seconds": 0.42,
+   "usage": {
+    "input_tokens": 45343,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 812199 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:software-publisher",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "423430",
+    "334111"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 44912,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:contract-rnd-lab",
+   "gold": "541715",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541715",
+   "partial": "541715",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541715",
+    "541380",
+    "331110",
+    "331210"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 45117,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541715 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:payment-processor",
+   "gold": "522320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522320",
+   "partial": "522320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522320",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 45022,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 522320 at p 1.00; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:consumer-lender",
+   "gold": "522291",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522291",
+   "partial": "522291",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522291",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.42,
+   "usage": {
+    "input_tokens": 44901,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 522291 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:investment-adviser",
+   "gold": "523940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "523940",
+   "partial": "523940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "523940",
+    "541990",
+    "541611",
+    "541211"
+   ],
+   "calls": 2,
+   "seconds": 0.49,
+   "usage": {
+    "input_tokens": 45458,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 523940 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:surgical-instruments",
+   "gold": "339112",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "339112",
+   "partial": "339112",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "339112",
+    "326199",
+    "339113",
+    "325411"
+   ],
+   "calls": 2,
+   "seconds": 0.55,
+   "usage": {
+    "input_tokens": 45120,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 339112 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:bingo-operator",
+   "gold": "713290",
+   "expect_hold": false,
+   "status": "PARTIAL",
+   "code": null,
+   "partial": "7132",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "339999",
+    "459999",
+    "423850",
+    "551114",
+    "713290",
+    "111110",
+    "531120",
+    "812990",
+    "721120",
+    "611699"
+   ],
+   "calls": 3,
+   "seconds": 0.86,
+   "usage": {
+    "input_tokens": 52125,
+    "output_tokens": 13337
+   },
+   "reason": "No candidate was judged the primary activity.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:commercial-bank",
+   "gold": "522110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522110",
+   "partial": "522110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 44714,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 522110 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:it-staffing",
+   "gold": "561320",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561320",
+   "partial": "561320",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561320",
+    "561311",
+    "513210",
+    "561330"
+   ],
+   "calls": 2,
+   "seconds": 0.64,
+   "usage": {
+    "input_tokens": 44967,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 561320 at p 1.00; fit 0.92.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "full_naics:esp-no-naics",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "493110"
+   ],
+   "calls": 2,
+   "seconds": 0.73,
+   "usage": {
+    "input_tokens": 44957,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.86; fit 0.64.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "saas"
+   ]
+  },
+  {
+   "id": "messy_dev:typo-vet",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541940",
+   "partial": "541940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459910",
+    "339112",
+    "423450",
+    "325412",
+    "541940",
+    "111110",
+    "621498",
+    "621111",
+    "611519",
+    "611310"
+   ],
+   "calls": 3,
+   "seconds": 0.71,
+   "usage": {
+    "input_tokens": 52597,
+    "output_tokens": 13337
+   },
+   "reason": "541940 is the only candidate judged the primary activity, and both option orders picked it.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "messy_dev:typo-restaurant",
+   "gold": "722511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722511",
+   "partial": "722511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722511",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.45,
+   "usage": {
+    "input_tokens": 45046,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 722511 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "messy_dev:typo-plumbing",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.48,
+   "usage": {
+    "input_tokens": 44987,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238220 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "hvac"
+   ]
+  },
+  {
+   "id": "messy_dev:typo-dentist",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 44999,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "messy_dev:jargon-saas-payroll",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "541214"
+   ],
+   "calls": 2,
+   "seconds": 0.81,
+   "usage": {
+    "input_tokens": 45110,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.88; fit 0.64.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "saas",
+    "b2b"
+   ]
+  },
+  {
+   "id": "messy_dev:jargon-app",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "516210",
+    "713950",
+    "713990"
+   ],
+   "calls": 2,
+   "seconds": 0.94,
+   "usage": {
+    "input_tokens": 44915,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "mobile app",
+    "app"
+   ]
+  },
+  {
+   "id": "messy_dev:jargon-telehealth",
+   "gold": "621111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621111",
+   "partial": "621111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621111",
+    "621498",
+    "621491",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 0.61,
+   "usage": {
+    "input_tokens": 45499,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 621111 at p 0.98; fit 0.71.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "telehealth"
+   ]
+  },
+  {
+   "id": "messy_dev:jargon-ghost-kitchen",
+   "gold": "722513",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722513",
+   "partial": "722513",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722513",
+    "722511",
+    "722310",
+    "722320"
+   ],
+   "calls": 2,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 45171,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 722513 at p 1.00; fit 0.84.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "ghost kitchen"
+   ]
+  },
+  {
+   "id": "messy_dev:jargon-iaas",
+   "gold": "518210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "518210",
+   "partial": "518210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "518210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 45068,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 518210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "iaas"
+   ]
+  },
+  {
+   "id": "messy_dev:multi-software-consulting",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512230",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.52,
+   "usage": {
+    "input_tokens": 44812,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 1.00; fit 0.88.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "messy_dev:multi-landscaping-snow",
+   "gold": "561730",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "561730",
+   "partial": "561730",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "561730",
+    "238910",
+    "238990",
+    "811411"
+   ],
+   "calls": 2,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 45183,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 561730 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "messy_dev:multi-auto-repair-tires",
+   "gold": "811111",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811111",
+   "partial": "811111",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811111",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.51,
+   "usage": {
+    "input_tokens": 44969,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811111 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "messy_dev:incidental-app-plumber",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "238120",
+    "238210",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 45194,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238220 at p 1.00; fit 0.89.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "app"
+   ]
+  },
+  {
+   "id": "messy_dev:incidental-streaming-electrician",
+   "gold": "238210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238210",
+   "partial": "238210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238210",
+    "238290",
+    "541512",
+    "541519"
+   ],
+   "calls": 2,
+   "seconds": 0.52,
+   "usage": {
+    "input_tokens": 45010,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238210 at p 0.99; fit 0.65.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "streaming"
+   ]
+  },
+  {
+   "id": "messy_dev:incidental-fintech-lender",
+   "gold": "522291",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "522291",
+   "partial": "522291",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "522291",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 44913,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 522291 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "fintech"
+   ]
+  },
+  {
+   "id": "messy_dev:incidental-podcast-farm",
+   "gold": "111110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "111110",
+   "partial": "111110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "111110",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.5,
+   "usage": {
+    "input_tokens": 44652,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 111110 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "podcast"
+   ]
+  },
+  {
+   "id": "messy_dev:incidental-telehealth-dentist",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 1.03,
+   "usage": {
+    "input_tokens": 44999,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "telehealth"
+   ]
+  },
+  {
+   "id": "messy_dev:incidental-online-store-bakery",
+   "gold": "311811",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "311811",
+   "partial": "311811",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "311811",
+    "445291",
+    "722515",
+    "445110"
+   ],
+   "calls": 2,
+   "seconds": 0.79,
+   "usage": {
+    "input_tokens": 45059,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 311811 at p 0.97; fit 0.62.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "online store"
+   ]
+  },
+  {
+   "id": "assist_dev:rev-fees",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "52",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "523940",
+    "525910",
+    "551114",
+    "551111"
+   ],
+   "calls": 1,
+   "seconds": 0.31,
+   "usage": {
+    "input_tokens": 42480,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-amount",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "812990",
+    "459999",
+    "541611"
+   ],
+   "calls": 1,
+   "seconds": 0.26,
+   "usage": {
+    "input_tokens": 42488,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-commission",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "425120",
+    "524210",
+    "531210",
+    "522310"
+   ],
+   "calls": 1,
+   "seconds": 0.23,
+   "usage": {
+    "input_tokens": 42478,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-funding",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541511",
+    "523999",
+    "513210",
+    "541990"
+   ],
+   "calls": 1,
+   "seconds": 0.22,
+   "usage": {
+    "input_tokens": 42486,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-billing",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "561110",
+    "541219",
+    "425120",
+    "522110"
+   ],
+   "calls": 1,
+   "seconds": 0.27,
+   "usage": {
+    "input_tokens": 42482,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-transaction",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "52",
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "522320",
+    "522390",
+    "522110",
+    "522210"
+   ],
+   "calls": 1,
+   "seconds": 0.27,
+   "usage": {
+    "input_tokens": 42481,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-licensing",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "533110",
+    "513210",
+    "512230",
+    "541990"
+   ],
+   "calls": 1,
+   "seconds": 0.25,
+   "usage": {
+    "input_tokens": 42482,
+    "output_tokens": 12665
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:rev-money",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "is_operations_text",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "551111",
+    "523910",
+    "522110",
+    "523999"
+   ],
+   "calls": 1,
+   "seconds": 0.27,
+   "usage": {
+    "input_tokens": 42476,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:gen-software",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "51",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "513210",
+    "541511",
+    "512110",
+    "334111"
+   ],
+   "calls": 1,
+   "seconds": 0.34,
+   "usage": {
+    "input_tokens": 42475,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:gen-services",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "54",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541990",
+    "541611",
+    "541110",
+    "331110"
+   ],
+   "calls": 1,
+   "seconds": 0.29,
+   "usage": {
+    "input_tokens": 42479,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:gen-ecommerce",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "44-45",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "455219",
+    "455110",
+    "459999",
+    "459920"
+   ],
+   "calls": 1,
+   "seconds": 0.33,
+   "usage": {
+    "input_tokens": 42485,
+    "output_tokens": 12669
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "e-commerce"
+   ]
+  },
+  {
+   "id": "assist_dev:gen-consulting",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "54",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541611",
+    "541990",
+    "541618",
+    "541690"
+   ],
+   "calls": 1,
+   "seconds": 0.28,
+   "usage": {
+    "input_tokens": 42477,
+    "output_tokens": 12664
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:gen-sales",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "44-45",
+   "tooltip": "states_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "455219",
+    "459999",
+    "445132",
+    "441110"
+   ],
+   "calls": 1,
+   "seconds": 0.26,
+   "usage": {
+    "input_tokens": 42478,
+    "output_tokens": 12666
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:gen-saas",
+   "gold": null,
+   "expect_hold": true,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 44985,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.97; fit 0.72.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "saas"
+   ]
+  },
+  {
+   "id": "assist_dev:ok-carwash",
+   "gold": "811192",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "811192",
+   "partial": "811192",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "811192",
+    "561790",
+    "561720",
+    "457120"
+   ],
+   "calls": 2,
+   "seconds": 0.49,
+   "usage": {
+    "input_tokens": 44762,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 811192 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-law",
+   "gold": "541110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541110",
+   "partial": "541110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541110",
+    "813920",
+    "812990",
+    "813910"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 44743,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541110 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-tax",
+   "gold": "541213",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541213",
+   "partial": "541213",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541213",
+    "523940",
+    "524298",
+    "813920"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 44879,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541213 at p 1.00; fit 0.95.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-dental",
+   "gold": "621210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "621210",
+   "partial": "621210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "621210",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.44,
+   "usage": {
+    "input_tokens": 44989,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 621210 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-cabinets",
+   "gold": "337110",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "337110",
+   "partial": "337110",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "337110",
+    "321918",
+    "321999",
+    "321911"
+   ],
+   "calls": 2,
+   "seconds": 0.43,
+   "usage": {
+    "input_tokens": 45069,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 337110 at p 1.00; fit 0.93.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-saas",
+   "gold": "513210",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "513210",
+   "partial": "513210",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "513210",
+    "518210",
+    "541511",
+    "512230"
+   ],
+   "calls": 2,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 44989,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 513210 at p 0.93; fit 0.73.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-custom-dev",
+   "gold": "541511",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541511",
+   "partial": "541511",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "541511",
+    "513210",
+    "512230",
+    "512290"
+   ],
+   "calls": 2,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 44765,
+    "output_tokens": 12829
+   },
+   "reason": "Verified 541511 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-coffee",
+   "gold": "722515",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "722515",
+   "partial": "722515",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "722515",
+    "722513",
+    "722330",
+    "331110"
+   ],
+   "calls": 2,
+   "seconds": 0.46,
+   "usage": {
+    "input_tokens": 45404,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 722515 at p 1.00; fit 0.96.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-hvac",
+   "gold": "238220",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "238220",
+   "partial": "238220",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "238220",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.53,
+   "usage": {
+    "input_tokens": 44977,
+    "output_tokens": 12828
+   },
+   "reason": "Verified 238220 at p 1.00; fit 0.97.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-trucking",
+   "gold": "484121",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "484121",
+   "partial": "484121",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "484121",
+    "331110",
+    "331210",
+    "331221"
+   ],
+   "calls": 2,
+   "seconds": 0.72,
+   "usage": {
+    "input_tokens": 44959,
+    "output_tokens": 12831
+   },
+   "reason": "Verified 484121 at p 1.00; fit 0.98.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:ok-vet",
+   "gold": "541940",
+   "expect_hold": false,
+   "status": "CODED",
+   "code": "541940",
+   "partial": "541940",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": true,
+   "wide_top": [
+    "459910",
+    "339112",
+    "423450",
+    "325412",
+    "541940",
+    "111110",
+    "621498",
+    "621111",
+    "611519",
+    "611699"
+   ],
+   "calls": 3,
+   "seconds": 0.82,
+   "usage": {
+    "input_tokens": 52622,
+    "output_tokens": 13337
+   },
+   "reason": "541940 is the only candidate judged the primary activity, and both option orders picked it.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:conf-it",
+   "gold": null,
+   "expect_hold": true,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "54",
+   "tooltip": "single_primary_activity",
+   "picklist": "candidates",
+   "picklist_codes": [
+    "561621",
+    "541512"
+   ],
+   "gold_in_wide": false,
+   "wide_top": [
+    "334290",
+    "339999",
+    "551114",
+    "551111",
+    "561621",
+    "541512",
+    "518210",
+    "513210",
+    "611420",
+    "611699"
+   ],
+   "calls": 3,
+   "seconds": 0.75,
+   "usage": {
+    "input_tokens": 52314,
+    "output_tokens": 13339
+   },
+   "reason": "The candidates only partly fit: 561621, 541512.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "assist_dev:conf-sw",
+   "gold": null,
+   "expect_hold": true,
+   "status": "AMBIGUOUS",
+   "code": null,
+   "partial": "51",
+   "tooltip": null,
+   "picklist": "541511_513210",
+   "picklist_codes": [
+    "513210",
+    "541511"
+   ],
+   "gold_in_wide": false,
+   "wide_top": [
+    "334111",
+    "339999",
+    "423430",
+    "551114",
+    "541511",
+    "541512",
+    "513210",
+    "524298",
+    "611420",
+    "611699"
+   ],
+   "calls": 3,
+   "seconds": 0.78,
+   "usage": {
+    "input_tokens": 52017,
+    "output_tokens": 13339
+   },
+   "reason": "The candidates only partly fit: 541511, 513210, 541512.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:conf-mkt",
+   "gold": null,
+   "expect_hold": true,
+   "status": "CODED",
+   "code": "541810",
+   "partial": "541810",
+   "tooltip": null,
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "541810",
+    "722511",
+    "541613",
+    "722513"
+   ],
+   "calls": 2,
+   "seconds": 0.99,
+   "usage": {
+    "input_tokens": 45275,
+    "output_tokens": 12830
+   },
+   "reason": "Verified 541810 at p 0.98; fit 0.81.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:mix-1",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": null,
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "551114",
+    "551111",
+    "722515",
+    "311811"
+   ],
+   "calls": 1,
+   "seconds": 0.52,
+   "usage": {
+    "input_tokens": 42488,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": []
+  },
+  {
+   "id": "assist_dev:mix-2",
+   "gold": null,
+   "expect_hold": true,
+   "status": "NEEDS_INFO",
+   "code": null,
+   "partial": "53",
+   "tooltip": "single_primary_activity",
+   "picklist": null,
+   "picklist_codes": [],
+   "gold_in_wide": false,
+   "wide_top": [
+    "531110",
+    "531190",
+    "551114",
+    "531311"
+   ],
+   "calls": 1,
+   "seconds": 0.47,
+   "usage": {
+    "input_tokens": 42486,
+    "output_tokens": 12663
+   },
+   "reason": "The text does not yet say enough to assign a code.",
+   "label": null,
+   "verdict": null,
+   "jev_codes": null,
+   "codes": null,
+   "reading": [
+    "food truck"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+# Copied from jev_peas 9705080650cb52ba56a337e12eb7bee24f2b3777 packages/jev-runtime/src/jev_runtime/providers.yaml; keep in sync by hand (CHANGELOG.md).
+# The only file that names a model (peas shared/providers.yaml convention).
+# Thresholds in each package's questions.py were calibrated on these versions;
+# re-measure per CALIBRATION.md's rule ("The rule" section) before changing one. tools/calibrate.py
+# did not move into this repo (it swept only the dropped 30-code `closed` agent); see CALIBRATION.md.
+jev: "jev-1.13.0"
