@@ -18,7 +18,10 @@ def _tracked_text_files() -> list[Path]:
 def test_the_licence_is_mit_and_the_readme_and_package_say_so() -> None:
     licence = (ROOT / "LICENSE").read_text(encoding="utf-8")
     assert licence.startswith("MIT License") and "All rights reserved" not in licence
-    assert "census.gov" in licence  # the Census files stay outside the licence, named as US Government works
+    # GitHub detects the licence only when LICENSE is the plain MIT text; the carve-outs live in NOTICE.
+    assert licence.rstrip().endswith("SOFTWARE.") and "census.gov" not in licence
+    notice = (ROOT / "NOTICE").read_text(encoding="utf-8")
+    assert "census.gov" in notice and "docs.typesafe.ai" in notice  # Census files and TypeSafe's API stay outside it
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     assert "MIT" in readme and "All rights reserved" not in readme
     assert re.search(r'^license = "MIT"$', (ROOT / "backend" / "pyproject.toml").read_text(encoding="utf-8"), re.M)
