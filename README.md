@@ -12,14 +12,17 @@ or hold it for a person. Built for completing insurance applications, where the 
 the submission to an appetite and a rating class, and a wrong neighbouring code misprices the risk
 without anyone noticing.
 
-**There is no LLM in the runtime path.** The agent is specified as PEAS (performance, environment,
-actuators, sensors; see [PEAS.md](PEAS.md)), and code does almost all of the work: Postgres full-text
-search over the official Census text, spelling correction, a lexicon of modern business terms, a walk
-down the NAICS tree, every gate, and every hold. The one judgment, choosing among a short list of real
-industries that code built, goes to [TypeSafe Jev](https://docs.typesafe.ai), a non-generative model
-that answers typed questions (pick one of these options; is this statement true) with probabilities
-and never writes text. It cannot invent a code, because it is never offered one. It cannot choose
-"none of the above", because that is not an option either: a hold is an actuator that code owns.
+**A classical PEAS agent with no generative model: code decides, Jev ranks.** The classifier is a
+model-based reflex agent, specified as PEAS (performance, environment, actuators, sensors; see
+[PEAS.md](PEAS.md)), the textbook architecture. Code finds the candidates and owns every action:
+Postgres full-text search over the official Census text, spelling correction, a lexicon of modern
+business terms, a walk down the NAICS tree, every gate, and every hold. [TypeSafe Jev](https://docs.typesafe.ai),
+a non-generative model, fills one slot, the action-selection judgment: it ranks a closed list of real
+industries that code built, answering typed questions (pick one of these options; is this statement
+true) with probabilities. Measured gates then act or hold. There is no LLM in the runtime path: no
+free-text output, nothing to parse. Jev cannot invent a code, because it is never offered one. It
+cannot choose "none of the above", because that is not an option either: a hold is an actuator that
+code owns.
 
 [![Live assist: a vague description gets one fixed tip, a specific one gets a NAICS code, and a cybersecurity firm gets a pick-list between two codes people often confuse](docs/media/live-assist.gif)](docs/media/demo.mp4)
 
